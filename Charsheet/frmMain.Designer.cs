@@ -206,7 +206,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label77 = new System.Windows.Forms.Label();
             this.label90 = new System.Windows.Forms.Label();
@@ -242,11 +241,12 @@
             this.label95 = new System.Windows.Forms.Label();
             this.label93 = new System.Windows.Forms.Label();
             this.label91 = new System.Windows.Forms.Label();
-            this.label161 = new System.Windows.Forms.Label();
             this.panMeleeWeapons = new System.Windows.Forms.Panel();
             this.btnNewMeleeWeapon = new System.Windows.Forms.Button();
             this.tabMeleeWeapons = new System.Windows.Forms.TabControl();
             this.tabMelee0 = new System.Windows.Forms.TabPage();
+            this.comMelee0DamageDie = new System.Windows.Forms.ComboBox();
+            this.nudMelee0DmgMod = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.lblMelee0AtkMod = new System.Windows.Forms.Label();
             this.btnMelee0DmgRoll = new System.Windows.Forms.Button();
@@ -268,7 +268,6 @@
             this.comMelee0CritMulti = new System.Windows.Forms.ComboBox();
             this.comMelee0Crit = new System.Windows.Forms.ComboBox();
             this.lblMelee0DmgPlus = new System.Windows.Forms.Label();
-            this.comMelee0DamageDie = new System.Windows.Forms.ComboBox();
             this.txtMelee0DieCount = new System.Windows.Forms.TextBox();
             this.comMelee0Type = new System.Windows.Forms.ComboBox();
             this.txtMelee0Name = new System.Windows.Forms.TextBox();
@@ -279,10 +278,6 @@
             this.txtMelee0Notes = new System.Windows.Forms.TextBox();
             this.lblMelee0Crit = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
-            this.tabControl4 = new System.Windows.Forms.TabControl();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.label358 = new System.Windows.Forms.Label();
@@ -1032,7 +1027,6 @@
             this.label121 = new System.Windows.Forms.Label();
             this.label120 = new System.Windows.Forms.Label();
             this.tmrCheckAttr = new System.Windows.Forms.Timer(this.components);
-            this.nudMelee0DmgMod = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -1051,14 +1045,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudStrTemp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStr)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
             this.panMeleeWeapons.SuspendLayout();
             this.tabMeleeWeapons.SuspendLayout();
             this.tabMelee0.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0Reach)).BeginInit();
-            this.tabControl4.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tabControl3.SuspendLayout();
@@ -1068,7 +1061,6 @@
             this.tabPage11.SuspendLayout();
             this.tabPage10.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -3262,12 +3254,9 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Controls.Add(this.panel5);
-            this.tabPage2.Controls.Add(this.label161);
             this.tabPage2.Controls.Add(this.panMeleeWeapons);
             this.tabPage2.Controls.Add(this.label76);
-            this.tabPage2.Controls.Add(this.tabControl4);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -3275,14 +3264,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ATTACKS";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(0, 203);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(41, 116);
-            this.pictureBox2.TabIndex = 212;
-            this.pictureBox2.TabStop = false;
             // 
             // panel5
             // 
@@ -3673,16 +3654,6 @@
             this.label91.Text = "TEMP MOD";
             this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label161
-            // 
-            this.label161.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label161.Location = new System.Drawing.Point(917, 3);
-            this.label161.Name = "label161";
-            this.label161.Size = new System.Drawing.Size(48, 39);
-            this.label161.TabIndex = 208;
-            this.label161.Text = "ROLL";
-            this.label161.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
             // panMeleeWeapons
             // 
             this.panMeleeWeapons.Controls.Add(this.btnNewMeleeWeapon);
@@ -3753,6 +3724,35 @@
             this.tabMelee0.TabIndex = 0;
             this.tabMelee0.Text = "New...";
             this.tabMelee0.UseVisualStyleBackColor = true;
+            // 
+            // comMelee0DamageDie
+            // 
+            this.comMelee0DamageDie.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comMelee0DamageDie.FormattingEnabled = true;
+            this.comMelee0DamageDie.Items.AddRange(new object[] {
+            "D2",
+            "D4",
+            "D6",
+            "D8",
+            "D10",
+            "D12",
+            "D20"});
+            this.comMelee0DamageDie.Location = new System.Drawing.Point(404, 34);
+            this.comMelee0DamageDie.Name = "comMelee0DamageDie";
+            this.comMelee0DamageDie.Size = new System.Drawing.Size(55, 28);
+            this.comMelee0DamageDie.TabIndex = 206;
+            // 
+            // nudMelee0DmgMod
+            // 
+            this.nudMelee0DmgMod.Location = new System.Drawing.Point(473, 35);
+            this.nudMelee0DmgMod.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.nudMelee0DmgMod.Name = "nudMelee0DmgMod";
+            this.nudMelee0DmgMod.Size = new System.Drawing.Size(50, 27);
+            this.nudMelee0DmgMod.TabIndex = 238;
             // 
             // numericUpDown1
             // 
@@ -3986,23 +3986,6 @@
             this.lblMelee0DmgPlus.TabIndex = 208;
             this.lblMelee0DmgPlus.Text = "+";
             // 
-            // comMelee0DamageDie
-            // 
-            this.comMelee0DamageDie.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comMelee0DamageDie.FormattingEnabled = true;
-            this.comMelee0DamageDie.Items.AddRange(new object[] {
-            "D2",
-            "D4",
-            "D6",
-            "D8",
-            "D10",
-            "D12",
-            "D20"});
-            this.comMelee0DamageDie.Location = new System.Drawing.Point(404, 34);
-            this.comMelee0DamageDie.Name = "comMelee0DamageDie";
-            this.comMelee0DamageDie.Size = new System.Drawing.Size(55, 28);
-            this.comMelee0DamageDie.TabIndex = 206;
-            // 
             // txtMelee0DieCount
             // 
             this.txtMelee0DieCount.Location = new System.Drawing.Point(369, 34);
@@ -4108,48 +4091,6 @@
             this.label76.TabIndex = 197;
             this.label76.Text = "WEAPONS";
             this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tabControl4
-            // 
-            this.tabControl4.Controls.Add(this.tabPage12);
-            this.tabControl4.Controls.Add(this.tabPage13);
-            this.tabControl4.Controls.Add(this.tabPage14);
-            this.tabControl4.ItemSize = new System.Drawing.Size(100, 25);
-            this.tabControl4.Location = new System.Drawing.Point(605, 100);
-            this.tabControl4.Name = "tabControl4";
-            this.tabControl4.SelectedIndex = 0;
-            this.tabControl4.Size = new System.Drawing.Size(303, 34);
-            this.tabControl4.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl4.TabIndex = 209;
-            // 
-            // tabPage12
-            // 
-            this.tabPage12.Location = new System.Drawing.Point(4, 29);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(295, 1);
-            this.tabPage12.TabIndex = 0;
-            this.tabPage12.Text = "tabPage12";
-            this.tabPage12.UseVisualStyleBackColor = true;
-            // 
-            // tabPage13
-            // 
-            this.tabPage13.Location = new System.Drawing.Point(4, 29);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(295, 1);
-            this.tabPage13.TabIndex = 1;
-            this.tabPage13.Text = "tabPage13";
-            this.tabPage13.UseVisualStyleBackColor = true;
-            // 
-            // tabPage14
-            // 
-            this.tabPage14.Location = new System.Drawing.Point(4, 29);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(295, 1);
-            this.tabPage14.TabIndex = 2;
-            this.tabPage14.Text = "tabPage14";
-            this.tabPage14.UseVisualStyleBackColor = true;
             // 
             // tabPage6
             // 
@@ -12735,18 +12676,6 @@
             this.tmrCheckAttr.Interval = 500;
             this.tmrCheckAttr.Tick += new System.EventHandler(this.tmrCheckAttr_Tick);
             // 
-            // nudMelee0DmgMod
-            // 
-            this.nudMelee0DmgMod.Location = new System.Drawing.Point(473, 35);
-            this.nudMelee0DmgMod.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.nudMelee0DmgMod.Name = "nudMelee0DmgMod";
-            this.nudMelee0DmgMod.Size = new System.Drawing.Size(50, 27);
-            this.nudMelee0DmgMod.TabIndex = 238;
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -12781,16 +12710,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudStrTemp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStr)).EndInit();
             this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panMeleeWeapons.ResumeLayout(false);
             this.tabMeleeWeapons.ResumeLayout(false);
             this.tabMelee0.ResumeLayout(false);
             this.tabMelee0.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0Reach)).EndInit();
-            this.tabControl4.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
@@ -12806,7 +12734,6 @@
             this.tabPage10.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -13760,12 +13687,7 @@
         private Label label83;
         private System.Windows.Forms.Timer tmrCheckAttr;
         private intTextBox intTextBox1;
-        private Label label161;
         private Button button34;
-        private TabControl tabControl4;
-        private TabPage tabPage12;
-        private TabPage tabPage13;
-        private TabPage tabPage14;
         private TabControl tabMeleeWeapons;
         private TabPage tabMelee0;
         private Button btnMelee0Delete;
@@ -13796,7 +13718,6 @@
         private ComboBox comMelee0Size;
         private Label lblMelee0Lbs;
         private Label lblMelee0Feet;
-        private PictureBox pictureBox2;
         private Panel panel5;
         private Label label77;
         private Label label90;
