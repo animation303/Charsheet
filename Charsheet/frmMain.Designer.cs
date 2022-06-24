@@ -4085,7 +4085,7 @@
             this.label76.BackColor = System.Drawing.Color.Black;
             this.label76.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Location = new System.Drawing.Point(609, 69);
+            this.label76.Location = new System.Drawing.Point(609, 68);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(292, 31);
             this.label76.TabIndex = 197;
