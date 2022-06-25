@@ -206,6 +206,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.checkBox33 = new System.Windows.Forms.CheckBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.lblNewRangedWeaponPrompt = new System.Windows.Forms.Label();
             this.button42 = new System.Windows.Forms.Button();
@@ -232,7 +233,7 @@
             this.label192 = new System.Windows.Forms.Label();
             this.label193 = new System.Windows.Forms.Label();
             this.textBox27 = new System.Windows.Forms.TextBox();
-            this.txtRangedToHitTotal = new System.Windows.Forms.TextBox();
+            this.txtRangedHitTotal = new System.Windows.Forms.TextBox();
             this.label194 = new System.Windows.Forms.Label();
             this.label195 = new System.Windows.Forms.Label();
             this.btnNewRanged = new System.Windows.Forms.Button();
@@ -3381,6 +3382,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.checkBox33);
             this.tabPage2.Controls.Add(this.panel6);
             this.tabPage2.Controls.Add(this.panMeleeWeapons);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
@@ -3390,6 +3392,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ATTACKS";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox33
+            // 
+            this.checkBox33.AutoSize = true;
+            this.checkBox33.Location = new System.Drawing.Point(140, 236);
+            this.checkBox33.Name = "checkBox33";
+            this.checkBox33.Size = new System.Drawing.Size(137, 24);
+            this.checkBox33.TabIndex = 296;
+            this.checkBox33.Text = "Weapon Finesse";
+            this.checkBox33.UseVisualStyleBackColor = true;
             // 
             // panel6
             // 
@@ -3418,7 +3430,7 @@
             this.panel6.Controls.Add(this.label192);
             this.panel6.Controls.Add(this.label193);
             this.panel6.Controls.Add(this.textBox27);
-            this.panel6.Controls.Add(this.txtRangedToHitTotal);
+            this.panel6.Controls.Add(this.txtRangedHitTotal);
             this.panel6.Controls.Add(this.label194);
             this.panel6.Controls.Add(this.label195);
             this.panel6.Controls.Add(this.btnNewRanged);
@@ -3681,16 +3693,16 @@
             this.textBox27.Text = "0";
             this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtRangedToHitTotal
+            // txtRangedHitTotal
             // 
-            this.txtRangedToHitTotal.Enabled = false;
-            this.txtRangedToHitTotal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtRangedToHitTotal.Location = new System.Drawing.Point(50, 30);
-            this.txtRangedToHitTotal.Name = "txtRangedToHitTotal";
-            this.txtRangedToHitTotal.Size = new System.Drawing.Size(40, 34);
-            this.txtRangedToHitTotal.TabIndex = 276;
-            this.txtRangedToHitTotal.Text = "0";
-            this.txtRangedToHitTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtRangedHitTotal.Enabled = false;
+            this.txtRangedHitTotal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtRangedHitTotal.Location = new System.Drawing.Point(50, 30);
+            this.txtRangedHitTotal.Name = "txtRangedHitTotal";
+            this.txtRangedHitTotal.Size = new System.Drawing.Size(40, 34);
+            this.txtRangedHitTotal.TabIndex = 276;
+            this.txtRangedHitTotal.Text = "0";
+            this.txtRangedHitTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label194
             // 
@@ -14165,6 +14177,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudStrTemp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStr)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panMeleeWeapons.ResumeLayout(false);
@@ -15217,7 +15230,7 @@
         private Label label192;
         private Label label193;
         private TextBox textBox27;
-        private TextBox txtRangedToHitTotal;
+        private TextBox txtRangedHitTotal;
         private Label label194;
         private Label label195;
         private Button btnNewRanged;
@@ -15324,5 +15337,6 @@
         private Label label175;
         private Label lblNewRangedWeaponPrompt;
         private Label lblNewMeleeWeaponPrompt;
+        private CheckBox checkBox33;
     }
 }

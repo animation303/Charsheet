@@ -1034,7 +1034,7 @@ namespace Charsheet
                     y.Click += (s, e) =>
                         {
                             string line1 = "You swing your " + a.Text + " around.";
-                            string line2 = "You rolled a " + rollDice(true, 20, 1, Convert.ToInt32(txtMeleeHitTotal.Text)) + " to hit"
+                            string line2 = "You rolled a " + rollDice(true, 20, 1, Convert.ToInt32(txtMeleeHitTotal.Text)) + " to hit";
                             string line3 = "You roll " + c.Text + d.Text + " + " + f.Value.ToString() + " and do " + rollDice(true, Convert.ToInt32(d.Text.Remove(0, 1)), Convert.ToInt32(c.Text), Convert.ToInt32(f.Value)) + " damage!";
                             MessageBox.Show(line1 + Environment.NewLine + line2 + Environment.NewLine + line3);
                         };
@@ -1044,7 +1044,7 @@ namespace Charsheet
                     y.Click += (s, e) =>
                     {
                         string line1 = "You fire your " + a.Text;
-                        string line2 = "You rolled a " + rollDice(true, 20, 1, Convert.ToInt32(txtRangedHitTotal.Text)) + " to hit"
+                        string line2 = "You rolled a " + rollDice(true, 20, 1, Convert.ToInt32(txtRangedHitTotal.Text)) + " to hit";
                         string line3 = "You roll " + c.Text + d.Text + " + " + f.Value.ToString() + " and do " + rollDice(true, Convert.ToInt32(d.Text.Remove(0, 1)), Convert.ToInt32(c.Text), Convert.ToInt32(f.Value)) + " damage!";
                         MessageBox.Show(line1 + Environment.NewLine + line2 + Environment.NewLine + line3);
                     };
