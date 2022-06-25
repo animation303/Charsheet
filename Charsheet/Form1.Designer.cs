@@ -29,9 +29,31 @@
         private void InitializeComponent()
         {
             this.panMeleeWeapons = new System.Windows.Forms.Panel();
+            this.button34 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox70 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox71 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox72 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox73 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.textBox74 = new System.Windows.Forms.TextBox();
+            this.textBox75 = new System.Windows.Forms.TextBox();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label102 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.btnNewMeleeWeapon = new System.Windows.Forms.Button();
             this.tabMeleeWeapons = new System.Windows.Forms.TabControl();
             this.tabMelee0 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.comMelee0DamageDie = new System.Windows.Forms.ComboBox();
             this.nudMelee0DmgMod = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -47,7 +69,6 @@
             this.lblMelee0SpecPropHead = new System.Windows.Forms.Label();
             this.txtMelee0Weight = new System.Windows.Forms.TextBox();
             this.lblMelee0WeightHeader = new System.Windows.Forms.Label();
-            this.lblMelee0Notes = new System.Windows.Forms.Label();
             this.txtMelee0Hardness = new System.Windows.Forms.TextBox();
             this.lblMelee0HardHeader = new System.Windows.Forms.Label();
             this.lblMelee0ReachHeader = new System.Windows.Forms.Label();
@@ -62,28 +83,303 @@
             this.lblMelee0DmgHeader = new System.Windows.Forms.Label();
             this.lblMelee0TypeHeader = new System.Windows.Forms.Label();
             this.lblMelee0NameHeader = new System.Windows.Forms.Label();
-            this.txtMelee0Notes = new System.Windows.Forms.TextBox();
             this.lblMelee0Crit = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.textBox69 = new System.Windows.Forms.TextBox();
+            this.label89 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox68 = new System.Windows.Forms.TextBox();
+            this.label88 = new System.Windows.Forms.Label();
+            this.textBox67 = new System.Windows.Forms.TextBox();
+            this.textBox64 = new System.Windows.Forms.TextBox();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.textBox66 = new System.Windows.Forms.TextBox();
+            this.textBox65 = new System.Windows.Forms.TextBox();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.panMeleeWeapons.SuspendLayout();
             this.tabMeleeWeapons.SuspendLayout();
             this.tabMelee0.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0Reach)).BeginInit();
+            this.panel5.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panMeleeWeapons
             // 
+            this.panMeleeWeapons.Controls.Add(this.button34);
+            this.panMeleeWeapons.Controls.Add(this.label10);
+            this.panMeleeWeapons.Controls.Add(this.label9);
+            this.panMeleeWeapons.Controls.Add(this.label8);
+            this.panMeleeWeapons.Controls.Add(this.label7);
+            this.panMeleeWeapons.Controls.Add(this.label6);
+            this.panMeleeWeapons.Controls.Add(this.label5);
+            this.panMeleeWeapons.Controls.Add(this.textBox70);
+            this.panMeleeWeapons.Controls.Add(this.label4);
+            this.panMeleeWeapons.Controls.Add(this.textBox71);
+            this.panMeleeWeapons.Controls.Add(this.label3);
+            this.panMeleeWeapons.Controls.Add(this.textBox72);
+            this.panMeleeWeapons.Controls.Add(this.label2);
+            this.panMeleeWeapons.Controls.Add(this.textBox73);
+            this.panMeleeWeapons.Controls.Add(this.label1);
+            this.panMeleeWeapons.Controls.Add(this.label79);
+            this.panMeleeWeapons.Controls.Add(this.textBox74);
+            this.panMeleeWeapons.Controls.Add(this.textBox75);
+            this.panMeleeWeapons.Controls.Add(this.label78);
+            this.panMeleeWeapons.Controls.Add(this.label102);
+            this.panMeleeWeapons.Controls.Add(this.button3);
             this.panMeleeWeapons.Controls.Add(this.btnNewMeleeWeapon);
             this.panMeleeWeapons.Controls.Add(this.tabMeleeWeapons);
-            this.panMeleeWeapons.Location = new System.Drawing.Point(10, 71);
+            this.panMeleeWeapons.Location = new System.Drawing.Point(12, 507);
             this.panMeleeWeapons.Name = "panMeleeWeapons";
-            this.panMeleeWeapons.Size = new System.Drawing.Size(780, 308);
+            this.panMeleeWeapons.Size = new System.Drawing.Size(1089, 249);
             this.panMeleeWeapons.TabIndex = 202;
+            // 
+            // button34
+            // 
+            this.button34.Location = new System.Drawing.Point(240, 67);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(63, 34);
+            this.button34.TabIndex = 293;
+            this.button34.Text = "ROLL";
+            this.button34.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(179, 144);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(55, 17);
+            this.label10.TabIndex = 292;
+            this.label10.Text = "TEMP";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(108, 144);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(55, 17);
+            this.label9.TabIndex = 291;
+            this.label9.Text = "MISC.";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(37, 144);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(55, 17);
+            this.label8.TabIndex = 290;
+            this.label8.Text = "SIZE";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(179, 67);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(55, 17);
+            this.label7.TabIndex = 289;
+            this.label7.Text = "ABILITY";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(108, 67);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 17);
+            this.label6.TabIndex = 288;
+            this.label6.Text = "BASE";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.SystemColors.Control;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(39, 67);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 17);
+            this.label5.TabIndex = 287;
+            this.label5.Text = "TOTAL";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // textBox70
+            // 
+            this.textBox70.Enabled = false;
+            this.textBox70.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox70.Location = new System.Drawing.Point(187, 107);
+            this.textBox70.Name = "textBox70";
+            this.textBox70.PlaceholderText = "0";
+            this.textBox70.Size = new System.Drawing.Size(40, 34);
+            this.textBox70.TabIndex = 286;
+            this.textBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(162, 117);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(19, 20);
+            this.label4.TabIndex = 285;
+            this.label4.Text = "+";
+            // 
+            // textBox71
+            // 
+            this.textBox71.Enabled = false;
+            this.textBox71.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox71.Location = new System.Drawing.Point(116, 107);
+            this.textBox71.Name = "textBox71";
+            this.textBox71.PlaceholderText = "0";
+            this.textBox71.Size = new System.Drawing.Size(40, 34);
+            this.textBox71.TabIndex = 284;
+            this.textBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(91, 117);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(19, 20);
+            this.label3.TabIndex = 283;
+            this.label3.Text = "+";
+            // 
+            // textBox72
+            // 
+            this.textBox72.Enabled = false;
+            this.textBox72.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox72.Location = new System.Drawing.Point(45, 107);
+            this.textBox72.Name = "textBox72";
+            this.textBox72.PlaceholderText = "0";
+            this.textBox72.Size = new System.Drawing.Size(40, 34);
+            this.textBox72.TabIndex = 282;
+            this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(124, 85);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(19, 20);
+            this.label2.TabIndex = 281;
+            this.label2.Text = "+";
+            // 
+            // textBox73
+            // 
+            this.textBox73.Enabled = false;
+            this.textBox73.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox73.Location = new System.Drawing.Point(187, 30);
+            this.textBox73.Name = "textBox73";
+            this.textBox73.PlaceholderText = "0";
+            this.textBox73.Size = new System.Drawing.Size(40, 34);
+            this.textBox73.TabIndex = 280;
+            this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(162, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(19, 20);
+            this.label1.TabIndex = 279;
+            this.label1.Text = "+";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Location = new System.Drawing.Point(91, 37);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(19, 20);
+            this.label79.TabIndex = 278;
+            this.label79.Text = "+";
+            // 
+            // textBox74
+            // 
+            this.textBox74.Enabled = false;
+            this.textBox74.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox74.Location = new System.Drawing.Point(116, 30);
+            this.textBox74.Name = "textBox74";
+            this.textBox74.PlaceholderText = "0";
+            this.textBox74.Size = new System.Drawing.Size(40, 34);
+            this.textBox74.TabIndex = 277;
+            this.textBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox75
+            // 
+            this.textBox75.Enabled = false;
+            this.textBox75.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox75.Location = new System.Drawing.Point(45, 30);
+            this.textBox75.Name = "textBox75";
+            this.textBox75.PlaceholderText = "10";
+            this.textBox75.Size = new System.Drawing.Size(40, 34);
+            this.textBox75.TabIndex = 276;
+            this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label78
+            // 
+            this.label78.BackColor = System.Drawing.Color.Black;
+            this.label78.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label78.ForeColor = System.Drawing.Color.White;
+            this.label78.Location = new System.Drawing.Point(9, 39);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(28, 16);
+            this.label78.TabIndex = 275;
+            this.label78.Text = "STR";
+            // 
+            // label102
+            // 
+            this.label102.BackColor = System.Drawing.Color.Black;
+            this.label102.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label102.ForeColor = System.Drawing.Color.White;
+            this.label102.Location = new System.Drawing.Point(5, 30);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(34, 196);
+            this.label102.TabIndex = 274;
+            this.label102.Text = "MELEE";
+            this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(241, 156);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(63, 32);
+            this.button3.TabIndex = 203;
+            this.button3.Text = "Test";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // btnNewMeleeWeapon
             // 
-            this.btnNewMeleeWeapon.Location = new System.Drawing.Point(304, 260);
+            this.btnNewMeleeWeapon.Location = new System.Drawing.Point(56, 176);
             this.btnNewMeleeWeapon.Name = "btnNewMeleeWeapon";
             this.btnNewMeleeWeapon.Size = new System.Drawing.Size(171, 41);
             this.btnNewMeleeWeapon.TabIndex = 202;
@@ -94,25 +390,22 @@
             // 
             this.tabMeleeWeapons.Alignment = System.Windows.Forms.TabAlignment.Bottom;
             this.tabMeleeWeapons.Controls.Add(this.tabMelee0);
-            this.tabMeleeWeapons.Location = new System.Drawing.Point(0, 0);
+            this.tabMeleeWeapons.Location = new System.Drawing.Point(307, 23);
             this.tabMeleeWeapons.Name = "tabMeleeWeapons";
             this.tabMeleeWeapons.SelectedIndex = 0;
-            this.tabMeleeWeapons.Size = new System.Drawing.Size(779, 257);
+            this.tabMeleeWeapons.Size = new System.Drawing.Size(779, 194);
             this.tabMeleeWeapons.TabIndex = 201;
+            this.tabMeleeWeapons.SelectedIndexChanged += new System.EventHandler(this.tabMeleeWeapons_SelectedIndexChanged);
             // 
             // tabMelee0
             // 
-            this.tabMelee0.Controls.Add(this.txtMelee0Weight);
+            this.tabMelee0.Controls.Add(this.button1);
             this.tabMelee0.Controls.Add(this.comMelee0DamageDie);
-            this.tabMelee0.Controls.Add(this.lblMelee0CritHeader);
-            this.tabMelee0.Controls.Add(this.lblMelee0Crit);
             this.tabMelee0.Controls.Add(this.nudMelee0DmgMod);
-            this.tabMelee0.Controls.Add(this.comMelee0Crit);
             this.tabMelee0.Controls.Add(this.numericUpDown1);
-            this.tabMelee0.Controls.Add(this.comMelee0CritMulti);
+            this.tabMelee0.Controls.Add(this.lblMelee0AtkMod);
             this.tabMelee0.Controls.Add(this.btnMelee0DmgRoll);
             this.tabMelee0.Controls.Add(this.btnMelee0AtkRoll);
-            this.tabMelee0.Controls.Add(this.lblMelee0AtkMod);
             this.tabMelee0.Controls.Add(this.lblMelee0Lbs);
             this.tabMelee0.Controls.Add(this.lblMelee0Feet);
             this.tabMelee0.Controls.Add(this.nudMelee0Reach);
@@ -120,27 +413,39 @@
             this.tabMelee0.Controls.Add(this.btnMelee0Delete);
             this.tabMelee0.Controls.Add(this.txtMelee0SpecProp);
             this.tabMelee0.Controls.Add(this.lblMelee0SpecPropHead);
+            this.tabMelee0.Controls.Add(this.txtMelee0Weight);
             this.tabMelee0.Controls.Add(this.lblMelee0WeightHeader);
-            this.tabMelee0.Controls.Add(this.lblMelee0Notes);
             this.tabMelee0.Controls.Add(this.txtMelee0Hardness);
             this.tabMelee0.Controls.Add(this.lblMelee0HardHeader);
             this.tabMelee0.Controls.Add(this.lblMelee0ReachHeader);
             this.tabMelee0.Controls.Add(this.lblMelee0SizeHeader);
+            this.tabMelee0.Controls.Add(this.comMelee0CritMulti);
+            this.tabMelee0.Controls.Add(this.comMelee0Crit);
             this.tabMelee0.Controls.Add(this.lblMelee0DmgPlus);
             this.tabMelee0.Controls.Add(this.txtMelee0DieCount);
             this.tabMelee0.Controls.Add(this.comMelee0Type);
             this.tabMelee0.Controls.Add(this.txtMelee0Name);
+            this.tabMelee0.Controls.Add(this.lblMelee0CritHeader);
             this.tabMelee0.Controls.Add(this.lblMelee0DmgHeader);
             this.tabMelee0.Controls.Add(this.lblMelee0TypeHeader);
             this.tabMelee0.Controls.Add(this.lblMelee0NameHeader);
-            this.tabMelee0.Controls.Add(this.txtMelee0Notes);
+            this.tabMelee0.Controls.Add(this.lblMelee0Crit);
             this.tabMelee0.Location = new System.Drawing.Point(4, 4);
             this.tabMelee0.Name = "tabMelee0";
             this.tabMelee0.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMelee0.Size = new System.Drawing.Size(771, 224);
+            this.tabMelee0.Size = new System.Drawing.Size(771, 161);
             this.tabMelee0.TabIndex = 0;
             this.tabMelee0.Text = "New...";
             this.tabMelee0.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(456, 125);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 30);
+            this.button1.TabIndex = 239;
+            this.button1.Text = "Roll Both";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // comMelee0DamageDie
             // 
@@ -173,7 +478,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(529, 35);
+            this.numericUpDown1.Location = new System.Drawing.Point(671, 35);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -185,7 +490,7 @@
             0,
             -2147483648});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(90, 27);
+            this.numericUpDown1.Size = new System.Drawing.Size(87, 27);
             this.numericUpDown1.TabIndex = 237;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -194,7 +499,7 @@
             this.lblMelee0AtkMod.BackColor = System.Drawing.Color.Black;
             this.lblMelee0AtkMod.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMelee0AtkMod.ForeColor = System.Drawing.Color.White;
-            this.lblMelee0AtkMod.Location = new System.Drawing.Point(526, 3);
+            this.lblMelee0AtkMod.Location = new System.Drawing.Point(670, 3);
             this.lblMelee0AtkMod.Name = "lblMelee0AtkMod";
             this.lblMelee0AtkMod.Size = new System.Drawing.Size(93, 27);
             this.lblMelee0AtkMod.TabIndex = 236;
@@ -203,18 +508,18 @@
             // 
             // btnMelee0DmgRoll
             // 
-            this.btnMelee0DmgRoll.Location = new System.Drawing.Point(388, 187);
+            this.btnMelee0DmgRoll.Location = new System.Drawing.Point(320, 125);
             this.btnMelee0DmgRoll.Name = "btnMelee0DmgRoll";
-            this.btnMelee0DmgRoll.Size = new System.Drawing.Size(163, 31);
+            this.btnMelee0DmgRoll.Size = new System.Drawing.Size(130, 30);
             this.btnMelee0DmgRoll.TabIndex = 235;
             this.btnMelee0DmgRoll.Text = "Roll Damage";
             this.btnMelee0DmgRoll.UseVisualStyleBackColor = true;
             // 
             // btnMelee0AtkRoll
             // 
-            this.btnMelee0AtkRoll.Location = new System.Drawing.Point(219, 186);
+            this.btnMelee0AtkRoll.Location = new System.Drawing.Point(184, 125);
             this.btnMelee0AtkRoll.Name = "btnMelee0AtkRoll";
-            this.btnMelee0AtkRoll.Size = new System.Drawing.Size(163, 31);
+            this.btnMelee0AtkRoll.Size = new System.Drawing.Size(130, 30);
             this.btnMelee0AtkRoll.TabIndex = 234;
             this.btnMelee0AtkRoll.Text = "Roll Attack";
             this.btnMelee0AtkRoll.UseVisualStyleBackColor = true;
@@ -222,7 +527,7 @@
             // lblMelee0Lbs
             // 
             this.lblMelee0Lbs.AutoSize = true;
-            this.lblMelee0Lbs.Location = new System.Drawing.Point(498, 101);
+            this.lblMelee0Lbs.Location = new System.Drawing.Point(450, 96);
             this.lblMelee0Lbs.Name = "lblMelee0Lbs";
             this.lblMelee0Lbs.Size = new System.Drawing.Size(28, 20);
             this.lblMelee0Lbs.TabIndex = 233;
@@ -231,7 +536,7 @@
             // lblMelee0Feet
             // 
             this.lblMelee0Feet.AutoSize = true;
-            this.lblMelee0Feet.Location = new System.Drawing.Point(245, 97);
+            this.lblMelee0Feet.Location = new System.Drawing.Point(250, 97);
             this.lblMelee0Feet.Name = "lblMelee0Feet";
             this.lblMelee0Feet.Size = new System.Drawing.Size(19, 20);
             this.lblMelee0Feet.TabIndex = 232;
@@ -239,7 +544,7 @@
             // 
             // nudMelee0Reach
             // 
-            this.nudMelee0Reach.Location = new System.Drawing.Point(137, 92);
+            this.nudMelee0Reach.Location = new System.Drawing.Point(139, 92);
             this.nudMelee0Reach.Name = "nudMelee0Reach";
             this.nudMelee0Reach.Size = new System.Drawing.Size(102, 27);
             this.nudMelee0Reach.TabIndex = 231;
@@ -267,7 +572,8 @@
             // btnMelee0Delete
             // 
             this.btnMelee0Delete.BackColor = System.Drawing.Color.Red;
-            this.btnMelee0Delete.Location = new System.Drawing.Point(712, 128);
+            this.btnMelee0Delete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMelee0Delete.Location = new System.Drawing.Point(714, 68);
             this.btnMelee0Delete.Name = "btnMelee0Delete";
             this.btnMelee0Delete.Size = new System.Drawing.Size(46, 46);
             this.btnMelee0Delete.TabIndex = 229;
@@ -276,9 +582,9 @@
             // 
             // txtMelee0SpecProp
             // 
-            this.txtMelee0SpecProp.Location = new System.Drawing.Point(530, 93);
+            this.txtMelee0SpecProp.Location = new System.Drawing.Point(483, 94);
             this.txtMelee0SpecProp.Name = "txtMelee0SpecProp";
-            this.txtMelee0SpecProp.Size = new System.Drawing.Size(232, 27);
+            this.txtMelee0SpecProp.Size = new System.Drawing.Size(225, 27);
             this.txtMelee0SpecProp.TabIndex = 227;
             // 
             // lblMelee0SpecPropHead
@@ -286,18 +592,18 @@
             this.lblMelee0SpecPropHead.BackColor = System.Drawing.Color.Black;
             this.lblMelee0SpecPropHead.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMelee0SpecPropHead.ForeColor = System.Drawing.Color.White;
-            this.lblMelee0SpecPropHead.Location = new System.Drawing.Point(530, 63);
+            this.lblMelee0SpecPropHead.Location = new System.Drawing.Point(483, 63);
             this.lblMelee0SpecPropHead.Name = "lblMelee0SpecPropHead";
-            this.lblMelee0SpecPropHead.Size = new System.Drawing.Size(232, 27);
+            this.lblMelee0SpecPropHead.Size = new System.Drawing.Size(225, 27);
             this.lblMelee0SpecPropHead.TabIndex = 226;
             this.lblMelee0SpecPropHead.Text = "SPECIAL PROPERTIES";
             this.lblMelee0SpecPropHead.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtMelee0Weight
             // 
-            this.txtMelee0Weight.Location = new System.Drawing.Point(399, 93);
+            this.txtMelee0Weight.Location = new System.Drawing.Point(381, 94);
             this.txtMelee0Weight.Name = "txtMelee0Weight";
-            this.txtMelee0Weight.Size = new System.Drawing.Size(101, 27);
+            this.txtMelee0Weight.Size = new System.Drawing.Size(69, 27);
             this.txtMelee0Weight.TabIndex = 225;
             // 
             // lblMelee0WeightHeader
@@ -305,30 +611,18 @@
             this.lblMelee0WeightHeader.BackColor = System.Drawing.Color.Black;
             this.lblMelee0WeightHeader.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMelee0WeightHeader.ForeColor = System.Drawing.Color.White;
-            this.lblMelee0WeightHeader.Location = new System.Drawing.Point(399, 63);
+            this.lblMelee0WeightHeader.Location = new System.Drawing.Point(381, 63);
             this.lblMelee0WeightHeader.Name = "lblMelee0WeightHeader";
-            this.lblMelee0WeightHeader.Size = new System.Drawing.Size(130, 27);
+            this.lblMelee0WeightHeader.Size = new System.Drawing.Size(101, 27);
             this.lblMelee0WeightHeader.TabIndex = 224;
             this.lblMelee0WeightHeader.Text = "WEIGHT";
             this.lblMelee0WeightHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblMelee0Notes
-            // 
-            this.lblMelee0Notes.BackColor = System.Drawing.Color.Black;
-            this.lblMelee0Notes.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblMelee0Notes.ForeColor = System.Drawing.Color.White;
-            this.lblMelee0Notes.Location = new System.Drawing.Point(7, 123);
-            this.lblMelee0Notes.Name = "lblMelee0Notes";
-            this.lblMelee0Notes.Size = new System.Drawing.Size(699, 27);
-            this.lblMelee0Notes.TabIndex = 222;
-            this.lblMelee0Notes.Text = "NOTES";
-            this.lblMelee0Notes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // txtMelee0Hardness
             // 
-            this.txtMelee0Hardness.Location = new System.Drawing.Point(268, 93);
+            this.txtMelee0Hardness.Location = new System.Drawing.Point(270, 93);
             this.txtMelee0Hardness.Name = "txtMelee0Hardness";
-            this.txtMelee0Hardness.Size = new System.Drawing.Size(130, 27);
+            this.txtMelee0Hardness.Size = new System.Drawing.Size(110, 27);
             this.txtMelee0Hardness.TabIndex = 219;
             // 
             // lblMelee0HardHeader
@@ -338,7 +632,7 @@
             this.lblMelee0HardHeader.ForeColor = System.Drawing.Color.White;
             this.lblMelee0HardHeader.Location = new System.Drawing.Point(268, 63);
             this.lblMelee0HardHeader.Name = "lblMelee0HardHeader";
-            this.lblMelee0HardHeader.Size = new System.Drawing.Size(130, 27);
+            this.lblMelee0HardHeader.Size = new System.Drawing.Size(112, 27);
             this.lblMelee0HardHeader.TabIndex = 218;
             this.lblMelee0HardHeader.Text = "HARDNESS";
             this.lblMelee0HardHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -375,9 +669,9 @@
             "2",
             "3",
             "4"});
-            this.comMelee0CritMulti.Location = new System.Drawing.Point(716, 35);
+            this.comMelee0CritMulti.Location = new System.Drawing.Point(622, 35);
             this.comMelee0CritMulti.Name = "comMelee0CritMulti";
-            this.comMelee0CritMulti.Size = new System.Drawing.Size(46, 28);
+            this.comMelee0CritMulti.Size = new System.Drawing.Size(41, 28);
             this.comMelee0CritMulti.TabIndex = 213;
             // 
             // comMelee0Crit
@@ -388,7 +682,7 @@
             "18",
             "19",
             "20"});
-            this.comMelee0Crit.Location = new System.Drawing.Point(622, 34);
+            this.comMelee0Crit.Location = new System.Drawing.Point(528, 34);
             this.comMelee0Crit.Name = "comMelee0Crit";
             this.comMelee0Crit.Size = new System.Drawing.Size(43, 28);
             this.comMelee0Crit.TabIndex = 209;
@@ -435,7 +729,7 @@
             this.lblMelee0CritHeader.BackColor = System.Drawing.Color.Black;
             this.lblMelee0CritHeader.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMelee0CritHeader.ForeColor = System.Drawing.Color.White;
-            this.lblMelee0CritHeader.Location = new System.Drawing.Point(620, 3);
+            this.lblMelee0CritHeader.Location = new System.Drawing.Point(526, 3);
             this.lblMelee0CritHeader.Name = "lblMelee0CritHeader";
             this.lblMelee0CritHeader.Size = new System.Drawing.Size(142, 27);
             this.lblMelee0CritHeader.TabIndex = 201;
@@ -478,40 +772,457 @@
             this.lblMelee0NameHeader.Text = "WEAPON";
             this.lblMelee0NameHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtMelee0Notes
-            // 
-            this.txtMelee0Notes.Location = new System.Drawing.Point(7, 153);
-            this.txtMelee0Notes.Name = "txtMelee0Notes";
-            this.txtMelee0Notes.Size = new System.Drawing.Size(699, 27);
-            this.txtMelee0Notes.TabIndex = 223;
-            // 
             // lblMelee0Crit
             // 
             this.lblMelee0Crit.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblMelee0Crit.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.lblMelee0Crit.Location = new System.Drawing.Point(662, 36);
+            this.lblMelee0Crit.Location = new System.Drawing.Point(568, 36);
             this.lblMelee0Crit.Name = "lblMelee0Crit";
             this.lblMelee0Crit.Size = new System.Drawing.Size(57, 25);
             this.lblMelee0Crit.TabIndex = 211;
             this.lblMelee0Crit.Text = "- 20 x";
             this.lblMelee0Crit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.label77);
+            this.panel5.Controls.Add(this.label90);
+            this.panel5.Controls.Add(this.textBox69);
+            this.panel5.Controls.Add(this.label89);
+            this.panel5.Controls.Add(this.button2);
+            this.panel5.Controls.Add(this.textBox68);
+            this.panel5.Controls.Add(this.label88);
+            this.panel5.Controls.Add(this.textBox67);
+            this.panel5.Controls.Add(this.textBox64);
+            this.panel5.Controls.Add(this.label85);
+            this.panel5.Controls.Add(this.label87);
+            this.panel5.Controls.Add(this.textBox66);
+            this.panel5.Controls.Add(this.textBox65);
+            this.panel5.Controls.Add(this.label86);
+            this.panel5.Controls.Add(this.label98);
+            this.panel5.Controls.Add(this.label96);
+            this.panel5.Controls.Add(this.label94);
+            this.panel5.Controls.Add(this.label92);
+            this.panel5.Controls.Add(this.label101);
+            this.panel5.Controls.Add(this.label99);
+            this.panel5.Controls.Add(this.label97);
+            this.panel5.Controls.Add(this.label95);
+            this.panel5.Controls.Add(this.label93);
+            this.panel5.Controls.Add(this.label91);
+            this.panel5.Location = new System.Drawing.Point(12, 12);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(283, 392);
+            this.panel5.TabIndex = 211;
+            // 
+            // label77
+            // 
+            this.label77.BackColor = System.Drawing.Color.Black;
+            this.label77.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label77.ForeColor = System.Drawing.Color.White;
+            this.label77.Location = new System.Drawing.Point(181, 21);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(28, 16);
+            this.label77.TabIndex = 226;
+            this.label77.Text = "DEX";
+            // 
+            // label90
+            // 
+            this.label90.BackColor = System.Drawing.Color.Black;
+            this.label90.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label90.ForeColor = System.Drawing.Color.White;
+            this.label90.Location = new System.Drawing.Point(173, 10);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(157, 32);
+            this.label90.TabIndex = 214;
+            this.label90.Text = "RANGED";
+            this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox69
+            // 
+            this.textBox69.Enabled = false;
+            this.textBox69.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox69.Location = new System.Drawing.Point(223, 10);
+            this.textBox69.Name = "textBox69";
+            this.textBox69.PlaceholderText = "10";
+            this.textBox69.Size = new System.Drawing.Size(40, 34);
+            this.textBox69.TabIndex = 215;
+            this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(232, 47);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(19, 20);
+            this.label89.TabIndex = 217;
+            this.label89.Text = "+";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(222, 351);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(60, 34);
+            this.button2.TabIndex = 227;
+            this.button2.Text = "ROLL";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox68
+            // 
+            this.textBox68.Enabled = false;
+            this.textBox68.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox68.Location = new System.Drawing.Point(222, 69);
+            this.textBox68.Name = "textBox68";
+            this.textBox68.PlaceholderText = "0";
+            this.textBox68.Size = new System.Drawing.Size(40, 34);
+            this.textBox68.TabIndex = 216;
+            this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Location = new System.Drawing.Point(232, 106);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(19, 20);
+            this.label88.TabIndex = 219;
+            this.label88.Text = "+";
+            // 
+            // textBox67
+            // 
+            this.textBox67.Enabled = false;
+            this.textBox67.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox67.Location = new System.Drawing.Point(222, 128);
+            this.textBox67.Name = "textBox67";
+            this.textBox67.PlaceholderText = "0";
+            this.textBox67.Size = new System.Drawing.Size(40, 34);
+            this.textBox67.TabIndex = 218;
+            this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox64
+            // 
+            this.textBox64.Enabled = false;
+            this.textBox64.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox64.Location = new System.Drawing.Point(222, 307);
+            this.textBox64.Name = "textBox64";
+            this.textBox64.PlaceholderText = "0";
+            this.textBox64.Size = new System.Drawing.Size(40, 34);
+            this.textBox64.TabIndex = 224;
+            this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(232, 282);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(19, 20);
+            this.label85.TabIndex = 225;
+            this.label85.Text = "+";
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Location = new System.Drawing.Point(232, 165);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(19, 20);
+            this.label87.TabIndex = 221;
+            this.label87.Text = "+";
+            // 
+            // textBox66
+            // 
+            this.textBox66.Enabled = false;
+            this.textBox66.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox66.Location = new System.Drawing.Point(222, 187);
+            this.textBox66.Name = "textBox66";
+            this.textBox66.PlaceholderText = "0";
+            this.textBox66.Size = new System.Drawing.Size(40, 34);
+            this.textBox66.TabIndex = 220;
+            this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox65
+            // 
+            this.textBox65.Enabled = false;
+            this.textBox65.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox65.Location = new System.Drawing.Point(222, 247);
+            this.textBox65.Name = "textBox65";
+            this.textBox65.PlaceholderText = "0";
+            this.textBox65.Size = new System.Drawing.Size(40, 34);
+            this.textBox65.TabIndex = 222;
+            this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Location = new System.Drawing.Point(232, 224);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(19, 20);
+            this.label86.TabIndex = 223;
+            this.label86.Text = "+";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(34, 106);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(19, 20);
+            this.label98.TabIndex = 172;
+            this.label98.Text = "+";
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(34, 165);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(19, 20);
+            this.label96.TabIndex = 175;
+            this.label96.Text = "+";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(34, 224);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(19, 20);
+            this.label94.TabIndex = 178;
+            this.label94.Text = "+";
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Location = new System.Drawing.Point(34, 284);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(19, 20);
+            this.label92.TabIndex = 181;
+            this.label92.Text = "+";
+            // 
+            // label101
+            // 
+            this.label101.BackColor = System.Drawing.Color.White;
+            this.label101.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label101.ForeColor = System.Drawing.Color.Black;
+            this.label101.Location = new System.Drawing.Point(115, 4);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(55, 40);
+            this.label101.TabIndex = 167;
+            this.label101.Text = "TOTAL";
+            this.label101.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label99
+            // 
+            this.label99.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label99.Location = new System.Drawing.Point(115, 63);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(55, 40);
+            this.label99.TabIndex = 170;
+            this.label99.Text = "BASE ATTACK";
+            this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label97
+            // 
+            this.label97.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label97.Location = new System.Drawing.Point(115, 122);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(55, 40);
+            this.label97.TabIndex = 173;
+            this.label97.Text = "ABILITY MOD";
+            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label95
+            // 
+            this.label95.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label95.Location = new System.Drawing.Point(115, 181);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(55, 40);
+            this.label95.TabIndex = 176;
+            this.label95.Text = "SIZE MOD";
+            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label93
+            // 
+            this.label93.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label93.Location = new System.Drawing.Point(115, 241);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(55, 40);
+            this.label93.TabIndex = 179;
+            this.label93.Text = "MISC. MOD";
+            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label91
+            // 
+            this.label91.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label91.Location = new System.Drawing.Point(115, 301);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(55, 40);
+            this.label91.TabIndex = 182;
+            this.label91.Text = "TEMP MOD";
+            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Location = new System.Drawing.Point(388, 81);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(513, 243);
+            this.panel1.TabIndex = 212;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(434, 79);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(56, 20);
+            this.label17.TabIndex = 240;
+            this.label17.Text = "215, 72";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(375, 122);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(64, 20);
+            this.label14.TabIndex = 239;
+            this.label14.Text = "162, 112";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(319, 122);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(56, 20);
+            this.label15.TabIndex = 238;
+            this.label15.Text = "91, 112";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(265, 122);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(56, 20);
+            this.label16.TabIndex = 237;
+            this.label16.Text = "20, 112";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(378, 42);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(56, 20);
+            this.label13.TabIndex = 236;
+            this.label13.Text = "162, 35";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(325, 42);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(48, 20);
+            this.label12.TabIndex = 235;
+            this.label12.Text = "91, 35";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(270, 42);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(48, 20);
+            this.label11.TabIndex = 234;
+            this.label11.Text = "20, 35";
+            // 
+            // label18
+            // 
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(731, 2);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(55, 17);
+            this.label18.TabIndex = 238;
+            this.label18.Text = "TEMP";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label19
+            // 
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(660, 2);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(55, 17);
+            this.label19.TabIndex = 237;
+            this.label19.Text = "MISC.";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(589, 2);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(55, 17);
+            this.label20.TabIndex = 236;
+            this.label20.Text = "SIZE";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label21.Location = new System.Drawing.Point(518, 2);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(55, 17);
+            this.label21.TabIndex = 235;
+            this.label21.Text = "ABILITY";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label22.Location = new System.Drawing.Point(447, 2);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(55, 17);
+            this.label22.TabIndex = 234;
+            this.label22.Text = "BASE";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label23
+            // 
+            this.label23.BackColor = System.Drawing.SystemColors.Control;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(378, 2);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(55, 17);
+            this.label23.TabIndex = 233;
+            this.label23.Text = "TOTAL";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1253, 895);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panMeleeWeapons);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panMeleeWeapons.ResumeLayout(false);
+            this.panMeleeWeapons.PerformLayout();
             this.tabMeleeWeapons.ResumeLayout(false);
             this.tabMelee0.ResumeLayout(false);
             this.tabMelee0.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0Reach)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -519,20 +1230,16 @@
         #endregion
 
         private Panel panMeleeWeapons;
+        private Button button3;
         private Button btnNewMeleeWeapon;
         private TabControl tabMeleeWeapons;
         private TabPage tabMelee0;
-        private TextBox txtMelee0Weight;
         private ComboBox comMelee0DamageDie;
-        private Label lblMelee0CritHeader;
-        private Label lblMelee0Crit;
         private NumericUpDown nudMelee0DmgMod;
-        private ComboBox comMelee0Crit;
         private NumericUpDown numericUpDown1;
-        private ComboBox comMelee0CritMulti;
+        private Label lblMelee0AtkMod;
         private Button btnMelee0DmgRoll;
         private Button btnMelee0AtkRoll;
-        private Label lblMelee0AtkMod;
         private Label lblMelee0Lbs;
         private Label lblMelee0Feet;
         private NumericUpDown nudMelee0Reach;
@@ -540,19 +1247,84 @@
         private Button btnMelee0Delete;
         private TextBox txtMelee0SpecProp;
         private Label lblMelee0SpecPropHead;
+        private TextBox txtMelee0Weight;
         private Label lblMelee0WeightHeader;
-        private Label lblMelee0Notes;
         private TextBox txtMelee0Hardness;
         private Label lblMelee0HardHeader;
         private Label lblMelee0ReachHeader;
         private Label lblMelee0SizeHeader;
+        private ComboBox comMelee0CritMulti;
+        private ComboBox comMelee0Crit;
         private Label lblMelee0DmgPlus;
         private TextBox txtMelee0DieCount;
         private ComboBox comMelee0Type;
         private TextBox txtMelee0Name;
+        private Label lblMelee0CritHeader;
         private Label lblMelee0DmgHeader;
         private Label lblMelee0TypeHeader;
         private Label lblMelee0NameHeader;
-        private TextBox txtMelee0Notes;
+        private Label lblMelee0Crit;
+        private Panel panel5;
+        private Label label77;
+        private Label label90;
+        private TextBox textBox69;
+        private Label label89;
+        private Button button2;
+        private TextBox textBox68;
+        private Label label88;
+        private TextBox textBox67;
+        private TextBox textBox64;
+        private Label label85;
+        private Label label87;
+        private TextBox textBox66;
+        private TextBox textBox65;
+        private Label label86;
+        private Label label98;
+        private Label label96;
+        private Label label94;
+        private Label label92;
+        private Label label101;
+        private Label label99;
+        private Label label97;
+        private Label label95;
+        private Label label93;
+        private Label label91;
+        private Panel panel1;
+        private Button button1;
+        private Label label17;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private Label label13;
+        private Label label12;
+        private Label label11;
+        private Label label18;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private Label label22;
+        private Label label23;
+        private Button button34;
+        private Label label10;
+        private Label label9;
+        private Label label8;
+        private Label label7;
+        private Label label6;
+        private Label label5;
+        private TextBox textBox70;
+        private Label label4;
+        private TextBox textBox71;
+        private Label label3;
+        private TextBox textBox72;
+        private Label label2;
+        private TextBox textBox73;
+        private Label label1;
+        private Label label79;
+        private TextBox textBox74;
+        private TextBox textBox75;
+        private Label label78;
+        private Label label102;
+
+        public EventHandler Form1_Load { get; private set; }
     }
 }

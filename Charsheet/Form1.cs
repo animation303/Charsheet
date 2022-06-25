@@ -19,23 +19,18 @@ namespace Charsheet
 
         private void btnNewMeleeWeapon_Click(object sender, EventArgs e)
         {
-            if (tabMeleeWeapons.Created.Equals(false))
+
+        }
+
+ 
+
+        private void tabMeleeWeapons_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabMeleeWeapons.SelectedTab == tabMeleeWeapons.TabPages["New..."])
             {
-
-
-
 
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnMelee0Delete_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

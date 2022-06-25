@@ -843,5 +843,6 @@ namespace Charsheet
             drawLabels(newMeleeID, "Melee");
 
         }
+
     }
 }
