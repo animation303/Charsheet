@@ -642,9 +642,73 @@ namespace Charsheet
             tabMeleeWeapons.TabPages.Remove(tabMeleeWeapons.SelectedTab);
         }
 
-        private void drawHeader(string id, string text, int locx, int locy, string name)
+        private void drawLabels(string id, string type)
         {
+            Control[] matches = tabMeleeWeapons.Controls.Find(id, true);
+            if (matches.Length > 0 && matches[0] is TabPage)
+            {
+                MessageBox.Show("Found tab of id " + id);
+                TabPage newMeleeWeapon = (TabPage)matches[0];
+                var labels = new List<Control>();
+                switch (type)
+                {
+                    #region Melee Weapons
+                    case "Melee":
 
+                        Label a = new()
+                        {
+                            Name = "lbl" + id + "NameHeader",
+                            Text = "WEAPON NAME",
+                            Location = new Point(6, 3),
+                            Size = new Size(235, 27),
+                            TextAlign = ContentAlignment.MiddleCenter,
+                            Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
+                            ForeColor = Color.White,
+                            BackColor = Color.Black
+                        };
+                        labels.Add(a);
+                        Label b = new()
+                        {
+                            Name = "lbl" + id + "TypeHeader",
+                            Text = "TYPE",
+                            Location = new Point(242, 3),
+                            Size = new Size(125, 27),
+                            TextAlign = ContentAlignment.MiddleCenter,
+                            Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
+                            ForeColor = Color.White,
+                            BackColor = Color.Black
+                        };
+                        labels.Add(b);
+                        Label c = new()
+                        {
+                            Name = "lbl" + id + "DmgHeader",
+                            Text = "DAMAGE",
+                            Location = new Point(368, 3),
+                            Size = new Size(157, 27),
+                            TextAlign = ContentAlignment.MiddleCenter,
+                            Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
+                            ForeColor = Color.White,
+                            BackColor = Color.Black
+                        };
+                        labels.Add(c);
+                        Label d = new()
+                        {
+                            Name = "lbl" + id + "DmgPlus",
+                            Text = "+",
+                            Location = new Point(456, 37),
+                            Size = new Size(19, 20),
+                            TextAlign = ContentAlignment.MiddleCenter
+                        };
+                        labels.Add(d);
+
+                        foreach (Control zz in labels)
+                        {
+                            newMeleeWeapon.Controls.Add(zz);
+                        }
+                        break;
+                        #endregion
+                }
+            }
         }
         private void btnNewMeleeWeapon_Click(object sender, EventArgs e)
         {
@@ -660,90 +724,96 @@ namespace Charsheet
 
             #region Weapon Name
             // header
-            Label a = new();
-            a.Name = "lbl" + newMeleeID + "NameHeader";
-            a.Text = "WEAPON NAME";
-            a.Location = new Point(6, 3);
-            a.Size = new Size(235, 27);
-            a.TextAlign = ContentAlignment.MiddleCenter;
-            a.Font = new Font("Segoe UI", 10.2f, FontStyle.Bold);
-            a.ForeColor = Color.White;
-            a.BackColor = Color.Black;
+            Label a = new()
+            {
+                Name = "lbl" + newMeleeID + "NameHeader",
+                Text = "WEAPON NAME",
+                Location = new Point(6, 3),
+                Size = new Size(235, 27),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
+                ForeColor = Color.White,
+                BackColor = Color.Black
+            };
             newMeleeWeapon.Controls.Add(a);
             // control
-            TextBox b = new(); 
-            b.Name = "txt" + newMeleeID + "Name";
-            b.Text = "Melee Weapon " + newMeleeID;
-            b.Location = new Point(6, 33);
-            b.Size = new Size(235, 27);
+            TextBox b = new()
+            {
+                Name = "txt" + newMeleeID + "Name",
+                Text = "Melee Weapon " + newMeleeID,
+                Location = new Point(6, 33),
+                Size = new Size(235, 27)
+            };
             newMeleeWeapon.Controls.Add(b);
 
             #endregion
             #region damage type
             //header
-            Label c = new();
-            c.Name = "lbl" + newMeleeID + "TypeHeader";
-            c.Text = "TYPE";
-            c.Location = new Point(242, 3);
-            c.Size = new Size(125, 27);
-            c.TextAlign = ContentAlignment.MiddleCenter;
-            c.Font = new Font("Segoe UI", 10.2f, FontStyle.Bold);
-            c.ForeColor = Color.White;
-            c.BackColor = Color.Black;
+            Label c = new()
+            {
+                Name = "lbl" + newMeleeID + "TypeHeader",
+                Text = "TYPE",
+                Location = new Point(242, 3),
+                Size = new Size(125, 27),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
+                ForeColor = Color.White,
+                BackColor = Color.Black
+            };
             newMeleeWeapon.Controls.Add(c);
             //control
-            ComboBox d = new ComboBox();
-            d.Name = "com" + newMeleeID + "Type";
-            d.Location = new Point(243, 33);
-            d.Size = new Size(124, 28);
-            d.Items.AddRange(new object[] {
-            "slashing",
-            "piercing",
-            "bludgeoning"});
+            ComboBox d = new ComboBox
+            {
+                Name = "com" + newMeleeID + "Type",
+                Location = new Point(243, 33),
+                Size = new Size(124, 28)
+            };
+            d.Items.AddRange(new object[] {"slashing", "piercing", "bludgeoning"});
             d.SelectedIndex = 0;
             newMeleeWeapon.Controls.Add(d);
             #endregion
 
             #region damage
             //header
-            Label f = new();
-            f.Name = "lbl" + newMeleeID + "DmgHeader";
-            f.Text = "DAMAGE";
-            f.Location = new Point(368, 3);
-            f.Size = new Size(157, 27);
-            f.TextAlign = ContentAlignment.MiddleCenter;
-            f.Font = new Font("Segoe UI", 10.2f, FontStyle.Bold);
-            f.ForeColor = Color.White;
-            f.BackColor = Color.Black;
+            Label f = new()
+            {
+                Name = "lbl" + newMeleeID + "DmgHeader",
+                Text = "DAMAGE",
+                Location = new Point(368, 3),
+                Size = new Size(157, 27),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
+                ForeColor = Color.White,
+                BackColor = Color.Black
+            };
             newMeleeWeapon.Controls.Add(f);
             //controls
-            TextBox g = new();
-            g.Name = "txt" + newMeleeID + "DieCount";
-            g.Text = "1";
-            g.Location = new Point(369, 34);
-            g.Size = new Size(30, 27);
-            g.TextAlign = HorizontalAlignment.Right;
+            TextBox g = new()
+            {
+                Name = "txt" + newMeleeID + "DieCount",
+                Text = "1",
+                Location = new Point(369, 34),
+                Size = new Size(30, 27),
+                TextAlign = HorizontalAlignment.Right
+            };
             newMeleeWeapon.Controls.Add(g);
-            ComboBox h = new();
-            string hh = "com" + newMeleeID + "DamageDie";
-            h.Name = hh;
-            h.Location = new Point(404, 34);
-            h.Size = new Size(55, 28);
-            h.Items.AddRange(new object[] {
-            "d4",
-            "d6",
-            "d8",
-            "d10",
-            "d12",
-            "d20"});
+            ComboBox h = new()
+            {
+                Name = "com" + newMeleeID + "DamageDie",
+                Location = new Point(404, 34),
+                Size = new Size(55, 28)
+            };
+            h.Items.AddRange(new object[] { "d4", "d6", "d8", "d10", "d12", "d20" });
             h.SelectedIndex = 0;
             newMeleeWeapon.Controls.Add(h);
-            Label i = new();
-            i.Name = "lbl" + newMeleeID + "DmgPlus";
-            i.Text = "+";
-            i.Location = new Point(456, 37);
-            i.Size = new Size(19,20);
-            i.TextAlign = ContentAlignment.MiddleCenter;
+            Label i = new()
+            {
+                Name = "lbl" + newMeleeID + "DmgPlus",
+                Text = "+",
+                Location = new Point(456, 37),
+                Size = new Size(19, 20),
+                TextAlign = ContentAlignment.MiddleCenter
+            };
             newMeleeWeapon.Controls.Add(i);
             NumericUpDown j = new();
             j.Name = "txt" + newMeleeID + "DmgMod";
@@ -754,6 +824,23 @@ namespace Charsheet
             j.Minimum = -100;
             newMeleeWeapon.Controls.Add(j);
             #endregion
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Random dice = new(Guid.NewGuid().GetHashCode());
+            string tty = dice.Next(100000, 999999).ToString();
+            string newMeleeID = "Melee" + tty;
+
+            // Create tabpage for melee weapon
+            TabPage newMeleeWeapon = new(newMeleeID);
+            newMeleeWeapon.Text = "New weapon";
+            newMeleeWeapon.Name = newMeleeID;
+
+            tabMeleeWeapons.TabPages.Add(newMeleeWeapon);
+
+            drawLabels(newMeleeID, "Melee");
 
         }
     }

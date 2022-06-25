@@ -1027,6 +1027,7 @@
             this.label121 = new System.Windows.Forms.Label();
             this.label120 = new System.Windows.Forms.Label();
             this.tmrCheckAttr = new System.Windows.Forms.Timer(this.components);
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -3656,6 +3657,7 @@
             // 
             // panMeleeWeapons
             // 
+            this.panMeleeWeapons.Controls.Add(this.button3);
             this.panMeleeWeapons.Controls.Add(this.btnNewMeleeWeapon);
             this.panMeleeWeapons.Controls.Add(this.tabMeleeWeapons);
             this.panMeleeWeapons.Location = new System.Drawing.Point(369, 141);
@@ -12676,6 +12678,16 @@
             this.tmrCheckAttr.Interval = 500;
             this.tmrCheckAttr.Tick += new System.EventHandler(this.tmrCheckAttr_Tick);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(524, 266);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(114, 32);
+            this.button3.TabIndex = 203;
+            this.button3.Text = "Test";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -13739,5 +13751,6 @@
         private Button btnMelee0DmgRoll;
         private Button btnMelee0AtkRoll;
         private NumericUpDown nudMelee0DmgMod;
+        private Button button3;
     }
 }
