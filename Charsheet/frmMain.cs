@@ -642,109 +642,100 @@ namespace Charsheet
             tabMeleeWeapons.TabPages.Remove(tabMeleeWeapons.SelectedTab);
         }
 
-        private void drawLabels(string id, string type)
+        private static int randomizer9000()
         {
-            Control[] matches = tabMeleeWeapons.Controls.Find(id, true);
+
+            Random dice = new(Guid.NewGuid().GetHashCode());
+            int tty = dice.Next(0, 2147483646);
+            return tty;
+
+        }
+        private void drawLabels(string id, string type, Control newtab, Control parent)
+        {
+            Control[] matches = parent.Controls.Find(id, true);
             if (matches.Length > 0 && matches[0] is TabPage)
             {
-                MessageBox.Show("Found tab of id " + id);
-                TabPage newMeleeWeapon = (TabPage)matches[0];
+                TabPage newWeapon = (TabPage)matches[0];
                 var labels = new List<Control>();
-                switch (type)
-                {
-                    #region Melee Weapons
-                    case "Melee":
-
                         Label a = new()
                         {
-                            Name = "lbl" + id + "NameHeader",
                             Text = "WEAPON NAME",
                             Location = new Point(6, 3),
                             Size = new Size(235, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
                         labels.Add(a);
                         Label b = new()
                         {
-                            Name = "lbl" + id + "TypeHeader",
                             Text = "TYPE",
                             Location = new Point(242, 3),
                             Size = new Size(125, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
                         labels.Add(b);
                         Label c = new()
                         {
-                            Name = "lbl" + id + "DmgHeader",
                             Text = "DAMAGE",
                             Location = new Point(368, 3),
                             Size = new Size(157, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
                         labels.Add(c);
                         Label d = new()
                         {
-                            Name = "lbl" + id + "CritHeader",
                             Text = "CRITICAL",
                             Location = new Point(526, 3),
                             Size = new Size(142, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
                         labels.Add(d);
                         Label f = new()
                         {
-                            Name = "lbl" + id + "AtkMod",
                             Text = "ATK MOD",
                             Location = new Point(670, 3),
                             Size = new Size(93, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
                         labels.Add(f);
                         Label g = new()
                         {
-                            Name = "lbl" + id + "SizeHeader",
                             Text = "SIZE",
                             Location = new Point(6, 63),
                             Size = new Size(130, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
                         labels.Add(g);
                         Label h = new()
                         {
-                            Name = "lbl" + id + "ReachHeader",
-                            Text = "REACH",
                             Location = new Point(137, 63),
                             Size = new Size(130, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
+                        if (type == "Melee") { h.Text = "REACH";  }; 
+                        if (type == "Ranged") { h.Text = "RANGE";  };
                         labels.Add(h);
                         Label i = new()
                         {
-                            Name = "lbl" + id + "HardHeader",
                             Text = "HARDNESS",
                             Location = new Point(268, 63),
                             Size = new Size(112, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
                         labels.Add(i);
                         Label j = new()
                         {
-                            Name = "lbl" + id + "WeightHeader",
                             Text = "WEIGHT",
                             Location = new Point(381, 63),
                             Size = new Size(101, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-                };
+                        };
                         labels.Add(j);
                         Label k = new()
                         {
-                            Name = "lbl" + id + "SpecPropHead",
-                            Text = "SPECIAL PROPERTIES",
                             Location = new Point(483, 63),
                             Size = new Size(225, 27),
                             TextAlign = ContentAlignment.MiddleCenter
-
-                };
+                        };
                         labels.Add(k);
                         foreach (Control zz in labels)
                         {
@@ -752,10 +743,8 @@ namespace Charsheet
                             zz.ForeColor = Color.White;
                             zz.BackColor = Color.Black;
                         };
-
                         Label aa = new()
                         { 
-                            Name = "lbl" + id + "DmgPlus",
                             Text = "+",
                             Location = new Point(456, 37),
                             Size = new Size(19, 20),
@@ -764,7 +753,6 @@ namespace Charsheet
                         labels.Add(aa);
                         Label bb = new()
                         {
-                            Name = "lbl" + id + "MeleeCrit",
                             Text = "- 20 x",
                             Location = new Point(568, 36),
                             Size = new Size(57, 25),
@@ -773,7 +761,6 @@ namespace Charsheet
                         labels.Add(bb);
                         Label cc = new()
                         {
-                            Name = "lbl" + id + "Feet",
                             Text = "ft",
                             Location = new Point(245,96),
                             Size = new Size(19,20),
@@ -782,21 +769,33 @@ namespace Charsheet
                         labels.Add(cc);
                         Label dd = new()
                         {
-                            Name = "lbl" + id + "Lbs",
                             Text = "lbs",
                             Location = new Point(452, 96),
                             Size = new Size(28, 20),
                             TextAlign = ContentAlignment.MiddleCenter
                         };
                         labels.Add(dd);
+                        
+                int test = 0;
+                foreach (Control zz in labels)
+                    {
+                        zz.Name = "lbl" + randomizer9000().ToString() + randomizer9000().ToString();
+                        toolTip1.SetToolTip(zz, zz.Name);
+                        newWeapon.Controls.Add(zz);
+                        test++;
+                    }
+                MessageBox.Show("Processed " + test + " labels.");
+            } else {
+                MessageBox.Show("Failed! For some reason?");
+            }
+        }
 
-                        foreach (Control zz in labels)
-                        {
-                            newMeleeWeapon.Controls.Add(zz);
-                        }
-                        break;
-                        #endregion
-                }
+        private void drawControls(string id, string type, Control newtab, Control parent)
+        {
+            Control[] matches = tabMeleeWeapons.Controls.Find(id, true);
+            if (matches.Length > 0 && matches[0] is TabPage)
+            {
+                MessageBox.Show("Found tab of id " + id);
             }
         }
         private void btnNewMeleeWeapon_Click(object sender, EventArgs e)
@@ -929,9 +928,26 @@ namespace Charsheet
 
             tabMeleeWeapons.TabPages.Add(newMeleeWeapon);
 
-            drawLabels(newMeleeID, "Melee");
+            drawLabels(newMeleeID, "Melee", newMeleeWeapon, tabMeleeWeapons);
+            drawControls(newMeleeID, "Melee", newMeleeWeapon, tabMeleeWeapons);
 
         }
 
+        private void button80_Click(object sender, EventArgs e)
+        {
+            Random dice = new(Guid.NewGuid().GetHashCode());
+            string tty = dice.Next(100000, 999999).ToString();
+            string newRangedID = "Ranged" + tty;
+
+            // Create tabpage for melee weapon
+            TabPage newRangedWeapon = new(newRangedID);
+            newRangedWeapon.Text = "New weapon";
+            newRangedWeapon.Name = newRangedID;
+
+            tabRangedWeapons.TabPages.Add(newRangedWeapon);
+
+            drawLabels(newRangedID, "Ranged", newRangedWeapon, tabRangedWeapons);
+            drawControls(newRangedID, "Ranged", newRangedWeapon, tabRangedWeapons);
+        }
     }
 }
