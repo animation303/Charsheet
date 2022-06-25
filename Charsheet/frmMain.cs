@@ -27,7 +27,7 @@ namespace Charsheet
             MessageBox.Show("You gained " + Convert.ToString(hp) + " hp.", "Level Up!", MessageBoxButtons.OK);
             return hp;
         }
-        private static int rollDice(int sides, int quantity = 1, int modifier = 0, int abilityMod = 0, string rollType = "Generic Roll")
+        private static int rollDice(bool suppressMessage, int sides, int quantity = 1, int modifier = 0, int abilityMod = 0, string rollType = "Generic Roll")
         {
             Random dice = new(Guid.NewGuid().GetHashCode());
             int[] z = new int[quantity];
@@ -60,7 +60,7 @@ namespace Charsheet
                     testresult += " ) + Ability Mod ( " + Convert.ToString(abilityMod);
                 }
                 testresult += " ) = " + Convert.ToString(totalresult);
-                MessageBox.Show(testresult, rollType, MessageBoxButtons.OK);
+                if (suppressMessage == false) { MessageBox.Show(testresult, rollType, MessageBoxButtons.OK); }
                 }
             else
                 {
@@ -68,10 +68,9 @@ namespace Charsheet
                 if (abilityMod != 0) { totalresult += abilityMod; }
                 testresult = "Roll ( " + Convert.ToString(theDie[0]) + " ) + Modifier ( " + Convert.ToString(modifier);
                 if (abilityMod != 0) { testresult += " + Ability Mod ( " + Convert.ToString(abilityMod); };
-                testresult+= " ) = " + totalresult;                    
-                
-                MessageBox.Show(testresult, rollType, MessageBoxButtons.OK);
-                }
+                testresult+= " ) = " + totalresult;
+                if (suppressMessage == false) { MessageBox.Show(testresult, rollType, MessageBoxButtons.OK); }
+            }
             return totalresult;
         }
         #endregion
@@ -117,7 +116,7 @@ namespace Charsheet
             int x = Convert.ToInt32(txtMelee0DieCount.Text);
             int y = Convert.ToInt32(nudMelee0DmgMod.Value);
             int z = Convert.ToInt32(txtStrMod.Text);
-            _ = rollDice(w, x, y, z, "Melee Attack");
+            _ = rollDice(false, w, x, y, z, "Melee Attack");
         }
 
         #region attributes
@@ -153,12 +152,12 @@ namespace Charsheet
             if (nudStrTemp.Value == nudStr.Value) // check for modified attribute
             {
                 int z = Convert.ToInt32(txtStrMod.Text);
-                rollDice(20, 1, z, 0, "Strength Check");
+                rollDice(false, 20, 1, z, 0, "Strength Check");
             }
             else
             {
                 int z = Convert.ToInt32(txtStrModTemp.Text);
-                rollDice(20, 1, z, 0, "Strength Check (Modified)");
+                rollDice(false, 20, 1, z, 0, "Strength Check (Modified)");
             }
         }
 
@@ -202,12 +201,12 @@ namespace Charsheet
             if (nudDexTemp.Value == nudDex.Value) // check for modified attribute
             {
                 int z = Convert.ToInt32(txtDexMod.Text);
-                rollDice(20, 1, z, 0, "Dexterity Check");
+                rollDice(false, 20, 1, z, 0, "Dexterity Check");
             }
             else
             {
                 int z = Convert.ToInt32(txtDexModTemp.Text);
-                rollDice(20, 1, z, 0, "Dexterity Check (Modified)");
+                rollDice(false, 20, 1, z, 0, "Dexterity Check (Modified)");
             }
         }
 
@@ -247,12 +246,12 @@ namespace Charsheet
             if (nudConTemp.Value == nudCon.Value) // check for modified attribute
             {
                 int z = Convert.ToInt32(txtConMod.Text);
-                rollDice(20, 1, z, 0, "Constitution Check");
+                rollDice(false, 20, 1, z, 0, "Constitution Check");
             }
             else
             {
                 int z = Convert.ToInt32(txtConModTemp.Text);
-                rollDice(20, 1, z, 0, "Constitution Check (Modified)");
+                rollDice(false, 20, 1, z, 0, "Constitution Check (Modified)");
             }
         }
 
@@ -288,12 +287,12 @@ namespace Charsheet
             if (nudIntTemp.Value == nudInt.Value) // check for modified attribute
             {
                 int z = Convert.ToInt32(txtIntMod.Text);
-                rollDice(20, 1, z, 0, "Intelligence Check");
+                rollDice(false, 20, 1, z, 0, "Intelligence Check");
             }
             else
             {
                 int z = Convert.ToInt32(txtIntModTemp.Text);
-                rollDice(20, 1, z, 0, "Intelligence Check (Modified)");
+                rollDice(false, 20, 1, z, 0, "Intelligence Check (Modified)");
             }
         }
 
@@ -333,12 +332,12 @@ namespace Charsheet
             if (nudWisTemp.Value == nudWis.Value) // check for modified attribute
             {
                 int z = Convert.ToInt32(txtWisMod.Text);
-                rollDice(20, 1, z, 0, "Wisdom Check");
+                rollDice(false, 20, 1, z, 0, "Wisdom Check");
             }
             else
             {
                 int z = Convert.ToInt32(txtWisModTemp.Text);
-                rollDice(20, 1, z, 0, "Wisdom Check (Modified)");
+                rollDice(false, 20, 1, z, 0, "Wisdom Check (Modified)");
             }
         }
 
@@ -373,12 +372,12 @@ namespace Charsheet
             if (nudChaTemp.Value == nudCha.Value) // check for modified attribute
             {
                 int z = Convert.ToInt32(txtChaMod.Text);
-                rollDice(20, 1, z, 0, "Charisma Check");
+                rollDice(false, 20, 1, z, 0, "Charisma Check");
             }
             else
             {
                 int z = Convert.ToInt32(txtChaModTemp.Text);
-                rollDice(20, 1, z, 0, "Charisma Check (Modified)");
+                rollDice(false, 20, 1, z, 0, "Charisma Check (Modified)");
             }
         }
         #endregion
@@ -459,7 +458,7 @@ namespace Charsheet
         private void btnFortCheck_Click(object sender, EventArgs e)
         {
             int d = Convert.ToInt32(txtFort.Text);
-            rollDice(20, 1, d, 0, "Fortitude Check!");
+            rollDice(false, 20, 1, d, 0, "Fortitude Check!");
         }
 
         //
@@ -513,7 +512,7 @@ namespace Charsheet
         private void btnReflexCheck_Click(object sender, EventArgs e)
         {
             int d = Convert.ToInt32(txtReflex.Text);
-            rollDice(20, 1, d, 0, "Reflex Check!");
+            rollDice(false, 20, 1, d, 0, "Reflex Check!");
         }
 
         //
@@ -567,7 +566,7 @@ namespace Charsheet
         private void btnWillCheck_Click(object sender, EventArgs e)
         {
             int d = Convert.ToInt32(txtWill.Text);
-            rollDice(20, 1, d, 0, "Will Check!");
+            rollDice(false, 20, 1, d, 0, "Will Check!");
         }
 
 
@@ -634,7 +633,7 @@ namespace Charsheet
         private void btnRollInit_Click(object sender, EventArgs e)
         {
             int d = Convert.ToInt32(txtInit.Text);
-            rollDice(20, 1, d, 0, "Hostile intent is evident, Prepare for battle!");
+            rollDice(false, 20, 1, d, 0, "Hostile intent is evident, Prepare for battle!");
         }
 
         private void btnMelee0Delete_Click(object sender, EventArgs e)
@@ -736,7 +735,16 @@ namespace Charsheet
                             Size = new Size(225, 27),
                             TextAlign = ContentAlignment.MiddleCenter
                         };
+                        if (type == "Melee")
+                            {
+                                k.Text = "SPECIAL PROPERTIES";
+                            }
+                            if (type == "Ranged")
+                            {
+                                k.Text = "AMMUNITION";
+                            }
                         labels.Add(k);
+                        
                         foreach (Control zz in labels)
                         {
                             zz.Font = new Font("Segoe UI", 10.2f, FontStyle.Bold);
@@ -775,11 +783,21 @@ namespace Charsheet
                             TextAlign = ContentAlignment.MiddleCenter
                         };
                         labels.Add(dd);
-                        
+                        if (type == "Ranged")
+                            {
+                                Label ee = new()
+                                {
+                                    Text = "x",
+                                    Size = new Size(19, 20),
+                                    Location = new Point(616, 96)
+                                };
+                                labels.Add(ee);
+                            };
+
                 int test = 0;
                 foreach (Control zz in labels)
                     {
-                        zz.Name = "lbl" + randomizer9000().ToString() + randomizer9000().ToString();
+                        zz.Name = id + randomizer9000().ToString() + randomizer9000().ToString();
                         toolTip1.SetToolTip(zz, zz.Name);
                         newWeapon.Controls.Add(zz);
                         test++;
@@ -792,130 +810,298 @@ namespace Charsheet
 
         private void drawControls(string id, string type, Control newtab, Control parent)
         {
-            Control[] matches = tabMeleeWeapons.Controls.Find(id, true);
+            Control[] matches = parent.Controls.Find(id, true);
             if (matches.Length > 0 && matches[0] is TabPage)
             {
-                MessageBox.Show("Found tab of id " + id);
+                //MessageBox.Show("Found tab of id " + id);
+                TabPage newWeapon = (TabPage)matches[0];
+                var controls = new List<Control>();
+                var buttons = new List<Control>();
+                // weapon name
+                TextBox a = new()
+                {
+                    Size = new Size(235, 27),
+                    Location = new Point(6, 33),
+                    Text = "Unnamed Weapon"
+                };
+                controls.Add(a);
+                // damage type
+                ComboBox b = new()
+                {
+                    Size = new Size(124, 28),
+                    Location = new Point(243, 33)
+                };
+                controls.Add(b);
+                b.Items.AddRange(new object[] { "slashing", "piercing", "bludgeoning" });
+                b.SelectedIndex = 0;
+                // damage dice count
+                TextBox c = new()
+                {
+                    Size = new Size(30, 27),
+                    Location = new Point (369, 34),
+                    Text = "1",
+                    TextAlign = HorizontalAlignment.Right
+                };
+                controls.Add(c);
+                // damage dice
+                ComboBox d = new()
+                {
+                    Size = new Size(55, 28),
+                    Location = new Point(404, 34)
+                };
+                d.Items.AddRange(new object[] { "d4","d6","d8","d10","d12","d20" });
+                d.SelectedIndex = 0;
+                controls.Add(d);
+                // damage modifier
+                NumericUpDown f = new()
+                {
+                    Size = new Size(50, 27),
+                    Location = new Point(473, 35),
+                    Maximum = 100,
+                    Minimum = -100,
+                    Value = 0
+                };
+                controls.Add(f);
+                // crit range
+                ComboBox g = new()
+                {
+                    Size = new Size(43, 28),
+                    Location = new Point(528, 34)
+                };
+                g.Items.AddRange(new object[] { "18", "19", "20" });
+                g.SelectedIndex = 2;
+                controls.Add(g);
+                // crit multiplier
+                ComboBox h = new()
+                {
+                    Size = new Size(43, 28),
+                    Location = new Point(622, 35)
+                };
+                h.Items.AddRange(new object[] { "x2", "x3" });
+                h.SelectedIndex = 0;
+                controls.Add(h);
+                // attack mod
+                NumericUpDown i = new()
+                {
+                    Size = new Size(87, 27),
+                    Location = new Point(671, 35),
+                    Maximum = 100,
+                    Minimum = -100,
+                    Value = 0
+                };
+                controls.Add(i);
+                // weapon size
+                ComboBox j = new()
+                {
+                    Size = new Size(129, 28),
+                    Location = new Point(7, 92)
+                };
+                j.Items.AddRange(new object[] {"Fine", "Diminutive", "Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Colossal"});
+                j.SelectedIndex = 5;
+                controls.Add(j);
+                // Reach or Range
+                NumericUpDown k = new()
+                {
+                    Size = new Size(102, 27),
+                    Location = new Point(139, 92),
+                    Value = 0,
+                    Increment = 5
+                };
+                controls.Add(k);
+                // [b]ardness
+                TextBox l = new()
+                {
+                    Size = new Size(110, 27),
+                    Location = new Point(270, 93)
+                };
+                controls.Add(l);
+                // weight
+                TextBox m = new()
+                {
+                    Size = new Size(69, 27),
+                    Location = new Point(381, 93)
+                };
+                controls.Add(m);
+                // special properties or ammunition
+                if (type == "Melee") {
+                    TextBox n = new()
+                    {
+                        Size = new Size(225, 27),
+                        Location = new Point(483, 93)
+                    };
+                    controls.Add(n);
+                }; 
+                if (type == "Ranged")
+                {
+                    TextBox n = new()
+                    {
+                        Size = new Size(130, 27),
+                        Location = new Point(483, 93)
+                    };
+                    controls.Add(n);
+                    NumericUpDown o = new()
+                    {
+                        Size = new Size(77, 27),
+                        Location = new Point(633, 93),
+                        Value = 0
+                    };
+                    controls.Add(o);
+                };
+                int test = 0;
+
+                foreach (Control zz in controls)
+                {
+                    zz.Name = id + randomizer9000().ToString() + randomizer9000().ToString();
+                    toolTip1.SetToolTip(zz, zz.Name);
+                    newWeapon.Controls.Add(zz);
+                    test++;
+                };
+
+                // add buttons
+                // roll attack button
+                Button w = new()
+                {
+                    Text = "Roll Attack",
+                    Size = new Size(130, 30),
+                    Location = new Point(184, 125)
+                };
+                buttons.Add(w);
+                // roll damage button
+                Button x = new()
+                {
+                    Text = "Roll Damage",
+                    Size = new Size(130,30),
+                    Location = new Point(320, 125) 
+                };
+                buttons.Add(x);
+                // roll both button
+                Button y = new()
+                {
+                    Text = "Roll Both",
+                    Size = new Size(130, 30),
+                    Location = new Point(456, 125)
+                };
+                buttons.Add(y);
+                // delete weapon button
+                Button z = new()
+                {
+                    Text = "DEL",
+                    Size = new Size(48, 48),
+                    Location = new Point(714, 68),
+                    BackColor = Color.Red
+                };
+                buttons.Add(z);
+                foreach (Control zz in buttons)
+                {
+                    zz.Name = id + randomizer9000().ToString() + randomizer9000().ToString();
+                    toolTip1.SetToolTip(zz, zz.Name);
+                    newWeapon.Controls.Add(zz);
+                    test++;
+                };
+
+                // add event handlers
+
+                // roll Attack clicked, do it.
+                if (type == "Melee")
+                {
+                    w.Click += (s, e) =>
+                        {
+                            string line1 = "You swing your " + a.Text + " around.";
+                            string line2 = "You rolled a " + rollDice(true, 20, 1, Convert.ToInt32(txtMeleeHitTotal.Text));
+                            MessageBox.Show(line1 + Environment.NewLine + line2);
+                        };
+                };
+                if (type == "Melee")
+                {
+                    w.Click += (s, e) =>
+                    {
+                        string line1 = "You fire your " + a.Text;
+                        string line2 = "You rolled a " + rollDice(true, 20, 1, Convert.ToInt32(txtRangedHitTotal.Text));
+                        MessageBox.Show(line1 + Environment.NewLine + line2);
+                    };
+                }
+                // roll Damage Clicked, do it
+                x.Click += (s, e) =>
+                {
+                    string line1 = "You roll " + c.Text + d.Text + " + " + f.Value.ToString();
+                    string line2 = "With a shout you bring your " + a.Text + " to bear and do " + rollDice(true, Convert.ToInt32(d.Text.Remove(0, 1)), Convert.ToInt32(c.Text), Convert.ToInt32(f.Value)) + " damage!";
+                    MessageBox.Show(line1 + Environment.NewLine + line2);
+
+                };
+                // roll both clicked, do eeet
+                if (type == "Melee")
+                {
+                    y.Click += (s, e) =>
+                        {
+                            string line1 = "You swing your " + a.Text + " around.";
+                            string line2 = "You rolled a " + rollDice(true, 20, 1, Convert.ToInt32(txtMeleeHitTotal.Text)) + " to hit"
+                            string line3 = "You roll " + c.Text + d.Text + " + " + f.Value.ToString() + " and do " + rollDice(true, Convert.ToInt32(d.Text.Remove(0, 1)), Convert.ToInt32(c.Text), Convert.ToInt32(f.Value)) + " damage!";
+                            MessageBox.Show(line1 + Environment.NewLine + line2 + Environment.NewLine + line3);
+                        };
+                };
+                if (type == "Ranged")
+                {
+                    y.Click += (s, e) =>
+                    {
+                        string line1 = "You fire your " + a.Text;
+                        string line2 = "You rolled a " + rollDice(true, 20, 1, Convert.ToInt32(txtRangedHitTotal.Text)) + " to hit"
+                        string line3 = "You roll " + c.Text + d.Text + " + " + f.Value.ToString() + " and do " + rollDice(true, Convert.ToInt32(d.Text.Remove(0, 1)), Convert.ToInt32(c.Text), Convert.ToInt32(f.Value)) + " damage!";
+                        MessageBox.Show(line1 + Environment.NewLine + line2 + Environment.NewLine + line3);
+                    };
+                }
+
+                // delete clicked, baleet dis
+                if (type == "Melee")
+                {
+                    z.Click += (s, e) =>
+                    {
+                        deleteTab(id, tabMeleeWeapons, lblNewMeleeWeaponPrompt);
+                    };
+                }
+                if (type == "Ranged")
+                {
+                    z.Click += (s, e) =>
+                    {
+                        deleteTab(id, tabRangedWeapons, lblNewRangedWeaponPrompt);
+                    };
+                }
+                // Weapon name changed, rename tab
+                a.TextChanged += (s, e) =>
+                {
+                    newtab.Text = a.Text;
+                    if (String.IsNullOrEmpty(a.Text))
+                    {
+                        newtab.Text = "Unnamed weapon";
+                    }
+                };
+            MessageBox.Show("Processed " + test + " controls.");
+            }
+            else
+            {
+
+
+        MessageBox.Show("Failed! For some reason?");
             }
         }
-        private void btnNewMeleeWeapon_Click(object sender, EventArgs e)
+
+        private void deleteTab(string id, TabControl parent, Label prompt)
         {
-            // Generate Random Melee Weapon ID
-            Random dice = new(Guid.NewGuid().GetHashCode());
-            string tty = dice.Next(100000, 999999).ToString();
-            string newMeleeID = "Melee" + tty;
-
-            // Create tabpage for melee weapon
-            TabPage newMeleeWeapon = new(newMeleeID);
-            newMeleeWeapon.Text = "New weapon";
-            tabMeleeWeapons.TabPages.Add(newMeleeWeapon);
-
-            #region Weapon Name
-            // header
-            Label a = new()
+            parent.TabPages.Remove(parent.SelectedTab);
+            if (parent.TabPages.Count == 0)
             {
-                Name = "lbl" + newMeleeID + "NameHeader",
-                Text = "WEAPON NAME",
-                Location = new Point(6, 3),
-                Size = new Size(235, 27),
-                TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
-                ForeColor = Color.White,
-                BackColor = Color.Black
-            };
-            newMeleeWeapon.Controls.Add(a);
-            // control
-            TextBox b = new()
-            {
-                Name = "txt" + newMeleeID + "Name",
-                Text = "Melee Weapon " + newMeleeID,
-                Location = new Point(6, 33),
-                Size = new Size(235, 27)
-            };
-            newMeleeWeapon.Controls.Add(b);
-
-            #endregion
-            #region damage type
-            //header
-            Label c = new()
-            {
-                Name = "lbl" + newMeleeID + "TypeHeader",
-                Text = "TYPE",
-                Location = new Point(242, 3),
-                Size = new Size(125, 27),
-                TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
-                ForeColor = Color.White,
-                BackColor = Color.Black
-            };
-            newMeleeWeapon.Controls.Add(c);
-            //control
-            ComboBox d = new ComboBox
-            {
-                Name = "com" + newMeleeID + "Type",
-                Location = new Point(243, 33),
-                Size = new Size(124, 28)
-            };
-            d.Items.AddRange(new object[] {"slashing", "piercing", "bludgeoning"});
-            d.SelectedIndex = 0;
-            newMeleeWeapon.Controls.Add(d);
-            #endregion
-
-            #region damage
-            //header
-            Label f = new()
-            {
-                Name = "lbl" + newMeleeID + "DmgHeader",
-                Text = "DAMAGE",
-                Location = new Point(368, 3),
-                Size = new Size(157, 27),
-                TextAlign = ContentAlignment.MiddleCenter,
-                Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
-                ForeColor = Color.White,
-                BackColor = Color.Black
-            };
-            newMeleeWeapon.Controls.Add(f);
-            //controls
-            TextBox g = new()
-            {
-                Name = "txt" + newMeleeID + "DieCount",
-                Text = "1",
-                Location = new Point(369, 34),
-                Size = new Size(30, 27),
-                TextAlign = HorizontalAlignment.Right
-            };
-            newMeleeWeapon.Controls.Add(g);
-            ComboBox h = new()
-            {
-                Name = "com" + newMeleeID + "DamageDie",
-                Location = new Point(404, 34),
-                Size = new Size(55, 28)
-            };
-            h.Items.AddRange(new object[] { "d4", "d6", "d8", "d10", "d12", "d20" });
-            h.SelectedIndex = 0;
-            newMeleeWeapon.Controls.Add(h);
-            Label i = new()
-            {
-                Name = "lbl" + newMeleeID + "DmgPlus",
-                Text = "+",
-                Location = new Point(456, 37),
-                Size = new Size(19, 20),
-                TextAlign = ContentAlignment.MiddleCenter
-            };
-            newMeleeWeapon.Controls.Add(i);
-            NumericUpDown j = new();
-            j.Name = "txt" + newMeleeID + "DmgMod";
-            j.Text = "0";
-            j.Location = new Point(473, 35);
-            j.Size = new Size(50, 27);
-            j.Value = 0;
-            j.Minimum = -100;
-            newMeleeWeapon.Controls.Add(j);
-            #endregion
-
+                prompt.Show();
+            } 
+            //Control[] matches = parent.Controls.Find(id, true);
+            //if (matches.Length > 0 && matches[0] is TabPage)
+            //{
+            //    TabPage baleetTarget = (TabPage)matches[0];
+            //    MessageBox.Show("got tabpage with id " + id);
+            //} else
+            //{
+            //    MessageBox.Show("Failed! For some reason?");
+            //};
         }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void btnNewMelee_Click(object sender, EventArgs e)
         {
             Random dice = new(Guid.NewGuid().GetHashCode());
             string tty = dice.Next(100000, 999999).ToString();
@@ -923,17 +1109,18 @@ namespace Charsheet
 
             // Create tabpage for melee weapon
             TabPage newMeleeWeapon = new(newMeleeID);
-            newMeleeWeapon.Text = "New weapon";
+            newMeleeWeapon.Text = "Unnamed weapon";
             newMeleeWeapon.Name = newMeleeID;
 
             tabMeleeWeapons.TabPages.Add(newMeleeWeapon);
+            lblNewMeleeWeaponPrompt.Hide();
 
             drawLabels(newMeleeID, "Melee", newMeleeWeapon, tabMeleeWeapons);
             drawControls(newMeleeID, "Melee", newMeleeWeapon, tabMeleeWeapons);
 
         }
 
-        private void button80_Click(object sender, EventArgs e)
+        private void btnNewRanged_Click(object sender, EventArgs e)
         {
             Random dice = new(Guid.NewGuid().GetHashCode());
             string tty = dice.Next(100000, 999999).ToString();
@@ -941,8 +1128,9 @@ namespace Charsheet
 
             // Create tabpage for melee weapon
             TabPage newRangedWeapon = new(newRangedID);
-            newRangedWeapon.Text = "New weapon";
+            newRangedWeapon.Text = "Unnamed weapon";
             newRangedWeapon.Name = newRangedID;
+            lblNewRangedWeaponPrompt.Hide();
 
             tabRangedWeapons.TabPages.Add(newRangedWeapon);
 

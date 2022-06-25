@@ -29,6 +29,14 @@
         private void InitializeComponent()
         {
             this.panMeleeWeapons = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
             this.button34 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -53,8 +61,8 @@
             this.btnNewMeleeWeapon = new System.Windows.Forms.Button();
             this.tabMeleeWeapons = new System.Windows.Forms.TabControl();
             this.tabMelee0 = new System.Windows.Forms.TabPage();
-            this.label24 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.label24 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.comMelee0DamageDie = new System.Windows.Forms.ComboBox();
             this.nudMelee0DmgMod = new System.Windows.Forms.NumericUpDown();
@@ -124,14 +132,6 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.panMeleeWeapons.SuspendLayout();
             this.tabMeleeWeapons.SuspendLayout();
             this.tabMelee0.SuspendLayout();
@@ -180,6 +180,88 @@
             this.panMeleeWeapons.Name = "panMeleeWeapons";
             this.panMeleeWeapons.Size = new System.Drawing.Size(1089, 249);
             this.panMeleeWeapons.TabIndex = 202;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(108, 166);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(63, 34);
+            this.button4.TabIndex = 314;
+            this.button4.Text = "ROLL";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label76
+            // 
+            this.label76.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label76.Location = new System.Drawing.Point(183, 144);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(55, 17);
+            this.label76.TabIndex = 313;
+            this.label76.Text = "TEMP";
+            this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label25.Location = new System.Drawing.Point(112, 144);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(55, 17);
+            this.label25.TabIndex = 312;
+            this.label25.Text = "MISC.";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label26
+            // 
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label26.Location = new System.Drawing.Point(41, 144);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(55, 17);
+            this.label26.TabIndex = 311;
+            this.label26.Text = "SIZE";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label27.Location = new System.Drawing.Point(183, 67);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(55, 17);
+            this.label27.TabIndex = 310;
+            this.label27.Text = "ABILITY";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label80
+            // 
+            this.label80.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label80.Location = new System.Drawing.Point(112, 67);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(55, 17);
+            this.label80.TabIndex = 309;
+            this.label80.Text = "BASE";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label81
+            // 
+            this.label81.BackColor = System.Drawing.SystemColors.Control;
+            this.label81.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label81.ForeColor = System.Drawing.Color.Black;
+            this.label81.Location = new System.Drawing.Point(43, 67);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(55, 17);
+            this.label81.TabIndex = 308;
+            this.label81.Text = "TOTAL";
+            this.label81.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label31
+            // 
+            this.label31.BackColor = System.Drawing.Color.Black;
+            this.label31.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Location = new System.Drawing.Point(9, 38);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(28, 16);
+            this.label31.TabIndex = 296;
+            this.label31.Text = "DEX";
             // 
             // button34
             // 
@@ -457,6 +539,14 @@
             this.tabMelee0.Text = "New...";
             this.tabMelee0.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(633, 93);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(77, 27);
+            this.numericUpDown2.TabIndex = 240;
+            this.numericUpDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -465,14 +555,6 @@
             this.label24.Size = new System.Drawing.Size(16, 20);
             this.label24.TabIndex = 241;
             this.label24.Text = "x";
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(633, 93);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(77, 27);
-            this.numericUpDown2.TabIndex = 240;
-            this.numericUpDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button1
             // 
@@ -759,6 +841,7 @@
             this.txtMelee0Name.Name = "txtMelee0Name";
             this.txtMelee0Name.Size = new System.Drawing.Size(235, 27);
             this.txtMelee0Name.TabIndex = 202;
+            this.txtMelee0Name.TextChanged += new System.EventHandler(this.txtMelee0Name_TextChanged);
             // 
             // lblMelee0CritHeader
             // 
@@ -1216,88 +1299,6 @@
             this.label23.TabIndex = 233;
             this.label23.Text = "TOTAL";
             this.label23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(108, 166);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(63, 34);
-            this.button4.TabIndex = 314;
-            this.button4.Text = "ROLL";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // label76
-            // 
-            this.label76.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label76.Location = new System.Drawing.Point(183, 144);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(55, 17);
-            this.label76.TabIndex = 313;
-            this.label76.Text = "TEMP";
-            this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label25
-            // 
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label25.Location = new System.Drawing.Point(112, 144);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(55, 17);
-            this.label25.TabIndex = 312;
-            this.label25.Text = "MISC.";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label26
-            // 
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(41, 144);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(55, 17);
-            this.label26.TabIndex = 311;
-            this.label26.Text = "SIZE";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label27
-            // 
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(183, 67);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(55, 17);
-            this.label27.TabIndex = 310;
-            this.label27.Text = "ABILITY";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label80
-            // 
-            this.label80.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label80.Location = new System.Drawing.Point(112, 67);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(55, 17);
-            this.label80.TabIndex = 309;
-            this.label80.Text = "BASE";
-            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label81
-            // 
-            this.label81.BackColor = System.Drawing.SystemColors.Control;
-            this.label81.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label81.ForeColor = System.Drawing.Color.Black;
-            this.label81.Location = new System.Drawing.Point(43, 67);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(55, 17);
-            this.label81.TabIndex = 308;
-            this.label81.Text = "TOTAL";
-            this.label81.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // label31
-            // 
-            this.label31.BackColor = System.Drawing.Color.Black;
-            this.label31.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(9, 38);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(28, 16);
-            this.label31.TabIndex = 296;
-            this.label31.Text = "DEX";
             // 
             // Form1
             // 

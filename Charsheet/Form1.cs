@@ -16,5 +16,10 @@ namespace Charsheet
         {
             InitializeComponent();
         }
+
+        private void txtMelee0Name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
