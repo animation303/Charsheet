@@ -661,11 +661,8 @@ namespace Charsheet
                             Text = "WEAPON NAME",
                             Location = new Point(6, 3),
                             Size = new Size(235, 27),
-                            TextAlign = ContentAlignment.MiddleCenter,
-                            Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
-                            ForeColor = Color.White,
-                            BackColor = Color.Black
-                        };
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
                         labels.Add(a);
                         Label b = new()
                         {
@@ -673,11 +670,8 @@ namespace Charsheet
                             Text = "TYPE",
                             Location = new Point(242, 3),
                             Size = new Size(125, 27),
-                            TextAlign = ContentAlignment.MiddleCenter,
-                            Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
-                            ForeColor = Color.White,
-                            BackColor = Color.Black
-                        };
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
                         labels.Add(b);
                         Label c = new()
                         {
@@ -685,21 +679,116 @@ namespace Charsheet
                             Text = "DAMAGE",
                             Location = new Point(368, 3),
                             Size = new Size(157, 27),
-                            TextAlign = ContentAlignment.MiddleCenter,
-                            Font = new Font("Segoe UI", 10.2f, FontStyle.Bold),
-                            ForeColor = Color.White,
-                            BackColor = Color.Black
-                        };
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
                         labels.Add(c);
                         Label d = new()
                         {
+                            Name = "lbl" + id + "CritHeader",
+                            Text = "CRITICAL",
+                            Location = new Point(526, 3),
+                            Size = new Size(142, 27),
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
+                        labels.Add(d);
+                        Label f = new()
+                        {
+                            Name = "lbl" + id + "AtkMod",
+                            Text = "ATK MOD",
+                            Location = new Point(670, 3),
+                            Size = new Size(93, 27),
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
+                        labels.Add(f);
+                        Label g = new()
+                        {
+                            Name = "lbl" + id + "SizeHeader",
+                            Text = "SIZE",
+                            Location = new Point(6, 63),
+                            Size = new Size(130, 27),
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
+                        labels.Add(g);
+                        Label h = new()
+                        {
+                            Name = "lbl" + id + "ReachHeader",
+                            Text = "REACH",
+                            Location = new Point(137, 63),
+                            Size = new Size(130, 27),
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
+                        labels.Add(h);
+                        Label i = new()
+                        {
+                            Name = "lbl" + id + "HardHeader",
+                            Text = "HARDNESS",
+                            Location = new Point(268, 63),
+                            Size = new Size(112, 27),
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
+                        labels.Add(i);
+                        Label j = new()
+                        {
+                            Name = "lbl" + id + "WeightHeader",
+                            Text = "WEIGHT",
+                            Location = new Point(381, 63),
+                            Size = new Size(101, 27),
+                            TextAlign = ContentAlignment.MiddleCenter
+                };
+                        labels.Add(j);
+                        Label k = new()
+                        {
+                            Name = "lbl" + id + "SpecPropHead",
+                            Text = "SPECIAL PROPERTIES",
+                            Location = new Point(483, 63),
+                            Size = new Size(225, 27),
+                            TextAlign = ContentAlignment.MiddleCenter
+
+                };
+                        labels.Add(k);
+                        foreach (Control zz in labels)
+                        {
+                            zz.Font = new Font("Segoe UI", 10.2f, FontStyle.Bold);
+                            zz.ForeColor = Color.White;
+                            zz.BackColor = Color.Black;
+                        };
+
+                        Label aa = new()
+                        { 
                             Name = "lbl" + id + "DmgPlus",
                             Text = "+",
                             Location = new Point(456, 37),
                             Size = new Size(19, 20),
                             TextAlign = ContentAlignment.MiddleCenter
                         };
-                        labels.Add(d);
+                        labels.Add(aa);
+                        Label bb = new()
+                        {
+                            Name = "lbl" + id + "MeleeCrit",
+                            Text = "- 20 x",
+                            Location = new Point(568, 36),
+                            Size = new Size(57, 25),
+                            TextAlign = ContentAlignment.MiddleCenter
+                        };
+                        labels.Add(bb);
+                        Label cc = new()
+                        {
+                            Name = "lbl" + id + "Feet",
+                            Text = "ft",
+                            Location = new Point(245,96),
+                            Size = new Size(19,20),
+                            TextAlign = ContentAlignment.MiddleCenter
+                        };
+                        labels.Add(cc);
+                        Label dd = new()
+                        {
+                            Name = "lbl" + id + "Lbs",
+                            Text = "lbs",
+                            Location = new Point(452, 96),
+                            Size = new Size(28, 20),
+                            TextAlign = ContentAlignment.MiddleCenter
+                        };
+                        labels.Add(dd);
 
                         foreach (Control zz in labels)
                         {

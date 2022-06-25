@@ -3278,7 +3278,7 @@
             // 
             // button34
             // 
-            this.button34.Location = new System.Drawing.Point(244, 75);
+            this.button34.Location = new System.Drawing.Point(108, 174);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(63, 34);
             this.button34.TabIndex = 293;
@@ -3483,7 +3483,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(245, 156);
+            this.button3.Location = new System.Drawing.Point(191, 176);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(63, 32);
             this.button3.TabIndex = 203;
@@ -3493,10 +3493,10 @@
             // 
             // btnNewMeleeWeapon
             // 
-            this.btnNewMeleeWeapon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNewMeleeWeapon.Location = new System.Drawing.Point(315, 190);
+            this.btnNewMeleeWeapon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNewMeleeWeapon.Location = new System.Drawing.Point(318, 187);
             this.btnNewMeleeWeapon.Name = "btnNewMeleeWeapon";
-            this.btnNewMeleeWeapon.Size = new System.Drawing.Size(67, 32);
+            this.btnNewMeleeWeapon.Size = new System.Drawing.Size(55, 28);
             this.btnNewMeleeWeapon.TabIndex = 202;
             this.btnNewMeleeWeapon.Text = "New...";
             this.btnNewMeleeWeapon.UseVisualStyleBackColor = true;
@@ -3642,7 +3642,7 @@
             // lblMelee0Lbs
             // 
             this.lblMelee0Lbs.AutoSize = true;
-            this.lblMelee0Lbs.Location = new System.Drawing.Point(453, 99);
+            this.lblMelee0Lbs.Location = new System.Drawing.Point(452, 97);
             this.lblMelee0Lbs.Name = "lblMelee0Lbs";
             this.lblMelee0Lbs.Size = new System.Drawing.Size(28, 20);
             this.lblMelee0Lbs.TabIndex = 233;
@@ -3651,7 +3651,7 @@
             // lblMelee0Feet
             // 
             this.lblMelee0Feet.AutoSize = true;
-            this.lblMelee0Feet.Location = new System.Drawing.Point(253, 100);
+            this.lblMelee0Feet.Location = new System.Drawing.Point(245, 96);
             this.lblMelee0Feet.Name = "lblMelee0Feet";
             this.lblMelee0Feet.Size = new System.Drawing.Size(19, 20);
             this.lblMelee0Feet.TabIndex = 232;
@@ -3697,7 +3697,7 @@
             // 
             // txtMelee0SpecProp
             // 
-            this.txtMelee0SpecProp.Location = new System.Drawing.Point(483, 94);
+            this.txtMelee0SpecProp.Location = new System.Drawing.Point(483, 93);
             this.txtMelee0SpecProp.Name = "txtMelee0SpecProp";
             this.txtMelee0SpecProp.Size = new System.Drawing.Size(225, 27);
             this.txtMelee0SpecProp.TabIndex = 227;
@@ -3716,7 +3716,7 @@
             // 
             // txtMelee0Weight
             // 
-            this.txtMelee0Weight.Location = new System.Drawing.Point(381, 94);
+            this.txtMelee0Weight.Location = new System.Drawing.Point(381, 93);
             this.txtMelee0Weight.Name = "txtMelee0Weight";
             this.txtMelee0Weight.Size = new System.Drawing.Size(69, 27);
             this.txtMelee0Weight.TabIndex = 225;
@@ -3805,7 +3805,7 @@
             // lblMelee0DmgPlus
             // 
             this.lblMelee0DmgPlus.AutoSize = true;
-            this.lblMelee0DmgPlus.Location = new System.Drawing.Point(462, 43);
+            this.lblMelee0DmgPlus.Location = new System.Drawing.Point(456, 37);
             this.lblMelee0DmgPlus.Name = "lblMelee0DmgPlus";
             this.lblMelee0DmgPlus.Size = new System.Drawing.Size(19, 20);
             this.lblMelee0DmgPlus.TabIndex = 208;
