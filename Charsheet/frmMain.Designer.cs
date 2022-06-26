@@ -62,14 +62,8 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label105 = new System.Windows.Forms.Label();
-            this.label103 = new System.Windows.Forms.Label();
             this.label83 = new System.Windows.Forms.Label();
-            this.label506 = new System.Windows.Forms.Label();
             this.btnRollInit = new System.Windows.Forms.Button();
-            this.label502 = new System.Windows.Forms.Label();
-            this.btnWillCheck = new System.Windows.Forms.Button();
-            this.btnReflexCheck = new System.Windows.Forms.Button();
-            this.btnFortCheck = new System.Windows.Forms.Button();
             this.btnRollHD = new System.Windows.Forms.Button();
             this.label498 = new System.Windows.Forms.Label();
             this.btnChaCheck = new System.Windows.Forms.Button();
@@ -84,92 +78,15 @@
             this.label107 = new System.Windows.Forms.Label();
             this.txtHP = new System.Windows.Forms.TextBox();
             this.label106 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.txtWillTempMod = new System.Windows.Forms.TextBox();
-            this.label68 = new System.Windows.Forms.Label();
-            this.txtWillMiscMod = new System.Windows.Forms.TextBox();
-            this.label69 = new System.Windows.Forms.Label();
-            this.txtWillMagicMod = new System.Windows.Forms.TextBox();
-            this.label70 = new System.Windows.Forms.Label();
-            this.txtWillAbilMod = new System.Windows.Forms.TextBox();
-            this.label71 = new System.Windows.Forms.Label();
-            this.txtWillBase = new System.Windows.Forms.TextBox();
-            this.txtWill = new System.Windows.Forms.TextBox();
-            this.label72 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.txtReflexTempMod = new System.Windows.Forms.TextBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.txtReflexMiscMod = new System.Windows.Forms.TextBox();
-            this.label63 = new System.Windows.Forms.Label();
-            this.txtReflexMagicMod = new System.Windows.Forms.TextBox();
-            this.label64 = new System.Windows.Forms.Label();
-            this.txtReflexAbilMod = new System.Windows.Forms.TextBox();
-            this.label65 = new System.Windows.Forms.Label();
-            this.txtReflexBase = new System.Windows.Forms.TextBox();
-            this.txtReflex = new System.Windows.Forms.TextBox();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.txtFortTempMod = new System.Windows.Forms.TextBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.txtFortMiscMod = new System.Windows.Forms.TextBox();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.txtFortMagicMod = new System.Windows.Forms.TextBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.txtFortAbilMod = new System.Windows.Forms.TextBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.txtFortBase = new System.Windows.Forms.TextBox();
-            this.label53 = new System.Windows.Forms.Label();
-            this.txtFort = new System.Windows.Forms.TextBox();
-            this.label54 = new System.Windows.Forms.Label();
             this.textBox39 = new System.Windows.Forms.TextBox();
-            this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.txtInitMiscMod = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.txtInitAbilMod = new System.Windows.Forms.TextBox();
             this.label44 = new System.Windows.Forms.Label();
             this.txtInit = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.txtACMiscMod = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.txtACNatArmor = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.txtACAbilityMod = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.txtACShield = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.txtAC = new System.Windows.Forms.TextBox();
-            this.txtACArmor = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.txtChaModTemp = new System.Windows.Forms.TextBox();
             this.txtChaMod = new System.Windows.Forms.TextBox();
             this.nudChaTemp = new System.Windows.Forms.NumericUpDown();
@@ -1144,6 +1061,91 @@
             this.lblMelee0Crit = new System.Windows.Forms.Label();
             this.tmrCheckAttr = new System.Windows.Forms.Timer(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label506 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.txtACMiscMod = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.txtACNatArmor = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.txtACAbilityMod = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.txtACShield = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.txtAC = new System.Windows.Forms.TextBox();
+            this.txtACArmor = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label502 = new System.Windows.Forms.Label();
+            this.btnWillCheck = new System.Windows.Forms.Button();
+            this.btnReflexCheck = new System.Windows.Forms.Button();
+            this.btnFortCheck = new System.Windows.Forms.Button();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.txtWillTempMod = new System.Windows.Forms.TextBox();
+            this.label68 = new System.Windows.Forms.Label();
+            this.txtWillMiscMod = new System.Windows.Forms.TextBox();
+            this.label69 = new System.Windows.Forms.Label();
+            this.txtWillMagicMod = new System.Windows.Forms.TextBox();
+            this.label70 = new System.Windows.Forms.Label();
+            this.txtWillAbilMod = new System.Windows.Forms.TextBox();
+            this.label71 = new System.Windows.Forms.Label();
+            this.txtWillBase = new System.Windows.Forms.TextBox();
+            this.txtWill = new System.Windows.Forms.TextBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.txtReflexTempMod = new System.Windows.Forms.TextBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.txtReflexMiscMod = new System.Windows.Forms.TextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.txtReflexMagicMod = new System.Windows.Forms.TextBox();
+            this.label64 = new System.Windows.Forms.Label();
+            this.txtReflexAbilMod = new System.Windows.Forms.TextBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.txtReflexBase = new System.Windows.Forms.TextBox();
+            this.txtReflex = new System.Windows.Forms.TextBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.txtFortTempMod = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.txtFortMiscMod = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.txtFortMagicMod = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.txtFortAbilMod = new System.Windows.Forms.TextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.txtFortBase = new System.Windows.Forms.TextBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.txtFort = new System.Windows.Forms.TextBox();
+            this.label54 = new System.Windows.Forms.Label();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -1189,6 +1191,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0Reach)).BeginInit();
+            this.tabPage13.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -1486,9 +1489,11 @@
             // 
             // tabControl1
             // 
+            this.tabControl1.Controls.Add(this.tabPage14);
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage13);
+            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Location = new System.Drawing.Point(12, 169);
@@ -1500,14 +1505,8 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.label105);
-            this.tabPage1.Controls.Add(this.label103);
             this.tabPage1.Controls.Add(this.label83);
-            this.tabPage1.Controls.Add(this.label506);
             this.tabPage1.Controls.Add(this.btnRollInit);
-            this.tabPage1.Controls.Add(this.label502);
-            this.tabPage1.Controls.Add(this.btnWillCheck);
-            this.tabPage1.Controls.Add(this.btnReflexCheck);
-            this.tabPage1.Controls.Add(this.btnFortCheck);
             this.tabPage1.Controls.Add(this.btnRollHD);
             this.tabPage1.Controls.Add(this.label498);
             this.tabPage1.Controls.Add(this.btnChaCheck);
@@ -1522,92 +1521,15 @@
             this.tabPage1.Controls.Add(this.label107);
             this.tabPage1.Controls.Add(this.txtHP);
             this.tabPage1.Controls.Add(this.label106);
-            this.tabPage1.Controls.Add(this.label75);
-            this.tabPage1.Controls.Add(this.label74);
-            this.tabPage1.Controls.Add(this.label73);
-            this.tabPage1.Controls.Add(this.label67);
-            this.tabPage1.Controls.Add(this.txtWillTempMod);
-            this.tabPage1.Controls.Add(this.label68);
-            this.tabPage1.Controls.Add(this.txtWillMiscMod);
-            this.tabPage1.Controls.Add(this.label69);
-            this.tabPage1.Controls.Add(this.txtWillMagicMod);
-            this.tabPage1.Controls.Add(this.label70);
-            this.tabPage1.Controls.Add(this.txtWillAbilMod);
-            this.tabPage1.Controls.Add(this.label71);
-            this.tabPage1.Controls.Add(this.txtWillBase);
-            this.tabPage1.Controls.Add(this.txtWill);
-            this.tabPage1.Controls.Add(this.label72);
-            this.tabPage1.Controls.Add(this.label61);
-            this.tabPage1.Controls.Add(this.txtReflexTempMod);
-            this.tabPage1.Controls.Add(this.label62);
-            this.tabPage1.Controls.Add(this.txtReflexMiscMod);
-            this.tabPage1.Controls.Add(this.label63);
-            this.tabPage1.Controls.Add(this.txtReflexMagicMod);
-            this.tabPage1.Controls.Add(this.label64);
-            this.tabPage1.Controls.Add(this.txtReflexAbilMod);
-            this.tabPage1.Controls.Add(this.label65);
-            this.tabPage1.Controls.Add(this.txtReflexBase);
-            this.tabPage1.Controls.Add(this.txtReflex);
-            this.tabPage1.Controls.Add(this.label66);
-            this.tabPage1.Controls.Add(this.label59);
-            this.tabPage1.Controls.Add(this.label60);
-            this.tabPage1.Controls.Add(this.txtFortTempMod);
-            this.tabPage1.Controls.Add(this.label57);
-            this.tabPage1.Controls.Add(this.label58);
-            this.tabPage1.Controls.Add(this.txtFortMiscMod);
-            this.tabPage1.Controls.Add(this.label55);
-            this.tabPage1.Controls.Add(this.label56);
-            this.tabPage1.Controls.Add(this.txtFortMagicMod);
-            this.tabPage1.Controls.Add(this.label49);
-            this.tabPage1.Controls.Add(this.label50);
-            this.tabPage1.Controls.Add(this.txtFortAbilMod);
-            this.tabPage1.Controls.Add(this.label51);
-            this.tabPage1.Controls.Add(this.label52);
-            this.tabPage1.Controls.Add(this.txtFortBase);
-            this.tabPage1.Controls.Add(this.label53);
-            this.tabPage1.Controls.Add(this.txtFort);
-            this.tabPage1.Controls.Add(this.label54);
             this.tabPage1.Controls.Add(this.textBox39);
-            this.tabPage1.Controls.Add(this.label47);
             this.tabPage1.Controls.Add(this.label48);
             this.tabPage1.Controls.Add(this.txtInitMiscMod);
-            this.tabPage1.Controls.Add(this.label45);
             this.tabPage1.Controls.Add(this.label46);
             this.tabPage1.Controls.Add(this.txtInitAbilMod);
             this.tabPage1.Controls.Add(this.label44);
             this.tabPage1.Controls.Add(this.txtInit);
             this.tabPage1.Controls.Add(this.label43);
             this.tabPage1.Controls.Add(this.label42);
-            this.tabPage1.Controls.Add(this.label41);
-            this.tabPage1.Controls.Add(this.textBox35);
-            this.tabPage1.Controls.Add(this.label40);
-            this.tabPage1.Controls.Add(this.textBox34);
-            this.tabPage1.Controls.Add(this.label39);
-            this.tabPage1.Controls.Add(this.textBox33);
-            this.tabPage1.Controls.Add(this.label38);
-            this.tabPage1.Controls.Add(this.textBox32);
-            this.tabPage1.Controls.Add(this.textBox31);
-            this.tabPage1.Controls.Add(this.textBox30);
-            this.tabPage1.Controls.Add(this.label36);
-            this.tabPage1.Controls.Add(this.label37);
-            this.tabPage1.Controls.Add(this.txtACMiscMod);
-            this.tabPage1.Controls.Add(this.label34);
-            this.tabPage1.Controls.Add(this.label35);
-            this.tabPage1.Controls.Add(this.txtACNatArmor);
-            this.tabPage1.Controls.Add(this.label32);
-            this.tabPage1.Controls.Add(this.label33);
-            this.tabPage1.Controls.Add(this.txtACAbilityMod);
-            this.tabPage1.Controls.Add(this.label30);
-            this.tabPage1.Controls.Add(this.label31);
-            this.tabPage1.Controls.Add(this.txtACShield);
-            this.tabPage1.Controls.Add(this.label29);
-            this.tabPage1.Controls.Add(this.label28);
-            this.tabPage1.Controls.Add(this.label27);
-            this.tabPage1.Controls.Add(this.txtAC);
-            this.tabPage1.Controls.Add(this.txtACArmor);
-            this.tabPage1.Controls.Add(this.label26);
-            this.tabPage1.Controls.Add(this.label24);
-            this.tabPage1.Controls.Add(this.label25);
             this.tabPage1.Controls.Add(this.txtChaModTemp);
             this.tabPage1.Controls.Add(this.txtChaMod);
             this.tabPage1.Controls.Add(this.nudChaTemp);
@@ -1655,47 +1577,26 @@
             this.label105.BackColor = System.Drawing.Color.Black;
             this.label105.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label105.ForeColor = System.Drawing.Color.White;
-            this.label105.Location = new System.Drawing.Point(507, 37);
+            this.label105.Location = new System.Drawing.Point(770, 85);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(28, 16);
             this.label105.TabIndex = 144;
             this.label105.Text = "CON";
-            // 
-            // label103
-            // 
-            this.label103.BackColor = System.Drawing.Color.Black;
-            this.label103.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label103.ForeColor = System.Drawing.Color.White;
-            this.label103.Location = new System.Drawing.Point(661, 55);
-            this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(28, 16);
-            this.label103.TabIndex = 143;
-            this.label103.Text = "DEX";
             // 
             // label83
             // 
             this.label83.BackColor = System.Drawing.Color.Black;
             this.label83.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label83.ForeColor = System.Drawing.Color.White;
-            this.label83.Location = new System.Drawing.Point(657, 215);
+            this.label83.Location = new System.Drawing.Point(361, 377);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(28, 16);
             this.label83.TabIndex = 142;
             this.label83.Text = "DEX";
             // 
-            // label506
-            // 
-            this.label506.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label506.Location = new System.Drawing.Point(1026, 162);
-            this.label506.Name = "label506";
-            this.label506.Size = new System.Drawing.Size(48, 39);
-            this.label506.TabIndex = 141;
-            this.label506.Text = "ROLL";
-            this.label506.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
             // btnRollInit
             // 
-            this.btnRollInit.Location = new System.Drawing.Point(1032, 206);
+            this.btnRollInit.Location = new System.Drawing.Point(726, 368);
             this.btnRollInit.Name = "btnRollInit";
             this.btnRollInit.Size = new System.Drawing.Size(33, 34);
             this.btnRollInit.TabIndex = 140;
@@ -1703,49 +1604,9 @@
             this.btnRollInit.UseVisualStyleBackColor = true;
             this.btnRollInit.Click += new System.EventHandler(this.btnRollInit_Click);
             // 
-            // label502
-            // 
-            this.label502.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label502.Location = new System.Drawing.Point(835, 289);
-            this.label502.Name = "label502";
-            this.label502.Size = new System.Drawing.Size(48, 39);
-            this.label502.TabIndex = 139;
-            this.label502.Text = "ROLL";
-            this.label502.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
-            // btnWillCheck
-            // 
-            this.btnWillCheck.Location = new System.Drawing.Point(841, 414);
-            this.btnWillCheck.Name = "btnWillCheck";
-            this.btnWillCheck.Size = new System.Drawing.Size(33, 34);
-            this.btnWillCheck.TabIndex = 138;
-            this.btnWillCheck.Text = "R";
-            this.btnWillCheck.UseVisualStyleBackColor = true;
-            this.btnWillCheck.Click += new System.EventHandler(this.btnWillCheck_Click);
-            // 
-            // btnReflexCheck
-            // 
-            this.btnReflexCheck.Location = new System.Drawing.Point(841, 374);
-            this.btnReflexCheck.Name = "btnReflexCheck";
-            this.btnReflexCheck.Size = new System.Drawing.Size(33, 34);
-            this.btnReflexCheck.TabIndex = 137;
-            this.btnReflexCheck.Text = "R";
-            this.btnReflexCheck.UseVisualStyleBackColor = true;
-            this.btnReflexCheck.Click += new System.EventHandler(this.btnReflexCheck_Click);
-            // 
-            // btnFortCheck
-            // 
-            this.btnFortCheck.Location = new System.Drawing.Point(841, 333);
-            this.btnFortCheck.Name = "btnFortCheck";
-            this.btnFortCheck.Size = new System.Drawing.Size(33, 34);
-            this.btnFortCheck.TabIndex = 136;
-            this.btnFortCheck.Text = "R";
-            this.btnFortCheck.UseVisualStyleBackColor = true;
-            this.btnFortCheck.Click += new System.EventHandler(this.btnFortCheck_Click);
-            // 
             // btnRollHD
             // 
-            this.btnRollHD.Location = new System.Drawing.Point(504, 159);
+            this.btnRollHD.Location = new System.Drawing.Point(767, 207);
             this.btnRollHD.Name = "btnRollHD";
             this.btnRollHD.Size = new System.Drawing.Size(133, 39);
             this.btnRollHD.TabIndex = 135;
@@ -1756,7 +1617,7 @@
             // label498
             // 
             this.label498.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label498.Location = new System.Drawing.Point(424, 0);
+            this.label498.Location = new System.Drawing.Point(687, 48);
             this.label498.Name = "label498";
             this.label498.Size = new System.Drawing.Size(48, 39);
             this.label498.TabIndex = 134;
@@ -1765,7 +1626,7 @@
             // 
             // btnChaCheck
             // 
-            this.btnChaCheck.Location = new System.Drawing.Point(430, 245);
+            this.btnChaCheck.Location = new System.Drawing.Point(693, 293);
             this.btnChaCheck.Name = "btnChaCheck";
             this.btnChaCheck.Size = new System.Drawing.Size(33, 34);
             this.btnChaCheck.TabIndex = 133;
@@ -1775,7 +1636,7 @@
             // 
             // btnWisCheck
             // 
-            this.btnWisCheck.Location = new System.Drawing.Point(430, 205);
+            this.btnWisCheck.Location = new System.Drawing.Point(693, 253);
             this.btnWisCheck.Name = "btnWisCheck";
             this.btnWisCheck.Size = new System.Drawing.Size(33, 34);
             this.btnWisCheck.TabIndex = 132;
@@ -1785,7 +1646,7 @@
             // 
             // btnIntCheck
             // 
-            this.btnIntCheck.Location = new System.Drawing.Point(430, 164);
+            this.btnIntCheck.Location = new System.Drawing.Point(693, 212);
             this.btnIntCheck.Name = "btnIntCheck";
             this.btnIntCheck.Size = new System.Drawing.Size(33, 34);
             this.btnIntCheck.TabIndex = 131;
@@ -1795,7 +1656,7 @@
             // 
             // btnConCheck
             // 
-            this.btnConCheck.Location = new System.Drawing.Point(430, 125);
+            this.btnConCheck.Location = new System.Drawing.Point(693, 173);
             this.btnConCheck.Name = "btnConCheck";
             this.btnConCheck.Size = new System.Drawing.Size(33, 34);
             this.btnConCheck.TabIndex = 130;
@@ -1805,7 +1666,7 @@
             // 
             // btnDexCheck
             // 
-            this.btnDexCheck.Location = new System.Drawing.Point(430, 85);
+            this.btnDexCheck.Location = new System.Drawing.Point(693, 133);
             this.btnDexCheck.Name = "btnDexCheck";
             this.btnDexCheck.Size = new System.Drawing.Size(33, 34);
             this.btnDexCheck.TabIndex = 129;
@@ -1815,7 +1676,7 @@
             // 
             // btnStrCheck
             // 
-            this.btnStrCheck.Location = new System.Drawing.Point(430, 44);
+            this.btnStrCheck.Location = new System.Drawing.Point(693, 92);
             this.btnStrCheck.Name = "btnStrCheck";
             this.btnStrCheck.Size = new System.Drawing.Size(33, 34);
             this.btnStrCheck.TabIndex = 128;
@@ -1834,7 +1695,7 @@
             "D10",
             "D12",
             "D20"});
-            this.comHitDie.Location = new System.Drawing.Point(573, 122);
+            this.comHitDie.Location = new System.Drawing.Point(836, 170);
             this.comHitDie.Name = "comHitDie";
             this.comHitDie.Size = new System.Drawing.Size(64, 31);
             this.comHitDie.TabIndex = 126;
@@ -1844,7 +1705,7 @@
             this.label108.BackColor = System.Drawing.Color.Black;
             this.label108.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label108.ForeColor = System.Drawing.Color.White;
-            this.label108.Location = new System.Drawing.Point(505, 121);
+            this.label108.Location = new System.Drawing.Point(768, 169);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(65, 35);
             this.label108.TabIndex = 125;
@@ -1854,7 +1715,7 @@
             // textBox62
             // 
             this.textBox62.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox62.Location = new System.Drawing.Point(505, 248);
+            this.textBox62.Location = new System.Drawing.Point(768, 296);
             this.textBox62.Name = "textBox62";
             this.textBox62.Size = new System.Drawing.Size(133, 43);
             this.textBox62.TabIndex = 124;
@@ -1865,7 +1726,7 @@
             this.label107.BackColor = System.Drawing.Color.Black;
             this.label107.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label107.ForeColor = System.Drawing.Color.White;
-            this.label107.Location = new System.Drawing.Point(506, 200);
+            this.label107.Location = new System.Drawing.Point(769, 248);
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(132, 35);
             this.label107.TabIndex = 123;
@@ -1875,7 +1736,7 @@
             // txtHP
             // 
             this.txtHP.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtHP.Location = new System.Drawing.Point(504, 74);
+            this.txtHP.Location = new System.Drawing.Point(767, 122);
             this.txtHP.Name = "txtHP";
             this.txtHP.Size = new System.Drawing.Size(133, 43);
             this.txtHP.TabIndex = 122;
@@ -1887,534 +1748,27 @@
             this.label106.BackColor = System.Drawing.Color.Black;
             this.label106.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label106.ForeColor = System.Drawing.Color.White;
-            this.label106.Location = new System.Drawing.Point(505, 26);
+            this.label106.Location = new System.Drawing.Point(768, 74);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(132, 35);
             this.label106.TabIndex = 121;
             this.label106.Text = "HP";
             this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label75
-            // 
-            this.label75.BackColor = System.Drawing.Color.Black;
-            this.label75.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label75.ForeColor = System.Drawing.Color.White;
-            this.label75.Location = new System.Drawing.Point(272, 427);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(28, 16);
-            this.label75.TabIndex = 120;
-            this.label75.Text = "WIS";
-            // 
-            // label74
-            // 
-            this.label74.BackColor = System.Drawing.Color.Black;
-            this.label74.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label74.ForeColor = System.Drawing.Color.White;
-            this.label74.Location = new System.Drawing.Point(271, 386);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(28, 16);
-            this.label74.TabIndex = 119;
-            this.label74.Text = "DEX";
-            // 
-            // label73
-            // 
-            this.label73.BackColor = System.Drawing.Color.Black;
-            this.label73.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label73.ForeColor = System.Drawing.Color.White;
-            this.label73.Location = new System.Drawing.Point(270, 345);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(28, 16);
-            this.label73.TabIndex = 118;
-            this.label73.Text = "CON";
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(758, 423);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(19, 20);
-            this.label67.TabIndex = 117;
-            this.label67.Text = "+";
-            // 
-            // txtWillTempMod
-            // 
-            this.txtWillTempMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWillTempMod.Location = new System.Drawing.Point(781, 415);
-            this.txtWillTempMod.Name = "txtWillTempMod";
-            this.txtWillTempMod.PlaceholderText = "0";
-            this.txtWillTempMod.Size = new System.Drawing.Size(40, 34);
-            this.txtWillTempMod.TabIndex = 116;
-            this.txtWillTempMod.Text = "0";
-            this.txtWillTempMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtWillTempMod.TextChanged += new System.EventHandler(this.txtWillTempMod_TextChanged);
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(688, 425);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(19, 20);
-            this.label68.TabIndex = 115;
-            this.label68.Text = "+";
-            // 
-            // txtWillMiscMod
-            // 
-            this.txtWillMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWillMiscMod.Location = new System.Drawing.Point(711, 416);
-            this.txtWillMiscMod.Name = "txtWillMiscMod";
-            this.txtWillMiscMod.PlaceholderText = "0";
-            this.txtWillMiscMod.Size = new System.Drawing.Size(40, 34);
-            this.txtWillMiscMod.TabIndex = 114;
-            this.txtWillMiscMod.Text = "0";
-            this.txtWillMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtWillMiscMod.TextChanged += new System.EventHandler(this.txtWillMiscMod_TextChanged);
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(618, 425);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(19, 20);
-            this.label69.TabIndex = 113;
-            this.label69.Text = "+";
-            // 
-            // txtWillMagicMod
-            // 
-            this.txtWillMagicMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWillMagicMod.Location = new System.Drawing.Point(641, 416);
-            this.txtWillMagicMod.Name = "txtWillMagicMod";
-            this.txtWillMagicMod.PlaceholderText = "0";
-            this.txtWillMagicMod.Size = new System.Drawing.Size(40, 34);
-            this.txtWillMagicMod.TabIndex = 112;
-            this.txtWillMagicMod.Text = "0";
-            this.txtWillMagicMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtWillMagicMod.TextChanged += new System.EventHandler(this.txtWillMagicMod_TextChanged);
-            // 
-            // label70
-            // 
-            this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(549, 425);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(19, 20);
-            this.label70.TabIndex = 111;
-            this.label70.Text = "+";
-            // 
-            // txtWillAbilMod
-            // 
-            this.txtWillAbilMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtWillAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWillAbilMod.Location = new System.Drawing.Point(572, 416);
-            this.txtWillAbilMod.MaxLength = 3;
-            this.txtWillAbilMod.Name = "txtWillAbilMod";
-            this.txtWillAbilMod.PlaceholderText = "0";
-            this.txtWillAbilMod.ReadOnly = true;
-            this.txtWillAbilMod.Size = new System.Drawing.Size(40, 34);
-            this.txtWillAbilMod.TabIndex = 110;
-            this.txtWillAbilMod.Text = "-1";
-            this.txtWillAbilMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtWillAbilMod.TextChanged += new System.EventHandler(this.txtWillAbilMod_TextChanged);
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(481, 425);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(19, 20);
-            this.label71.TabIndex = 109;
-            this.label71.Text = "+";
-            // 
-            // txtWillBase
-            // 
-            this.txtWillBase.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWillBase.Location = new System.Drawing.Point(504, 416);
-            this.txtWillBase.Name = "txtWillBase";
-            this.txtWillBase.PlaceholderText = "0";
-            this.txtWillBase.Size = new System.Drawing.Size(40, 34);
-            this.txtWillBase.TabIndex = 108;
-            this.txtWillBase.Text = "0";
-            this.txtWillBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtWillBase.TextChanged += new System.EventHandler(this.txtWillBase_TextChanged);
-            // 
-            // txtWill
-            // 
-            this.txtWill.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtWill.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWill.Location = new System.Drawing.Point(438, 416);
-            this.txtWill.MaxLength = 3;
-            this.txtWill.Name = "txtWill";
-            this.txtWill.PlaceholderText = "10";
-            this.txtWill.ReadOnly = true;
-            this.txtWill.Size = new System.Drawing.Size(40, 34);
-            this.txtWill.TabIndex = 107;
-            this.txtWill.Text = "-1";
-            this.txtWill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label72
-            // 
-            this.label72.BackColor = System.Drawing.Color.Black;
-            this.label72.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label72.ForeColor = System.Drawing.Color.White;
-            this.label72.Location = new System.Drawing.Point(267, 415);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(164, 35);
-            this.label72.TabIndex = 106;
-            this.label72.Text = "WILLPOWER";
-            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(759, 382);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(19, 20);
-            this.label61.TabIndex = 105;
-            this.label61.Text = "+";
-            // 
-            // txtReflexTempMod
-            // 
-            this.txtReflexTempMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtReflexTempMod.Location = new System.Drawing.Point(782, 374);
-            this.txtReflexTempMod.Name = "txtReflexTempMod";
-            this.txtReflexTempMod.PlaceholderText = "0";
-            this.txtReflexTempMod.Size = new System.Drawing.Size(40, 34);
-            this.txtReflexTempMod.TabIndex = 104;
-            this.txtReflexTempMod.Text = "0";
-            this.txtReflexTempMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtReflexTempMod.TextChanged += new System.EventHandler(this.txtReflexTempMod_TextChanged);
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(689, 384);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(19, 20);
-            this.label62.TabIndex = 103;
-            this.label62.Text = "+";
-            // 
-            // txtReflexMiscMod
-            // 
-            this.txtReflexMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtReflexMiscMod.Location = new System.Drawing.Point(712, 375);
-            this.txtReflexMiscMod.Name = "txtReflexMiscMod";
-            this.txtReflexMiscMod.PlaceholderText = "0";
-            this.txtReflexMiscMod.Size = new System.Drawing.Size(40, 34);
-            this.txtReflexMiscMod.TabIndex = 102;
-            this.txtReflexMiscMod.Text = "0";
-            this.txtReflexMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtReflexMiscMod.TextChanged += new System.EventHandler(this.txtReflexMiscMod_TextChanged);
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(619, 384);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(19, 20);
-            this.label63.TabIndex = 101;
-            this.label63.Text = "+";
-            // 
-            // txtReflexMagicMod
-            // 
-            this.txtReflexMagicMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtReflexMagicMod.Location = new System.Drawing.Point(642, 375);
-            this.txtReflexMagicMod.Name = "txtReflexMagicMod";
-            this.txtReflexMagicMod.PlaceholderText = "0";
-            this.txtReflexMagicMod.Size = new System.Drawing.Size(40, 34);
-            this.txtReflexMagicMod.TabIndex = 100;
-            this.txtReflexMagicMod.Text = "0";
-            this.txtReflexMagicMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtReflexMagicMod.TextChanged += new System.EventHandler(this.txtReflexMagicMod_TextChanged);
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(550, 384);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(19, 20);
-            this.label64.TabIndex = 99;
-            this.label64.Text = "+";
-            // 
-            // txtReflexAbilMod
-            // 
-            this.txtReflexAbilMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtReflexAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtReflexAbilMod.Location = new System.Drawing.Point(573, 375);
-            this.txtReflexAbilMod.MaxLength = 3;
-            this.txtReflexAbilMod.Name = "txtReflexAbilMod";
-            this.txtReflexAbilMod.PlaceholderText = "0";
-            this.txtReflexAbilMod.ReadOnly = true;
-            this.txtReflexAbilMod.Size = new System.Drawing.Size(40, 34);
-            this.txtReflexAbilMod.TabIndex = 98;
-            this.txtReflexAbilMod.Text = "-1";
-            this.txtReflexAbilMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtReflexAbilMod.TextChanged += new System.EventHandler(this.txtReflexAbilMod_TextChanged);
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(482, 384);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(19, 20);
-            this.label65.TabIndex = 97;
-            this.label65.Text = "+";
-            // 
-            // txtReflexBase
-            // 
-            this.txtReflexBase.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtReflexBase.Location = new System.Drawing.Point(505, 375);
-            this.txtReflexBase.Name = "txtReflexBase";
-            this.txtReflexBase.PlaceholderText = "0";
-            this.txtReflexBase.Size = new System.Drawing.Size(40, 34);
-            this.txtReflexBase.TabIndex = 96;
-            this.txtReflexBase.Text = "0";
-            this.txtReflexBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtReflexBase.TextChanged += new System.EventHandler(this.txtReflexBase_TextChanged);
-            // 
-            // txtReflex
-            // 
-            this.txtReflex.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtReflex.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtReflex.Location = new System.Drawing.Point(439, 375);
-            this.txtReflex.MaxLength = 3;
-            this.txtReflex.Name = "txtReflex";
-            this.txtReflex.PlaceholderText = "10";
-            this.txtReflex.ReadOnly = true;
-            this.txtReflex.Size = new System.Drawing.Size(40, 34);
-            this.txtReflex.TabIndex = 95;
-            this.txtReflex.Text = "-1";
-            this.txtReflex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label66
-            // 
-            this.label66.BackColor = System.Drawing.Color.Black;
-            this.label66.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label66.ForeColor = System.Drawing.Color.White;
-            this.label66.Location = new System.Drawing.Point(268, 374);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(164, 35);
-            this.label66.TabIndex = 94;
-            this.label66.Text = "REFLEX";
-            this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label59
-            // 
-            this.label59.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label59.Location = new System.Drawing.Point(767, 292);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(72, 39);
-            this.label59.TabIndex = 93;
-            this.label59.Text = "TEMP MODIFIER";
-            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(759, 341);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(19, 20);
-            this.label60.TabIndex = 92;
-            this.label60.Text = "+";
-            // 
-            // txtFortTempMod
-            // 
-            this.txtFortTempMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFortTempMod.Location = new System.Drawing.Point(782, 333);
-            this.txtFortTempMod.Name = "txtFortTempMod";
-            this.txtFortTempMod.PlaceholderText = "0";
-            this.txtFortTempMod.Size = new System.Drawing.Size(40, 34);
-            this.txtFortTempMod.TabIndex = 91;
-            this.txtFortTempMod.Text = "0";
-            this.txtFortTempMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtFortTempMod.TextChanged += new System.EventHandler(this.txtFortTempMod_TextChanged);
-            // 
-            // label57
-            // 
-            this.label57.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label57.Location = new System.Drawing.Point(697, 293);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(72, 39);
-            this.label57.TabIndex = 90;
-            this.label57.Text = "MISC. MODIFIER";
-            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(689, 343);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(19, 20);
-            this.label58.TabIndex = 89;
-            this.label58.Text = "+";
-            // 
-            // txtFortMiscMod
-            // 
-            this.txtFortMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFortMiscMod.Location = new System.Drawing.Point(712, 334);
-            this.txtFortMiscMod.Name = "txtFortMiscMod";
-            this.txtFortMiscMod.PlaceholderText = "0";
-            this.txtFortMiscMod.Size = new System.Drawing.Size(40, 34);
-            this.txtFortMiscMod.TabIndex = 88;
-            this.txtFortMiscMod.Text = "0";
-            this.txtFortMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtFortMiscMod.TextChanged += new System.EventHandler(this.txtFortMiscMod_TextChanged);
-            // 
-            // label55
-            // 
-            this.label55.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label55.Location = new System.Drawing.Point(627, 293);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(72, 39);
-            this.label55.TabIndex = 87;
-            this.label55.Text = "MAGIC MODIFIER";
-            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(619, 343);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(19, 20);
-            this.label56.TabIndex = 86;
-            this.label56.Text = "+";
-            // 
-            // txtFortMagicMod
-            // 
-            this.txtFortMagicMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFortMagicMod.Location = new System.Drawing.Point(642, 334);
-            this.txtFortMagicMod.Name = "txtFortMagicMod";
-            this.txtFortMagicMod.PlaceholderText = "0";
-            this.txtFortMagicMod.Size = new System.Drawing.Size(40, 34);
-            this.txtFortMagicMod.TabIndex = 85;
-            this.txtFortMagicMod.Text = "0";
-            this.txtFortMagicMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtFortMagicMod.TextChanged += new System.EventHandler(this.txtFortMagicMod_TextChanged);
-            // 
-            // label49
-            // 
-            this.label49.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label49.Location = new System.Drawing.Point(558, 293);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(72, 39);
-            this.label49.TabIndex = 84;
-            this.label49.Text = "ABILITY MODIFIER";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(550, 343);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(19, 20);
-            this.label50.TabIndex = 83;
-            this.label50.Text = "+";
-            // 
-            // txtFortAbilMod
-            // 
-            this.txtFortAbilMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtFortAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFortAbilMod.Location = new System.Drawing.Point(573, 334);
-            this.txtFortAbilMod.MaxLength = 3;
-            this.txtFortAbilMod.Name = "txtFortAbilMod";
-            this.txtFortAbilMod.PlaceholderText = "0";
-            this.txtFortAbilMod.ReadOnly = true;
-            this.txtFortAbilMod.Size = new System.Drawing.Size(40, 34);
-            this.txtFortAbilMod.TabIndex = 82;
-            this.txtFortAbilMod.Text = "-1";
-            this.txtFortAbilMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtFortAbilMod.TextChanged += new System.EventHandler(this.txtFortAbilMod_TextChanged);
-            // 
-            // label51
-            // 
-            this.label51.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label51.Location = new System.Drawing.Point(490, 293);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(72, 39);
-            this.label51.TabIndex = 81;
-            this.label51.Text = "BASE SAVE";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(482, 343);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(19, 20);
-            this.label52.TabIndex = 80;
-            this.label52.Text = "+";
-            // 
-            // txtFortBase
-            // 
-            this.txtFortBase.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFortBase.Location = new System.Drawing.Point(505, 334);
-            this.txtFortBase.Name = "txtFortBase";
-            this.txtFortBase.PlaceholderText = "0";
-            this.txtFortBase.Size = new System.Drawing.Size(40, 34);
-            this.txtFortBase.TabIndex = 79;
-            this.txtFortBase.Text = "0";
-            this.txtFortBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtFortBase.TextChanged += new System.EventHandler(this.txtFortBase_TextChanged);
-            // 
-            // label53
-            // 
-            this.label53.BackColor = System.Drawing.Color.White;
-            this.label53.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label53.ForeColor = System.Drawing.Color.Black;
-            this.label53.Location = new System.Drawing.Point(428, 310);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(65, 23);
-            this.label53.TabIndex = 78;
-            this.label53.Text = "TOTAL";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtFort
-            // 
-            this.txtFort.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtFort.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFort.Location = new System.Drawing.Point(439, 334);
-            this.txtFort.MaxLength = 3;
-            this.txtFort.Name = "txtFort";
-            this.txtFort.PlaceholderText = "10";
-            this.txtFort.ReadOnly = true;
-            this.txtFort.Size = new System.Drawing.Size(40, 34);
-            this.txtFort.TabIndex = 77;
-            this.txtFort.Text = "-1";
-            this.txtFort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label54
-            // 
-            this.label54.BackColor = System.Drawing.Color.Black;
-            this.label54.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label54.ForeColor = System.Drawing.Color.White;
-            this.label54.Location = new System.Drawing.Point(268, 333);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(164, 35);
-            this.label54.TabIndex = 76;
-            this.label54.Text = "FORTITUDE";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // textBox39
             // 
             this.textBox39.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox39.Location = new System.Drawing.Point(833, 244);
+            this.textBox39.Location = new System.Drawing.Point(527, 406);
             this.textBox39.Name = "textBox39";
             this.textBox39.PlaceholderText = "30";
             this.textBox39.Size = new System.Drawing.Size(177, 34);
             this.textBox39.TabIndex = 75;
             this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label47
-            // 
-            this.label47.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label47.Location = new System.Drawing.Point(955, 165);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(72, 39);
-            this.label47.TabIndex = 74;
-            this.label47.Text = "MISC. MODIFIER";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(947, 215);
+            this.label48.Location = new System.Drawing.Point(641, 377);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(19, 20);
             this.label48.TabIndex = 73;
@@ -2423,27 +1777,17 @@
             // txtInitMiscMod
             // 
             this.txtInitMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtInitMiscMod.Location = new System.Drawing.Point(970, 206);
+            this.txtInitMiscMod.Location = new System.Drawing.Point(664, 368);
             this.txtInitMiscMod.Name = "txtInitMiscMod";
             this.txtInitMiscMod.Size = new System.Drawing.Size(40, 34);
             this.txtInitMiscMod.TabIndex = 72;
             this.txtInitMiscMod.Text = "0";
             this.txtInitMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label45
-            // 
-            this.label45.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label45.Location = new System.Drawing.Point(884, 165);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(72, 39);
-            this.label45.TabIndex = 71;
-            this.label45.Text = "ABILITY MODIFIER";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(876, 215);
+            this.label46.Location = new System.Drawing.Point(570, 377);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(19, 20);
             this.label46.TabIndex = 70;
@@ -2453,7 +1797,7 @@
             // 
             this.txtInitAbilMod.Cursor = System.Windows.Forms.Cursors.No;
             this.txtInitAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtInitAbilMod.Location = new System.Drawing.Point(899, 206);
+            this.txtInitAbilMod.Location = new System.Drawing.Point(593, 368);
             this.txtInitAbilMod.MaxLength = 3;
             this.txtInitAbilMod.Name = "txtInitAbilMod";
             this.txtInitAbilMod.ReadOnly = true;
@@ -2468,7 +1812,7 @@
             this.label44.BackColor = System.Drawing.Color.White;
             this.label44.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label44.ForeColor = System.Drawing.Color.Black;
-            this.label44.Location = new System.Drawing.Point(823, 180);
+            this.label44.Location = new System.Drawing.Point(517, 342);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(65, 23);
             this.label44.TabIndex = 68;
@@ -2479,7 +1823,7 @@
             // 
             this.txtInit.Enabled = false;
             this.txtInit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtInit.Location = new System.Drawing.Point(834, 204);
+            this.txtInit.Location = new System.Drawing.Point(528, 366);
             this.txtInit.Name = "txtInit";
             this.txtInit.PlaceholderText = "10";
             this.txtInit.Size = new System.Drawing.Size(40, 34);
@@ -2491,7 +1835,7 @@
             this.label43.BackColor = System.Drawing.Color.Black;
             this.label43.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(657, 243);
+            this.label43.Location = new System.Drawing.Point(351, 405);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(170, 35);
             this.label43.TabIndex = 66;
@@ -2503,359 +1847,18 @@
             this.label42.BackColor = System.Drawing.Color.Black;
             this.label42.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(657, 203);
+            this.label42.Location = new System.Drawing.Point(351, 365);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(170, 35);
             this.label42.TabIndex = 65;
             this.label42.Text = "INITIATIVE";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label41
-            // 
-            this.label41.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label41.Location = new System.Drawing.Point(1049, 86);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(95, 39);
-            this.label41.TabIndex = 64;
-            this.label41.Text = "ARCANE SPELL FAILURE";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox35
-            // 
-            this.textBox35.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox35.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox35.Location = new System.Drawing.Point(1074, 128);
-            this.textBox35.MaxLength = 3;
-            this.textBox35.Name = "textBox35";
-            this.textBox35.PlaceholderText = "0";
-            this.textBox35.ReadOnly = true;
-            this.textBox35.Size = new System.Drawing.Size(40, 34);
-            this.textBox35.TabIndex = 63;
-            this.textBox35.Text = "0";
-            this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label40
-            // 
-            this.label40.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label40.Location = new System.Drawing.Point(949, 86);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(108, 39);
-            this.label40.TabIndex = 62;
-            this.label40.Text = "ARMOR CHECK PENALTY";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox34
-            // 
-            this.textBox34.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox34.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox34.Location = new System.Drawing.Point(984, 128);
-            this.textBox34.MaxLength = 3;
-            this.textBox34.Name = "textBox34";
-            this.textBox34.PlaceholderText = "0";
-            this.textBox34.ReadOnly = true;
-            this.textBox34.Size = new System.Drawing.Size(40, 34);
-            this.textBox34.TabIndex = 61;
-            this.textBox34.Text = "0";
-            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label39
-            // 
-            this.label39.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label39.Location = new System.Drawing.Point(888, 86);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(72, 39);
-            this.label39.TabIndex = 60;
-            this.label39.Text = "SPELL RESIST.";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox33.Location = new System.Drawing.Point(903, 128);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.PlaceholderText = "0";
-            this.textBox33.Size = new System.Drawing.Size(40, 34);
-            this.textBox33.TabIndex = 59;
-            this.textBox33.Text = "0";
-            this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label38
-            // 
-            this.label38.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label38.Location = new System.Drawing.Point(811, 86);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(88, 39);
-            this.label38.TabIndex = 58;
-            this.label38.Text = "DAMAGE REDUCTION";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox32.Location = new System.Drawing.Point(834, 128);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.PlaceholderText = "0";
-            this.textBox32.Size = new System.Drawing.Size(40, 34);
-            this.textBox32.TabIndex = 57;
-            this.textBox32.Text = "0";
-            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox31.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox31.Location = new System.Drawing.Point(752, 125);
-            this.textBox31.MaxLength = 3;
-            this.textBox31.Name = "textBox31";
-            this.textBox31.PlaceholderText = "10";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(40, 34);
-            this.textBox31.TabIndex = 56;
-            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox30.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox30.Location = new System.Drawing.Point(752, 85);
-            this.textBox30.MaxLength = 3;
-            this.textBox30.Name = "textBox30";
-            this.textBox30.PlaceholderText = "10";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(40, 34);
-            this.textBox30.TabIndex = 55;
-            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label36
-            // 
-            this.label36.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label36.Location = new System.Drawing.Point(1080, 6);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(72, 39);
-            this.label36.TabIndex = 54;
-            this.label36.Text = "MISC. MODIFIER";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(1071, 56);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(19, 20);
-            this.label37.TabIndex = 53;
-            this.label37.Text = "+";
-            // 
-            // txtACMiscMod
-            // 
-            this.txtACMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACMiscMod.Location = new System.Drawing.Point(1095, 47);
-            this.txtACMiscMod.Name = "txtACMiscMod";
-            this.txtACMiscMod.PlaceholderText = "0";
-            this.txtACMiscMod.Size = new System.Drawing.Size(40, 34);
-            this.txtACMiscMod.TabIndex = 52;
-            this.txtACMiscMod.Text = "0";
-            this.txtACMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtACMiscMod.TextChanged += new System.EventHandler(this.txtACMiscMod_TextChanged);
-            // 
-            // label34
-            // 
-            this.label34.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label34.Location = new System.Drawing.Point(1010, 6);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(72, 39);
-            this.label34.TabIndex = 51;
-            this.label34.Text = "NAT. ARMOR";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(1001, 56);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(19, 20);
-            this.label35.TabIndex = 50;
-            this.label35.Text = "+";
-            // 
-            // txtACNatArmor
-            // 
-            this.txtACNatArmor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACNatArmor.Location = new System.Drawing.Point(1025, 47);
-            this.txtACNatArmor.Name = "txtACNatArmor";
-            this.txtACNatArmor.PlaceholderText = "0";
-            this.txtACNatArmor.Size = new System.Drawing.Size(40, 34);
-            this.txtACNatArmor.TabIndex = 49;
-            this.txtACNatArmor.Text = "0";
-            this.txtACNatArmor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtACNatArmor.TextChanged += new System.EventHandler(this.txtACNatArmor_TextChanged);
-            // 
-            // label32
-            // 
-            this.label32.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label32.Location = new System.Drawing.Point(938, 5);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(72, 39);
-            this.label32.TabIndex = 48;
-            this.label32.Text = "ABILITY MODIFIER";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(930, 55);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(19, 20);
-            this.label33.TabIndex = 47;
-            this.label33.Text = "+";
-            // 
-            // txtACAbilityMod
-            // 
-            this.txtACAbilityMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtACAbilityMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACAbilityMod.Location = new System.Drawing.Point(953, 46);
-            this.txtACAbilityMod.MaxLength = 3;
-            this.txtACAbilityMod.Name = "txtACAbilityMod";
-            this.txtACAbilityMod.PlaceholderText = "0";
-            this.txtACAbilityMod.ReadOnly = true;
-            this.txtACAbilityMod.Size = new System.Drawing.Size(40, 34);
-            this.txtACAbilityMod.TabIndex = 46;
-            this.txtACAbilityMod.Text = "-1";
-            this.txtACAbilityMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtACAbilityMod.TextChanged += new System.EventHandler(this.txtACAbilityMod_TextChanged);
-            // 
-            // label30
-            // 
-            this.label30.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label30.Location = new System.Drawing.Point(869, 5);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(72, 39);
-            this.label30.TabIndex = 45;
-            this.label30.Text = "SHIELD BONUS";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(861, 55);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(19, 20);
-            this.label31.TabIndex = 44;
-            this.label31.Text = "+";
-            // 
-            // txtACShield
-            // 
-            this.txtACShield.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtACShield.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACShield.Location = new System.Drawing.Point(884, 46);
-            this.txtACShield.MaxLength = 3;
-            this.txtACShield.Name = "txtACShield";
-            this.txtACShield.PlaceholderText = "0";
-            this.txtACShield.ReadOnly = true;
-            this.txtACShield.Size = new System.Drawing.Size(40, 34);
-            this.txtACShield.TabIndex = 43;
-            this.txtACShield.Text = "0";
-            this.txtACShield.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtACShield.TextChanged += new System.EventHandler(this.txtACShield_TextChanged);
-            // 
-            // label29
-            // 
-            this.label29.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label29.Location = new System.Drawing.Point(802, 4);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(72, 39);
-            this.label29.TabIndex = 42;
-            this.label29.Text = "ARMOR BONUS";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label28
-            // 
-            this.label28.BackColor = System.Drawing.Color.White;
-            this.label28.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label28.ForeColor = System.Drawing.Color.Black;
-            this.label28.Location = new System.Drawing.Point(742, 19);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(65, 23);
-            this.label28.TabIndex = 41;
-            this.label28.Text = "TOTAL";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(794, 54);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(19, 20);
-            this.label27.TabIndex = 40;
-            this.label27.Text = "+";
-            // 
-            // txtAC
-            // 
-            this.txtAC.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtAC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtAC.Location = new System.Drawing.Point(753, 45);
-            this.txtAC.MaxLength = 3;
-            this.txtAC.Name = "txtAC";
-            this.txtAC.PlaceholderText = "10";
-            this.txtAC.ReadOnly = true;
-            this.txtAC.Size = new System.Drawing.Size(40, 34);
-            this.txtAC.TabIndex = 39;
-            this.txtAC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtACArmor
-            // 
-            this.txtACArmor.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtACArmor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACArmor.Location = new System.Drawing.Point(817, 45);
-            this.txtACArmor.MaxLength = 3;
-            this.txtACArmor.Name = "txtACArmor";
-            this.txtACArmor.PlaceholderText = "0";
-            this.txtACArmor.ReadOnly = true;
-            this.txtACArmor.Size = new System.Drawing.Size(40, 34);
-            this.txtACArmor.TabIndex = 38;
-            this.txtACArmor.Text = "0";
-            this.txtACArmor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtACArmor.TextChanged += new System.EventHandler(this.txtACArmor_TextChanged);
-            // 
-            // label26
-            // 
-            this.label26.BackColor = System.Drawing.Color.Black;
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(660, 124);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(87, 35);
-            this.label26.TabIndex = 37;
-            this.label26.Text = "VS. TOUCH";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label24
-            // 
-            this.label24.BackColor = System.Drawing.Color.Black;
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(660, 84);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(87, 35);
-            this.label24.TabIndex = 36;
-            this.label24.Text = "FLAT FOOTED";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label25
-            // 
-            this.label25.BackColor = System.Drawing.Color.Black;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(660, 44);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(87, 35);
-            this.label25.TabIndex = 35;
-            this.label25.Text = "AC";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // txtChaModTemp
             // 
             this.txtChaModTemp.Cursor = System.Windows.Forms.Cursors.No;
             this.txtChaModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtChaModTemp.Location = new System.Drawing.Point(360, 244);
+            this.txtChaModTemp.Location = new System.Drawing.Point(623, 292);
             this.txtChaModTemp.MaxLength = 3;
             this.txtChaModTemp.Name = "txtChaModTemp";
             this.txtChaModTemp.PlaceholderText = "-2";
@@ -2869,7 +1872,7 @@
             // 
             this.txtChaMod.Cursor = System.Windows.Forms.Cursors.No;
             this.txtChaMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtChaMod.Location = new System.Drawing.Point(236, 244);
+            this.txtChaMod.Location = new System.Drawing.Point(499, 292);
             this.txtChaMod.MaxLength = 3;
             this.txtChaMod.Name = "txtChaMod";
             this.txtChaMod.PlaceholderText = "-2";
@@ -2882,7 +1885,7 @@
             // nudChaTemp
             // 
             this.nudChaTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudChaTemp.Location = new System.Drawing.Point(282, 244);
+            this.nudChaTemp.Location = new System.Drawing.Point(545, 292);
             this.nudChaTemp.Maximum = new decimal(new int[] {
             30,
             0,
@@ -2902,7 +1905,7 @@
             // nudCha
             // 
             this.nudCha.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudCha.Location = new System.Drawing.Point(158, 245);
+            this.nudCha.Location = new System.Drawing.Point(421, 293);
             this.nudCha.Maximum = new decimal(new int[] {
             30,
             0,
@@ -2924,7 +1927,7 @@
             this.label23.BackColor = System.Drawing.Color.Black;
             this.label23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(87, 245);
+            this.label23.Location = new System.Drawing.Point(350, 293);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(65, 35);
             this.label23.TabIndex = 30;
@@ -2935,7 +1938,7 @@
             // 
             this.txtWisModTemp.Cursor = System.Windows.Forms.Cursors.No;
             this.txtWisModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWisModTemp.Location = new System.Drawing.Point(360, 204);
+            this.txtWisModTemp.Location = new System.Drawing.Point(623, 252);
             this.txtWisModTemp.MaxLength = 3;
             this.txtWisModTemp.Name = "txtWisModTemp";
             this.txtWisModTemp.PlaceholderText = "-2";
@@ -2949,7 +1952,7 @@
             // 
             this.txtWisMod.Cursor = System.Windows.Forms.Cursors.No;
             this.txtWisMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWisMod.Location = new System.Drawing.Point(236, 204);
+            this.txtWisMod.Location = new System.Drawing.Point(499, 252);
             this.txtWisMod.MaxLength = 3;
             this.txtWisMod.Name = "txtWisMod";
             this.txtWisMod.PlaceholderText = "-2";
@@ -2962,7 +1965,7 @@
             // nudWisTemp
             // 
             this.nudWisTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudWisTemp.Location = new System.Drawing.Point(282, 204);
+            this.nudWisTemp.Location = new System.Drawing.Point(545, 252);
             this.nudWisTemp.Maximum = new decimal(new int[] {
             30,
             0,
@@ -2982,7 +1985,7 @@
             // nudWis
             // 
             this.nudWis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudWis.Location = new System.Drawing.Point(158, 205);
+            this.nudWis.Location = new System.Drawing.Point(421, 253);
             this.nudWis.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3004,7 +2007,7 @@
             this.label22.BackColor = System.Drawing.Color.Black;
             this.label22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(87, 205);
+            this.label22.Location = new System.Drawing.Point(350, 253);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(65, 35);
             this.label22.TabIndex = 25;
@@ -3015,7 +2018,7 @@
             // 
             this.txtIntModTemp.Cursor = System.Windows.Forms.Cursors.No;
             this.txtIntModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtIntModTemp.Location = new System.Drawing.Point(360, 164);
+            this.txtIntModTemp.Location = new System.Drawing.Point(623, 212);
             this.txtIntModTemp.MaxLength = 3;
             this.txtIntModTemp.Name = "txtIntModTemp";
             this.txtIntModTemp.PlaceholderText = "-2";
@@ -3029,7 +2032,7 @@
             // 
             this.txtIntMod.Cursor = System.Windows.Forms.Cursors.No;
             this.txtIntMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtIntMod.Location = new System.Drawing.Point(236, 164);
+            this.txtIntMod.Location = new System.Drawing.Point(499, 212);
             this.txtIntMod.MaxLength = 3;
             this.txtIntMod.Name = "txtIntMod";
             this.txtIntMod.PlaceholderText = "-2";
@@ -3042,7 +2045,7 @@
             // nudIntTemp
             // 
             this.nudIntTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudIntTemp.Location = new System.Drawing.Point(282, 164);
+            this.nudIntTemp.Location = new System.Drawing.Point(545, 212);
             this.nudIntTemp.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3063,7 +2066,7 @@
             // 
             this.nudInt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nudInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.nudInt.Location = new System.Drawing.Point(158, 165);
+            this.nudInt.Location = new System.Drawing.Point(421, 213);
             this.nudInt.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3085,7 +2088,7 @@
             this.label21.BackColor = System.Drawing.Color.Black;
             this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(87, 165);
+            this.label21.Location = new System.Drawing.Point(350, 213);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(65, 35);
             this.label21.TabIndex = 20;
@@ -3096,7 +2099,7 @@
             // 
             this.txtConModTemp.Cursor = System.Windows.Forms.Cursors.No;
             this.txtConModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtConModTemp.Location = new System.Drawing.Point(360, 125);
+            this.txtConModTemp.Location = new System.Drawing.Point(623, 173);
             this.txtConModTemp.MaxLength = 3;
             this.txtConModTemp.Name = "txtConModTemp";
             this.txtConModTemp.PlaceholderText = "-2";
@@ -3110,7 +2113,7 @@
             // 
             this.txtConMod.Cursor = System.Windows.Forms.Cursors.No;
             this.txtConMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtConMod.Location = new System.Drawing.Point(236, 125);
+            this.txtConMod.Location = new System.Drawing.Point(499, 173);
             this.txtConMod.MaxLength = 3;
             this.txtConMod.Name = "txtConMod";
             this.txtConMod.PlaceholderText = "-2";
@@ -3123,7 +2126,7 @@
             // nudConTemp
             // 
             this.nudConTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudConTemp.Location = new System.Drawing.Point(282, 125);
+            this.nudConTemp.Location = new System.Drawing.Point(545, 173);
             this.nudConTemp.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3143,7 +2146,7 @@
             // nudCon
             // 
             this.nudCon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudCon.Location = new System.Drawing.Point(158, 126);
+            this.nudCon.Location = new System.Drawing.Point(421, 174);
             this.nudCon.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3165,7 +2168,7 @@
             this.label20.BackColor = System.Drawing.Color.Black;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(87, 126);
+            this.label20.Location = new System.Drawing.Point(350, 174);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(65, 35);
             this.label20.TabIndex = 15;
@@ -3176,7 +2179,7 @@
             // 
             this.txtDexModTemp.Cursor = System.Windows.Forms.Cursors.No;
             this.txtDexModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDexModTemp.Location = new System.Drawing.Point(360, 85);
+            this.txtDexModTemp.Location = new System.Drawing.Point(623, 133);
             this.txtDexModTemp.MaxLength = 3;
             this.txtDexModTemp.Name = "txtDexModTemp";
             this.txtDexModTemp.PlaceholderText = "-2";
@@ -3190,7 +2193,7 @@
             // 
             this.txtDexMod.Cursor = System.Windows.Forms.Cursors.No;
             this.txtDexMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDexMod.Location = new System.Drawing.Point(236, 85);
+            this.txtDexMod.Location = new System.Drawing.Point(499, 133);
             this.txtDexMod.MaxLength = 3;
             this.txtDexMod.Name = "txtDexMod";
             this.txtDexMod.PlaceholderText = "-2";
@@ -3203,7 +2206,7 @@
             // nudDexTemp
             // 
             this.nudDexTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudDexTemp.Location = new System.Drawing.Point(282, 85);
+            this.nudDexTemp.Location = new System.Drawing.Point(545, 133);
             this.nudDexTemp.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3223,7 +2226,7 @@
             // nudDex
             // 
             this.nudDex.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudDex.Location = new System.Drawing.Point(158, 86);
+            this.nudDex.Location = new System.Drawing.Point(421, 134);
             this.nudDex.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3245,7 +2248,7 @@
             this.label19.BackColor = System.Drawing.Color.Black;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(87, 86);
+            this.label19.Location = new System.Drawing.Point(350, 134);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(65, 35);
             this.label19.TabIndex = 10;
@@ -3256,7 +2259,7 @@
             // 
             this.txtStrModTemp.Cursor = System.Windows.Forms.Cursors.No;
             this.txtStrModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtStrModTemp.Location = new System.Drawing.Point(360, 45);
+            this.txtStrModTemp.Location = new System.Drawing.Point(623, 93);
             this.txtStrModTemp.MaxLength = 3;
             this.txtStrModTemp.Name = "txtStrModTemp";
             this.txtStrModTemp.PlaceholderText = "-2";
@@ -3270,7 +2273,7 @@
             // 
             this.txtStrMod.Cursor = System.Windows.Forms.Cursors.No;
             this.txtStrMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtStrMod.Location = new System.Drawing.Point(236, 45);
+            this.txtStrMod.Location = new System.Drawing.Point(499, 93);
             this.txtStrMod.MaxLength = 3;
             this.txtStrMod.Name = "txtStrMod";
             this.txtStrMod.ReadOnly = true;
@@ -3282,7 +2285,7 @@
             // nudStrTemp
             // 
             this.nudStrTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudStrTemp.Location = new System.Drawing.Point(282, 45);
+            this.nudStrTemp.Location = new System.Drawing.Point(545, 93);
             this.nudStrTemp.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3302,7 +2305,7 @@
             // label17
             // 
             this.label17.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(346, 2);
+            this.label17.Location = new System.Drawing.Point(609, 50);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(72, 39);
             this.label17.TabIndex = 6;
@@ -3312,7 +2315,7 @@
             // label18
             // 
             this.label18.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(282, 2);
+            this.label18.Location = new System.Drawing.Point(545, 50);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(72, 39);
             this.label18.TabIndex = 5;
@@ -3322,7 +2325,7 @@
             // label16
             // 
             this.label16.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(215, 4);
+            this.label16.Location = new System.Drawing.Point(478, 52);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(72, 39);
             this.label16.TabIndex = 4;
@@ -3332,7 +2335,7 @@
             // label15
             // 
             this.label15.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.Location = new System.Drawing.Point(158, 4);
+            this.label15.Location = new System.Drawing.Point(421, 52);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(72, 39);
             this.label15.TabIndex = 3;
@@ -3342,7 +2345,7 @@
             // nudStr
             // 
             this.nudStr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudStr.Location = new System.Drawing.Point(158, 46);
+            this.nudStr.Location = new System.Drawing.Point(421, 94);
             this.nudStr.Maximum = new decimal(new int[] {
             30,
             0,
@@ -3364,7 +2367,7 @@
             this.label14.BackColor = System.Drawing.Color.Black;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(87, 46);
+            this.label14.Location = new System.Drawing.Point(350, 94);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(65, 35);
             this.label14.TabIndex = 1;
@@ -3390,7 +2393,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1250, 489);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "ATTACKS";
+            this.tabPage2.Text = "ATTACK";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // checkBox33
@@ -14143,6 +13146,1003 @@
             this.tmrCheckAttr.Interval = 500;
             this.tmrCheckAttr.Tick += new System.EventHandler(this.tmrCheckAttr_Tick);
             // 
+            // tabPage13
+            // 
+            this.tabPage13.Controls.Add(this.label502);
+            this.tabPage13.Controls.Add(this.btnWillCheck);
+            this.tabPage13.Controls.Add(this.btnReflexCheck);
+            this.tabPage13.Controls.Add(this.btnFortCheck);
+            this.tabPage13.Controls.Add(this.label75);
+            this.tabPage13.Controls.Add(this.label74);
+            this.tabPage13.Controls.Add(this.label73);
+            this.tabPage13.Controls.Add(this.label67);
+            this.tabPage13.Controls.Add(this.txtWillTempMod);
+            this.tabPage13.Controls.Add(this.label68);
+            this.tabPage13.Controls.Add(this.txtWillMiscMod);
+            this.tabPage13.Controls.Add(this.label69);
+            this.tabPage13.Controls.Add(this.txtWillMagicMod);
+            this.tabPage13.Controls.Add(this.label70);
+            this.tabPage13.Controls.Add(this.txtWillAbilMod);
+            this.tabPage13.Controls.Add(this.label71);
+            this.tabPage13.Controls.Add(this.txtWillBase);
+            this.tabPage13.Controls.Add(this.txtWill);
+            this.tabPage13.Controls.Add(this.label72);
+            this.tabPage13.Controls.Add(this.label61);
+            this.tabPage13.Controls.Add(this.txtReflexTempMod);
+            this.tabPage13.Controls.Add(this.label62);
+            this.tabPage13.Controls.Add(this.txtReflexMiscMod);
+            this.tabPage13.Controls.Add(this.label63);
+            this.tabPage13.Controls.Add(this.txtReflexMagicMod);
+            this.tabPage13.Controls.Add(this.label64);
+            this.tabPage13.Controls.Add(this.txtReflexAbilMod);
+            this.tabPage13.Controls.Add(this.label65);
+            this.tabPage13.Controls.Add(this.txtReflexBase);
+            this.tabPage13.Controls.Add(this.txtReflex);
+            this.tabPage13.Controls.Add(this.label66);
+            this.tabPage13.Controls.Add(this.label59);
+            this.tabPage13.Controls.Add(this.label60);
+            this.tabPage13.Controls.Add(this.txtFortTempMod);
+            this.tabPage13.Controls.Add(this.label57);
+            this.tabPage13.Controls.Add(this.label58);
+            this.tabPage13.Controls.Add(this.txtFortMiscMod);
+            this.tabPage13.Controls.Add(this.label55);
+            this.tabPage13.Controls.Add(this.label56);
+            this.tabPage13.Controls.Add(this.txtFortMagicMod);
+            this.tabPage13.Controls.Add(this.label49);
+            this.tabPage13.Controls.Add(this.label50);
+            this.tabPage13.Controls.Add(this.txtFortAbilMod);
+            this.tabPage13.Controls.Add(this.label51);
+            this.tabPage13.Controls.Add(this.label52);
+            this.tabPage13.Controls.Add(this.txtFortBase);
+            this.tabPage13.Controls.Add(this.label53);
+            this.tabPage13.Controls.Add(this.txtFort);
+            this.tabPage13.Controls.Add(this.label54);
+            this.tabPage13.Controls.Add(this.label103);
+            this.tabPage13.Controls.Add(this.label506);
+            this.tabPage13.Controls.Add(this.label47);
+            this.tabPage13.Controls.Add(this.label45);
+            this.tabPage13.Controls.Add(this.label41);
+            this.tabPage13.Controls.Add(this.textBox35);
+            this.tabPage13.Controls.Add(this.label40);
+            this.tabPage13.Controls.Add(this.textBox34);
+            this.tabPage13.Controls.Add(this.label39);
+            this.tabPage13.Controls.Add(this.textBox33);
+            this.tabPage13.Controls.Add(this.label38);
+            this.tabPage13.Controls.Add(this.textBox32);
+            this.tabPage13.Controls.Add(this.textBox31);
+            this.tabPage13.Controls.Add(this.textBox30);
+            this.tabPage13.Controls.Add(this.label36);
+            this.tabPage13.Controls.Add(this.label37);
+            this.tabPage13.Controls.Add(this.txtACMiscMod);
+            this.tabPage13.Controls.Add(this.label34);
+            this.tabPage13.Controls.Add(this.label35);
+            this.tabPage13.Controls.Add(this.txtACNatArmor);
+            this.tabPage13.Controls.Add(this.label32);
+            this.tabPage13.Controls.Add(this.label33);
+            this.tabPage13.Controls.Add(this.txtACAbilityMod);
+            this.tabPage13.Controls.Add(this.label30);
+            this.tabPage13.Controls.Add(this.label31);
+            this.tabPage13.Controls.Add(this.txtACShield);
+            this.tabPage13.Controls.Add(this.label29);
+            this.tabPage13.Controls.Add(this.label28);
+            this.tabPage13.Controls.Add(this.label27);
+            this.tabPage13.Controls.Add(this.txtAC);
+            this.tabPage13.Controls.Add(this.txtACArmor);
+            this.tabPage13.Controls.Add(this.label26);
+            this.tabPage13.Controls.Add(this.label24);
+            this.tabPage13.Controls.Add(this.label25);
+            this.tabPage13.Location = new System.Drawing.Point(4, 29);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Size = new System.Drawing.Size(1250, 489);
+            this.tabPage13.TabIndex = 5;
+            this.tabPage13.Text = "DEFENSE";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // label103
+            // 
+            this.label103.BackColor = System.Drawing.Color.Black;
+            this.label103.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label103.ForeColor = System.Drawing.Color.White;
+            this.label103.Location = new System.Drawing.Point(330, 79);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(28, 16);
+            this.label103.TabIndex = 177;
+            this.label103.Text = "DEX";
+            // 
+            // label506
+            // 
+            this.label506.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label506.Location = new System.Drawing.Point(695, 186);
+            this.label506.Name = "label506";
+            this.label506.Size = new System.Drawing.Size(48, 39);
+            this.label506.TabIndex = 176;
+            this.label506.Text = "ROLL";
+            this.label506.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label47
+            // 
+            this.label47.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label47.Location = new System.Drawing.Point(624, 189);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(72, 39);
+            this.label47.TabIndex = 175;
+            this.label47.Text = "MISC. MODIFIER";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label45
+            // 
+            this.label45.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label45.Location = new System.Drawing.Point(553, 189);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(72, 39);
+            this.label45.TabIndex = 174;
+            this.label45.Text = "ABILITY MODIFIER";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label41
+            // 
+            this.label41.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label41.Location = new System.Drawing.Point(718, 110);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(95, 39);
+            this.label41.TabIndex = 173;
+            this.label41.Text = "ARCANE SPELL FAILURE";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox35
+            // 
+            this.textBox35.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox35.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox35.Location = new System.Drawing.Point(743, 152);
+            this.textBox35.MaxLength = 3;
+            this.textBox35.Name = "textBox35";
+            this.textBox35.PlaceholderText = "0";
+            this.textBox35.ReadOnly = true;
+            this.textBox35.Size = new System.Drawing.Size(40, 34);
+            this.textBox35.TabIndex = 172;
+            this.textBox35.Text = "0";
+            this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label40
+            // 
+            this.label40.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label40.Location = new System.Drawing.Point(618, 110);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(108, 39);
+            this.label40.TabIndex = 171;
+            this.label40.Text = "ARMOR CHECK PENALTY";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox34
+            // 
+            this.textBox34.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox34.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox34.Location = new System.Drawing.Point(653, 152);
+            this.textBox34.MaxLength = 3;
+            this.textBox34.Name = "textBox34";
+            this.textBox34.PlaceholderText = "0";
+            this.textBox34.ReadOnly = true;
+            this.textBox34.Size = new System.Drawing.Size(40, 34);
+            this.textBox34.TabIndex = 170;
+            this.textBox34.Text = "0";
+            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label39
+            // 
+            this.label39.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label39.Location = new System.Drawing.Point(557, 110);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(72, 39);
+            this.label39.TabIndex = 169;
+            this.label39.Text = "SPELL RESIST.";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox33
+            // 
+            this.textBox33.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox33.Location = new System.Drawing.Point(572, 152);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.PlaceholderText = "0";
+            this.textBox33.Size = new System.Drawing.Size(40, 34);
+            this.textBox33.TabIndex = 168;
+            this.textBox33.Text = "0";
+            this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label38
+            // 
+            this.label38.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label38.Location = new System.Drawing.Point(480, 110);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(88, 39);
+            this.label38.TabIndex = 167;
+            this.label38.Text = "DAMAGE REDUCTION";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox32
+            // 
+            this.textBox32.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox32.Location = new System.Drawing.Point(503, 152);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.PlaceholderText = "0";
+            this.textBox32.Size = new System.Drawing.Size(40, 34);
+            this.textBox32.TabIndex = 166;
+            this.textBox32.Text = "0";
+            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox31
+            // 
+            this.textBox31.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox31.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox31.Location = new System.Drawing.Point(421, 149);
+            this.textBox31.MaxLength = 3;
+            this.textBox31.Name = "textBox31";
+            this.textBox31.PlaceholderText = "10";
+            this.textBox31.ReadOnly = true;
+            this.textBox31.Size = new System.Drawing.Size(40, 34);
+            this.textBox31.TabIndex = 165;
+            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox30.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox30.Location = new System.Drawing.Point(421, 109);
+            this.textBox30.MaxLength = 3;
+            this.textBox30.Name = "textBox30";
+            this.textBox30.PlaceholderText = "10";
+            this.textBox30.ReadOnly = true;
+            this.textBox30.Size = new System.Drawing.Size(40, 34);
+            this.textBox30.TabIndex = 164;
+            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label36
+            // 
+            this.label36.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label36.Location = new System.Drawing.Point(749, 30);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(72, 39);
+            this.label36.TabIndex = 163;
+            this.label36.Text = "MISC. MODIFIER";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(740, 80);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(19, 20);
+            this.label37.TabIndex = 162;
+            this.label37.Text = "+";
+            // 
+            // txtACMiscMod
+            // 
+            this.txtACMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACMiscMod.Location = new System.Drawing.Point(764, 71);
+            this.txtACMiscMod.Name = "txtACMiscMod";
+            this.txtACMiscMod.PlaceholderText = "0";
+            this.txtACMiscMod.Size = new System.Drawing.Size(40, 34);
+            this.txtACMiscMod.TabIndex = 161;
+            this.txtACMiscMod.Text = "0";
+            this.txtACMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label34
+            // 
+            this.label34.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label34.Location = new System.Drawing.Point(679, 30);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(72, 39);
+            this.label34.TabIndex = 160;
+            this.label34.Text = "NAT. ARMOR";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(670, 80);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(19, 20);
+            this.label35.TabIndex = 159;
+            this.label35.Text = "+";
+            // 
+            // txtACNatArmor
+            // 
+            this.txtACNatArmor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACNatArmor.Location = new System.Drawing.Point(694, 71);
+            this.txtACNatArmor.Name = "txtACNatArmor";
+            this.txtACNatArmor.PlaceholderText = "0";
+            this.txtACNatArmor.Size = new System.Drawing.Size(40, 34);
+            this.txtACNatArmor.TabIndex = 158;
+            this.txtACNatArmor.Text = "0";
+            this.txtACNatArmor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label32
+            // 
+            this.label32.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label32.Location = new System.Drawing.Point(607, 29);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(72, 39);
+            this.label32.TabIndex = 157;
+            this.label32.Text = "ABILITY MODIFIER";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(599, 79);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(19, 20);
+            this.label33.TabIndex = 156;
+            this.label33.Text = "+";
+            // 
+            // txtACAbilityMod
+            // 
+            this.txtACAbilityMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtACAbilityMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACAbilityMod.Location = new System.Drawing.Point(622, 70);
+            this.txtACAbilityMod.MaxLength = 3;
+            this.txtACAbilityMod.Name = "txtACAbilityMod";
+            this.txtACAbilityMod.PlaceholderText = "0";
+            this.txtACAbilityMod.ReadOnly = true;
+            this.txtACAbilityMod.Size = new System.Drawing.Size(40, 34);
+            this.txtACAbilityMod.TabIndex = 155;
+            this.txtACAbilityMod.Text = "-1";
+            this.txtACAbilityMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label30
+            // 
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label30.Location = new System.Drawing.Point(538, 29);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(72, 39);
+            this.label30.TabIndex = 154;
+            this.label30.Text = "SHIELD BONUS";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(530, 79);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(19, 20);
+            this.label31.TabIndex = 153;
+            this.label31.Text = "+";
+            // 
+            // txtACShield
+            // 
+            this.txtACShield.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtACShield.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACShield.Location = new System.Drawing.Point(553, 70);
+            this.txtACShield.MaxLength = 3;
+            this.txtACShield.Name = "txtACShield";
+            this.txtACShield.PlaceholderText = "0";
+            this.txtACShield.ReadOnly = true;
+            this.txtACShield.Size = new System.Drawing.Size(40, 34);
+            this.txtACShield.TabIndex = 152;
+            this.txtACShield.Text = "0";
+            this.txtACShield.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label29
+            // 
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label29.Location = new System.Drawing.Point(471, 28);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(72, 39);
+            this.label29.TabIndex = 151;
+            this.label29.Text = "ARMOR BONUS";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label28
+            // 
+            this.label28.BackColor = System.Drawing.Color.White;
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label28.ForeColor = System.Drawing.Color.Black;
+            this.label28.Location = new System.Drawing.Point(411, 43);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(65, 23);
+            this.label28.TabIndex = 150;
+            this.label28.Text = "TOTAL";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(463, 78);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(19, 20);
+            this.label27.TabIndex = 149;
+            this.label27.Text = "+";
+            // 
+            // txtAC
+            // 
+            this.txtAC.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtAC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtAC.Location = new System.Drawing.Point(422, 69);
+            this.txtAC.MaxLength = 3;
+            this.txtAC.Name = "txtAC";
+            this.txtAC.PlaceholderText = "10";
+            this.txtAC.ReadOnly = true;
+            this.txtAC.Size = new System.Drawing.Size(40, 34);
+            this.txtAC.TabIndex = 148;
+            this.txtAC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtACArmor
+            // 
+            this.txtACArmor.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtACArmor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACArmor.Location = new System.Drawing.Point(486, 69);
+            this.txtACArmor.MaxLength = 3;
+            this.txtACArmor.Name = "txtACArmor";
+            this.txtACArmor.PlaceholderText = "0";
+            this.txtACArmor.ReadOnly = true;
+            this.txtACArmor.Size = new System.Drawing.Size(40, 34);
+            this.txtACArmor.TabIndex = 147;
+            this.txtACArmor.Text = "0";
+            this.txtACArmor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label26
+            // 
+            this.label26.BackColor = System.Drawing.Color.Black;
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Location = new System.Drawing.Point(329, 148);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(87, 35);
+            this.label26.TabIndex = 146;
+            this.label26.Text = "VS. TOUCH";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label24
+            // 
+            this.label24.BackColor = System.Drawing.Color.Black;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(329, 108);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(87, 35);
+            this.label24.TabIndex = 145;
+            this.label24.Text = "FLAT FOOTED";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.Black;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(329, 68);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(87, 35);
+            this.label25.TabIndex = 144;
+            this.label25.Text = "AC";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label502
+            // 
+            this.label502.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label502.Location = new System.Drawing.Point(885, 247);
+            this.label502.Name = "label502";
+            this.label502.Size = new System.Drawing.Size(48, 39);
+            this.label502.TabIndex = 226;
+            this.label502.Text = "ROLL";
+            this.label502.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // btnWillCheck
+            // 
+            this.btnWillCheck.Location = new System.Drawing.Point(891, 372);
+            this.btnWillCheck.Name = "btnWillCheck";
+            this.btnWillCheck.Size = new System.Drawing.Size(33, 34);
+            this.btnWillCheck.TabIndex = 225;
+            this.btnWillCheck.Text = "R";
+            this.btnWillCheck.UseVisualStyleBackColor = true;
+            // 
+            // btnReflexCheck
+            // 
+            this.btnReflexCheck.Location = new System.Drawing.Point(891, 332);
+            this.btnReflexCheck.Name = "btnReflexCheck";
+            this.btnReflexCheck.Size = new System.Drawing.Size(33, 34);
+            this.btnReflexCheck.TabIndex = 224;
+            this.btnReflexCheck.Text = "R";
+            this.btnReflexCheck.UseVisualStyleBackColor = true;
+            // 
+            // btnFortCheck
+            // 
+            this.btnFortCheck.Location = new System.Drawing.Point(891, 291);
+            this.btnFortCheck.Name = "btnFortCheck";
+            this.btnFortCheck.Size = new System.Drawing.Size(33, 34);
+            this.btnFortCheck.TabIndex = 223;
+            this.btnFortCheck.Text = "R";
+            this.btnFortCheck.UseVisualStyleBackColor = true;
+            // 
+            // label75
+            // 
+            this.label75.BackColor = System.Drawing.Color.Black;
+            this.label75.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label75.ForeColor = System.Drawing.Color.White;
+            this.label75.Location = new System.Drawing.Point(322, 385);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(28, 16);
+            this.label75.TabIndex = 222;
+            this.label75.Text = "WIS";
+            // 
+            // label74
+            // 
+            this.label74.BackColor = System.Drawing.Color.Black;
+            this.label74.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label74.ForeColor = System.Drawing.Color.White;
+            this.label74.Location = new System.Drawing.Point(321, 344);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(28, 16);
+            this.label74.TabIndex = 221;
+            this.label74.Text = "DEX";
+            // 
+            // label73
+            // 
+            this.label73.BackColor = System.Drawing.Color.Black;
+            this.label73.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label73.ForeColor = System.Drawing.Color.White;
+            this.label73.Location = new System.Drawing.Point(320, 303);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(28, 16);
+            this.label73.TabIndex = 220;
+            this.label73.Text = "CON";
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(808, 381);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(19, 20);
+            this.label67.TabIndex = 219;
+            this.label67.Text = "+";
+            // 
+            // txtWillTempMod
+            // 
+            this.txtWillTempMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtWillTempMod.Location = new System.Drawing.Point(831, 373);
+            this.txtWillTempMod.Name = "txtWillTempMod";
+            this.txtWillTempMod.PlaceholderText = "0";
+            this.txtWillTempMod.Size = new System.Drawing.Size(40, 34);
+            this.txtWillTempMod.TabIndex = 218;
+            this.txtWillTempMod.Text = "0";
+            this.txtWillTempMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Location = new System.Drawing.Point(738, 383);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(19, 20);
+            this.label68.TabIndex = 217;
+            this.label68.Text = "+";
+            // 
+            // txtWillMiscMod
+            // 
+            this.txtWillMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtWillMiscMod.Location = new System.Drawing.Point(761, 374);
+            this.txtWillMiscMod.Name = "txtWillMiscMod";
+            this.txtWillMiscMod.PlaceholderText = "0";
+            this.txtWillMiscMod.Size = new System.Drawing.Size(40, 34);
+            this.txtWillMiscMod.TabIndex = 216;
+            this.txtWillMiscMod.Text = "0";
+            this.txtWillMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Location = new System.Drawing.Point(668, 383);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(19, 20);
+            this.label69.TabIndex = 215;
+            this.label69.Text = "+";
+            // 
+            // txtWillMagicMod
+            // 
+            this.txtWillMagicMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtWillMagicMod.Location = new System.Drawing.Point(691, 374);
+            this.txtWillMagicMod.Name = "txtWillMagicMod";
+            this.txtWillMagicMod.PlaceholderText = "0";
+            this.txtWillMagicMod.Size = new System.Drawing.Size(40, 34);
+            this.txtWillMagicMod.TabIndex = 214;
+            this.txtWillMagicMod.Text = "0";
+            this.txtWillMagicMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Location = new System.Drawing.Point(599, 383);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(19, 20);
+            this.label70.TabIndex = 213;
+            this.label70.Text = "+";
+            // 
+            // txtWillAbilMod
+            // 
+            this.txtWillAbilMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtWillAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtWillAbilMod.Location = new System.Drawing.Point(622, 374);
+            this.txtWillAbilMod.MaxLength = 3;
+            this.txtWillAbilMod.Name = "txtWillAbilMod";
+            this.txtWillAbilMod.PlaceholderText = "0";
+            this.txtWillAbilMod.ReadOnly = true;
+            this.txtWillAbilMod.Size = new System.Drawing.Size(40, 34);
+            this.txtWillAbilMod.TabIndex = 212;
+            this.txtWillAbilMod.Text = "-1";
+            this.txtWillAbilMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Location = new System.Drawing.Point(531, 383);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(19, 20);
+            this.label71.TabIndex = 211;
+            this.label71.Text = "+";
+            // 
+            // txtWillBase
+            // 
+            this.txtWillBase.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtWillBase.Location = new System.Drawing.Point(554, 374);
+            this.txtWillBase.Name = "txtWillBase";
+            this.txtWillBase.PlaceholderText = "0";
+            this.txtWillBase.Size = new System.Drawing.Size(40, 34);
+            this.txtWillBase.TabIndex = 210;
+            this.txtWillBase.Text = "0";
+            this.txtWillBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtWill
+            // 
+            this.txtWill.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtWill.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtWill.Location = new System.Drawing.Point(488, 374);
+            this.txtWill.MaxLength = 3;
+            this.txtWill.Name = "txtWill";
+            this.txtWill.PlaceholderText = "10";
+            this.txtWill.ReadOnly = true;
+            this.txtWill.Size = new System.Drawing.Size(40, 34);
+            this.txtWill.TabIndex = 209;
+            this.txtWill.Text = "-1";
+            this.txtWill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label72
+            // 
+            this.label72.BackColor = System.Drawing.Color.Black;
+            this.label72.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label72.ForeColor = System.Drawing.Color.White;
+            this.label72.Location = new System.Drawing.Point(317, 373);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(164, 35);
+            this.label72.TabIndex = 208;
+            this.label72.Text = "WILLPOWER";
+            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(809, 340);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(19, 20);
+            this.label61.TabIndex = 207;
+            this.label61.Text = "+";
+            // 
+            // txtReflexTempMod
+            // 
+            this.txtReflexTempMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtReflexTempMod.Location = new System.Drawing.Point(832, 332);
+            this.txtReflexTempMod.Name = "txtReflexTempMod";
+            this.txtReflexTempMod.PlaceholderText = "0";
+            this.txtReflexTempMod.Size = new System.Drawing.Size(40, 34);
+            this.txtReflexTempMod.TabIndex = 206;
+            this.txtReflexTempMod.Text = "0";
+            this.txtReflexTempMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(739, 342);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(19, 20);
+            this.label62.TabIndex = 205;
+            this.label62.Text = "+";
+            // 
+            // txtReflexMiscMod
+            // 
+            this.txtReflexMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtReflexMiscMod.Location = new System.Drawing.Point(762, 333);
+            this.txtReflexMiscMod.Name = "txtReflexMiscMod";
+            this.txtReflexMiscMod.PlaceholderText = "0";
+            this.txtReflexMiscMod.Size = new System.Drawing.Size(40, 34);
+            this.txtReflexMiscMod.TabIndex = 204;
+            this.txtReflexMiscMod.Text = "0";
+            this.txtReflexMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(669, 342);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(19, 20);
+            this.label63.TabIndex = 203;
+            this.label63.Text = "+";
+            // 
+            // txtReflexMagicMod
+            // 
+            this.txtReflexMagicMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtReflexMagicMod.Location = new System.Drawing.Point(692, 333);
+            this.txtReflexMagicMod.Name = "txtReflexMagicMod";
+            this.txtReflexMagicMod.PlaceholderText = "0";
+            this.txtReflexMagicMod.Size = new System.Drawing.Size(40, 34);
+            this.txtReflexMagicMod.TabIndex = 202;
+            this.txtReflexMagicMod.Text = "0";
+            this.txtReflexMagicMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(600, 342);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(19, 20);
+            this.label64.TabIndex = 201;
+            this.label64.Text = "+";
+            // 
+            // txtReflexAbilMod
+            // 
+            this.txtReflexAbilMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtReflexAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtReflexAbilMod.Location = new System.Drawing.Point(623, 333);
+            this.txtReflexAbilMod.MaxLength = 3;
+            this.txtReflexAbilMod.Name = "txtReflexAbilMod";
+            this.txtReflexAbilMod.PlaceholderText = "0";
+            this.txtReflexAbilMod.ReadOnly = true;
+            this.txtReflexAbilMod.Size = new System.Drawing.Size(40, 34);
+            this.txtReflexAbilMod.TabIndex = 200;
+            this.txtReflexAbilMod.Text = "-1";
+            this.txtReflexAbilMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(532, 342);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(19, 20);
+            this.label65.TabIndex = 199;
+            this.label65.Text = "+";
+            // 
+            // txtReflexBase
+            // 
+            this.txtReflexBase.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtReflexBase.Location = new System.Drawing.Point(555, 333);
+            this.txtReflexBase.Name = "txtReflexBase";
+            this.txtReflexBase.PlaceholderText = "0";
+            this.txtReflexBase.Size = new System.Drawing.Size(40, 34);
+            this.txtReflexBase.TabIndex = 198;
+            this.txtReflexBase.Text = "0";
+            this.txtReflexBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtReflex
+            // 
+            this.txtReflex.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtReflex.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtReflex.Location = new System.Drawing.Point(489, 333);
+            this.txtReflex.MaxLength = 3;
+            this.txtReflex.Name = "txtReflex";
+            this.txtReflex.PlaceholderText = "10";
+            this.txtReflex.ReadOnly = true;
+            this.txtReflex.Size = new System.Drawing.Size(40, 34);
+            this.txtReflex.TabIndex = 197;
+            this.txtReflex.Text = "-1";
+            this.txtReflex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label66
+            // 
+            this.label66.BackColor = System.Drawing.Color.Black;
+            this.label66.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label66.ForeColor = System.Drawing.Color.White;
+            this.label66.Location = new System.Drawing.Point(318, 332);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(164, 35);
+            this.label66.TabIndex = 196;
+            this.label66.Text = "REFLEX";
+            this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label59
+            // 
+            this.label59.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label59.Location = new System.Drawing.Point(817, 250);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(72, 39);
+            this.label59.TabIndex = 195;
+            this.label59.Text = "TEMP MODIFIER";
+            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(809, 299);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(19, 20);
+            this.label60.TabIndex = 194;
+            this.label60.Text = "+";
+            // 
+            // txtFortTempMod
+            // 
+            this.txtFortTempMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtFortTempMod.Location = new System.Drawing.Point(832, 291);
+            this.txtFortTempMod.Name = "txtFortTempMod";
+            this.txtFortTempMod.PlaceholderText = "0";
+            this.txtFortTempMod.Size = new System.Drawing.Size(40, 34);
+            this.txtFortTempMod.TabIndex = 193;
+            this.txtFortTempMod.Text = "0";
+            this.txtFortTempMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label57
+            // 
+            this.label57.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label57.Location = new System.Drawing.Point(747, 251);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(72, 39);
+            this.label57.TabIndex = 192;
+            this.label57.Text = "MISC. MODIFIER";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(739, 301);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(19, 20);
+            this.label58.TabIndex = 191;
+            this.label58.Text = "+";
+            // 
+            // txtFortMiscMod
+            // 
+            this.txtFortMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtFortMiscMod.Location = new System.Drawing.Point(762, 292);
+            this.txtFortMiscMod.Name = "txtFortMiscMod";
+            this.txtFortMiscMod.PlaceholderText = "0";
+            this.txtFortMiscMod.Size = new System.Drawing.Size(40, 34);
+            this.txtFortMiscMod.TabIndex = 190;
+            this.txtFortMiscMod.Text = "0";
+            this.txtFortMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label55
+            // 
+            this.label55.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label55.Location = new System.Drawing.Point(677, 251);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(72, 39);
+            this.label55.TabIndex = 189;
+            this.label55.Text = "MAGIC MODIFIER";
+            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(669, 301);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(19, 20);
+            this.label56.TabIndex = 188;
+            this.label56.Text = "+";
+            // 
+            // txtFortMagicMod
+            // 
+            this.txtFortMagicMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtFortMagicMod.Location = new System.Drawing.Point(692, 292);
+            this.txtFortMagicMod.Name = "txtFortMagicMod";
+            this.txtFortMagicMod.PlaceholderText = "0";
+            this.txtFortMagicMod.Size = new System.Drawing.Size(40, 34);
+            this.txtFortMagicMod.TabIndex = 187;
+            this.txtFortMagicMod.Text = "0";
+            this.txtFortMagicMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label49
+            // 
+            this.label49.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label49.Location = new System.Drawing.Point(608, 251);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(72, 39);
+            this.label49.TabIndex = 186;
+            this.label49.Text = "ABILITY MODIFIER";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(600, 301);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(19, 20);
+            this.label50.TabIndex = 185;
+            this.label50.Text = "+";
+            // 
+            // txtFortAbilMod
+            // 
+            this.txtFortAbilMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtFortAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtFortAbilMod.Location = new System.Drawing.Point(623, 292);
+            this.txtFortAbilMod.MaxLength = 3;
+            this.txtFortAbilMod.Name = "txtFortAbilMod";
+            this.txtFortAbilMod.PlaceholderText = "0";
+            this.txtFortAbilMod.ReadOnly = true;
+            this.txtFortAbilMod.Size = new System.Drawing.Size(40, 34);
+            this.txtFortAbilMod.TabIndex = 184;
+            this.txtFortAbilMod.Text = "-1";
+            this.txtFortAbilMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label51
+            // 
+            this.label51.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label51.Location = new System.Drawing.Point(540, 251);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(72, 39);
+            this.label51.TabIndex = 183;
+            this.label51.Text = "BASE SAVE";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(532, 301);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(19, 20);
+            this.label52.TabIndex = 182;
+            this.label52.Text = "+";
+            // 
+            // txtFortBase
+            // 
+            this.txtFortBase.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtFortBase.Location = new System.Drawing.Point(555, 292);
+            this.txtFortBase.Name = "txtFortBase";
+            this.txtFortBase.PlaceholderText = "0";
+            this.txtFortBase.Size = new System.Drawing.Size(40, 34);
+            this.txtFortBase.TabIndex = 181;
+            this.txtFortBase.Text = "0";
+            this.txtFortBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label53
+            // 
+            this.label53.BackColor = System.Drawing.Color.White;
+            this.label53.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label53.ForeColor = System.Drawing.Color.Black;
+            this.label53.Location = new System.Drawing.Point(478, 268);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(65, 23);
+            this.label53.TabIndex = 180;
+            this.label53.Text = "TOTAL";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtFort
+            // 
+            this.txtFort.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtFort.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtFort.Location = new System.Drawing.Point(489, 292);
+            this.txtFort.MaxLength = 3;
+            this.txtFort.Name = "txtFort";
+            this.txtFort.PlaceholderText = "10";
+            this.txtFort.ReadOnly = true;
+            this.txtFort.Size = new System.Drawing.Size(40, 34);
+            this.txtFort.TabIndex = 179;
+            this.txtFort.Text = "-1";
+            this.txtFort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label54
+            // 
+            this.label54.BackColor = System.Drawing.Color.Black;
+            this.label54.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label54.ForeColor = System.Drawing.Color.White;
+            this.label54.Location = new System.Drawing.Point(318, 291);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(164, 35);
+            this.label54.TabIndex = 178;
+            this.label54.Text = "FORTITUDE";
+            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.Location = new System.Drawing.Point(4, 29);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Size = new System.Drawing.Size(1250, 489);
+            this.tabPage14.TabIndex = 6;
+            this.tabPage14.Text = "SUMMARY";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -14217,6 +14217,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0Reach)).EndInit();
+            this.tabPage13.ResumeLayout(false);
+            this.tabPage13.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -14255,26 +14257,6 @@
         private Button button1;
         private TabControl tabControl1;
         private TabPage tabPage1;
-        private Label label36;
-        private Label label37;
-        private TextBox txtACMiscMod;
-        private Label label34;
-        private Label label35;
-        private TextBox txtACNatArmor;
-        private Label label32;
-        private Label label33;
-        private TextBox txtACAbilityMod;
-        private Label label30;
-        private Label label31;
-        private TextBox txtACShield;
-        private Label label29;
-        private Label label28;
-        private Label label27;
-        private TextBox txtAC;
-        private TextBox txtACArmor;
-        private Label label26;
-        private Label label24;
-        private Label label25;
         private TextBox txtChaModTemp;
         private TextBox txtChaMod;
         private NumericUpDown nudChaTemp;
@@ -14310,72 +14292,15 @@
         private NumericUpDown nudStr;
         private Label label14;
         private TabPage tabPage2;
-        private Label label75;
-        private Label label74;
-        private Label label73;
-        private Label label67;
-        private TextBox txtWillTempMod;
-        private Label label68;
-        private TextBox txtWillMiscMod;
-        private Label label69;
-        private TextBox txtWillMagicMod;
-        private Label label70;
-        private TextBox txtWillAbilMod;
-        private Label label71;
-        private TextBox txtWillBase;
-        private TextBox txtWill;
-        private Label label72;
-        private Label label61;
-        private TextBox txtReflexTempMod;
-        private Label label62;
-        private TextBox txtReflexMiscMod;
-        private Label label63;
-        private TextBox txtReflexMagicMod;
-        private Label label64;
-        private TextBox txtReflexAbilMod;
-        private Label label65;
-        private TextBox txtReflexBase;
-        private TextBox txtReflex;
-        private Label label66;
-        private Label label59;
-        private Label label60;
-        private TextBox txtFortTempMod;
-        private Label label57;
-        private Label label58;
-        private TextBox txtFortMiscMod;
-        private Label label55;
-        private Label label56;
-        private TextBox txtFortMagicMod;
-        private Label label49;
-        private Label label50;
-        private TextBox txtFortAbilMod;
-        private Label label51;
-        private Label label52;
-        private TextBox txtFortBase;
-        private Label label53;
-        private TextBox txtFort;
-        private Label label54;
         private TextBox textBox39;
-        private Label label47;
         private Label label48;
         private TextBox txtInitMiscMod;
-        private Label label45;
         private Label label46;
         private TextBox txtInitAbilMod;
         private Label label44;
         private TextBox txtInit;
         private Label label43;
         private Label label42;
-        private Label label41;
-        private TextBox textBox35;
-        private Label label40;
-        private TextBox textBox34;
-        private Label label39;
-        private TextBox textBox33;
-        private Label label38;
-        private TextBox textBox32;
-        private TextBox textBox31;
-        private TextBox textBox30;
         private ComboBox comHitDie;
         private Label label108;
         private TextBox textBox62;
@@ -15131,12 +15056,7 @@
         private TextBox textBox402;
         private TextBox textBox403;
         private TextBox textBox404;
-        private Label label506;
         private Button btnRollInit;
-        private Label label502;
-        private Button btnWillCheck;
-        private Button btnReflexCheck;
-        private Button btnFortCheck;
         private Button btnRollHD;
         private Label label498;
         private Button btnChaCheck;
@@ -15146,7 +15066,6 @@
         private Button btnDexCheck;
         private Button btnStrCheck;
         private Label label105;
-        private Label label103;
         private Label label83;
         private System.Windows.Forms.Timer tmrCheckAttr;
         private Panel panMeleeWeapons;
@@ -15338,5 +15257,90 @@
         private Label lblNewRangedWeaponPrompt;
         private Label lblNewMeleeWeaponPrompt;
         private CheckBox checkBox33;
+        private TabPage tabPage13;
+        private TabPage tabPage14;
+        private Label label502;
+        private Button btnWillCheck;
+        private Button btnReflexCheck;
+        private Button btnFortCheck;
+        private Label label75;
+        private Label label74;
+        private Label label73;
+        private Label label67;
+        private TextBox txtWillTempMod;
+        private Label label68;
+        private TextBox txtWillMiscMod;
+        private Label label69;
+        private TextBox txtWillMagicMod;
+        private Label label70;
+        private TextBox txtWillAbilMod;
+        private Label label71;
+        private TextBox txtWillBase;
+        private TextBox txtWill;
+        private Label label72;
+        private Label label61;
+        private TextBox txtReflexTempMod;
+        private Label label62;
+        private TextBox txtReflexMiscMod;
+        private Label label63;
+        private TextBox txtReflexMagicMod;
+        private Label label64;
+        private TextBox txtReflexAbilMod;
+        private Label label65;
+        private TextBox txtReflexBase;
+        private TextBox txtReflex;
+        private Label label66;
+        private Label label59;
+        private Label label60;
+        private TextBox txtFortTempMod;
+        private Label label57;
+        private Label label58;
+        private TextBox txtFortMiscMod;
+        private Label label55;
+        private Label label56;
+        private TextBox txtFortMagicMod;
+        private Label label49;
+        private Label label50;
+        private TextBox txtFortAbilMod;
+        private Label label51;
+        private Label label52;
+        private TextBox txtFortBase;
+        private Label label53;
+        private TextBox txtFort;
+        private Label label54;
+        private Label label103;
+        private Label label506;
+        private Label label47;
+        private Label label45;
+        private Label label41;
+        private TextBox textBox35;
+        private Label label40;
+        private TextBox textBox34;
+        private Label label39;
+        private TextBox textBox33;
+        private Label label38;
+        private TextBox textBox32;
+        private TextBox textBox31;
+        private TextBox textBox30;
+        private Label label36;
+        private Label label37;
+        private TextBox txtACMiscMod;
+        private Label label34;
+        private Label label35;
+        private TextBox txtACNatArmor;
+        private Label label32;
+        private Label label33;
+        private TextBox txtACAbilityMod;
+        private Label label30;
+        private Label label31;
+        private TextBox txtACShield;
+        private Label label29;
+        private Label label28;
+        private Label label27;
+        private TextBox txtAC;
+        private TextBox txtACArmor;
+        private Label label26;
+        private Label label24;
+        private Label label25;
     }
 }

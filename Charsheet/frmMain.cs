@@ -14,9 +14,51 @@ namespace Charsheet
             double e;
             e = Math.Floor((attrValue - 10) / 2);
             return Convert.ToInt32(e);
-            //return Convert.ToInt32(Math.Floor((attrValue - 10) / 2));
+        }
+
+        private static int randomizer9000()
+        {
+            Random dice = new(Guid.NewGuid().GetHashCode());
+            int tty = dice.Next(0, 2147483646);
+            return tty;
+        }
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            comHitDie.SelectedIndex = 0;
+        }
+
+        private static int calcSave(string type)
+        {
+            switch (type)
+            {
+                case "fort":
+                    break;
+                case "reflex":
+                    break;
+                case "willpower":
+                    break;
+            }
+            return 0;
         }
         #region Roll functions
+
+        private void btnRollHD_Click(object sender, EventArgs e)
+        {
+            string s = comHitDie.Text;
+            int mod;
+            int q = Convert.ToInt32(txtHP.Text);
+            int die = Convert.ToInt32(s.Remove(0, 1));
+            if (nudConTemp.Value == nudCon.Value)
+            {
+                mod = Convert.ToInt32(txtConMod.Text);
+            }
+            else
+            {
+                mod = Convert.ToInt32(txtConModTemp.Text);
+            }
+            int newhp = rollHitDice(die, mod) + q;
+            txtHP.Text = Convert.ToString(newhp);
+        }
         private static int rollHitDice(int sides, int modifier = 0)
         {
             var frm = new frmMain();
@@ -74,52 +116,8 @@ namespace Charsheet
             return totalresult;
         }
         #endregion
-        private void frmMain_Load(object sender, EventArgs e)
-        {
-            comHitDie.SelectedIndex = 0;
-        }
-        private static int calcSave(string type)
-        {
-            switch (type)
-            {
-                case "fort":
-                    break;
-                case "reflex":
-                    break;
-                case "willpower":
-                    break;
-            }
-            return 0;
-        }
-        private void btnRollHD_Click(object sender, EventArgs e)
-        {
-            string s = comHitDie.Text;
-            int mod;
-            int q = Convert.ToInt32(txtHP.Text);
-            int die = Convert.ToInt32(s.Remove(0, 1));
-            if (nudConTemp.Value == nudCon.Value)
-            {
-                mod = Convert.ToInt32(txtConMod.Text);
-            }
-                else
-            {
-                mod = Convert.ToInt32(txtConModTemp.Text);
-            }
-            int newhp = rollHitDice(die, mod) + q;
-            txtHP.Text = Convert.ToString(newhp);
-        }
 
-        private void button33_Click(object sender, EventArgs e)
-        {
-            string w1 = comMelee0DamageDie.Text;
-            int w = Convert.ToInt32(w1.Remove(0, 1));
-            int x = Convert.ToInt32(txtMelee0DieCount.Text);
-            int y = Convert.ToInt32(nudMelee0DmgMod.Value);
-            int z = Convert.ToInt32(txtStrMod.Text);
-            _ = rollDice(false, w, x, y, z, "Melee Attack");
-        }
-
-        #region attributes
+        #region Attributes
 
         //
         // Strength
@@ -381,7 +379,8 @@ namespace Charsheet
             }
         }
         #endregion
-        #region fort/reflex/will
+
+        #region Fort/Reflex/Will
         //
         // Fortitude
         //
@@ -622,7 +621,8 @@ namespace Charsheet
             txtAC.Text = Convert.ToString(s);
         }
         #endregion
-        
+
+        #region Initiative
         private void txtInitAbilMod_TextChanged(object sender, EventArgs e)
         {
             int s = Convert.ToInt32(txtInitAbilMod.Text) +
@@ -635,20 +635,9 @@ namespace Charsheet
             int d = Convert.ToInt32(txtInit.Text);
             rollDice(false, 20, 1, d, 0, "Hostile intent is evident, Prepare for battle!");
         }
+        #endregion
 
-        private void btnMelee0Delete_Click(object sender, EventArgs e)
-        {
-            tabMeleeWeapons.TabPages.Remove(tabMeleeWeapons.SelectedTab);
-        }
-
-        private static int randomizer9000()
-        {
-
-            Random dice = new(Guid.NewGuid().GetHashCode());
-            int tty = dice.Next(0, 2147483646);
-            return tty;
-
-        }
+        #region Weapons
         private void drawLabels(string id, string type, Control newtab, Control parent)
         {
             Control[] matches = parent.Controls.Find(id, true);
@@ -1011,7 +1000,7 @@ namespace Charsheet
                             MessageBox.Show(line1 + Environment.NewLine + line2);
                         };
                 };
-                if (type == "Melee")
+                if (type == "Ranged")
                 {
                     w.Click += (s, e) =>
                     {
@@ -1091,15 +1080,6 @@ namespace Charsheet
             {
                 prompt.Show();
             } 
-            //Control[] matches = parent.Controls.Find(id, true);
-            //if (matches.Length > 0 && matches[0] is TabPage)
-            //{
-            //    TabPage baleetTarget = (TabPage)matches[0];
-            //    MessageBox.Show("got tabpage with id " + id);
-            //} else
-            //{
-            //    MessageBox.Show("Failed! For some reason?");
-            //};
         }
         private void btnNewMelee_Click(object sender, EventArgs e)
         {
@@ -1137,5 +1117,7 @@ namespace Charsheet
             drawLabels(newRangedID, "Ranged", newRangedWeapon, tabRangedWeapons);
             drawControls(newRangedID, "Ranged", newRangedWeapon, tabRangedWeapons);
         }
+        #endregion
+
     }
 }
