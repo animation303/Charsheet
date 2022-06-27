@@ -1,5 +1,3 @@
-using System.Linq;
-
 namespace Charsheet
 {
     public partial class frmMain : Form
@@ -81,36 +79,37 @@ namespace Charsheet
             int totalresult = 0;
             // MessageBox.Show(Convert.ToString(y));
             if (y > 1)
+            {
+                string b = "";
+                for (int ctr = 0; ctr < theDie.Count; ctr++)
                 {
-                    string b = "";
-                    for (int ctr = 0; ctr < theDie.Count; ctr++)
-                        {
-                            b += Convert.ToString(theDie[ctr]) + " ";
-                            totalresult += theDie[ctr];
-                        }
-/*                    foreach (int i in theDie)
-                        {
-                            b += Convert.ToString(theDie[i]) + " ";
-                            totalresult = +i;
-                        }
-*/
-                
+                    b += Convert.ToString(theDie[ctr]) + " ";
+                    totalresult += theDie[ctr];
+                }
+                /*                    foreach (int i in theDie)
+                                        {
+                                            b += Convert.ToString(theDie[i]) + " ";
+                                            totalresult = +i;
+                                        }
+                */
+
                 testresult = "Rolls ( " + b + " = " + totalresult + " ) + Modifier ( " + Convert.ToString(modifier);
                 totalresult += modifier;
-                if (abilityMod != 0) { 
+                if (abilityMod != 0)
+                {
                     totalresult += abilityMod;
                     testresult += " ) + Ability Mod ( " + Convert.ToString(abilityMod);
                 }
                 testresult += " ) = " + Convert.ToString(totalresult);
                 if (suppressMessage == false) { MessageBox.Show(testresult, rollType, MessageBoxButtons.OK); }
-                }
+            }
             else
-                {
+            {
                 totalresult = theDie[0] + modifier;
                 if (abilityMod != 0) { totalresult += abilityMod; }
                 testresult = "Roll ( " + Convert.ToString(theDie[0]) + " ) + Modifier ( " + Convert.ToString(modifier);
                 if (abilityMod != 0) { testresult += " + Ability Mod ( " + Convert.ToString(abilityMod); };
-                testresult+= " ) = " + totalresult;
+                testresult += " ) = " + totalresult;
                 if (suppressMessage == false) { MessageBox.Show(testresult, rollType, MessageBoxButtons.OK); }
             }
             return totalresult;
@@ -166,7 +165,7 @@ namespace Charsheet
         {
             txtDexMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudDex.Value)));
             nudDexTemp.Value = nudDex.Value;
-            
+
             txtReflexAbilMod.Text = txtDexMod.Text;
             txtACAbilityMod.Text = txtDexMod.Text;
             txtInitAbilMod.Text = txtDexMod.Text;
@@ -174,7 +173,7 @@ namespace Charsheet
         private void nudDexTemp_ValueChanged(object sender, EventArgs e)
         {
             txtDexModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudDexTemp.Value)));
-            
+
             txtReflexAbilMod.Text = txtDexModTemp.Text;
             txtACAbilityMod.Text = txtDexModTemp.Text;
             txtInitAbilMod.Text = txtDexModTemp.Text;
@@ -216,14 +215,14 @@ namespace Charsheet
         {
             txtConMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudCon.Value)));
             nudConTemp.Value = nudCon.Value;
-            
+
             txtFortAbilMod.Text = txtConMod.Text;
         }
         private void nudConTemp_ValueChanged(object sender, EventArgs e)
         {
             txtConModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudConTemp.Value)));
             txtFortAbilMod.Text = txtConModTemp.Text;
-            
+
             decimal v = nudCon.Value;
             decimal x = nudConTemp.Value;
             switch (x)
@@ -302,7 +301,7 @@ namespace Charsheet
         {
             txtWisMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudWis.Value)));
             nudWisTemp.Value = nudWis.Value;
-        
+
             txtWillAbilMod.Text = txtWisMod.Text;
         }
         private void nudWisTemp_ValueChanged(object sender, EventArgs e)
@@ -310,7 +309,7 @@ namespace Charsheet
             txtWisModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudWisTemp.Value)));
             decimal v = nudWis.Value;
             decimal x = nudWisTemp.Value;
-            
+
             txtWillAbilMod.Text = txtWisModTemp.Text;
             switch (x)
             {
@@ -645,154 +644,156 @@ namespace Charsheet
             {
                 TabPage newWeapon = (TabPage)matches[0];
                 var labels = new List<Control>();
-                        Label a = new()
-                        {
-                            Text = "WEAPON NAME",
-                            Location = new Point(6, 3),
-                            Size = new Size(235, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(a);
-                        Label b = new()
-                        {
-                            Text = "TYPE",
-                            Location = new Point(242, 3),
-                            Size = new Size(125, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(b);
-                        Label c = new()
-                        {
-                            Text = "DAMAGE",
-                            Location = new Point(368, 3),
-                            Size = new Size(157, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(c);
-                        Label d = new()
-                        {
-                            Text = "CRITICAL",
-                            Location = new Point(526, 3),
-                            Size = new Size(142, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(d);
-                        Label f = new()
-                        {
-                            Text = "ATK MOD",
-                            Location = new Point(670, 3),
-                            Size = new Size(93, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(f);
-                        Label g = new()
-                        {
-                            Text = "SIZE",
-                            Location = new Point(6, 63),
-                            Size = new Size(130, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(g);
-                        Label h = new()
-                        {
-                            Location = new Point(137, 63),
-                            Size = new Size(130, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        if (type == "Melee") { h.Text = "REACH";  }; 
-                        if (type == "Ranged") { h.Text = "RANGE";  };
-                        labels.Add(h);
-                        Label i = new()
-                        {
-                            Text = "HARDNESS",
-                            Location = new Point(268, 63),
-                            Size = new Size(112, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(i);
-                        Label j = new()
-                        {
-                            Text = "WEIGHT",
-                            Location = new Point(381, 63),
-                            Size = new Size(101, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(j);
-                        Label k = new()
-                        {
-                            Location = new Point(483, 63),
-                            Size = new Size(225, 27),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        if (type == "Melee")
-                            {
-                                k.Text = "SPECIAL PROPERTIES";
-                            }
-                            if (type == "Ranged")
-                            {
-                                k.Text = "AMMUNITION";
-                            }
-                        labels.Add(k);
-                        
-                        foreach (Control zz in labels)
-                        {
-                            zz.Font = new Font("Segoe UI", 10.2f, FontStyle.Bold);
-                            zz.ForeColor = Color.White;
-                            zz.BackColor = Color.Black;
-                        };
-                        Label aa = new()
-                        { 
-                            Text = "+",
-                            Location = new Point(456, 37),
-                            Size = new Size(19, 20),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(aa);
-                        Label bb = new()
-                        {
-                            Text = "- 20 x",
-                            Location = new Point(568, 36),
-                            Size = new Size(57, 25),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(bb);
-                        Label cc = new()
-                        {
-                            Text = "ft",
-                            Location = new Point(245,96),
-                            Size = new Size(19,20),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(cc);
-                        Label dd = new()
-                        {
-                            Text = "lbs",
-                            Location = new Point(452, 96),
-                            Size = new Size(28, 20),
-                            TextAlign = ContentAlignment.MiddleCenter
-                        };
-                        labels.Add(dd);
-                        if (type == "Ranged")
-                            {
-                                Label ee = new()
-                                {
-                                    Text = "x",
-                                    Size = new Size(19, 20),
-                                    Location = new Point(616, 96)
-                                };
-                                labels.Add(ee);
-                            };
+                Label a = new()
+                {
+                    Text = "WEAPON NAME",
+                    Location = new Point(6, 3),
+                    Size = new Size(235, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(a);
+                Label b = new()
+                {
+                    Text = "TYPE",
+                    Location = new Point(242, 3),
+                    Size = new Size(125, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(b);
+                Label c = new()
+                {
+                    Text = "DAMAGE",
+                    Location = new Point(368, 3),
+                    Size = new Size(157, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(c);
+                Label d = new()
+                {
+                    Text = "CRITICAL",
+                    Location = new Point(526, 3),
+                    Size = new Size(142, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(d);
+                Label f = new()
+                {
+                    Text = "ATK MOD",
+                    Location = new Point(670, 3),
+                    Size = new Size(93, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(f);
+                Label g = new()
+                {
+                    Text = "SIZE",
+                    Location = new Point(6, 63),
+                    Size = new Size(130, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(g);
+                Label h = new()
+                {
+                    Location = new Point(137, 63),
+                    Size = new Size(130, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                if (type == "Melee") { h.Text = "REACH"; };
+                if (type == "Ranged") { h.Text = "RANGE"; };
+                labels.Add(h);
+                Label i = new()
+                {
+                    Text = "HARDNESS",
+                    Location = new Point(268, 63),
+                    Size = new Size(112, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(i);
+                Label j = new()
+                {
+                    Text = "WEIGHT",
+                    Location = new Point(381, 63),
+                    Size = new Size(101, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(j);
+                Label k = new()
+                {
+                    Location = new Point(483, 63),
+                    Size = new Size(225, 27),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                if (type == "Melee")
+                {
+                    k.Text = "SPECIAL PROPERTIES";
+                }
+                if (type == "Ranged")
+                {
+                    k.Text = "AMMUNITION";
+                }
+                labels.Add(k);
+
+                foreach (Control zz in labels)
+                {
+                    zz.Font = new Font("Segoe UI", 10.2f, FontStyle.Bold);
+                    zz.ForeColor = Color.White;
+                    zz.BackColor = Color.Black;
+                };
+                Label aa = new()
+                {
+                    Text = "+",
+                    Location = new Point(456, 37),
+                    Size = new Size(19, 20),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(aa);
+                Label bb = new()
+                {
+                    Text = "- 20 x",
+                    Location = new Point(568, 36),
+                    Size = new Size(57, 25),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(bb);
+                Label cc = new()
+                {
+                    Text = "ft",
+                    Location = new Point(245, 96),
+                    Size = new Size(19, 20),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(cc);
+                Label dd = new()
+                {
+                    Text = "lbs",
+                    Location = new Point(452, 96),
+                    Size = new Size(28, 20),
+                    TextAlign = ContentAlignment.MiddleCenter
+                };
+                labels.Add(dd);
+                if (type == "Ranged")
+                {
+                    Label ee = new()
+                    {
+                        Text = "x",
+                        Size = new Size(19, 20),
+                        Location = new Point(616, 96)
+                    };
+                    labels.Add(ee);
+                };
 
                 int test = 0;
                 foreach (Control zz in labels)
-                    {
-                        zz.Name = id + randomizer9000().ToString() + randomizer9000().ToString();
-                        toolTip1.SetToolTip(zz, zz.Name);
-                        newWeapon.Controls.Add(zz);
-                        test++;
-                    }
+                {
+                    zz.Name = id + randomizer9000().ToString() + randomizer9000().ToString();
+                    toolTip1.SetToolTip(zz, zz.Name);
+                    newWeapon.Controls.Add(zz);
+                    test++;
+                }
                 MessageBox.Show("Processed " + test + " labels.");
-            } else {
+            }
+            else
+            {
                 MessageBox.Show("Failed! For some reason?");
             }
         }
@@ -827,7 +828,7 @@ namespace Charsheet
                 TextBox c = new()
                 {
                     Size = new Size(30, 27),
-                    Location = new Point (369, 34),
+                    Location = new Point(369, 34),
                     Text = "1",
                     TextAlign = HorizontalAlignment.Right
                 };
@@ -838,7 +839,7 @@ namespace Charsheet
                     Size = new Size(55, 28),
                     Location = new Point(404, 34)
                 };
-                d.Items.AddRange(new object[] { "d4","d6","d8","d10","d12","d20" });
+                d.Items.AddRange(new object[] { "d4", "d6", "d8", "d10", "d12", "d20" });
                 d.SelectedIndex = 0;
                 controls.Add(d);
                 // damage modifier
@@ -885,7 +886,7 @@ namespace Charsheet
                     Size = new Size(129, 28),
                     Location = new Point(7, 92)
                 };
-                j.Items.AddRange(new object[] {"Fine", "Diminutive", "Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Colossal"});
+                j.Items.AddRange(new object[] { "Fine", "Diminutive", "Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Colossal" });
                 j.SelectedIndex = 5;
                 controls.Add(j);
                 // Reach or Range
@@ -912,14 +913,15 @@ namespace Charsheet
                 };
                 controls.Add(m);
                 // special properties or ammunition
-                if (type == "Melee") {
+                if (type == "Melee")
+                {
                     TextBox n = new()
                     {
                         Size = new Size(225, 27),
                         Location = new Point(483, 93)
                     };
                     controls.Add(n);
-                }; 
+                };
                 if (type == "Ranged")
                 {
                     TextBox n = new()
@@ -959,8 +961,8 @@ namespace Charsheet
                 Button x = new()
                 {
                     Text = "Roll Damage",
-                    Size = new Size(130,30),
-                    Location = new Point(320, 125) 
+                    Size = new Size(130, 30),
+                    Location = new Point(320, 125)
                 };
                 buttons.Add(x);
                 // roll both button
@@ -1063,13 +1065,13 @@ namespace Charsheet
                         newtab.Text = "Unnamed weapon";
                     }
                 };
-            MessageBox.Show("Processed " + test + " controls.");
+                MessageBox.Show("Processed " + test + " controls.");
             }
             else
             {
 
 
-        MessageBox.Show("Failed! For some reason?");
+                MessageBox.Show("Failed! For some reason?");
             }
         }
 
@@ -1079,7 +1081,7 @@ namespace Charsheet
             if (parent.TabPages.Count == 0)
             {
                 prompt.Show();
-            } 
+            }
         }
         private void btnNewMelee_Click(object sender, EventArgs e)
         {
