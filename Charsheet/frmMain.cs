@@ -1121,5 +1121,29 @@ namespace Charsheet
         }
         #endregion
 
+        private void textBox34_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtArmorAC_TextChanged(object sender, EventArgs e)
+        {
+            txtACArmor.Text = txtArmorAC.Text;
+        }
+
+        private void txtShieldAC_TextChanged(object sender, EventArgs e)
+        {
+            txtACShield.Text = txtShieldAC.Text;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void tabPage5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
