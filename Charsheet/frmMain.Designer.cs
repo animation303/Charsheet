@@ -359,6 +359,17 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.checkBox34 = new System.Windows.Forms.CheckBox();
+            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.label537 = new System.Windows.Forms.Label();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.label530 = new System.Windows.Forms.Label();
+            this.label531 = new System.Windows.Forms.Label();
+            this.label532 = new System.Windows.Forms.Label();
+            this.label533 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.textBox44 = new System.Windows.Forms.TextBox();
             this.textBox43 = new System.Windows.Forms.TextBox();
@@ -1186,17 +1197,6 @@
             this.lblMelee0Crit = new System.Windows.Forms.Label();
             this.tmrCheckAttr = new System.Windows.Forms.Timer(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.label530 = new System.Windows.Forms.Label();
-            this.label531 = new System.Windows.Forms.Label();
-            this.label532 = new System.Windows.Forms.Label();
-            this.label533 = new System.Windows.Forms.Label();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.label537 = new System.Windows.Forms.Label();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -1226,6 +1226,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             this.tabPage13.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -1245,7 +1246,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0Reach)).BeginInit();
-            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -4896,7 +4896,6 @@
             this.textBox34.TabIndex = 170;
             this.textBox34.Text = "0";
             this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox34.TextChanged += new System.EventHandler(this.textBox34_TextChanged);
             // 
             // textBox33
             // 
@@ -5186,7 +5185,134 @@
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "INVENTORY";
             this.tabPage5.UseVisualStyleBackColor = true;
-            this.tabPage5.Click += new System.EventHandler(this.tabPage5_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.checkBox34);
+            this.panel8.Controls.Add(this.textBox49);
+            this.panel8.Controls.Add(this.label537);
+            this.panel8.Controls.Add(this.textBox45);
+            this.panel8.Controls.Add(this.textBox46);
+            this.panel8.Controls.Add(this.textBox47);
+            this.panel8.Controls.Add(this.label530);
+            this.panel8.Controls.Add(this.label531);
+            this.panel8.Controls.Add(this.label532);
+            this.panel8.Controls.Add(this.label533);
+            this.panel8.Location = new System.Drawing.Point(546, 194);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(158, 200);
+            this.panel8.TabIndex = 1;
+            // 
+            // checkBox34
+            // 
+            this.checkBox34.AutoSize = true;
+            this.checkBox34.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox34.Location = new System.Drawing.Point(5, 165);
+            this.checkBox34.Name = "checkBox34";
+            this.checkBox34.Size = new System.Drawing.Size(153, 21);
+            this.checkBox34.TabIndex = 202;
+            this.checkBox34.Text = "Count in carry weight";
+            this.checkBox34.UseVisualStyleBackColor = true;
+            // 
+            // textBox49
+            // 
+            this.textBox49.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox49.Location = new System.Drawing.Point(87, 124);
+            this.textBox49.Name = "textBox49";
+            this.textBox49.Size = new System.Drawing.Size(58, 25);
+            this.textBox49.TabIndex = 201;
+            this.textBox49.Text = "0";
+            this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label537
+            // 
+            this.label537.BackColor = System.Drawing.Color.Black;
+            this.label537.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label537.ForeColor = System.Drawing.Color.White;
+            this.label537.Location = new System.Drawing.Point(0, 124);
+            this.label537.Name = "label537";
+            this.label537.Size = new System.Drawing.Size(76, 24);
+            this.label537.TabIndex = 199;
+            this.label537.Text = "COPPER";
+            this.label537.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // textBox45
+            // 
+            this.textBox45.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox45.Location = new System.Drawing.Point(87, 97);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(58, 25);
+            this.textBox45.TabIndex = 195;
+            this.textBox45.Text = "0";
+            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox46
+            // 
+            this.textBox46.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox46.Location = new System.Drawing.Point(87, 69);
+            this.textBox46.Name = "textBox46";
+            this.textBox46.Size = new System.Drawing.Size(58, 25);
+            this.textBox46.TabIndex = 194;
+            this.textBox46.Text = "0";
+            this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox47
+            // 
+            this.textBox47.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox47.Location = new System.Drawing.Point(87, 40);
+            this.textBox47.Name = "textBox47";
+            this.textBox47.Size = new System.Drawing.Size(58, 25);
+            this.textBox47.TabIndex = 193;
+            this.textBox47.Text = "0";
+            this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label530
+            // 
+            this.label530.BackColor = System.Drawing.Color.Black;
+            this.label530.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label530.ForeColor = System.Drawing.Color.White;
+            this.label530.Location = new System.Drawing.Point(0, 97);
+            this.label530.Name = "label530";
+            this.label530.Size = new System.Drawing.Size(76, 24);
+            this.label530.TabIndex = 192;
+            this.label530.Text = "SILVER";
+            this.label530.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label531
+            // 
+            this.label531.BackColor = System.Drawing.Color.Black;
+            this.label531.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label531.ForeColor = System.Drawing.Color.White;
+            this.label531.Location = new System.Drawing.Point(0, 69);
+            this.label531.Name = "label531";
+            this.label531.Size = new System.Drawing.Size(76, 24);
+            this.label531.TabIndex = 191;
+            this.label531.Text = "GOLD";
+            this.label531.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label532
+            // 
+            this.label532.BackColor = System.Drawing.Color.Black;
+            this.label532.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label532.ForeColor = System.Drawing.Color.White;
+            this.label532.Location = new System.Drawing.Point(0, 40);
+            this.label532.Name = "label532";
+            this.label532.Size = new System.Drawing.Size(76, 24);
+            this.label532.TabIndex = 190;
+            this.label532.Text = "PLATINUM";
+            this.label532.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label533
+            // 
+            this.label533.BackColor = System.Drawing.Color.Black;
+            this.label533.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label533.ForeColor = System.Drawing.Color.White;
+            this.label533.Location = new System.Drawing.Point(0, 0);
+            this.label533.Name = "label533";
+            this.label533.Size = new System.Drawing.Size(158, 35);
+            this.label533.TabIndex = 189;
+            this.label533.Text = "WEALTH";
+            this.label533.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel7
             // 
@@ -14682,134 +14808,6 @@
             this.tmrCheckAttr.Interval = 500;
             this.tmrCheckAttr.Tick += new System.EventHandler(this.tmrCheckAttr_Tick);
             // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.checkBox34);
-            this.panel8.Controls.Add(this.textBox49);
-            this.panel8.Controls.Add(this.label537);
-            this.panel8.Controls.Add(this.textBox45);
-            this.panel8.Controls.Add(this.textBox46);
-            this.panel8.Controls.Add(this.textBox47);
-            this.panel8.Controls.Add(this.label530);
-            this.panel8.Controls.Add(this.label531);
-            this.panel8.Controls.Add(this.label532);
-            this.panel8.Controls.Add(this.label533);
-            this.panel8.Location = new System.Drawing.Point(546, 194);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(158, 200);
-            this.panel8.TabIndex = 1;
-            // 
-            // textBox45
-            // 
-            this.textBox45.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox45.Location = new System.Drawing.Point(87, 97);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(58, 25);
-            this.textBox45.TabIndex = 195;
-            this.textBox45.Text = "0";
-            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox46
-            // 
-            this.textBox46.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox46.Location = new System.Drawing.Point(87, 69);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(58, 25);
-            this.textBox46.TabIndex = 194;
-            this.textBox46.Text = "0";
-            this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox47
-            // 
-            this.textBox47.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox47.Location = new System.Drawing.Point(87, 40);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(58, 25);
-            this.textBox47.TabIndex = 193;
-            this.textBox47.Text = "0";
-            this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label530
-            // 
-            this.label530.BackColor = System.Drawing.Color.Black;
-            this.label530.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label530.ForeColor = System.Drawing.Color.White;
-            this.label530.Location = new System.Drawing.Point(0, 97);
-            this.label530.Name = "label530";
-            this.label530.Size = new System.Drawing.Size(76, 24);
-            this.label530.TabIndex = 192;
-            this.label530.Text = "SILVER";
-            this.label530.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label531
-            // 
-            this.label531.BackColor = System.Drawing.Color.Black;
-            this.label531.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label531.ForeColor = System.Drawing.Color.White;
-            this.label531.Location = new System.Drawing.Point(0, 69);
-            this.label531.Name = "label531";
-            this.label531.Size = new System.Drawing.Size(76, 24);
-            this.label531.TabIndex = 191;
-            this.label531.Text = "GOLD";
-            this.label531.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label532
-            // 
-            this.label532.BackColor = System.Drawing.Color.Black;
-            this.label532.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label532.ForeColor = System.Drawing.Color.White;
-            this.label532.Location = new System.Drawing.Point(0, 40);
-            this.label532.Name = "label532";
-            this.label532.Size = new System.Drawing.Size(76, 24);
-            this.label532.TabIndex = 190;
-            this.label532.Text = "PLATINUM";
-            this.label532.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label533
-            // 
-            this.label533.BackColor = System.Drawing.Color.Black;
-            this.label533.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label533.ForeColor = System.Drawing.Color.White;
-            this.label533.Location = new System.Drawing.Point(0, 0);
-            this.label533.Name = "label533";
-            this.label533.Size = new System.Drawing.Size(158, 35);
-            this.label533.TabIndex = 189;
-            this.label533.Text = "WEALTH";
-            this.label533.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox49
-            // 
-            this.textBox49.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox49.Location = new System.Drawing.Point(87, 124);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(58, 25);
-            this.textBox49.TabIndex = 201;
-            this.textBox49.Text = "0";
-            this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label537
-            // 
-            this.label537.BackColor = System.Drawing.Color.Black;
-            this.label537.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label537.ForeColor = System.Drawing.Color.White;
-            this.label537.Location = new System.Drawing.Point(0, 124);
-            this.label537.Name = "label537";
-            this.label537.Size = new System.Drawing.Size(76, 24);
-            this.label537.TabIndex = 199;
-            this.label537.Text = "COPPER";
-            this.label537.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // checkBox34
-            // 
-            this.checkBox34.AutoSize = true;
-            this.checkBox34.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox34.Location = new System.Drawing.Point(5, 165);
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Size = new System.Drawing.Size(153, 21);
-            this.checkBox34.TabIndex = 202;
-            this.checkBox34.Text = "Count in carry weight";
-            this.checkBox34.UseVisualStyleBackColor = true;
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -14861,6 +14859,8 @@
             this.tabPage13.ResumeLayout(false);
             this.tabPage13.PerformLayout();
             this.tabPage5.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.tabPage7.ResumeLayout(false);
@@ -14889,8 +14889,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0DmgMod)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMelee0Reach)).EndInit();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
             this.ResumeLayout(false);
 
         }

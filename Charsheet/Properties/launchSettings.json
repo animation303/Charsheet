@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Charsheet": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Project"
+    }
+  }
+}

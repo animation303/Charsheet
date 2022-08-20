@@ -1,3 +1,5 @@
+using Charsheet.DiceRolls;
+
 namespace Charsheet
 {
     public partial class frmMain : Form
@@ -7,19 +9,6 @@ namespace Charsheet
             InitializeComponent();
         }
 
-        private static int calcMod(double attrValue)
-        {
-            double e;
-            e = Math.Floor((attrValue - 10) / 2);
-            return Convert.ToInt32(e);
-        }
-
-        private static int randomizer9000()
-        {
-            Random dice = new(Guid.NewGuid().GetHashCode());
-            int tty = dice.Next(0, 2147483646);
-            return tty;
-        }
         private void frmMain_Load(object sender, EventArgs e)
         {
             comHitDie.SelectedIndex = 0;
@@ -123,12 +112,12 @@ namespace Charsheet
         //
         private void nudStr_ValueChanged(object sender, EventArgs e)
         {
-            txtStrMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudStr.Value)));
+            txtStrMod.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudStr.Value)));
             nudStrTemp.Value = nudStr.Value;
         }
         private void nudStrTemp_ValueChanged(object sender, EventArgs e)
         {
-            txtStrModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudStrTemp.Value)));
+            txtStrModTemp.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudStrTemp.Value)));
             decimal v = nudStr.Value;
             decimal x = nudStrTemp.Value;
             switch (x)
@@ -163,7 +152,7 @@ namespace Charsheet
         //
         private void nudDex_ValueChanged(object sender, EventArgs e)
         {
-            txtDexMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudDex.Value)));
+            txtDexMod.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudDex.Value)));
             nudDexTemp.Value = nudDex.Value;
 
             txtReflexAbilMod.Text = txtDexMod.Text;
@@ -172,7 +161,7 @@ namespace Charsheet
         }
         private void nudDexTemp_ValueChanged(object sender, EventArgs e)
         {
-            txtDexModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudDexTemp.Value)));
+            txtDexModTemp.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudDexTemp.Value)));
 
             txtReflexAbilMod.Text = txtDexModTemp.Text;
             txtACAbilityMod.Text = txtDexModTemp.Text;
@@ -213,14 +202,14 @@ namespace Charsheet
 
         private void nudCon_ValueChanged(object sender, EventArgs e)
         {
-            txtConMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudCon.Value)));
+            txtConMod.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudCon.Value)));
             nudConTemp.Value = nudCon.Value;
 
             txtFortAbilMod.Text = txtConMod.Text;
         }
         private void nudConTemp_ValueChanged(object sender, EventArgs e)
         {
-            txtConModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudConTemp.Value)));
+            txtConModTemp.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudConTemp.Value)));
             txtFortAbilMod.Text = txtConModTemp.Text;
 
             decimal v = nudCon.Value;
@@ -258,12 +247,12 @@ namespace Charsheet
 
         private void nudInt_ValueChanged(object sender, EventArgs e)
         {
-            txtIntMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudInt.Value)));
+            txtIntMod.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudInt.Value)));
             nudIntTemp.Value = nudInt.Value;
         }
         private void nudIntTemp_ValueChanged(object sender, EventArgs e)
         {
-            txtIntModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudIntTemp.Value)));
+            txtIntModTemp.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudIntTemp.Value)));
             decimal v = nudInt.Value;
             decimal x = nudIntTemp.Value;
             switch (x)
@@ -299,14 +288,14 @@ namespace Charsheet
 
         private void nudWis_ValueChanged(object sender, EventArgs e)
         {
-            txtWisMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudWis.Value)));
+            txtWisMod.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudWis.Value)));
             nudWisTemp.Value = nudWis.Value;
 
             txtWillAbilMod.Text = txtWisMod.Text;
         }
         private void nudWisTemp_ValueChanged(object sender, EventArgs e)
         {
-            txtWisModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudWisTemp.Value)));
+            txtWisModTemp.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudWisTemp.Value)));
             decimal v = nudWis.Value;
             decimal x = nudWisTemp.Value;
 
@@ -343,12 +332,12 @@ namespace Charsheet
         //
         private void nudCha_ValueChanged(object sender, EventArgs e)
         {
-            txtChaMod.Text = Convert.ToString(calcMod(Convert.ToDouble(nudCha.Value)));
+            txtChaMod.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudCha.Value)));
             nudChaTemp.Value = nudCha.Value;
         }
         private void nudChaTemp_ValueChanged(object sender, EventArgs e)
         {
-            txtChaModTemp.Text = Convert.ToString(calcMod(Convert.ToDouble(nudChaTemp.Value)));
+            txtChaModTemp.Text = Convert.ToString(Dice.calcMod(Convert.ToDouble(nudChaTemp.Value)));
             decimal v = nudCha.Value;
             decimal x = nudChaTemp.Value;
             switch (x)
@@ -785,7 +774,7 @@ namespace Charsheet
                 int test = 0;
                 foreach (Control zz in labels)
                 {
-                    zz.Name = id + randomizer9000().ToString() + randomizer9000().ToString();
+                    zz.Name = id + Dice.randomizer9000().ToString() + Dice.randomizer9000().ToString();
                     toolTip1.SetToolTip(zz, zz.Name);
                     newWeapon.Controls.Add(zz);
                     test++;
@@ -942,7 +931,7 @@ namespace Charsheet
 
                 foreach (Control zz in controls)
                 {
-                    zz.Name = id + randomizer9000().ToString() + randomizer9000().ToString();
+                    zz.Name = id + Dice.randomizer9000().ToString() + Dice.randomizer9000().ToString();
                     toolTip1.SetToolTip(zz, zz.Name);
                     newWeapon.Controls.Add(zz);
                     test++;
@@ -984,7 +973,7 @@ namespace Charsheet
                 buttons.Add(z);
                 foreach (Control zz in buttons)
                 {
-                    zz.Name = id + randomizer9000().ToString() + randomizer9000().ToString();
+                    zz.Name = id + Dice.randomizer9000().ToString() + Dice.randomizer9000().ToString();
                     toolTip1.SetToolTip(zz, zz.Name);
                     newWeapon.Controls.Add(zz);
                     test++;
@@ -1121,10 +1110,6 @@ namespace Charsheet
         }
         #endregion
 
-        private void textBox34_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void txtArmorAC_TextChanged(object sender, EventArgs e)
         {
@@ -1136,14 +1121,5 @@ namespace Charsheet
             txtACShield.Text = txtShieldAC.Text;
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void tabPage5_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

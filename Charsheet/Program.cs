@@ -12,7 +12,8 @@ namespace Charsheet
             // see https://aka.ms/applicationconfiguration.
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmMain());
+            //Application.Run(new frmMain());
+            Application.Run(new frmStart());
         }
     }
 }
