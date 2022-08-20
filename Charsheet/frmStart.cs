@@ -81,7 +81,8 @@ namespace Charsheet
             
             newCharsheetTabs.TabPages.Add(newSummaryPage);
             newCharsheetTabs.TabPages.Add(newSkillsFeatsPage);
-            
+            newCharsheetTabs.TabPages.Add(newInventoryPage);
+
 
         }
     }
