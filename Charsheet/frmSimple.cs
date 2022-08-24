@@ -25,11 +25,6 @@ namespace Charsheet
             Height = Screen.PrimaryScreen.WorkingArea.Height;
             tabMain.Height = this.Height - 200;
             //WindowState = FormWindowState.Maximized;
-            string baws = this.Height.ToString();
-            string baws2 = tabMain.Height.ToString();
-
-
-            MessageBox.Show(baws + " " + baws2);
         }
 
     }
