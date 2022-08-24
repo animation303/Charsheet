@@ -13,7 +13,9 @@ namespace Charsheet
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             ApplicationConfiguration.Initialize();
             //Application.Run(new frmMain());
-            Application.Run(new frmStart());
+            //Application.Run(new frmStart());
+            //Application.Run(new frmSimple());
+            Application.Run(new Form1());
         }
     }
 }

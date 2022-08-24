@@ -1121,5 +1121,9 @@ namespace Charsheet
             txtACShield.Text = txtShieldAC.Text;
         }
 
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -22,7 +22,32 @@ namespace Charsheet
 
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void buildSummaryPage(TabPage tabid, string id)
+        {
+            FlowLayoutPanel flowLayoutPanel1 = new()
+            {
+                Location = new System.Drawing.Point(15, 20),
+                Name = "flowLayoutPanel1",
+                Size = new System.Drawing.Size(1855, 176),
+                TabIndex = 0
+            };
+            tabid.Controls.Add(flowLayoutPanel1);
+            Label arse = new Label()
+            {
+                Text = "Farts XD",
+                Size = new System.Drawing.Size(120, 32),
+                Location = new System.Drawing.Point(12, 20)
+            };
+
+            flowLayoutPanel1.Controls.Add(arse);
+
+            
+        }
+        private void buildSkillsPage(string tabid, string id)
+        {
+
+        }
+        private void buildInventoryPage(string tabid, string id)
         {
 
         }
@@ -32,7 +57,7 @@ namespace Charsheet
             Random dice = new(Guid.NewGuid().GetHashCode());
             string tty = dice.Next(100000, 999999).ToString();
 
-            string newCharsheetID, newCharsheetTabsID, newCharacterName, newSummaryPageID, newSkillsPageID;
+            string newCharsheetID, newCharsheetTabsID, newCharacterName, newSummaryPageID, newSkillsPageID, newInventoryPageID;
 
             newCharsheetID = "Charsheet" + tty;
             //newCharacterID = "Character" + tty;
@@ -40,6 +65,7 @@ namespace Charsheet
             newCharacterName = "New Character";
             newSummaryPageID = "SummaryPage" + tty;
             newSkillsPageID = "SkillsPage" + tty;
+            newInventoryPageID = "newInventoryPage" + tty;
 
             TabPage newCharsheet = new TabPage()
             {
@@ -63,26 +89,28 @@ namespace Charsheet
             TabPage newSummaryPage = new TabPage()
 
             {
-                Name = newSummaryPageID,
-                Text = "Summary"
+                Name = "tabSummary" + newSummaryPageID,
+                Text = "Summary " + tty
             };
-            TabPage newSkillsFeatsPage = new TabPage()
+            TabPage newSkillsPage = new TabPage()
             {
-                Name = newSkillsPageID,
-                Text = "Skills/Feats"
+                Name = "tabSkills" + newSkillsPageID,
+                Text = "Skills/Feats " + tty
             };
 
             TabPage newInventoryPage = new TabPage()
             {
-                Name = "newInventoryPage" + dice.Next(100000, 999999).ToString(),
-                Text = "Inventory"
+                Name = "tabInventory" + newInventoryPageID,
+                Text = "Inventory " + tty 
              };
                         
             
             newCharsheetTabs.TabPages.Add(newSummaryPage);
-            newCharsheetTabs.TabPages.Add(newSkillsFeatsPage);
+            buildSummaryPage(newSummaryPage, tty);
+            newCharsheetTabs.TabPages.Add(newSkillsPage);
+            // buildSkillsPage(newSkillsPage.Name, newtty);
             newCharsheetTabs.TabPages.Add(newInventoryPage);
-
+            // buildInventoryPage(newInventoryPage.Name, tty);
 
         }
     }

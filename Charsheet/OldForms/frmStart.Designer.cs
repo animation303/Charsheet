@@ -50,7 +50,6 @@
             this.mainMenu.Size = new System.Drawing.Size(1900, 60);
             this.mainMenu.TabIndex = 0;
             this.mainMenu.Text = "mainMenu";
-            this.mainMenu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // mnuNewSheet
             // 
