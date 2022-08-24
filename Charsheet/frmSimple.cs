@@ -19,12 +19,10 @@ namespace Charsheet
 
         private void frmSimple_Load(object sender, EventArgs e)
         {
-            //Width = Screen.PrimaryScreen.WorkingArea.Width;
             int thisx = this.Location.X;
             this.Location = new Point (thisx, 0);
             Height = Screen.PrimaryScreen.WorkingArea.Height;
             tabMain.Height = this.Height - 200;
-            //WindowState = FormWindowState.Maximized;
         }
 
     }
