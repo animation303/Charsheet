@@ -111,18 +111,61 @@ namespace Charsheet
 
         }
 
-
-        private void button1_Click(object sender, EventArgs e)
+        public void newBag(string BagType, string bagName)
         {
+            if (string.IsNullOrWhiteSpace(bagName))
+            {
+                bagName = BagType;
+            } else
+            {
+                bagName = bagName + " (" + BagType + ")";
+            }
             string tty = dice.Next(100000, 999999).ToString();
-            CheckBox newCheckbox = new()
+            RadioButton newBag = new()
             {
                 Name = "Bag" + tty,
                 Location = new Point(4, 4),
-                Size = new Size(440, 30),
-                Text = "",
-                Appearance = Appearance.Button
+                Size = new Size(550, 60),
+                Text = bagName,
+                Appearance = Appearance.Button,
+                BackColor = SystemColors.Control,
+                Tag = BagType
             };
+            Label bagWeight = new()
+            {
+                Name = "Bag" + tty + "Weight",
+                Size = new Size(30, 30),
+                Location = new Point(480, 20),
+                Text = "5 lbs",
+                BackColor = SystemColors.Control
+            };
+            flowLayoutPanel2.Controls.Add(newBag);
+            newBag.Controls.Add(bagWeight);
+
+            newBag.CheckedChanged += (s, e) =>
+            {
+                if (newBag.Checked == true)
+                {
+                    newBag.BackColor = SystemColors.Highlight;
+                    bagWeight.BackColor = SystemColors.Highlight;
+                }
+                else
+                {
+                    newBag.BackColor = SystemColors.Control;
+                    bagWeight.BackColor = SystemColors.Control;
+                }
+            };
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            Form newItemDialog = new newItemDialog(this);
+            newItemDialog.Tag = "Bag";
+            newItemDialog.Show();
+
+            /*
             TextBox newBagName = new()
             {
                 Name = "BagName" + tty,
@@ -130,22 +173,23 @@ namespace Charsheet
                 Size = new Size(300, 25),
                 Text = "New Bag"
             };
-            flowLayoutPanel2.Controls.Add(newCheckbox);
-            newCheckbox.Controls.Add(newBagName);
+            
+            newBag.Controls.Add(newBagName);
             this.ActiveControl = newBagName;
             newBagName.Leave += (s, e) =>
             {
-                newCheckbox.Text = newBagName.Text;
-                newCheckbox.Controls.Remove(newBagName);
+                newBag.Text = newBagName.Text;
+                newBag.Controls.Remove(newBagName);
             };
             newBagName.KeyPress += (s, e) =>
             {
                 if (e.KeyChar == Convert.ToChar(Keys.Return))
                 {
-                    newCheckbox.Text = newBagName.Text;
-                    newCheckbox.Controls.Remove(newBagName);
+                    newBag.Text = newBagName.Text;
+                    newBag.Controls.Remove(newBagName);
                 }
             };
+            */
         }
 
 

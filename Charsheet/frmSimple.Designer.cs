@@ -34,6 +34,8 @@
             this.tabMain = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
             this.textBox37 = new System.Windows.Forms.TextBox();
             this.label166 = new System.Windows.Forms.Label();
             this.textBox36 = new System.Windows.Forms.TextBox();
@@ -186,6 +188,7 @@
             this.label121 = new System.Windows.Forms.Label();
             this.label120 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox38 = new System.Windows.Forms.TextBox();
             this.textBox685 = new System.Windows.Forms.TextBox();
             this.textBox684 = new System.Windows.Forms.TextBox();
             this.textBox683 = new System.Windows.Forms.TextBox();
@@ -949,9 +952,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label80 = new System.Windows.Forms.Label();
             this.tabMain.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -977,9 +980,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDex)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStrTemp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStr)).BeginInit();
+            this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // imgIcons
@@ -1201,6 +1206,28 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(552, 496);
             this.panel5.TabIndex = 1296;
+            // 
+            // label78
+            // 
+            this.label78.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label78.Location = new System.Drawing.Point(463, 224);
+            this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(58, 30);
+            this.label78.TabIndex = 1304;
+            this.label78.Text = "MISC MOD";
+            this.label78.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label79
+            // 
+            this.label79.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label79.Location = new System.Drawing.Point(406, 224);
+            this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(58, 30);
+            this.label79.TabIndex = 1303;
+            this.label79.Text = "ABILITY MOD";
+            this.label79.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // textBox37
             // 
@@ -3798,6 +3825,18 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(592, 426);
             this.panel3.TabIndex = 248;
+            // 
+            // textBox38
+            // 
+            this.textBox38.BackColor = System.Drawing.Color.White;
+            this.textBox38.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox38.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox38.Location = new System.Drawing.Point(124, 1352);
+            this.textBox38.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(80, 16);
+            this.textBox38.TabIndex = 1511;
+            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox685
             // 
@@ -12335,6 +12374,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.panel2);
             this.tabPage5.ImageIndex = 8;
             this.tabPage5.Location = new System.Drawing.Point(4, 71);
             this.tabPage5.Margin = new System.Windows.Forms.Padding(2);
@@ -12707,39 +12747,34 @@
             this.comboBox4.Size = new System.Drawing.Size(152, 28);
             this.comboBox4.TabIndex = 7;
             // 
-            // label78
+            // panel2
             // 
-            this.label78.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label78.Location = new System.Drawing.Point(463, 224);
-            this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(58, 30);
-            this.label78.TabIndex = 1304;
-            this.label78.Text = "MISC MOD";
-            this.label78.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.panel2.Controls.Add(this.flowLayoutPanel1);
+            this.panel2.Controls.Add(this.label80);
+            this.panel2.Location = new System.Drawing.Point(36, 32);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(551, 163);
+            this.panel2.TabIndex = 261;
             // 
-            // label79
+            // flowLayoutPanel1
             // 
-            this.label79.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label79.Location = new System.Drawing.Point(406, 224);
-            this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(58, 30);
-            this.label79.TabIndex = 1303;
-            this.label79.Text = "ABILITY MOD";
-            this.label79.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 37);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(551, 125);
+            this.flowLayoutPanel1.TabIndex = 262;
             // 
-            // textBox38
+            // label80
             // 
-            this.textBox38.BackColor = System.Drawing.Color.White;
-            this.textBox38.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox38.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox38.Location = new System.Drawing.Point(124, 1352);
-            this.textBox38.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(80, 16);
-            this.textBox38.TabIndex = 1511;
-            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label80.BackColor = System.Drawing.Color.Black;
+            this.label80.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label80.ForeColor = System.Drawing.Color.White;
+            this.label80.Location = new System.Drawing.Point(0, -1);
+            this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(319, 35);
+            this.label80.TabIndex = 261;
+            this.label80.Text = "WEAPONS";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmSimple
             // 
@@ -12787,10 +12822,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDex)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStrTemp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStr)).EndInit();
+            this.tabPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -13719,5 +13756,8 @@
         private Label label78;
         private Label label79;
         private TextBox textBox38;
+        private Panel panel2;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Label label80;
     }
 }

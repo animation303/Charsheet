@@ -27,11 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="C1.WPF.Docking" Version="6.0.20222.263" />
-    <PackageReference Include="DockPanelSuite" Version="3.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

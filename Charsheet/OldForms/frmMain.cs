@@ -1125,5 +1125,10 @@ namespace Charsheet
         {
 
         }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

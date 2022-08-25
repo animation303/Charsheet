@@ -3609,6 +3609,7 @@
             this.button34.TabIndex = 293;
             this.button34.Text = "ROLL";
             this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // label76
             // 
