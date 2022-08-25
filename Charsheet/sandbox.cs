@@ -207,5 +207,20 @@ namespace Charsheet
         {
 
         }
+
+        private void chkExpandPanelAS_CheckedChanged(object sender, EventArgs e)
+        {
+            switch (chkExpandPanelAS.Checked)
+            {
+                case true:
+                    pnlAbilityScores.Width = 325;
+                    chkExpandPanelAS.Text = "";
+                    break;
+                case false:
+                    pnlAbilityScores.Width = 210;
+                    chkExpandPanelAS.Text = "";
+                    break;
+            }
+        }
     }
 }

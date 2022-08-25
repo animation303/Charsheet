@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSimple));
             this.imgIcons = new System.Windows.Forms.ImageList(this.components);
             this.tabMain = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabAttributes = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label78 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
@@ -174,6 +174,106 @@
             this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.label880 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.btnChaCheck = new System.Windows.Forms.Button();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.btnWisCheck = new System.Windows.Forms.Button();
+            this.label50 = new System.Windows.Forms.Label();
+            this.btnIntCheck = new System.Windows.Forms.Button();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.btnConCheck = new System.Windows.Forms.Button();
+            this.label49 = new System.Windows.Forms.Label();
+            this.btnDexCheck = new System.Windows.Forms.Button();
+            this.label45 = new System.Windows.Forms.Label();
+            this.btnStrCheck = new System.Windows.Forms.Button();
+            this.label47 = new System.Windows.Forms.Label();
+            this.txtChaModTemp = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtChaMod = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.nudChaTemp = new System.Windows.Forms.NumericUpDown();
+            this.label40 = new System.Windows.Forms.Label();
+            this.nudCha = new System.Windows.Forms.NumericUpDown();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtWisModTemp = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.txtWisMod = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.nudWisTemp = new System.Windows.Forms.NumericUpDown();
+            this.label26 = new System.Windows.Forms.Label();
+            this.nudWis = new System.Windows.Forms.NumericUpDown();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.txtIntModTemp = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtIntMod = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.nudIntTemp = new System.Windows.Forms.NumericUpDown();
+            this.label38 = new System.Windows.Forms.Label();
+            this.nudInt = new System.Windows.Forms.NumericUpDown();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.txtConModTemp = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.txtConMod = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.nudConTemp = new System.Windows.Forms.NumericUpDown();
+            this.label29 = new System.Windows.Forms.Label();
+            this.nudCon = new System.Windows.Forms.NumericUpDown();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.txtDexModTemp = new System.Windows.Forms.TextBox();
+            this.txtACMiscMod = new System.Windows.Forms.TextBox();
+            this.txtDexMod = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.nudDexTemp = new System.Windows.Forms.NumericUpDown();
+            this.txtACNatArmor = new System.Windows.Forms.TextBox();
+            this.nudDex = new System.Windows.Forms.NumericUpDown();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtACAbilityMod = new System.Windows.Forms.TextBox();
+            this.txtStrModTemp = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.txtStrMod = new System.Windows.Forms.TextBox();
+            this.txtACShield = new System.Windows.Forms.TextBox();
+            this.nudStrTemp = new System.Windows.Forms.NumericUpDown();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtAC = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtACArmor = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label83 = new System.Windows.Forms.Label();
+            this.nudStr = new System.Windows.Forms.NumericUpDown();
+            this.btnRollInit = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtHP = new System.Windows.Forms.TextBox();
+            this.label106 = new System.Windows.Forms.Label();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.txtInitMiscMod = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.txtInitAbilMod = new System.Windows.Forms.TextBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.txtInit = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.tabSkills = new System.Windows.Forms.TabPage();
+            this.label82 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnNewSpecial = new System.Windows.Forms.Button();
+            this.flpSpecials = new System.Windows.Forms.FlowLayoutPanel();
+            this.label81 = new System.Windows.Forms.Label();
+            this.pnlFeats = new System.Windows.Forms.Panel();
+            this.btnNewFeat = new System.Windows.Forms.Button();
+            this.flpFeats = new System.Windows.Forms.FlowLayoutPanel();
             this.label75 = new System.Windows.Forms.Label();
             this.label74 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
@@ -192,7 +292,6 @@
             this.textBox685 = new System.Windows.Forms.TextBox();
             this.textBox684 = new System.Windows.Forms.TextBox();
             this.textBox683 = new System.Windows.Forms.TextBox();
-            this.button159 = new System.Windows.Forms.Button();
             this.label797 = new System.Windows.Forms.Label();
             this.label798 = new System.Windows.Forms.Label();
             this.label799 = new System.Windows.Forms.Label();
@@ -202,7 +301,6 @@
             this.textBox674 = new System.Windows.Forms.TextBox();
             this.label800 = new System.Windows.Forms.Label();
             this.checkBox142 = new System.Windows.Forms.CheckBox();
-            this.button160 = new System.Windows.Forms.Button();
             this.label802 = new System.Windows.Forms.Label();
             this.label803 = new System.Windows.Forms.Label();
             this.label804 = new System.Windows.Forms.Label();
@@ -212,7 +310,6 @@
             this.textBox678 = new System.Windows.Forms.TextBox();
             this.label805 = new System.Windows.Forms.Label();
             this.checkBox143 = new System.Windows.Forms.CheckBox();
-            this.button161 = new System.Windows.Forms.Button();
             this.label807 = new System.Windows.Forms.Label();
             this.label808 = new System.Windows.Forms.Label();
             this.label809 = new System.Windows.Forms.Label();
@@ -222,9 +319,7 @@
             this.textBox682 = new System.Windows.Forms.TextBox();
             this.label810 = new System.Windows.Forms.Label();
             this.checkBox144 = new System.Windows.Forms.CheckBox();
-            this.button147 = new System.Windows.Forms.Button();
             this.textBox622 = new System.Windows.Forms.TextBox();
-            this.button145 = new System.Windows.Forms.Button();
             this.label737 = new System.Windows.Forms.Label();
             this.label727 = new System.Windows.Forms.Label();
             this.label728 = new System.Windows.Forms.Label();
@@ -246,7 +341,6 @@
             this.label796 = new System.Windows.Forms.Label();
             this.label731 = new System.Windows.Forms.Label();
             this.textBox626 = new System.Windows.Forms.TextBox();
-            this.button146 = new System.Windows.Forms.Button();
             this.label795 = new System.Windows.Forms.Label();
             this.label732 = new System.Windows.Forms.Label();
             this.label740 = new System.Windows.Forms.Label();
@@ -261,7 +355,6 @@
             this.textBox619 = new System.Windows.Forms.TextBox();
             this.textBox668 = new System.Windows.Forms.TextBox();
             this.textBox620 = new System.Windows.Forms.TextBox();
-            this.button148 = new System.Windows.Forms.Button();
             this.label735 = new System.Windows.Forms.Label();
             this.textBox667 = new System.Windows.Forms.TextBox();
             this.textBox621 = new System.Windows.Forms.TextBox();
@@ -270,7 +363,6 @@
             this.label794 = new System.Windows.Forms.Label();
             this.checkBox129 = new System.Windows.Forms.CheckBox();
             this.label743 = new System.Windows.Forms.Label();
-            this.button144 = new System.Windows.Forms.Button();
             this.label793 = new System.Windows.Forms.Label();
             this.label722 = new System.Windows.Forms.Label();
             this.label744 = new System.Windows.Forms.Label();
@@ -279,7 +371,6 @@
             this.label724 = new System.Windows.Forms.Label();
             this.textBox627 = new System.Windows.Forms.TextBox();
             this.textBox607 = new System.Windows.Forms.TextBox();
-            this.button158 = new System.Windows.Forms.Button();
             this.label726 = new System.Windows.Forms.Label();
             this.textBox628 = new System.Windows.Forms.TextBox();
             this.textBox608 = new System.Windows.Forms.TextBox();
@@ -294,7 +385,6 @@
             this.textBox666 = new System.Windows.Forms.TextBox();
             this.label725 = new System.Windows.Forms.Label();
             this.label745 = new System.Windows.Forms.Label();
-            this.button103 = new System.Windows.Forms.Button();
             this.textBox665 = new System.Windows.Forms.TextBox();
             this.label517 = new System.Windows.Forms.Label();
             this.label746 = new System.Windows.Forms.Label();
@@ -305,21 +395,18 @@
             this.textBox434 = new System.Windows.Forms.TextBox();
             this.textBox663 = new System.Windows.Forms.TextBox();
             this.textBox435 = new System.Windows.Forms.TextBox();
-            this.button149 = new System.Windows.Forms.Button();
             this.textBox436 = new System.Windows.Forms.TextBox();
             this.label789 = new System.Windows.Forms.Label();
             this.textBox437 = new System.Windows.Forms.TextBox();
             this.label747 = new System.Windows.Forms.Label();
             this.label520 = new System.Windows.Forms.Label();
             this.label788 = new System.Windows.Forms.Label();
-            this.button104 = new System.Windows.Forms.Button();
             this.label748 = new System.Windows.Forms.Label();
             this.label521 = new System.Windows.Forms.Label();
             this.label787 = new System.Windows.Forms.Label();
             this.label522 = new System.Windows.Forms.Label();
             this.label749 = new System.Windows.Forms.Label();
             this.label523 = new System.Windows.Forms.Label();
-            this.button157 = new System.Windows.Forms.Button();
             this.textBox438 = new System.Windows.Forms.TextBox();
             this.textBox631 = new System.Windows.Forms.TextBox();
             this.textBox439 = new System.Windows.Forms.TextBox();
@@ -342,14 +429,12 @@
             this.textBox661 = new System.Windows.Forms.TextBox();
             this.checkBox87 = new System.Windows.Forms.CheckBox();
             this.label751 = new System.Windows.Forms.Label();
-            this.button100 = new System.Windows.Forms.Button();
             this.textBox660 = new System.Windows.Forms.TextBox();
             this.label225 = new System.Windows.Forms.Label();
             this.checkBox132 = new System.Windows.Forms.CheckBox();
             this.label342 = new System.Windows.Forms.Label();
             this.textBox659 = new System.Windows.Forms.TextBox();
             this.label343 = new System.Windows.Forms.Label();
-            this.button150 = new System.Windows.Forms.Button();
             this.textBox422 = new System.Windows.Forms.TextBox();
             this.label784 = new System.Windows.Forms.Label();
             this.textBox423 = new System.Windows.Forms.TextBox();
@@ -363,8 +448,6 @@
             this.label345 = new System.Windows.Forms.Label();
             this.label754 = new System.Windows.Forms.Label();
             this.checkBox83 = new System.Windows.Forms.CheckBox();
-            this.button156 = new System.Windows.Forms.Button();
-            this.button101 = new System.Windows.Forms.Button();
             this.textBox635 = new System.Windows.Forms.TextBox();
             this.label346 = new System.Windows.Forms.Label();
             this.checkBox138 = new System.Windows.Forms.CheckBox();
@@ -386,14 +469,12 @@
             this.textBox657 = new System.Windows.Forms.TextBox();
             this.checkBox84 = new System.Windows.Forms.CheckBox();
             this.label756 = new System.Windows.Forms.Label();
-            this.button102 = new System.Windows.Forms.Button();
             this.textBox656 = new System.Windows.Forms.TextBox();
             this.label506 = new System.Windows.Forms.Label();
             this.checkBox133 = new System.Windows.Forms.CheckBox();
             this.label510 = new System.Windows.Forms.Label();
             this.textBox655 = new System.Windows.Forms.TextBox();
             this.label514 = new System.Windows.Forms.Label();
-            this.button151 = new System.Windows.Forms.Button();
             this.textBox430 = new System.Windows.Forms.TextBox();
             this.label779 = new System.Windows.Forms.Label();
             this.textBox431 = new System.Windows.Forms.TextBox();
@@ -407,8 +488,6 @@
             this.label516 = new System.Windows.Forms.Label();
             this.label759 = new System.Windows.Forms.Label();
             this.checkBox85 = new System.Windows.Forms.CheckBox();
-            this.button155 = new System.Windows.Forms.Button();
-            this.button99 = new System.Windows.Forms.Button();
             this.textBox639 = new System.Windows.Forms.TextBox();
             this.label221 = new System.Windows.Forms.Label();
             this.checkBox137 = new System.Windows.Forms.CheckBox();
@@ -426,7 +505,6 @@
             this.textBox654 = new System.Windows.Forms.TextBox();
             this.label224 = new System.Windows.Forms.Label();
             this.label760 = new System.Windows.Forms.Label();
-            this.button43 = new System.Windows.Forms.Button();
             this.textBox653 = new System.Windows.Forms.TextBox();
             this.label202 = new System.Windows.Forms.Label();
             this.label761 = new System.Windows.Forms.Label();
@@ -437,21 +515,18 @@
             this.textBox171 = new System.Windows.Forms.TextBox();
             this.textBox651 = new System.Windows.Forms.TextBox();
             this.textBox172 = new System.Windows.Forms.TextBox();
-            this.button152 = new System.Windows.Forms.Button();
             this.textBox177 = new System.Windows.Forms.TextBox();
             this.label774 = new System.Windows.Forms.Label();
             this.textBox178 = new System.Windows.Forms.TextBox();
             this.label762 = new System.Windows.Forms.Label();
             this.label206 = new System.Windows.Forms.Label();
             this.label773 = new System.Windows.Forms.Label();
-            this.button45 = new System.Windows.Forms.Button();
             this.label763 = new System.Windows.Forms.Label();
             this.label207 = new System.Windows.Forms.Label();
             this.label772 = new System.Windows.Forms.Label();
             this.label208 = new System.Windows.Forms.Label();
             this.label764 = new System.Windows.Forms.Label();
             this.label210 = new System.Windows.Forms.Label();
-            this.button154 = new System.Windows.Forms.Button();
             this.textBox179 = new System.Windows.Forms.TextBox();
             this.textBox643 = new System.Windows.Forms.TextBox();
             this.textBox180 = new System.Windows.Forms.TextBox();
@@ -462,7 +537,6 @@
             this.label771 = new System.Windows.Forms.Label();
             this.label211 = new System.Windows.Forms.Label();
             this.textBox645 = new System.Windows.Forms.TextBox();
-            this.button97 = new System.Windows.Forms.Button();
             this.label770 = new System.Windows.Forms.Label();
             this.label212 = new System.Windows.Forms.Label();
             this.textBox646 = new System.Windows.Forms.TextBox();
@@ -480,8 +554,6 @@
             this.checkBox135 = new System.Windows.Forms.CheckBox();
             this.label216 = new System.Windows.Forms.Label();
             this.textBox647 = new System.Windows.Forms.TextBox();
-            this.button98 = new System.Windows.Forms.Button();
-            this.button153 = new System.Windows.Forms.Button();
             this.label217 = new System.Windows.Forms.Label();
             this.label769 = new System.Windows.Forms.Label();
             this.label218 = new System.Windows.Forms.Label();
@@ -499,7 +571,6 @@
             this.checkBox81 = new System.Windows.Forms.CheckBox();
             this.label201 = new System.Windows.Forms.Label();
             this.checkBox82 = new System.Windows.Forms.CheckBox();
-            this.button21 = new System.Windows.Forms.Button();
             this.label137 = new System.Windows.Forms.Label();
             this.label138 = new System.Windows.Forms.Label();
             this.label139 = new System.Windows.Forms.Label();
@@ -508,7 +579,6 @@
             this.textBox99 = new System.Windows.Forms.TextBox();
             this.textBox100 = new System.Windows.Forms.TextBox();
             this.label140 = new System.Windows.Forms.Label();
-            this.button22 = new System.Windows.Forms.Button();
             this.label142 = new System.Windows.Forms.Label();
             this.label143 = new System.Windows.Forms.Label();
             this.label144 = new System.Windows.Forms.Label();
@@ -517,7 +587,6 @@
             this.textBox103 = new System.Windows.Forms.TextBox();
             this.textBox104 = new System.Windows.Forms.TextBox();
             this.label145 = new System.Windows.Forms.Label();
-            this.button23 = new System.Windows.Forms.Button();
             this.label147 = new System.Windows.Forms.Label();
             this.label148 = new System.Windows.Forms.Label();
             this.label149 = new System.Windows.Forms.Label();
@@ -526,7 +595,6 @@
             this.textBox107 = new System.Windows.Forms.TextBox();
             this.textBox108 = new System.Windows.Forms.TextBox();
             this.label150 = new System.Windows.Forms.Label();
-            this.button24 = new System.Windows.Forms.Button();
             this.label152 = new System.Windows.Forms.Label();
             this.label153 = new System.Windows.Forms.Label();
             this.label154 = new System.Windows.Forms.Label();
@@ -535,7 +603,6 @@
             this.textBox111 = new System.Windows.Forms.TextBox();
             this.textBox112 = new System.Windows.Forms.TextBox();
             this.label155 = new System.Windows.Forms.Label();
-            this.button19 = new System.Windows.Forms.Button();
             this.label127 = new System.Windows.Forms.Label();
             this.label128 = new System.Windows.Forms.Label();
             this.label129 = new System.Windows.Forms.Label();
@@ -544,7 +611,6 @@
             this.textBox91 = new System.Windows.Forms.TextBox();
             this.textBox92 = new System.Windows.Forms.TextBox();
             this.label130 = new System.Windows.Forms.Label();
-            this.button20 = new System.Windows.Forms.Button();
             this.label132 = new System.Windows.Forms.Label();
             this.label133 = new System.Windows.Forms.Label();
             this.label134 = new System.Windows.Forms.Label();
@@ -553,7 +619,6 @@
             this.textBox95 = new System.Windows.Forms.TextBox();
             this.textBox96 = new System.Windows.Forms.TextBox();
             this.label135 = new System.Windows.Forms.Label();
-            this.button18 = new System.Windows.Forms.Button();
             this.label122 = new System.Windows.Forms.Label();
             this.label123 = new System.Windows.Forms.Label();
             this.label124 = new System.Windows.Forms.Label();
@@ -562,7 +627,6 @@
             this.textBox87 = new System.Windows.Forms.TextBox();
             this.textBox88 = new System.Windows.Forms.TextBox();
             this.label125 = new System.Windows.Forms.Label();
-            this.button17 = new System.Windows.Forms.Button();
             this.label115 = new System.Windows.Forms.Label();
             this.label116 = new System.Windows.Forms.Label();
             this.label117 = new System.Windows.Forms.Label();
@@ -593,7 +657,6 @@
             this.checkBox45 = new System.Windows.Forms.CheckBox();
             this.label214 = new System.Windows.Forms.Label();
             this.checkBox80 = new System.Windows.Forms.CheckBox();
-            this.button92 = new System.Windows.Forms.Button();
             this.label175 = new System.Windows.Forms.Label();
             this.label176 = new System.Windows.Forms.Label();
             this.label177 = new System.Windows.Forms.Label();
@@ -604,7 +667,6 @@
             this.label178 = new System.Windows.Forms.Label();
             this.label179 = new System.Windows.Forms.Label();
             this.checkBox75 = new System.Windows.Forms.CheckBox();
-            this.button93 = new System.Windows.Forms.Button();
             this.label180 = new System.Windows.Forms.Label();
             this.label181 = new System.Windows.Forms.Label();
             this.label182 = new System.Windows.Forms.Label();
@@ -615,7 +677,6 @@
             this.label183 = new System.Windows.Forms.Label();
             this.label184 = new System.Windows.Forms.Label();
             this.checkBox76 = new System.Windows.Forms.CheckBox();
-            this.button94 = new System.Windows.Forms.Button();
             this.label185 = new System.Windows.Forms.Label();
             this.label186 = new System.Windows.Forms.Label();
             this.label187 = new System.Windows.Forms.Label();
@@ -626,7 +687,6 @@
             this.label188 = new System.Windows.Forms.Label();
             this.label189 = new System.Windows.Forms.Label();
             this.checkBox77 = new System.Windows.Forms.CheckBox();
-            this.button95 = new System.Windows.Forms.Button();
             this.label190 = new System.Windows.Forms.Label();
             this.label191 = new System.Windows.Forms.Label();
             this.label192 = new System.Windows.Forms.Label();
@@ -637,7 +697,6 @@
             this.label193 = new System.Windows.Forms.Label();
             this.label194 = new System.Windows.Forms.Label();
             this.checkBox78 = new System.Windows.Forms.CheckBox();
-            this.button96 = new System.Windows.Forms.Button();
             this.label195 = new System.Windows.Forms.Label();
             this.label196 = new System.Windows.Forms.Label();
             this.label197 = new System.Windows.Forms.Label();
@@ -649,7 +708,6 @@
             this.label199 = new System.Windows.Forms.Label();
             this.checkBox79 = new System.Windows.Forms.CheckBox();
             this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
@@ -661,7 +719,6 @@
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.label56 = new System.Windows.Forms.Label();
             this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
@@ -673,7 +730,6 @@
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.label61 = new System.Windows.Forms.Label();
             this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
@@ -684,7 +740,6 @@
             this.label65 = new System.Windows.Forms.Label();
             this.textBox31 = new System.Windows.Forms.TextBox();
             this.label66 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
             this.label272 = new System.Windows.Forms.Label();
             this.label273 = new System.Windows.Forms.Label();
             this.label274 = new System.Windows.Forms.Label();
@@ -695,7 +750,6 @@
             this.label275 = new System.Windows.Forms.Label();
             this.label276 = new System.Windows.Forms.Label();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.button13 = new System.Windows.Forms.Button();
             this.label282 = new System.Windows.Forms.Label();
             this.label283 = new System.Windows.Forms.Label();
             this.label284 = new System.Windows.Forms.Label();
@@ -706,7 +760,6 @@
             this.label285 = new System.Windows.Forms.Label();
             this.label286 = new System.Windows.Forms.Label();
             this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.button14 = new System.Windows.Forms.Button();
             this.label287 = new System.Windows.Forms.Label();
             this.label288 = new System.Windows.Forms.Label();
             this.label289 = new System.Windows.Forms.Label();
@@ -717,7 +770,6 @@
             this.label290 = new System.Windows.Forms.Label();
             this.label291 = new System.Windows.Forms.Label();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.button15 = new System.Windows.Forms.Button();
             this.label292 = new System.Windows.Forms.Label();
             this.label293 = new System.Windows.Forms.Label();
             this.label294 = new System.Windows.Forms.Label();
@@ -728,7 +780,6 @@
             this.label295 = new System.Windows.Forms.Label();
             this.label296 = new System.Windows.Forms.Label();
             this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.button16 = new System.Windows.Forms.Button();
             this.label297 = new System.Windows.Forms.Label();
             this.label298 = new System.Windows.Forms.Label();
             this.label299 = new System.Windows.Forms.Label();
@@ -739,7 +790,6 @@
             this.label300 = new System.Windows.Forms.Label();
             this.label301 = new System.Windows.Forms.Label();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.label302 = new System.Windows.Forms.Label();
             this.label303 = new System.Windows.Forms.Label();
             this.label304 = new System.Windows.Forms.Label();
@@ -750,7 +800,6 @@
             this.label305 = new System.Windows.Forms.Label();
             this.label306 = new System.Windows.Forms.Label();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.button6 = new System.Windows.Forms.Button();
             this.label307 = new System.Windows.Forms.Label();
             this.label308 = new System.Windows.Forms.Label();
             this.label309 = new System.Windows.Forms.Label();
@@ -761,7 +810,6 @@
             this.label310 = new System.Windows.Forms.Label();
             this.label311 = new System.Windows.Forms.Label();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.button7 = new System.Windows.Forms.Button();
             this.label312 = new System.Windows.Forms.Label();
             this.label313 = new System.Windows.Forms.Label();
             this.label314 = new System.Windows.Forms.Label();
@@ -772,7 +820,6 @@
             this.label315 = new System.Windows.Forms.Label();
             this.label316 = new System.Windows.Forms.Label();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.button8 = new System.Windows.Forms.Button();
             this.label317 = new System.Windows.Forms.Label();
             this.label318 = new System.Windows.Forms.Label();
             this.label319 = new System.Windows.Forms.Label();
@@ -783,7 +830,6 @@
             this.label320 = new System.Windows.Forms.Label();
             this.label321 = new System.Windows.Forms.Label();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.button9 = new System.Windows.Forms.Button();
             this.label322 = new System.Windows.Forms.Label();
             this.label323 = new System.Windows.Forms.Label();
             this.label324 = new System.Windows.Forms.Label();
@@ -794,7 +840,6 @@
             this.label325 = new System.Windows.Forms.Label();
             this.label326 = new System.Windows.Forms.Label();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.button46 = new System.Windows.Forms.Button();
             this.label327 = new System.Windows.Forms.Label();
             this.label328 = new System.Windows.Forms.Label();
             this.label329 = new System.Windows.Forms.Label();
@@ -805,7 +850,6 @@
             this.label330 = new System.Windows.Forms.Label();
             this.label331 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.button47 = new System.Windows.Forms.Button();
             this.label332 = new System.Windows.Forms.Label();
             this.label333 = new System.Windows.Forms.Label();
             this.label334 = new System.Windows.Forms.Label();
@@ -816,7 +860,6 @@
             this.label335 = new System.Windows.Forms.Label();
             this.label336 = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button48 = new System.Windows.Forms.Button();
             this.label337 = new System.Windows.Forms.Label();
             this.label338 = new System.Windows.Forms.Label();
             this.label339 = new System.Windows.Forms.Label();
@@ -827,102 +870,13 @@
             this.label340 = new System.Windows.Forms.Label();
             this.label341 = new System.Windows.Forms.Label();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.txtACMiscMod = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.txtACNatArmor = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.txtACAbilityMod = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.txtACShield = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.txtAC = new System.Windows.Forms.TextBox();
-            this.txtACArmor = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.btnRollInit = new System.Windows.Forms.Button();
-            this.btnChaCheck = new System.Windows.Forms.Button();
-            this.imgButtons = new System.Windows.Forms.ImageList(this.components);
-            this.btnWisCheck = new System.Windows.Forms.Button();
-            this.btnIntCheck = new System.Windows.Forms.Button();
-            this.btnConCheck = new System.Windows.Forms.Button();
-            this.btnDexCheck = new System.Windows.Forms.Button();
-            this.btnStrCheck = new System.Windows.Forms.Button();
-            this.txtHP = new System.Windows.Forms.TextBox();
-            this.label106 = new System.Windows.Forms.Label();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.label48 = new System.Windows.Forms.Label();
-            this.txtInitMiscMod = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.txtInitAbilMod = new System.Windows.Forms.TextBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.txtInit = new System.Windows.Forms.TextBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.txtChaModTemp = new System.Windows.Forms.TextBox();
-            this.txtChaMod = new System.Windows.Forms.TextBox();
-            this.nudChaTemp = new System.Windows.Forms.NumericUpDown();
-            this.nudCha = new System.Windows.Forms.NumericUpDown();
-            this.label23 = new System.Windows.Forms.Label();
-            this.txtWisModTemp = new System.Windows.Forms.TextBox();
-            this.txtWisMod = new System.Windows.Forms.TextBox();
-            this.nudWisTemp = new System.Windows.Forms.NumericUpDown();
-            this.nudWis = new System.Windows.Forms.NumericUpDown();
-            this.label22 = new System.Windows.Forms.Label();
-            this.txtIntModTemp = new System.Windows.Forms.TextBox();
-            this.txtIntMod = new System.Windows.Forms.TextBox();
-            this.nudIntTemp = new System.Windows.Forms.NumericUpDown();
-            this.nudInt = new System.Windows.Forms.NumericUpDown();
-            this.label21 = new System.Windows.Forms.Label();
-            this.txtConModTemp = new System.Windows.Forms.TextBox();
-            this.txtConMod = new System.Windows.Forms.TextBox();
-            this.nudConTemp = new System.Windows.Forms.NumericUpDown();
-            this.nudCon = new System.Windows.Forms.NumericUpDown();
-            this.label20 = new System.Windows.Forms.Label();
-            this.txtDexModTemp = new System.Windows.Forms.TextBox();
-            this.txtDexMod = new System.Windows.Forms.TextBox();
-            this.nudDexTemp = new System.Windows.Forms.NumericUpDown();
-            this.nudDex = new System.Windows.Forms.NumericUpDown();
-            this.label19 = new System.Windows.Forms.Label();
-            this.txtStrModTemp = new System.Windows.Forms.TextBox();
-            this.txtStrMod = new System.Windows.Forms.TextBox();
-            this.nudStrTemp = new System.Windows.Forms.NumericUpDown();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.nudStr = new System.Windows.Forms.NumericUpDown();
-            this.label14 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label80 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.imgButtons = new System.Windows.Forms.ImageList(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -952,11 +906,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label80 = new System.Windows.Forms.Label();
             this.tabMain.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.tabAttributes.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
@@ -967,7 +918,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudChaTemp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudWisTemp)).BeginInit();
@@ -980,11 +930,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDex)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStrTemp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStr)).BeginInit();
+            this.tabSkills.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.pnlFeats.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // imgIcons
@@ -1004,9 +958,9 @@
             // 
             // tabMain
             // 
-            this.tabMain.Controls.Add(this.tabPage1);
+            this.tabMain.Controls.Add(this.tabAttributes);
+            this.tabMain.Controls.Add(this.tabSkills);
             this.tabMain.Controls.Add(this.tabPage5);
-            this.tabMain.Controls.Add(this.tabPage2);
             this.tabMain.Controls.Add(this.tabPage3);
             this.tabMain.Controls.Add(this.tabPage4);
             this.tabMain.ImageList = this.imgIcons;
@@ -1017,124 +971,110 @@
             this.tabMain.Size = new System.Drawing.Size(1221, 825);
             this.tabMain.TabIndex = 0;
             // 
-            // tabPage1
+            // tabAttributes
             // 
-            this.tabPage1.AutoScroll = true;
-            this.tabPage1.Controls.Add(this.panel5);
-            this.tabPage1.Controls.Add(this.label75);
-            this.tabPage1.Controls.Add(this.label74);
-            this.tabPage1.Controls.Add(this.label73);
-            this.tabPage1.Controls.Add(this.textBox34);
-            this.tabPage1.Controls.Add(this.textBox33);
-            this.tabPage1.Controls.Add(this.label68);
-            this.tabPage1.Controls.Add(this.label67);
-            this.tabPage1.Controls.Add(this.label69);
-            this.tabPage1.Controls.Add(this.label70);
-            this.tabPage1.Controls.Add(this.label71);
-            this.tabPage1.Controls.Add(this.label72);
-            this.tabPage1.Controls.Add(this.label121);
-            this.tabPage1.Controls.Add(this.label120);
-            this.tabPage1.Controls.Add(this.panel3);
-            this.tabPage1.Controls.Add(this.checkBox1);
-            this.tabPage1.Controls.Add(this.textBox17);
-            this.tabPage1.Controls.Add(this.label50);
-            this.tabPage1.Controls.Add(this.textBox16);
-            this.tabPage1.Controls.Add(this.label49);
-            this.tabPage1.Controls.Add(this.label45);
-            this.tabPage1.Controls.Add(this.label47);
-            this.tabPage1.Controls.Add(this.textBox15);
-            this.tabPage1.Controls.Add(this.label41);
-            this.tabPage1.Controls.Add(this.label40);
-            this.tabPage1.Controls.Add(this.label39);
-            this.tabPage1.Controls.Add(this.textBox14);
-            this.tabPage1.Controls.Add(this.label28);
-            this.tabPage1.Controls.Add(this.textBox13);
-            this.tabPage1.Controls.Add(this.label26);
-            this.tabPage1.Controls.Add(this.textBox12);
-            this.tabPage1.Controls.Add(this.label24);
-            this.tabPage1.Controls.Add(this.textBox11);
-            this.tabPage1.Controls.Add(this.label13);
-            this.tabPage1.Controls.Add(this.label38);
-            this.tabPage1.Controls.Add(this.label36);
-            this.tabPage1.Controls.Add(this.label34);
-            this.tabPage1.Controls.Add(this.label32);
-            this.tabPage1.Controls.Add(this.label30);
-            this.tabPage1.Controls.Add(this.label29);
-            this.tabPage1.Controls.Add(this.textBox32);
-            this.tabPage1.Controls.Add(this.label37);
-            this.tabPage1.Controls.Add(this.txtACMiscMod);
-            this.tabPage1.Controls.Add(this.label35);
-            this.tabPage1.Controls.Add(this.txtACNatArmor);
-            this.tabPage1.Controls.Add(this.label33);
-            this.tabPage1.Controls.Add(this.txtACAbilityMod);
-            this.tabPage1.Controls.Add(this.label31);
-            this.tabPage1.Controls.Add(this.txtACShield);
-            this.tabPage1.Controls.Add(this.label27);
-            this.tabPage1.Controls.Add(this.txtAC);
-            this.tabPage1.Controls.Add(this.txtACArmor);
-            this.tabPage1.Controls.Add(this.label25);
-            this.tabPage1.Controls.Add(this.label83);
-            this.tabPage1.Controls.Add(this.btnRollInit);
-            this.tabPage1.Controls.Add(this.btnChaCheck);
-            this.tabPage1.Controls.Add(this.btnWisCheck);
-            this.tabPage1.Controls.Add(this.btnIntCheck);
-            this.tabPage1.Controls.Add(this.btnConCheck);
-            this.tabPage1.Controls.Add(this.btnDexCheck);
-            this.tabPage1.Controls.Add(this.btnStrCheck);
-            this.tabPage1.Controls.Add(this.txtHP);
-            this.tabPage1.Controls.Add(this.label106);
-            this.tabPage1.Controls.Add(this.textBox39);
-            this.tabPage1.Controls.Add(this.label48);
-            this.tabPage1.Controls.Add(this.txtInitMiscMod);
-            this.tabPage1.Controls.Add(this.label46);
-            this.tabPage1.Controls.Add(this.txtInitAbilMod);
-            this.tabPage1.Controls.Add(this.label44);
-            this.tabPage1.Controls.Add(this.txtInit);
-            this.tabPage1.Controls.Add(this.label43);
-            this.tabPage1.Controls.Add(this.label42);
-            this.tabPage1.Controls.Add(this.txtChaModTemp);
-            this.tabPage1.Controls.Add(this.txtChaMod);
-            this.tabPage1.Controls.Add(this.nudChaTemp);
-            this.tabPage1.Controls.Add(this.nudCha);
-            this.tabPage1.Controls.Add(this.label23);
-            this.tabPage1.Controls.Add(this.txtWisModTemp);
-            this.tabPage1.Controls.Add(this.txtWisMod);
-            this.tabPage1.Controls.Add(this.nudWisTemp);
-            this.tabPage1.Controls.Add(this.nudWis);
-            this.tabPage1.Controls.Add(this.label22);
-            this.tabPage1.Controls.Add(this.txtIntModTemp);
-            this.tabPage1.Controls.Add(this.txtIntMod);
-            this.tabPage1.Controls.Add(this.nudIntTemp);
-            this.tabPage1.Controls.Add(this.nudInt);
-            this.tabPage1.Controls.Add(this.label21);
-            this.tabPage1.Controls.Add(this.txtConModTemp);
-            this.tabPage1.Controls.Add(this.txtConMod);
-            this.tabPage1.Controls.Add(this.nudConTemp);
-            this.tabPage1.Controls.Add(this.nudCon);
-            this.tabPage1.Controls.Add(this.label20);
-            this.tabPage1.Controls.Add(this.txtDexModTemp);
-            this.tabPage1.Controls.Add(this.txtDexMod);
-            this.tabPage1.Controls.Add(this.nudDexTemp);
-            this.tabPage1.Controls.Add(this.nudDex);
-            this.tabPage1.Controls.Add(this.label19);
-            this.tabPage1.Controls.Add(this.txtStrModTemp);
-            this.tabPage1.Controls.Add(this.txtStrMod);
-            this.tabPage1.Controls.Add(this.nudStrTemp);
-            this.tabPage1.Controls.Add(this.label17);
-            this.tabPage1.Controls.Add(this.label18);
-            this.tabPage1.Controls.Add(this.label16);
-            this.tabPage1.Controls.Add(this.label15);
-            this.tabPage1.Controls.Add(this.nudStr);
-            this.tabPage1.Controls.Add(this.label14);
-            this.tabPage1.ImageIndex = 7;
-            this.tabPage1.Location = new System.Drawing.Point(4, 71);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(1213, 750);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Character Sheet";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabAttributes.AutoScroll = true;
+            this.tabAttributes.Controls.Add(this.panel5);
+            this.tabAttributes.Controls.Add(this.checkBox1);
+            this.tabAttributes.Controls.Add(this.btnChaCheck);
+            this.tabAttributes.Controls.Add(this.textBox17);
+            this.tabAttributes.Controls.Add(this.btnWisCheck);
+            this.tabAttributes.Controls.Add(this.label50);
+            this.tabAttributes.Controls.Add(this.btnIntCheck);
+            this.tabAttributes.Controls.Add(this.textBox16);
+            this.tabAttributes.Controls.Add(this.btnConCheck);
+            this.tabAttributes.Controls.Add(this.label49);
+            this.tabAttributes.Controls.Add(this.btnDexCheck);
+            this.tabAttributes.Controls.Add(this.label45);
+            this.tabAttributes.Controls.Add(this.btnStrCheck);
+            this.tabAttributes.Controls.Add(this.label47);
+            this.tabAttributes.Controls.Add(this.txtChaModTemp);
+            this.tabAttributes.Controls.Add(this.textBox15);
+            this.tabAttributes.Controls.Add(this.txtChaMod);
+            this.tabAttributes.Controls.Add(this.label41);
+            this.tabAttributes.Controls.Add(this.nudChaTemp);
+            this.tabAttributes.Controls.Add(this.label40);
+            this.tabAttributes.Controls.Add(this.nudCha);
+            this.tabAttributes.Controls.Add(this.label39);
+            this.tabAttributes.Controls.Add(this.label23);
+            this.tabAttributes.Controls.Add(this.textBox14);
+            this.tabAttributes.Controls.Add(this.txtWisModTemp);
+            this.tabAttributes.Controls.Add(this.label28);
+            this.tabAttributes.Controls.Add(this.txtWisMod);
+            this.tabAttributes.Controls.Add(this.textBox13);
+            this.tabAttributes.Controls.Add(this.nudWisTemp);
+            this.tabAttributes.Controls.Add(this.label26);
+            this.tabAttributes.Controls.Add(this.nudWis);
+            this.tabAttributes.Controls.Add(this.textBox12);
+            this.tabAttributes.Controls.Add(this.label22);
+            this.tabAttributes.Controls.Add(this.label24);
+            this.tabAttributes.Controls.Add(this.txtIntModTemp);
+            this.tabAttributes.Controls.Add(this.textBox11);
+            this.tabAttributes.Controls.Add(this.txtIntMod);
+            this.tabAttributes.Controls.Add(this.label13);
+            this.tabAttributes.Controls.Add(this.nudIntTemp);
+            this.tabAttributes.Controls.Add(this.label38);
+            this.tabAttributes.Controls.Add(this.nudInt);
+            this.tabAttributes.Controls.Add(this.label36);
+            this.tabAttributes.Controls.Add(this.label21);
+            this.tabAttributes.Controls.Add(this.label34);
+            this.tabAttributes.Controls.Add(this.txtConModTemp);
+            this.tabAttributes.Controls.Add(this.label32);
+            this.tabAttributes.Controls.Add(this.txtConMod);
+            this.tabAttributes.Controls.Add(this.label30);
+            this.tabAttributes.Controls.Add(this.nudConTemp);
+            this.tabAttributes.Controls.Add(this.label29);
+            this.tabAttributes.Controls.Add(this.nudCon);
+            this.tabAttributes.Controls.Add(this.textBox32);
+            this.tabAttributes.Controls.Add(this.label20);
+            this.tabAttributes.Controls.Add(this.label37);
+            this.tabAttributes.Controls.Add(this.txtDexModTemp);
+            this.tabAttributes.Controls.Add(this.txtACMiscMod);
+            this.tabAttributes.Controls.Add(this.txtDexMod);
+            this.tabAttributes.Controls.Add(this.label35);
+            this.tabAttributes.Controls.Add(this.nudDexTemp);
+            this.tabAttributes.Controls.Add(this.txtACNatArmor);
+            this.tabAttributes.Controls.Add(this.nudDex);
+            this.tabAttributes.Controls.Add(this.label33);
+            this.tabAttributes.Controls.Add(this.label19);
+            this.tabAttributes.Controls.Add(this.txtACAbilityMod);
+            this.tabAttributes.Controls.Add(this.txtStrModTemp);
+            this.tabAttributes.Controls.Add(this.label31);
+            this.tabAttributes.Controls.Add(this.txtStrMod);
+            this.tabAttributes.Controls.Add(this.txtACShield);
+            this.tabAttributes.Controls.Add(this.nudStrTemp);
+            this.tabAttributes.Controls.Add(this.label27);
+            this.tabAttributes.Controls.Add(this.label17);
+            this.tabAttributes.Controls.Add(this.txtAC);
+            this.tabAttributes.Controls.Add(this.label18);
+            this.tabAttributes.Controls.Add(this.txtACArmor);
+            this.tabAttributes.Controls.Add(this.label16);
+            this.tabAttributes.Controls.Add(this.label25);
+            this.tabAttributes.Controls.Add(this.label15);
+            this.tabAttributes.Controls.Add(this.label83);
+            this.tabAttributes.Controls.Add(this.nudStr);
+            this.tabAttributes.Controls.Add(this.btnRollInit);
+            this.tabAttributes.Controls.Add(this.label14);
+            this.tabAttributes.Controls.Add(this.txtHP);
+            this.tabAttributes.Controls.Add(this.label106);
+            this.tabAttributes.Controls.Add(this.textBox39);
+            this.tabAttributes.Controls.Add(this.label48);
+            this.tabAttributes.Controls.Add(this.txtInitMiscMod);
+            this.tabAttributes.Controls.Add(this.label46);
+            this.tabAttributes.Controls.Add(this.txtInitAbilMod);
+            this.tabAttributes.Controls.Add(this.label44);
+            this.tabAttributes.Controls.Add(this.txtInit);
+            this.tabAttributes.Controls.Add(this.label43);
+            this.tabAttributes.Controls.Add(this.label42);
+            this.tabAttributes.ImageIndex = 7;
+            this.tabAttributes.Location = new System.Drawing.Point(4, 71);
+            this.tabAttributes.Margin = new System.Windows.Forms.Padding(2);
+            this.tabAttributes.Name = "tabAttributes";
+            this.tabAttributes.Padding = new System.Windows.Forms.Padding(2);
+            this.tabAttributes.Size = new System.Drawing.Size(1213, 750);
+            this.tabAttributes.TabIndex = 0;
+            this.tabAttributes.Text = "Character Sheet";
+            this.tabAttributes.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
@@ -1201,16 +1141,16 @@
             this.panel5.Controls.Add(this.numericUpDown7);
             this.panel5.Controls.Add(this.label880);
             this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Location = new System.Drawing.Point(8, 306);
+            this.panel5.Location = new System.Drawing.Point(21, 375);
             this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(552, 496);
-            this.panel5.TabIndex = 1296;
+            this.panel5.Size = new System.Drawing.Size(1170, 371);
+            this.panel5.TabIndex = 1429;
             // 
             // label78
             // 
             this.label78.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label78.Location = new System.Drawing.Point(463, 224);
+            this.label78.Location = new System.Drawing.Point(840, 29);
             this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(58, 30);
@@ -1221,7 +1161,7 @@
             // label79
             // 
             this.label79.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label79.Location = new System.Drawing.Point(406, 224);
+            this.label79.Location = new System.Drawing.Point(778, 29);
             this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(58, 30);
@@ -1231,12 +1171,13 @@
             // 
             // textBox37
             // 
+            this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox37.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox37.Location = new System.Drawing.Point(171, 390);
+            this.textBox37.Location = new System.Drawing.Point(925, 44);
             this.textBox37.Margin = new System.Windows.Forms.Padding(2);
             this.textBox37.Multiline = true;
             this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(365, 94);
+            this.textBox37.Size = new System.Drawing.Size(230, 312);
             this.textBox37.TabIndex = 1302;
             // 
             // label166
@@ -1244,7 +1185,7 @@
             this.label166.BackColor = System.Drawing.Color.Black;
             this.label166.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label166.ForeColor = System.Drawing.Color.White;
-            this.label166.Location = new System.Drawing.Point(171, 358);
+            this.label166.Location = new System.Drawing.Point(925, 12);
             this.label166.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label166.Name = "label166";
             this.label166.Size = new System.Drawing.Size(181, 28);
@@ -1380,10 +1321,10 @@
             this.panel6.Controls.Add(this.textBox709);
             this.panel6.Controls.Add(this.label839);
             this.panel6.Controls.Add(this.label840);
-            this.panel6.Location = new System.Drawing.Point(171, 254);
+            this.panel6.Location = new System.Drawing.Point(548, 61);
             this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(370, 101);
+            this.panel6.Size = new System.Drawing.Size(370, 308);
             this.panel6.TabIndex = 1296;
             // 
             // label841
@@ -2293,10 +2234,10 @@
             this.label853.BackColor = System.Drawing.Color.Black;
             this.label853.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label853.ForeColor = System.Drawing.Color.White;
-            this.label853.Location = new System.Drawing.Point(171, 224);
+            this.label853.Location = new System.Drawing.Point(546, 16);
             this.label853.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label853.Name = "label853";
-            this.label853.Size = new System.Drawing.Size(89, 28);
+            this.label853.Size = new System.Drawing.Size(89, 43);
             this.label853.TabIndex = 570;
             this.label853.Text = "SKILLS";
             this.label853.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3014,16 +2955,1346 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox1.Location = new System.Drawing.Point(392, 161);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(115, 21);
+            this.checkBox1.TabIndex = 1388;
+            this.checkBox1.Text = "Max At Level 1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // btnChaCheck
+            // 
+            this.btnChaCheck.ImageIndex = 0;
+            this.btnChaCheck.Location = new System.Drawing.Point(341, 310);
+            this.btnChaCheck.Margin = new System.Windows.Forms.Padding(2);
+            this.btnChaCheck.Name = "btnChaCheck";
+            this.btnChaCheck.Size = new System.Drawing.Size(32, 34);
+            this.btnChaCheck.TabIndex = 1428;
+            this.btnChaCheck.UseVisualStyleBackColor = true;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox17.Location = new System.Drawing.Point(706, 285);
+            this.textBox17.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox17.MaxLength = 3;
+            this.textBox17.Name = "textBox17";
+            this.textBox17.PlaceholderText = "0";
+            this.textBox17.ReadOnly = true;
+            this.textBox17.Size = new System.Drawing.Size(40, 34);
+            this.textBox17.TabIndex = 1387;
+            this.textBox17.Text = "0";
+            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnWisCheck
+            // 
+            this.btnWisCheck.ImageIndex = 0;
+            this.btnWisCheck.Location = new System.Drawing.Point(341, 270);
+            this.btnWisCheck.Margin = new System.Windows.Forms.Padding(2);
+            this.btnWisCheck.Name = "btnWisCheck";
+            this.btnWisCheck.Size = new System.Drawing.Size(32, 34);
+            this.btnWisCheck.TabIndex = 1427;
+            this.btnWisCheck.UseVisualStyleBackColor = true;
+            // 
+            // label50
+            // 
+            this.label50.BackColor = System.Drawing.Color.Black;
+            this.label50.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label50.ForeColor = System.Drawing.Color.White;
+            this.label50.Location = new System.Drawing.Point(570, 285);
+            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(131, 35);
+            this.label50.TabIndex = 1386;
+            this.label50.Text = "FLAT-FOOTED";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnIntCheck
+            // 
+            this.btnIntCheck.ImageIndex = 0;
+            this.btnIntCheck.Location = new System.Drawing.Point(341, 230);
+            this.btnIntCheck.Margin = new System.Windows.Forms.Padding(2);
+            this.btnIntCheck.Name = "btnIntCheck";
+            this.btnIntCheck.Size = new System.Drawing.Size(32, 34);
+            this.btnIntCheck.TabIndex = 1426;
+            this.btnIntCheck.UseVisualStyleBackColor = true;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox16.Location = new System.Drawing.Point(523, 285);
+            this.textBox16.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox16.MaxLength = 3;
+            this.textBox16.Name = "textBox16";
+            this.textBox16.PlaceholderText = "0";
+            this.textBox16.ReadOnly = true;
+            this.textBox16.Size = new System.Drawing.Size(40, 34);
+            this.textBox16.TabIndex = 1385;
+            this.textBox16.Text = "0";
+            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnConCheck
+            // 
+            this.btnConCheck.ImageIndex = 0;
+            this.btnConCheck.Location = new System.Drawing.Point(341, 190);
+            this.btnConCheck.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConCheck.Name = "btnConCheck";
+            this.btnConCheck.Size = new System.Drawing.Size(32, 34);
+            this.btnConCheck.TabIndex = 1425;
+            this.btnConCheck.UseVisualStyleBackColor = true;
+            // 
+            // label49
+            // 
+            this.label49.BackColor = System.Drawing.Color.Black;
+            this.label49.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label49.ForeColor = System.Drawing.Color.White;
+            this.label49.Location = new System.Drawing.Point(386, 285);
+            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(131, 35);
+            this.label49.TabIndex = 1384;
+            this.label49.Text = "TOUCH AC";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnDexCheck
+            // 
+            this.btnDexCheck.ImageIndex = 0;
+            this.btnDexCheck.Location = new System.Drawing.Point(341, 151);
+            this.btnDexCheck.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDexCheck.Name = "btnDexCheck";
+            this.btnDexCheck.Size = new System.Drawing.Size(32, 34);
+            this.btnDexCheck.TabIndex = 1424;
+            this.btnDexCheck.UseVisualStyleBackColor = true;
+            // 
+            // label45
+            // 
+            this.label45.BackColor = System.Drawing.Color.White;
+            this.label45.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label45.ForeColor = System.Drawing.Color.Black;
+            this.label45.Location = new System.Drawing.Point(448, 231);
+            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(65, 22);
+            this.label45.TabIndex = 1383;
+            this.label45.Text = "TOTAL";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnStrCheck
+            // 
+            this.btnStrCheck.ImageIndex = 0;
+            this.btnStrCheck.Location = new System.Drawing.Point(341, 113);
+            this.btnStrCheck.Margin = new System.Windows.Forms.Padding(2);
+            this.btnStrCheck.Name = "btnStrCheck";
+            this.btnStrCheck.Size = new System.Drawing.Size(32, 34);
+            this.btnStrCheck.TabIndex = 1423;
+            this.btnStrCheck.UseVisualStyleBackColor = true;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(498, 198);
+            this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(19, 20);
+            this.label47.TabIndex = 1382;
+            this.label47.Text = "=";
+            // 
+            // txtChaModTemp
+            // 
+            this.txtChaModTemp.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtChaModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtChaModTemp.Location = new System.Drawing.Point(294, 310);
+            this.txtChaModTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.txtChaModTemp.MaxLength = 3;
+            this.txtChaModTemp.Name = "txtChaModTemp";
+            this.txtChaModTemp.PlaceholderText = "-2";
+            this.txtChaModTemp.ReadOnly = true;
+            this.txtChaModTemp.Size = new System.Drawing.Size(40, 34);
+            this.txtChaModTemp.TabIndex = 1422;
+            this.txtChaModTemp.Text = "-1";
+            this.txtChaModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Cursor = System.Windows.Forms.Cursors.No;
+            this.textBox15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox15.Location = new System.Drawing.Point(456, 191);
+            this.textBox15.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox15.MaxLength = 3;
+            this.textBox15.Name = "textBox15";
+            this.textBox15.PlaceholderText = "0";
+            this.textBox15.ReadOnly = true;
+            this.textBox15.Size = new System.Drawing.Size(40, 34);
+            this.textBox15.TabIndex = 1381;
+            this.textBox15.Text = "0";
+            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtChaMod
+            // 
+            this.txtChaMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtChaMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtChaMod.Location = new System.Drawing.Point(171, 310);
+            this.txtChaMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtChaMod.MaxLength = 3;
+            this.txtChaMod.Name = "txtChaMod";
+            this.txtChaMod.PlaceholderText = "-2";
+            this.txtChaMod.ReadOnly = true;
+            this.txtChaMod.Size = new System.Drawing.Size(40, 34);
+            this.txtChaMod.TabIndex = 1421;
+            this.txtChaMod.Text = "-1";
+            this.txtChaMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label41
+            // 
+            this.label41.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label41.Location = new System.Drawing.Point(910, 227);
+            this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(82, 39);
+            this.label41.TabIndex = 1380;
+            this.label41.Text = "DEFLECTION MODIFIER";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nudChaTemp
+            // 
+            this.nudChaTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudChaTemp.Location = new System.Drawing.Point(215, 310);
+            this.nudChaTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.nudChaTemp.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudChaTemp.Name = "nudChaTemp";
+            this.nudChaTemp.Size = new System.Drawing.Size(72, 34);
+            this.nudChaTemp.TabIndex = 1420;
+            this.nudChaTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudChaTemp.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label40
+            // 
+            this.label40.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label40.Location = new System.Drawing.Point(844, 227);
+            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(72, 39);
+            this.label40.TabIndex = 1379;
+            this.label40.Text = "NATURAL ARMOR";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nudCha
+            // 
+            this.nudCha.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudCha.Location = new System.Drawing.Point(92, 311);
+            this.nudCha.Margin = new System.Windows.Forms.Padding(2);
+            this.nudCha.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudCha.Name = "nudCha";
+            this.nudCha.Size = new System.Drawing.Size(72, 34);
+            this.nudCha.TabIndex = 1419;
+            this.nudCha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudCha.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(980, 199);
+            this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(19, 20);
+            this.label39.TabIndex = 1378;
+            this.label39.Text = "+";
+            // 
+            // label23
+            // 
+            this.label23.BackColor = System.Drawing.Color.Black;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(21, 311);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(65, 35);
+            this.label23.TabIndex = 1418;
+            this.label23.Text = "CHA";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox14.Location = new System.Drawing.Point(1002, 191);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.PlaceholderText = "0";
+            this.textBox14.Size = new System.Drawing.Size(40, 34);
+            this.textBox14.TabIndex = 1377;
+            this.textBox14.Text = "0";
+            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtWisModTemp
+            // 
+            this.txtWisModTemp.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtWisModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtWisModTemp.Location = new System.Drawing.Point(294, 270);
+            this.txtWisModTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.txtWisModTemp.MaxLength = 3;
+            this.txtWisModTemp.Name = "txtWisModTemp";
+            this.txtWisModTemp.PlaceholderText = "-2";
+            this.txtWisModTemp.ReadOnly = true;
+            this.txtWisModTemp.Size = new System.Drawing.Size(40, 34);
+            this.txtWisModTemp.TabIndex = 1417;
+            this.txtWisModTemp.Text = "-1";
+            this.txtWisModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(908, 199);
+            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(19, 20);
+            this.label28.TabIndex = 1376;
+            this.label28.Text = "+";
+            // 
+            // txtWisMod
+            // 
+            this.txtWisMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtWisMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtWisMod.Location = new System.Drawing.Point(171, 270);
+            this.txtWisMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtWisMod.MaxLength = 3;
+            this.txtWisMod.Name = "txtWisMod";
+            this.txtWisMod.PlaceholderText = "-2";
+            this.txtWisMod.ReadOnly = true;
+            this.txtWisMod.Size = new System.Drawing.Size(40, 34);
+            this.txtWisMod.TabIndex = 1416;
+            this.txtWisMod.Text = "-1";
+            this.txtWisMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox13.Location = new System.Drawing.Point(931, 191);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.PlaceholderText = "0";
+            this.textBox13.Size = new System.Drawing.Size(40, 34);
+            this.textBox13.TabIndex = 1375;
+            this.textBox13.Text = "0";
+            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // nudWisTemp
+            // 
+            this.nudWisTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudWisTemp.Location = new System.Drawing.Point(215, 270);
+            this.nudWisTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.nudWisTemp.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudWisTemp.Name = "nudWisTemp";
+            this.nudWisTemp.Size = new System.Drawing.Size(72, 34);
+            this.nudWisTemp.TabIndex = 1415;
+            this.nudWisTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudWisTemp.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label26
+            // 
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label26.Location = new System.Drawing.Point(742, 94);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(156, 22);
+            this.label26.TabIndex = 1374;
+            this.label26.Text = "NON-LETHAL DAMAGE";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nudWis
+            // 
+            this.nudWis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudWis.Location = new System.Drawing.Point(92, 271);
+            this.nudWis.Margin = new System.Windows.Forms.Padding(2);
+            this.nudWis.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudWis.Name = "nudWis";
+            this.nudWis.Size = new System.Drawing.Size(72, 34);
+            this.nudWis.TabIndex = 1414;
+            this.nudWis.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudWis.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // textBox12
+            // 
+            this.textBox12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox12.Location = new System.Drawing.Point(741, 119);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(149, 34);
+            this.textBox12.TabIndex = 1373;
+            this.textBox12.Text = "0";
+            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.Black;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(21, 271);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(65, 35);
+            this.label22.TabIndex = 1413;
+            this.label22.Text = "WIS";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label24
+            // 
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label24.Location = new System.Drawing.Point(517, 94);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(219, 22);
+            this.label24.TabIndex = 1372;
+            this.label24.Text = "WOUNDS/CURRENT HP";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtIntModTemp
+            // 
+            this.txtIntModTemp.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtIntModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtIntModTemp.Location = new System.Drawing.Point(294, 230);
+            this.txtIntModTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIntModTemp.MaxLength = 3;
+            this.txtIntModTemp.Name = "txtIntModTemp";
+            this.txtIntModTemp.PlaceholderText = "-2";
+            this.txtIntModTemp.ReadOnly = true;
+            this.txtIntModTemp.Size = new System.Drawing.Size(40, 34);
+            this.txtIntModTemp.TabIndex = 1412;
+            this.txtIntModTemp.Text = "-1";
+            this.txtIntModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox11.Location = new System.Drawing.Point(520, 118);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(216, 34);
+            this.textBox11.TabIndex = 1371;
+            this.textBox11.Text = "0";
+            // 
+            // txtIntMod
+            // 
+            this.txtIntMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtIntMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtIntMod.Location = new System.Drawing.Point(171, 230);
+            this.txtIntMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIntMod.MaxLength = 3;
+            this.txtIntMod.Name = "txtIntMod";
+            this.txtIntMod.PlaceholderText = "-2";
+            this.txtIntMod.ReadOnly = true;
+            this.txtIntMod.Size = new System.Drawing.Size(40, 34);
+            this.txtIntMod.TabIndex = 1411;
+            this.txtIntMod.Text = "-1";
+            this.txtIntMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(448, 94);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(65, 22);
+            this.label13.TabIndex = 1370;
+            this.label13.Text = "TOTAL";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nudIntTemp
+            // 
+            this.nudIntTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudIntTemp.Location = new System.Drawing.Point(215, 230);
+            this.nudIntTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.nudIntTemp.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudIntTemp.Name = "nudIntTemp";
+            this.nudIntTemp.Size = new System.Drawing.Size(72, 34);
+            this.nudIntTemp.TabIndex = 1410;
+            this.nudIntTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudIntTemp.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label38
+            // 
+            this.label38.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label38.Location = new System.Drawing.Point(1050, 181);
+            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(120, 38);
+            this.label38.TabIndex = 1369;
+            this.label38.Text = "DAMAGE REDUCTION";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nudInt
+            // 
+            this.nudInt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.nudInt.Location = new System.Drawing.Point(92, 231);
+            this.nudInt.Margin = new System.Windows.Forms.Padding(2);
+            this.nudInt.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudInt.Name = "nudInt";
+            this.nudInt.Size = new System.Drawing.Size(72, 34);
+            this.nudInt.TabIndex = 1409;
+            this.nudInt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudInt.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label36
+            // 
+            this.label36.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label36.Location = new System.Drawing.Point(986, 227);
+            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(72, 39);
+            this.label36.TabIndex = 1368;
+            this.label36.Text = "MISC. MOD";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.Color.Black;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(21, 231);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(65, 35);
+            this.label21.TabIndex = 1408;
+            this.label21.Text = "INT";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label34
+            // 
+            this.label34.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label34.Location = new System.Drawing.Point(774, 227);
+            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(72, 39);
+            this.label34.TabIndex = 1367;
+            this.label34.Text = "SIZE MODIFIER";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtConModTemp
+            // 
+            this.txtConModTemp.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtConModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtConModTemp.Location = new System.Drawing.Point(294, 191);
+            this.txtConModTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.txtConModTemp.MaxLength = 3;
+            this.txtConModTemp.Name = "txtConModTemp";
+            this.txtConModTemp.PlaceholderText = "-2";
+            this.txtConModTemp.ReadOnly = true;
+            this.txtConModTemp.Size = new System.Drawing.Size(40, 34);
+            this.txtConModTemp.TabIndex = 1407;
+            this.txtConModTemp.Text = "-1";
+            this.txtConModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label32
+            // 
+            this.label32.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label32.Location = new System.Drawing.Point(704, 225);
+            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(72, 39);
+            this.label32.TabIndex = 1366;
+            this.label32.Text = "DEX MODIFIER";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtConMod
+            // 
+            this.txtConMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtConMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtConMod.Location = new System.Drawing.Point(171, 191);
+            this.txtConMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtConMod.MaxLength = 3;
+            this.txtConMod.Name = "txtConMod";
+            this.txtConMod.PlaceholderText = "-2";
+            this.txtConMod.ReadOnly = true;
+            this.txtConMod.Size = new System.Drawing.Size(40, 34);
+            this.txtConMod.TabIndex = 1406;
+            this.txtConMod.Text = "-1";
+            this.txtConMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label30
+            // 
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label30.Location = new System.Drawing.Point(634, 225);
+            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(72, 39);
+            this.label30.TabIndex = 1365;
+            this.label30.Text = "SHIELD BONUS";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nudConTemp
+            // 
+            this.nudConTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudConTemp.Location = new System.Drawing.Point(215, 191);
+            this.nudConTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.nudConTemp.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudConTemp.Name = "nudConTemp";
+            this.nudConTemp.Size = new System.Drawing.Size(72, 34);
+            this.nudConTemp.TabIndex = 1405;
+            this.nudConTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudConTemp.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label29
+            // 
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label29.Location = new System.Drawing.Point(567, 225);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(72, 39);
+            this.label29.TabIndex = 1364;
+            this.label29.Text = "ARMOR BONUS";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nudCon
+            // 
+            this.nudCon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudCon.Location = new System.Drawing.Point(92, 193);
+            this.nudCon.Margin = new System.Windows.Forms.Padding(2);
+            this.nudCon.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudCon.Name = "nudCon";
+            this.nudCon.Size = new System.Drawing.Size(72, 34);
+            this.nudCon.TabIndex = 1404;
+            this.nudCon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudCon.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // textBox32
+            // 
+            this.textBox32.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox32.Location = new System.Drawing.Point(1060, 225);
+            this.textBox32.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.PlaceholderText = "0";
+            this.textBox32.Size = new System.Drawing.Size(96, 34);
+            this.textBox32.TabIndex = 1363;
+            this.textBox32.Text = "0 / -";
+            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.Black;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(21, 193);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(65, 35);
+            this.label20.TabIndex = 1403;
+            this.label20.Text = "CON";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(838, 199);
+            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(19, 20);
+            this.label37.TabIndex = 1362;
+            this.label37.Text = "+";
+            // 
+            // txtDexModTemp
+            // 
+            this.txtDexModTemp.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtDexModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtDexModTemp.Location = new System.Drawing.Point(294, 151);
+            this.txtDexModTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDexModTemp.MaxLength = 3;
+            this.txtDexModTemp.Name = "txtDexModTemp";
+            this.txtDexModTemp.PlaceholderText = "-2";
+            this.txtDexModTemp.ReadOnly = true;
+            this.txtDexModTemp.Size = new System.Drawing.Size(40, 34);
+            this.txtDexModTemp.TabIndex = 1402;
+            this.txtDexModTemp.Text = "-1";
+            this.txtDexModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtACMiscMod
+            // 
+            this.txtACMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACMiscMod.Location = new System.Drawing.Point(862, 191);
+            this.txtACMiscMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtACMiscMod.Name = "txtACMiscMod";
+            this.txtACMiscMod.PlaceholderText = "0";
+            this.txtACMiscMod.Size = new System.Drawing.Size(40, 34);
+            this.txtACMiscMod.TabIndex = 1361;
+            this.txtACMiscMod.Text = "0";
+            this.txtACMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtDexMod
+            // 
+            this.txtDexMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtDexMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtDexMod.Location = new System.Drawing.Point(171, 151);
+            this.txtDexMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDexMod.MaxLength = 3;
+            this.txtDexMod.Name = "txtDexMod";
+            this.txtDexMod.PlaceholderText = "-2";
+            this.txtDexMod.ReadOnly = true;
+            this.txtDexMod.Size = new System.Drawing.Size(40, 34);
+            this.txtDexMod.TabIndex = 1401;
+            this.txtDexMod.Text = "-1";
+            this.txtDexMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(768, 199);
+            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(19, 20);
+            this.label35.TabIndex = 1360;
+            this.label35.Text = "+";
+            // 
+            // nudDexTemp
+            // 
+            this.nudDexTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudDexTemp.Location = new System.Drawing.Point(215, 151);
+            this.nudDexTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.nudDexTemp.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudDexTemp.Name = "nudDexTemp";
+            this.nudDexTemp.Size = new System.Drawing.Size(72, 34);
+            this.nudDexTemp.TabIndex = 1400;
+            this.nudDexTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudDexTemp.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // txtACNatArmor
+            // 
+            this.txtACNatArmor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACNatArmor.Location = new System.Drawing.Point(792, 191);
+            this.txtACNatArmor.Margin = new System.Windows.Forms.Padding(2);
+            this.txtACNatArmor.Name = "txtACNatArmor";
+            this.txtACNatArmor.PlaceholderText = "0";
+            this.txtACNatArmor.Size = new System.Drawing.Size(40, 34);
+            this.txtACNatArmor.TabIndex = 1359;
+            this.txtACNatArmor.Text = "0";
+            this.txtACNatArmor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // nudDex
+            // 
+            this.nudDex.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudDex.Location = new System.Drawing.Point(92, 153);
+            this.nudDex.Margin = new System.Windows.Forms.Padding(2);
+            this.nudDex.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudDex.Name = "nudDex";
+            this.nudDex.Size = new System.Drawing.Size(72, 34);
+            this.nudDex.TabIndex = 1399;
+            this.nudDex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudDex.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(697, 198);
+            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(19, 20);
+            this.label33.TabIndex = 1358;
+            this.label33.Text = "+";
+            // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.Black;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(21, 153);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(65, 35);
+            this.label19.TabIndex = 1398;
+            this.label19.Text = "DEX";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtACAbilityMod
+            // 
+            this.txtACAbilityMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtACAbilityMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACAbilityMod.Location = new System.Drawing.Point(720, 189);
+            this.txtACAbilityMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtACAbilityMod.MaxLength = 3;
+            this.txtACAbilityMod.Name = "txtACAbilityMod";
+            this.txtACAbilityMod.PlaceholderText = "0";
+            this.txtACAbilityMod.ReadOnly = true;
+            this.txtACAbilityMod.Size = new System.Drawing.Size(40, 34);
+            this.txtACAbilityMod.TabIndex = 1357;
+            this.txtACAbilityMod.Text = "-1";
+            this.txtACAbilityMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtStrModTemp
+            // 
+            this.txtStrModTemp.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtStrModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtStrModTemp.Location = new System.Drawing.Point(294, 111);
+            this.txtStrModTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.txtStrModTemp.MaxLength = 3;
+            this.txtStrModTemp.Name = "txtStrModTemp";
+            this.txtStrModTemp.PlaceholderText = "-2";
+            this.txtStrModTemp.ReadOnly = true;
+            this.txtStrModTemp.Size = new System.Drawing.Size(40, 34);
+            this.txtStrModTemp.TabIndex = 1397;
+            this.txtStrModTemp.Text = "-1";
+            this.txtStrModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(628, 198);
+            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(19, 20);
+            this.label31.TabIndex = 1356;
+            this.label31.Text = "+";
+            // 
+            // txtStrMod
+            // 
+            this.txtStrMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtStrMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtStrMod.Location = new System.Drawing.Point(171, 111);
+            this.txtStrMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtStrMod.MaxLength = 3;
+            this.txtStrMod.Name = "txtStrMod";
+            this.txtStrMod.ReadOnly = true;
+            this.txtStrMod.Size = new System.Drawing.Size(40, 34);
+            this.txtStrMod.TabIndex = 1396;
+            this.txtStrMod.Text = "-1";
+            this.txtStrMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtACShield
+            // 
+            this.txtACShield.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtACShield.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACShield.Location = new System.Drawing.Point(651, 189);
+            this.txtACShield.Margin = new System.Windows.Forms.Padding(2);
+            this.txtACShield.MaxLength = 3;
+            this.txtACShield.Name = "txtACShield";
+            this.txtACShield.PlaceholderText = "0";
+            this.txtACShield.ReadOnly = true;
+            this.txtACShield.Size = new System.Drawing.Size(40, 34);
+            this.txtACShield.TabIndex = 1355;
+            this.txtACShield.Text = "0";
+            this.txtACShield.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // nudStrTemp
+            // 
+            this.nudStrTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudStrTemp.Location = new System.Drawing.Point(215, 111);
+            this.nudStrTemp.Margin = new System.Windows.Forms.Padding(2);
+            this.nudStrTemp.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudStrTemp.Name = "nudStrTemp";
+            this.nudStrTemp.Size = new System.Drawing.Size(72, 34);
+            this.nudStrTemp.TabIndex = 1395;
+            this.nudStrTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudStrTemp.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(561, 197);
+            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(19, 20);
+            this.label27.TabIndex = 1354;
+            this.label27.Text = "+";
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(281, 67);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(72, 39);
+            this.label17.TabIndex = 1394;
+            this.label17.Text = "TEMP MODIFIER";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtAC
+            // 
+            this.txtAC.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtAC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtAC.Location = new System.Drawing.Point(520, 188);
+            this.txtAC.Margin = new System.Windows.Forms.Padding(2);
+            this.txtAC.MaxLength = 3;
+            this.txtAC.Name = "txtAC";
+            this.txtAC.PlaceholderText = "10";
+            this.txtAC.ReadOnly = true;
+            this.txtAC.Size = new System.Drawing.Size(40, 34);
+            this.txtAC.TabIndex = 1353;
+            this.txtAC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label18
+            // 
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(215, 67);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(72, 39);
+            this.label18.TabIndex = 1393;
+            this.label18.Text = "TEMP SCORE";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtACArmor
+            // 
+            this.txtACArmor.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtACArmor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtACArmor.Location = new System.Drawing.Point(584, 188);
+            this.txtACArmor.Margin = new System.Windows.Forms.Padding(2);
+            this.txtACArmor.MaxLength = 3;
+            this.txtACArmor.Name = "txtACArmor";
+            this.txtACArmor.PlaceholderText = "0";
+            this.txtACArmor.ReadOnly = true;
+            this.txtACArmor.Size = new System.Drawing.Size(40, 34);
+            this.txtACArmor.TabIndex = 1352;
+            this.txtACArmor.Text = "0";
+            this.txtACArmor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label16
+            // 
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(149, 70);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(72, 39);
+            this.label16.TabIndex = 1392;
+            this.label16.Text = "ABILITY MODIFIER";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.Black;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(386, 188);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(60, 35);
+            this.label25.TabIndex = 1351;
+            this.label25.Text = "AC";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label15.Location = new System.Drawing.Point(92, 70);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(72, 39);
+            this.label15.TabIndex = 1391;
+            this.label15.Text = "ABILITY SCORE";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label83
+            // 
+            this.label83.BackColor = System.Drawing.Color.Black;
+            this.label83.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label83.ForeColor = System.Drawing.Color.White;
+            this.label83.Location = new System.Drawing.Point(766, 297);
+            this.label83.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(28, 16);
+            this.label83.TabIndex = 1350;
+            this.label83.Text = "DEX";
+            // 
+            // nudStr
+            // 
+            this.nudStr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nudStr.Location = new System.Drawing.Point(92, 113);
+            this.nudStr.Margin = new System.Windows.Forms.Padding(2);
+            this.nudStr.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudStr.Name = "nudStr";
+            this.nudStr.Size = new System.Drawing.Size(72, 34);
+            this.nudStr.TabIndex = 1390;
+            this.nudStr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nudStr.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // btnRollInit
+            // 
+            this.btnRollInit.Location = new System.Drawing.Point(1123, 289);
+            this.btnRollInit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRollInit.Name = "btnRollInit";
+            this.btnRollInit.Size = new System.Drawing.Size(32, 34);
+            this.btnRollInit.TabIndex = 1349;
+            this.btnRollInit.Text = "R";
+            this.btnRollInit.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.Black;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(21, 113);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(65, 35);
+            this.label14.TabIndex = 1389;
+            this.label14.Text = "STR";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtHP
+            // 
+            this.txtHP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtHP.Location = new System.Drawing.Point(452, 118);
+            this.txtHP.Margin = new System.Windows.Forms.Padding(2);
+            this.txtHP.Name = "txtHP";
+            this.txtHP.Size = new System.Drawing.Size(62, 34);
+            this.txtHP.TabIndex = 1348;
+            this.txtHP.Text = "0";
+            this.txtHP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label106
+            // 
+            this.label106.BackColor = System.Drawing.Color.Black;
+            this.label106.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label106.ForeColor = System.Drawing.Color.White;
+            this.label106.Location = new System.Drawing.Point(386, 118);
+            this.label106.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(60, 35);
+            this.label106.TabIndex = 1347;
+            this.label106.Text = "HP";
+            this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox39
+            // 
+            this.textBox39.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox39.Location = new System.Drawing.Point(904, 121);
+            this.textBox39.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.PlaceholderText = "30";
+            this.textBox39.Size = new System.Drawing.Size(252, 34);
+            this.textBox39.TabIndex = 1346;
+            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(1042, 297);
+            this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(19, 20);
+            this.label48.TabIndex = 1345;
+            this.label48.Text = "+";
+            // 
+            // txtInitMiscMod
+            // 
+            this.txtInitMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtInitMiscMod.Location = new System.Drawing.Point(1064, 288);
+            this.txtInitMiscMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtInitMiscMod.Name = "txtInitMiscMod";
+            this.txtInitMiscMod.Size = new System.Drawing.Size(40, 34);
+            this.txtInitMiscMod.TabIndex = 1344;
+            this.txtInitMiscMod.Text = "0";
+            this.txtInitMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(971, 298);
+            this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(19, 20);
+            this.label46.TabIndex = 1343;
+            this.label46.Text = "+";
+            // 
+            // txtInitAbilMod
+            // 
+            this.txtInitAbilMod.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtInitAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtInitAbilMod.Location = new System.Drawing.Point(994, 288);
+            this.txtInitAbilMod.Margin = new System.Windows.Forms.Padding(2);
+            this.txtInitAbilMod.MaxLength = 3;
+            this.txtInitAbilMod.Name = "txtInitAbilMod";
+            this.txtInitAbilMod.ReadOnly = true;
+            this.txtInitAbilMod.Size = new System.Drawing.Size(40, 34);
+            this.txtInitAbilMod.TabIndex = 1342;
+            this.txtInitAbilMod.Text = "-1";
+            this.txtInitAbilMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label44
+            // 
+            this.label44.BackColor = System.Drawing.Color.White;
+            this.label44.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label44.ForeColor = System.Drawing.Color.Black;
+            this.label44.Location = new System.Drawing.Point(914, 263);
+            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(65, 22);
+            this.label44.TabIndex = 1341;
+            this.label44.Text = "TOTAL";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtInit
+            // 
+            this.txtInit.Enabled = false;
+            this.txtInit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtInit.Location = new System.Drawing.Point(930, 287);
+            this.txtInit.Margin = new System.Windows.Forms.Padding(2);
+            this.txtInit.Name = "txtInit";
+            this.txtInit.PlaceholderText = "10";
+            this.txtInit.Size = new System.Drawing.Size(40, 34);
+            this.txtInit.TabIndex = 1340;
+            this.txtInit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label43
+            // 
+            this.label43.BackColor = System.Drawing.Color.Black;
+            this.label43.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label43.ForeColor = System.Drawing.Color.White;
+            this.label43.Location = new System.Drawing.Point(904, 82);
+            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(252, 35);
+            this.label43.TabIndex = 1339;
+            this.label43.Text = "SPEED";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label42
+            // 
+            this.label42.BackColor = System.Drawing.Color.Black;
+            this.label42.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label42.ForeColor = System.Drawing.Color.White;
+            this.label42.Location = new System.Drawing.Point(752, 285);
+            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(170, 35);
+            this.label42.TabIndex = 1338;
+            this.label42.Text = "INITIATIVE";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabSkills
+            // 
+            this.tabSkills.Controls.Add(this.label82);
+            this.tabSkills.Controls.Add(this.panel4);
+            this.tabSkills.Controls.Add(this.label81);
+            this.tabSkills.Controls.Add(this.pnlFeats);
+            this.tabSkills.Controls.Add(this.label75);
+            this.tabSkills.Controls.Add(this.label74);
+            this.tabSkills.Controls.Add(this.label73);
+            this.tabSkills.Controls.Add(this.textBox34);
+            this.tabSkills.Controls.Add(this.textBox33);
+            this.tabSkills.Controls.Add(this.label68);
+            this.tabSkills.Controls.Add(this.label67);
+            this.tabSkills.Controls.Add(this.label69);
+            this.tabSkills.Controls.Add(this.label70);
+            this.tabSkills.Controls.Add(this.label71);
+            this.tabSkills.Controls.Add(this.label72);
+            this.tabSkills.Controls.Add(this.label121);
+            this.tabSkills.Controls.Add(this.label120);
+            this.tabSkills.Controls.Add(this.panel3);
+            this.tabSkills.ImageIndex = 3;
+            this.tabSkills.Location = new System.Drawing.Point(4, 71);
+            this.tabSkills.Margin = new System.Windows.Forms.Padding(2);
+            this.tabSkills.Name = "tabSkills";
+            this.tabSkills.Padding = new System.Windows.Forms.Padding(2);
+            this.tabSkills.Size = new System.Drawing.Size(1213, 750);
+            this.tabSkills.TabIndex = 1;
+            this.tabSkills.Text = "Skills/Feats";
+            this.tabSkills.UseVisualStyleBackColor = true;
+            // 
+            // label82
+            // 
+            this.label82.BackColor = System.Drawing.Color.Black;
+            this.label82.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label82.ForeColor = System.Drawing.Color.White;
+            this.label82.Location = new System.Drawing.Point(612, 422);
+            this.label82.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(561, 35);
+            this.label82.TabIndex = 280;
+            this.label82.Text = "SPECIAL ABILITIES";
+            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.btnNewSpecial);
+            this.panel4.Controls.Add(this.flpSpecials);
+            this.panel4.Location = new System.Drawing.Point(612, 457);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(561, 281);
+            this.panel4.TabIndex = 279;
+            // 
+            // btnNewSpecial
+            // 
+            this.btnNewSpecial.BackColor = System.Drawing.Color.Lime;
+            this.btnNewSpecial.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNewSpecial.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnNewSpecial.Location = new System.Drawing.Point(12, 241);
+            this.btnNewSpecial.Name = "btnNewSpecial";
+            this.btnNewSpecial.Size = new System.Drawing.Size(37, 29);
+            this.btnNewSpecial.TabIndex = 5;
+            this.btnNewSpecial.Text = "";
+            this.btnNewSpecial.UseVisualStyleBackColor = false;
+            // 
+            // flpSpecials
+            // 
+            this.flpSpecials.AutoScroll = true;
+            this.flpSpecials.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flpSpecials.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpSpecials.Location = new System.Drawing.Point(-1, -1);
+            this.flpSpecials.Name = "flpSpecials";
+            this.flpSpecials.Size = new System.Drawing.Size(561, 235);
+            this.flpSpecials.TabIndex = 2;
+            this.flpSpecials.WrapContents = false;
+            // 
+            // label81
+            // 
+            this.label81.BackColor = System.Drawing.Color.Black;
+            this.label81.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label81.ForeColor = System.Drawing.Color.White;
+            this.label81.Location = new System.Drawing.Point(615, 34);
+            this.label81.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(561, 35);
+            this.label81.TabIndex = 278;
+            this.label81.Text = "FEATS";
+            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pnlFeats
+            // 
+            this.pnlFeats.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlFeats.Controls.Add(this.btnNewFeat);
+            this.pnlFeats.Controls.Add(this.flpFeats);
+            this.pnlFeats.Location = new System.Drawing.Point(615, 70);
+            this.pnlFeats.Name = "pnlFeats";
+            this.pnlFeats.Size = new System.Drawing.Size(561, 281);
+            this.pnlFeats.TabIndex = 277;
+            // 
+            // btnNewFeat
+            // 
+            this.btnNewFeat.BackColor = System.Drawing.Color.Lime;
+            this.btnNewFeat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNewFeat.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnNewFeat.Location = new System.Drawing.Point(12, 241);
+            this.btnNewFeat.Name = "btnNewFeat";
+            this.btnNewFeat.Size = new System.Drawing.Size(37, 29);
+            this.btnNewFeat.TabIndex = 5;
+            this.btnNewFeat.Text = "";
+            this.btnNewFeat.UseVisualStyleBackColor = false;
+            this.btnNewFeat.Click += new System.EventHandler(this.btnNewFeat_Click);
+            // 
+            // flpFeats
+            // 
+            this.flpFeats.AutoScroll = true;
+            this.flpFeats.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flpFeats.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpFeats.Location = new System.Drawing.Point(-2, -1);
+            this.flpFeats.Name = "flpFeats";
+            this.flpFeats.Size = new System.Drawing.Size(561, 235);
+            this.flpFeats.TabIndex = 2;
+            this.flpFeats.WrapContents = false;
+            // 
             // label75
             // 
             this.label75.BackColor = System.Drawing.Color.Black;
             this.label75.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label75.ForeColor = System.Drawing.Color.White;
-            this.label75.Location = new System.Drawing.Point(868, 311);
+            this.label75.Location = new System.Drawing.Point(353, 47);
             this.label75.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(108, 16);
-            this.label75.TabIndex = 262;
+            this.label75.TabIndex = 276;
             this.label75.Text = "CLASS/CROSS-CLASS";
             // 
             // label74
@@ -3031,11 +4302,11 @@
             this.label74.BackColor = System.Drawing.Color.Black;
             this.label74.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label74.ForeColor = System.Drawing.Color.White;
-            this.label74.Location = new System.Drawing.Point(908, 298);
+            this.label74.Location = new System.Drawing.Point(393, 34);
             this.label74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(68, 16);
-            this.label74.TabIndex = 261;
+            this.label74.TabIndex = 275;
             this.label74.Text = "MAX RANKS";
             // 
             // label73
@@ -3044,25 +4315,25 @@
             this.label73.BackColor = System.Drawing.Color.Black;
             this.label73.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label73.ForeColor = System.Drawing.Color.White;
-            this.label73.Location = new System.Drawing.Point(1018, 295);
+            this.label73.Location = new System.Drawing.Point(503, 31);
             this.label73.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(23, 31);
-            this.label73.TabIndex = 260;
+            this.label73.TabIndex = 274;
             this.label73.Text = "/";
             // 
             // textBox34
             // 
             this.textBox34.Cursor = System.Windows.Forms.Cursors.No;
             this.textBox34.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox34.Location = new System.Drawing.Point(1040, 295);
+            this.textBox34.Location = new System.Drawing.Point(525, 31);
             this.textBox34.Margin = new System.Windows.Forms.Padding(2);
             this.textBox34.MaxLength = 3;
             this.textBox34.Name = "textBox34";
             this.textBox34.PlaceholderText = "0";
             this.textBox34.ReadOnly = true;
             this.textBox34.Size = new System.Drawing.Size(40, 34);
-            this.textBox34.TabIndex = 259;
+            this.textBox34.TabIndex = 273;
             this.textBox34.Text = "0";
             this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -3070,14 +4341,14 @@
             // 
             this.textBox33.Cursor = System.Windows.Forms.Cursors.No;
             this.textBox33.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox33.Location = new System.Drawing.Point(976, 295);
+            this.textBox33.Location = new System.Drawing.Point(461, 31);
             this.textBox33.Margin = new System.Windows.Forms.Padding(2);
             this.textBox33.MaxLength = 3;
             this.textBox33.Name = "textBox33";
             this.textBox33.PlaceholderText = "0";
             this.textBox33.ReadOnly = true;
             this.textBox33.Size = new System.Drawing.Size(40, 34);
-            this.textBox33.TabIndex = 258;
+            this.textBox33.TabIndex = 272;
             this.textBox33.Text = "0";
             this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -3086,11 +4357,11 @@
             this.label68.BackColor = System.Drawing.Color.Black;
             this.label68.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label68.ForeColor = System.Drawing.Color.White;
-            this.label68.Location = new System.Drawing.Point(574, 294);
+            this.label68.Location = new System.Drawing.Point(39, 30);
             this.label68.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(510, 35);
-            this.label68.TabIndex = 257;
+            this.label68.Size = new System.Drawing.Size(533, 35);
+            this.label68.TabIndex = 271;
             this.label68.Text = "SKILLS";
             this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -3098,11 +4369,11 @@
             // 
             this.label67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label67.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label67.Location = new System.Drawing.Point(612, 329);
+            this.label67.Location = new System.Drawing.Point(80, 65);
             this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(190, 40);
-            this.label67.TabIndex = 256;
+            this.label67.Size = new System.Drawing.Size(180, 40);
+            this.label67.TabIndex = 270;
             this.label67.Text = "SKILL NAME";
             this.label67.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
@@ -3110,11 +4381,11 @@
             // 
             this.label69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label69.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label69.Location = new System.Drawing.Point(1026, 329);
+            this.label69.Location = new System.Drawing.Point(496, 65);
             this.label69.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(58, 40);
-            this.label69.TabIndex = 254;
+            this.label69.Size = new System.Drawing.Size(55, 40);
+            this.label69.TabIndex = 269;
             this.label69.Text = "MISC MOD";
             this.label69.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
@@ -3122,11 +4393,11 @@
             // 
             this.label70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label70.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label70.Location = new System.Drawing.Point(854, 329);
+            this.label70.Location = new System.Drawing.Point(322, 65);
             this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(57, 40);
-            this.label70.TabIndex = 253;
+            this.label70.Size = new System.Drawing.Size(50, 40);
+            this.label70.TabIndex = 268;
             this.label70.Text = "SKILL MOD";
             this.label70.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
@@ -3134,11 +4405,11 @@
             // 
             this.label71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label71.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label71.Location = new System.Drawing.Point(969, 329);
+            this.label71.Location = new System.Drawing.Point(437, 65);
             this.label71.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(58, 40);
-            this.label71.TabIndex = 252;
+            this.label71.Size = new System.Drawing.Size(55, 40);
+            this.label71.TabIndex = 267;
             this.label71.Text = "ABILITY MOD";
             this.label71.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
@@ -3146,11 +4417,11 @@
             // 
             this.label72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label72.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label72.Location = new System.Drawing.Point(911, 329);
+            this.label72.Location = new System.Drawing.Point(378, 65);
             this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(58, 40);
-            this.label72.TabIndex = 251;
+            this.label72.Size = new System.Drawing.Size(52, 40);
+            this.label72.TabIndex = 266;
             this.label72.Text = "RANKS";
             this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -3158,11 +4429,11 @@
             // 
             this.label121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label121.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label121.Location = new System.Drawing.Point(578, 329);
+            this.label121.Location = new System.Drawing.Point(43, 65);
             this.label121.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(34, 40);
-            this.label121.TabIndex = 250;
+            this.label121.Size = new System.Drawing.Size(32, 40);
+            this.label121.TabIndex = 265;
             this.label121.Text = "CS?";
             this.label121.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
@@ -3170,11 +4441,11 @@
             // 
             this.label120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label120.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label120.Location = new System.Drawing.Point(802, 329);
+            this.label120.Location = new System.Drawing.Point(265, 65);
             this.label120.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label120.Name = "label120";
             this.label120.Size = new System.Drawing.Size(52, 40);
-            this.label120.TabIndex = 249;
+            this.label120.TabIndex = 264;
             this.label120.Text = "KEY ABILITY";
             this.label120.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
@@ -3185,7 +4456,6 @@
             this.panel3.Controls.Add(this.textBox685);
             this.panel3.Controls.Add(this.textBox684);
             this.panel3.Controls.Add(this.textBox683);
-            this.panel3.Controls.Add(this.button159);
             this.panel3.Controls.Add(this.label797);
             this.panel3.Controls.Add(this.label798);
             this.panel3.Controls.Add(this.label799);
@@ -3195,7 +4465,6 @@
             this.panel3.Controls.Add(this.textBox674);
             this.panel3.Controls.Add(this.label800);
             this.panel3.Controls.Add(this.checkBox142);
-            this.panel3.Controls.Add(this.button160);
             this.panel3.Controls.Add(this.label802);
             this.panel3.Controls.Add(this.label803);
             this.panel3.Controls.Add(this.label804);
@@ -3205,7 +4474,6 @@
             this.panel3.Controls.Add(this.textBox678);
             this.panel3.Controls.Add(this.label805);
             this.panel3.Controls.Add(this.checkBox143);
-            this.panel3.Controls.Add(this.button161);
             this.panel3.Controls.Add(this.label807);
             this.panel3.Controls.Add(this.label808);
             this.panel3.Controls.Add(this.label809);
@@ -3215,9 +4483,7 @@
             this.panel3.Controls.Add(this.textBox682);
             this.panel3.Controls.Add(this.label810);
             this.panel3.Controls.Add(this.checkBox144);
-            this.panel3.Controls.Add(this.button147);
             this.panel3.Controls.Add(this.textBox622);
-            this.panel3.Controls.Add(this.button145);
             this.panel3.Controls.Add(this.label737);
             this.panel3.Controls.Add(this.label727);
             this.panel3.Controls.Add(this.label728);
@@ -3239,7 +4505,6 @@
             this.panel3.Controls.Add(this.label796);
             this.panel3.Controls.Add(this.label731);
             this.panel3.Controls.Add(this.textBox626);
-            this.panel3.Controls.Add(this.button146);
             this.panel3.Controls.Add(this.label795);
             this.panel3.Controls.Add(this.label732);
             this.panel3.Controls.Add(this.label740);
@@ -3254,7 +4519,6 @@
             this.panel3.Controls.Add(this.textBox619);
             this.panel3.Controls.Add(this.textBox668);
             this.panel3.Controls.Add(this.textBox620);
-            this.panel3.Controls.Add(this.button148);
             this.panel3.Controls.Add(this.label735);
             this.panel3.Controls.Add(this.textBox667);
             this.panel3.Controls.Add(this.textBox621);
@@ -3263,7 +4527,6 @@
             this.panel3.Controls.Add(this.label794);
             this.panel3.Controls.Add(this.checkBox129);
             this.panel3.Controls.Add(this.label743);
-            this.panel3.Controls.Add(this.button144);
             this.panel3.Controls.Add(this.label793);
             this.panel3.Controls.Add(this.label722);
             this.panel3.Controls.Add(this.label744);
@@ -3272,7 +4535,6 @@
             this.panel3.Controls.Add(this.label724);
             this.panel3.Controls.Add(this.textBox627);
             this.panel3.Controls.Add(this.textBox607);
-            this.panel3.Controls.Add(this.button158);
             this.panel3.Controls.Add(this.label726);
             this.panel3.Controls.Add(this.textBox628);
             this.panel3.Controls.Add(this.textBox608);
@@ -3287,7 +4549,6 @@
             this.panel3.Controls.Add(this.textBox666);
             this.panel3.Controls.Add(this.label725);
             this.panel3.Controls.Add(this.label745);
-            this.panel3.Controls.Add(this.button103);
             this.panel3.Controls.Add(this.textBox665);
             this.panel3.Controls.Add(this.label517);
             this.panel3.Controls.Add(this.label746);
@@ -3298,21 +4559,18 @@
             this.panel3.Controls.Add(this.textBox434);
             this.panel3.Controls.Add(this.textBox663);
             this.panel3.Controls.Add(this.textBox435);
-            this.panel3.Controls.Add(this.button149);
             this.panel3.Controls.Add(this.textBox436);
             this.panel3.Controls.Add(this.label789);
             this.panel3.Controls.Add(this.textBox437);
             this.panel3.Controls.Add(this.label747);
             this.panel3.Controls.Add(this.label520);
             this.panel3.Controls.Add(this.label788);
-            this.panel3.Controls.Add(this.button104);
             this.panel3.Controls.Add(this.label748);
             this.panel3.Controls.Add(this.label521);
             this.panel3.Controls.Add(this.label787);
             this.panel3.Controls.Add(this.label522);
             this.panel3.Controls.Add(this.label749);
             this.panel3.Controls.Add(this.label523);
-            this.panel3.Controls.Add(this.button157);
             this.panel3.Controls.Add(this.textBox438);
             this.panel3.Controls.Add(this.textBox631);
             this.panel3.Controls.Add(this.textBox439);
@@ -3335,14 +4593,12 @@
             this.panel3.Controls.Add(this.textBox661);
             this.panel3.Controls.Add(this.checkBox87);
             this.panel3.Controls.Add(this.label751);
-            this.panel3.Controls.Add(this.button100);
             this.panel3.Controls.Add(this.textBox660);
             this.panel3.Controls.Add(this.label225);
             this.panel3.Controls.Add(this.checkBox132);
             this.panel3.Controls.Add(this.label342);
             this.panel3.Controls.Add(this.textBox659);
             this.panel3.Controls.Add(this.label343);
-            this.panel3.Controls.Add(this.button150);
             this.panel3.Controls.Add(this.textBox422);
             this.panel3.Controls.Add(this.label784);
             this.panel3.Controls.Add(this.textBox423);
@@ -3356,8 +4612,6 @@
             this.panel3.Controls.Add(this.label345);
             this.panel3.Controls.Add(this.label754);
             this.panel3.Controls.Add(this.checkBox83);
-            this.panel3.Controls.Add(this.button156);
-            this.panel3.Controls.Add(this.button101);
             this.panel3.Controls.Add(this.textBox635);
             this.panel3.Controls.Add(this.label346);
             this.panel3.Controls.Add(this.checkBox138);
@@ -3379,14 +4633,12 @@
             this.panel3.Controls.Add(this.textBox657);
             this.panel3.Controls.Add(this.checkBox84);
             this.panel3.Controls.Add(this.label756);
-            this.panel3.Controls.Add(this.button102);
             this.panel3.Controls.Add(this.textBox656);
             this.panel3.Controls.Add(this.label506);
             this.panel3.Controls.Add(this.checkBox133);
             this.panel3.Controls.Add(this.label510);
             this.panel3.Controls.Add(this.textBox655);
             this.panel3.Controls.Add(this.label514);
-            this.panel3.Controls.Add(this.button151);
             this.panel3.Controls.Add(this.textBox430);
             this.panel3.Controls.Add(this.label779);
             this.panel3.Controls.Add(this.textBox431);
@@ -3400,8 +4652,6 @@
             this.panel3.Controls.Add(this.label516);
             this.panel3.Controls.Add(this.label759);
             this.panel3.Controls.Add(this.checkBox85);
-            this.panel3.Controls.Add(this.button155);
-            this.panel3.Controls.Add(this.button99);
             this.panel3.Controls.Add(this.textBox639);
             this.panel3.Controls.Add(this.label221);
             this.panel3.Controls.Add(this.checkBox137);
@@ -3419,7 +4669,6 @@
             this.panel3.Controls.Add(this.textBox654);
             this.panel3.Controls.Add(this.label224);
             this.panel3.Controls.Add(this.label760);
-            this.panel3.Controls.Add(this.button43);
             this.panel3.Controls.Add(this.textBox653);
             this.panel3.Controls.Add(this.label202);
             this.panel3.Controls.Add(this.label761);
@@ -3430,21 +4679,18 @@
             this.panel3.Controls.Add(this.textBox171);
             this.panel3.Controls.Add(this.textBox651);
             this.panel3.Controls.Add(this.textBox172);
-            this.panel3.Controls.Add(this.button152);
             this.panel3.Controls.Add(this.textBox177);
             this.panel3.Controls.Add(this.label774);
             this.panel3.Controls.Add(this.textBox178);
             this.panel3.Controls.Add(this.label762);
             this.panel3.Controls.Add(this.label206);
             this.panel3.Controls.Add(this.label773);
-            this.panel3.Controls.Add(this.button45);
             this.panel3.Controls.Add(this.label763);
             this.panel3.Controls.Add(this.label207);
             this.panel3.Controls.Add(this.label772);
             this.panel3.Controls.Add(this.label208);
             this.panel3.Controls.Add(this.label764);
             this.panel3.Controls.Add(this.label210);
-            this.panel3.Controls.Add(this.button154);
             this.panel3.Controls.Add(this.textBox179);
             this.panel3.Controls.Add(this.textBox643);
             this.panel3.Controls.Add(this.textBox180);
@@ -3455,7 +4701,6 @@
             this.panel3.Controls.Add(this.label771);
             this.panel3.Controls.Add(this.label211);
             this.panel3.Controls.Add(this.textBox645);
-            this.panel3.Controls.Add(this.button97);
             this.panel3.Controls.Add(this.label770);
             this.panel3.Controls.Add(this.label212);
             this.panel3.Controls.Add(this.textBox646);
@@ -3473,8 +4718,6 @@
             this.panel3.Controls.Add(this.checkBox135);
             this.panel3.Controls.Add(this.label216);
             this.panel3.Controls.Add(this.textBox647);
-            this.panel3.Controls.Add(this.button98);
-            this.panel3.Controls.Add(this.button153);
             this.panel3.Controls.Add(this.label217);
             this.panel3.Controls.Add(this.label769);
             this.panel3.Controls.Add(this.label218);
@@ -3492,7 +4735,6 @@
             this.panel3.Controls.Add(this.checkBox81);
             this.panel3.Controls.Add(this.label201);
             this.panel3.Controls.Add(this.checkBox82);
-            this.panel3.Controls.Add(this.button21);
             this.panel3.Controls.Add(this.label137);
             this.panel3.Controls.Add(this.label138);
             this.panel3.Controls.Add(this.label139);
@@ -3501,7 +4743,6 @@
             this.panel3.Controls.Add(this.textBox99);
             this.panel3.Controls.Add(this.textBox100);
             this.panel3.Controls.Add(this.label140);
-            this.panel3.Controls.Add(this.button22);
             this.panel3.Controls.Add(this.label142);
             this.panel3.Controls.Add(this.label143);
             this.panel3.Controls.Add(this.label144);
@@ -3510,7 +4751,6 @@
             this.panel3.Controls.Add(this.textBox103);
             this.panel3.Controls.Add(this.textBox104);
             this.panel3.Controls.Add(this.label145);
-            this.panel3.Controls.Add(this.button23);
             this.panel3.Controls.Add(this.label147);
             this.panel3.Controls.Add(this.label148);
             this.panel3.Controls.Add(this.label149);
@@ -3519,7 +4759,6 @@
             this.panel3.Controls.Add(this.textBox107);
             this.panel3.Controls.Add(this.textBox108);
             this.panel3.Controls.Add(this.label150);
-            this.panel3.Controls.Add(this.button24);
             this.panel3.Controls.Add(this.label152);
             this.panel3.Controls.Add(this.label153);
             this.panel3.Controls.Add(this.label154);
@@ -3528,7 +4767,6 @@
             this.panel3.Controls.Add(this.textBox111);
             this.panel3.Controls.Add(this.textBox112);
             this.panel3.Controls.Add(this.label155);
-            this.panel3.Controls.Add(this.button19);
             this.panel3.Controls.Add(this.label127);
             this.panel3.Controls.Add(this.label128);
             this.panel3.Controls.Add(this.label129);
@@ -3537,7 +4775,6 @@
             this.panel3.Controls.Add(this.textBox91);
             this.panel3.Controls.Add(this.textBox92);
             this.panel3.Controls.Add(this.label130);
-            this.panel3.Controls.Add(this.button20);
             this.panel3.Controls.Add(this.label132);
             this.panel3.Controls.Add(this.label133);
             this.panel3.Controls.Add(this.label134);
@@ -3546,7 +4783,6 @@
             this.panel3.Controls.Add(this.textBox95);
             this.panel3.Controls.Add(this.textBox96);
             this.panel3.Controls.Add(this.label135);
-            this.panel3.Controls.Add(this.button18);
             this.panel3.Controls.Add(this.label122);
             this.panel3.Controls.Add(this.label123);
             this.panel3.Controls.Add(this.label124);
@@ -3555,7 +4791,6 @@
             this.panel3.Controls.Add(this.textBox87);
             this.panel3.Controls.Add(this.textBox88);
             this.panel3.Controls.Add(this.label125);
-            this.panel3.Controls.Add(this.button17);
             this.panel3.Controls.Add(this.label115);
             this.panel3.Controls.Add(this.label116);
             this.panel3.Controls.Add(this.label117);
@@ -3586,7 +4821,6 @@
             this.panel3.Controls.Add(this.checkBox45);
             this.panel3.Controls.Add(this.label214);
             this.panel3.Controls.Add(this.checkBox80);
-            this.panel3.Controls.Add(this.button92);
             this.panel3.Controls.Add(this.label175);
             this.panel3.Controls.Add(this.label176);
             this.panel3.Controls.Add(this.label177);
@@ -3597,7 +4831,6 @@
             this.panel3.Controls.Add(this.label178);
             this.panel3.Controls.Add(this.label179);
             this.panel3.Controls.Add(this.checkBox75);
-            this.panel3.Controls.Add(this.button93);
             this.panel3.Controls.Add(this.label180);
             this.panel3.Controls.Add(this.label181);
             this.panel3.Controls.Add(this.label182);
@@ -3608,7 +4841,6 @@
             this.panel3.Controls.Add(this.label183);
             this.panel3.Controls.Add(this.label184);
             this.panel3.Controls.Add(this.checkBox76);
-            this.panel3.Controls.Add(this.button94);
             this.panel3.Controls.Add(this.label185);
             this.panel3.Controls.Add(this.label186);
             this.panel3.Controls.Add(this.label187);
@@ -3619,7 +4851,6 @@
             this.panel3.Controls.Add(this.label188);
             this.panel3.Controls.Add(this.label189);
             this.panel3.Controls.Add(this.checkBox77);
-            this.panel3.Controls.Add(this.button95);
             this.panel3.Controls.Add(this.label190);
             this.panel3.Controls.Add(this.label191);
             this.panel3.Controls.Add(this.label192);
@@ -3630,7 +4861,6 @@
             this.panel3.Controls.Add(this.label193);
             this.panel3.Controls.Add(this.label194);
             this.panel3.Controls.Add(this.checkBox78);
-            this.panel3.Controls.Add(this.button96);
             this.panel3.Controls.Add(this.label195);
             this.panel3.Controls.Add(this.label196);
             this.panel3.Controls.Add(this.label197);
@@ -3642,7 +4872,6 @@
             this.panel3.Controls.Add(this.label199);
             this.panel3.Controls.Add(this.checkBox79);
             this.panel3.Controls.Add(this.checkBox35);
-            this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.label52);
             this.panel3.Controls.Add(this.label53);
             this.panel3.Controls.Add(this.label54);
@@ -3654,7 +4883,6 @@
             this.panel3.Controls.Add(this.textBox21);
             this.panel3.Controls.Add(this.label56);
             this.panel3.Controls.Add(this.checkBox34);
-            this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.label57);
             this.panel3.Controls.Add(this.label58);
             this.panel3.Controls.Add(this.label59);
@@ -3666,7 +4894,6 @@
             this.panel3.Controls.Add(this.textBox26);
             this.panel3.Controls.Add(this.label61);
             this.panel3.Controls.Add(this.checkBox33);
-            this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.label62);
             this.panel3.Controls.Add(this.label63);
             this.panel3.Controls.Add(this.label64);
@@ -3677,7 +4904,6 @@
             this.panel3.Controls.Add(this.label65);
             this.panel3.Controls.Add(this.textBox31);
             this.panel3.Controls.Add(this.label66);
-            this.panel3.Controls.Add(this.button11);
             this.panel3.Controls.Add(this.label272);
             this.panel3.Controls.Add(this.label273);
             this.panel3.Controls.Add(this.label274);
@@ -3688,7 +4914,6 @@
             this.panel3.Controls.Add(this.label275);
             this.panel3.Controls.Add(this.label276);
             this.panel3.Controls.Add(this.checkBox11);
-            this.panel3.Controls.Add(this.button13);
             this.panel3.Controls.Add(this.label282);
             this.panel3.Controls.Add(this.label283);
             this.panel3.Controls.Add(this.label284);
@@ -3699,7 +4924,6 @@
             this.panel3.Controls.Add(this.label285);
             this.panel3.Controls.Add(this.label286);
             this.panel3.Controls.Add(this.checkBox13);
-            this.panel3.Controls.Add(this.button14);
             this.panel3.Controls.Add(this.label287);
             this.panel3.Controls.Add(this.label288);
             this.panel3.Controls.Add(this.label289);
@@ -3710,7 +4934,6 @@
             this.panel3.Controls.Add(this.label290);
             this.panel3.Controls.Add(this.label291);
             this.panel3.Controls.Add(this.checkBox14);
-            this.panel3.Controls.Add(this.button15);
             this.panel3.Controls.Add(this.label292);
             this.panel3.Controls.Add(this.label293);
             this.panel3.Controls.Add(this.label294);
@@ -3721,7 +4944,6 @@
             this.panel3.Controls.Add(this.label295);
             this.panel3.Controls.Add(this.label296);
             this.panel3.Controls.Add(this.checkBox15);
-            this.panel3.Controls.Add(this.button16);
             this.panel3.Controls.Add(this.label297);
             this.panel3.Controls.Add(this.label298);
             this.panel3.Controls.Add(this.label299);
@@ -3732,7 +4954,6 @@
             this.panel3.Controls.Add(this.label300);
             this.panel3.Controls.Add(this.label301);
             this.panel3.Controls.Add(this.checkBox16);
-            this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.label302);
             this.panel3.Controls.Add(this.label303);
             this.panel3.Controls.Add(this.label304);
@@ -3743,7 +4964,6 @@
             this.panel3.Controls.Add(this.label305);
             this.panel3.Controls.Add(this.label306);
             this.panel3.Controls.Add(this.checkBox5);
-            this.panel3.Controls.Add(this.button6);
             this.panel3.Controls.Add(this.label307);
             this.panel3.Controls.Add(this.label308);
             this.panel3.Controls.Add(this.label309);
@@ -3754,7 +4974,6 @@
             this.panel3.Controls.Add(this.label310);
             this.panel3.Controls.Add(this.label311);
             this.panel3.Controls.Add(this.checkBox6);
-            this.panel3.Controls.Add(this.button7);
             this.panel3.Controls.Add(this.label312);
             this.panel3.Controls.Add(this.label313);
             this.panel3.Controls.Add(this.label314);
@@ -3765,7 +4984,6 @@
             this.panel3.Controls.Add(this.label315);
             this.panel3.Controls.Add(this.label316);
             this.panel3.Controls.Add(this.checkBox7);
-            this.panel3.Controls.Add(this.button8);
             this.panel3.Controls.Add(this.label317);
             this.panel3.Controls.Add(this.label318);
             this.panel3.Controls.Add(this.label319);
@@ -3776,7 +4994,6 @@
             this.panel3.Controls.Add(this.label320);
             this.panel3.Controls.Add(this.label321);
             this.panel3.Controls.Add(this.checkBox8);
-            this.panel3.Controls.Add(this.button9);
             this.panel3.Controls.Add(this.label322);
             this.panel3.Controls.Add(this.label323);
             this.panel3.Controls.Add(this.label324);
@@ -3787,7 +5004,6 @@
             this.panel3.Controls.Add(this.label325);
             this.panel3.Controls.Add(this.label326);
             this.panel3.Controls.Add(this.checkBox3);
-            this.panel3.Controls.Add(this.button46);
             this.panel3.Controls.Add(this.label327);
             this.panel3.Controls.Add(this.label328);
             this.panel3.Controls.Add(this.label329);
@@ -3798,7 +5014,6 @@
             this.panel3.Controls.Add(this.label330);
             this.panel3.Controls.Add(this.label331);
             this.panel3.Controls.Add(this.checkBox4);
-            this.panel3.Controls.Add(this.button47);
             this.panel3.Controls.Add(this.label332);
             this.panel3.Controls.Add(this.label333);
             this.panel3.Controls.Add(this.label334);
@@ -3809,7 +5024,6 @@
             this.panel3.Controls.Add(this.label335);
             this.panel3.Controls.Add(this.label336);
             this.panel3.Controls.Add(this.checkBox2);
-            this.panel3.Controls.Add(this.button48);
             this.panel3.Controls.Add(this.label337);
             this.panel3.Controls.Add(this.label338);
             this.panel3.Controls.Add(this.label339);
@@ -3820,11 +5034,11 @@
             this.panel3.Controls.Add(this.label340);
             this.panel3.Controls.Add(this.label341);
             this.panel3.Controls.Add(this.checkBox9);
-            this.panel3.Location = new System.Drawing.Point(574, 368);
+            this.panel3.Location = new System.Drawing.Point(39, 104);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(592, 426);
-            this.panel3.TabIndex = 248;
+            this.panel3.Size = new System.Drawing.Size(533, 634);
+            this.panel3.TabIndex = 263;
             // 
             // textBox38
             // 
@@ -3873,17 +5087,6 @@
             this.textBox683.Size = new System.Drawing.Size(190, 25);
             this.textBox683.TabIndex = 1508;
             this.textBox683.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button159
-            // 
-            this.button159.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button159.Location = new System.Drawing.Point(518, 1935);
-            this.button159.Margin = new System.Windows.Forms.Padding(2);
-            this.button159.Name = "button159";
-            this.button159.Size = new System.Drawing.Size(26, 28);
-            this.button159.TabIndex = 1507;
-            this.button159.Text = "R";
-            this.button159.UseVisualStyleBackColor = true;
             // 
             // label797
             // 
@@ -3988,17 +5191,6 @@
             this.checkBox142.TabIndex = 1497;
             this.checkBox142.UseVisualStyleBackColor = true;
             // 
-            // button160
-            // 
-            this.button160.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button160.Location = new System.Drawing.Point(518, 1900);
-            this.button160.Margin = new System.Windows.Forms.Padding(2);
-            this.button160.Name = "button160";
-            this.button160.Size = new System.Drawing.Size(26, 28);
-            this.button160.TabIndex = 1496;
-            this.button160.Text = "R";
-            this.button160.UseVisualStyleBackColor = true;
-            // 
             // label802
             // 
             this.label802.AutoSize = true;
@@ -4101,17 +5293,6 @@
             this.checkBox143.Size = new System.Drawing.Size(18, 17);
             this.checkBox143.TabIndex = 1486;
             this.checkBox143.UseVisualStyleBackColor = true;
-            // 
-            // button161
-            // 
-            this.button161.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button161.Location = new System.Drawing.Point(518, 1866);
-            this.button161.Margin = new System.Windows.Forms.Padding(2);
-            this.button161.Name = "button161";
-            this.button161.Size = new System.Drawing.Size(26, 26);
-            this.button161.TabIndex = 1485;
-            this.button161.Text = "R";
-            this.button161.UseVisualStyleBackColor = true;
             // 
             // label807
             // 
@@ -4216,17 +5397,6 @@
             this.checkBox144.TabIndex = 1475;
             this.checkBox144.UseVisualStyleBackColor = true;
             // 
-            // button147
-            // 
-            this.button147.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button147.Location = new System.Drawing.Point(518, 1829);
-            this.button147.Margin = new System.Windows.Forms.Padding(2);
-            this.button147.Name = "button147";
-            this.button147.Size = new System.Drawing.Size(26, 28);
-            this.button147.TabIndex = 1474;
-            this.button147.Text = "R";
-            this.button147.UseVisualStyleBackColor = true;
-            // 
             // textBox622
             // 
             this.textBox622.BackColor = System.Drawing.Color.White;
@@ -4238,17 +5408,6 @@
             this.textBox622.Size = new System.Drawing.Size(79, 16);
             this.textBox622.TabIndex = 1342;
             this.textBox622.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button145
-            // 
-            this.button145.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button145.Location = new System.Drawing.Point(519, 1412);
-            this.button145.Margin = new System.Windows.Forms.Padding(2);
-            this.button145.Name = "button145";
-            this.button145.Size = new System.Drawing.Size(26, 26);
-            this.button145.TabIndex = 1341;
-            this.button145.Text = "R";
-            this.button145.UseVisualStyleBackColor = true;
             // 
             // label737
             // 
@@ -4491,17 +5650,6 @@
             this.textBox626.TabIndex = 1467;
             this.textBox626.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button146
-            // 
-            this.button146.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button146.Location = new System.Drawing.Point(519, 1379);
-            this.button146.Margin = new System.Windows.Forms.Padding(2);
-            this.button146.Name = "button146";
-            this.button146.Size = new System.Drawing.Size(26, 26);
-            this.button146.TabIndex = 1329;
-            this.button146.Text = "R";
-            this.button146.UseVisualStyleBackColor = true;
-            // 
             // label795
             // 
             this.label795.AutoSize = true;
@@ -4661,17 +5809,6 @@
             this.textBox620.TabIndex = 1322;
             this.textBox620.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button148
-            // 
-            this.button148.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button148.Location = new System.Drawing.Point(518, 1794);
-            this.button148.Margin = new System.Windows.Forms.Padding(2);
-            this.button148.Name = "button148";
-            this.button148.Size = new System.Drawing.Size(26, 28);
-            this.button148.TabIndex = 1463;
-            this.button148.Text = "R";
-            this.button148.UseVisualStyleBackColor = true;
-            // 
             // label735
             // 
             this.label735.AutoSize = true;
@@ -4765,17 +5902,6 @@
             this.label743.TabIndex = 1461;
             this.label743.Text = "+";
             this.label743.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button144
-            // 
-            this.button144.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button144.Location = new System.Drawing.Point(519, 1348);
-            this.button144.Margin = new System.Windows.Forms.Padding(2);
-            this.button144.Name = "button144";
-            this.button144.Size = new System.Drawing.Size(26, 26);
-            this.button144.TabIndex = 1317;
-            this.button144.Text = "R";
-            this.button144.UseVisualStyleBackColor = true;
             // 
             // label793
             // 
@@ -4874,17 +6000,6 @@
             this.textBox607.Name = "textBox607";
             this.textBox607.Size = new System.Drawing.Size(40, 23);
             this.textBox607.TabIndex = 1313;
-            // 
-            // button158
-            // 
-            this.button158.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button158.Location = new System.Drawing.Point(518, 1480);
-            this.button158.Margin = new System.Windows.Forms.Padding(2);
-            this.button158.Name = "button158";
-            this.button158.Size = new System.Drawing.Size(26, 26);
-            this.button158.TabIndex = 1353;
-            this.button158.Text = "R";
-            this.button158.UseVisualStyleBackColor = true;
             // 
             // label726
             // 
@@ -5042,17 +6157,6 @@
             this.label745.TabIndex = 1455;
             this.label745.Text = "CHA";
             // 
-            // button103
-            // 
-            this.button103.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button103.Location = new System.Drawing.Point(519, 1315);
-            this.button103.Margin = new System.Windows.Forms.Padding(2);
-            this.button103.Name = "button103";
-            this.button103.Size = new System.Drawing.Size(26, 26);
-            this.button103.TabIndex = 1293;
-            this.button103.Text = "R";
-            this.button103.UseVisualStyleBackColor = true;
-            // 
             // textBox665
             // 
             this.textBox665.BackColor = System.Drawing.Color.White;
@@ -5167,17 +6271,6 @@
             this.textBox435.TabIndex = 1288;
             this.textBox435.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button149
-            // 
-            this.button149.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button149.Location = new System.Drawing.Point(518, 1725);
-            this.button149.Margin = new System.Windows.Forms.Padding(2);
-            this.button149.Name = "button149";
-            this.button149.Size = new System.Drawing.Size(26, 26);
-            this.button149.TabIndex = 1452;
-            this.button149.Text = "R";
-            this.button149.UseVisualStyleBackColor = true;
-            // 
             // textBox436
             // 
             this.textBox436.BackColor = System.Drawing.Color.White;
@@ -5249,17 +6342,6 @@
             this.label788.TabIndex = 1362;
             this.label788.Text = "+";
             this.label788.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button104
-            // 
-            this.button104.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button104.Location = new System.Drawing.Point(519, 1282);
-            this.button104.Margin = new System.Windows.Forms.Padding(2);
-            this.button104.Name = "button104";
-            this.button104.Size = new System.Drawing.Size(26, 26);
-            this.button104.TabIndex = 1284;
-            this.button104.Text = "R";
-            this.button104.UseVisualStyleBackColor = true;
             // 
             // label748
             // 
@@ -5338,17 +6420,6 @@
             this.label523.TabIndex = 1281;
             this.label523.Text = "=";
             this.label523.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button157
-            // 
-            this.button157.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button157.Location = new System.Drawing.Point(518, 1445);
-            this.button157.Margin = new System.Windows.Forms.Padding(2);
-            this.button157.Name = "button157";
-            this.button157.Size = new System.Drawing.Size(26, 26);
-            this.button157.TabIndex = 1364;
-            this.button157.Text = "R";
-            this.button157.UseVisualStyleBackColor = true;
             // 
             // textBox438
             // 
@@ -5593,17 +6664,6 @@
             this.label751.Text = "TUMBLE";
             this.label751.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button100
-            // 
-            this.button100.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button100.Location = new System.Drawing.Point(518, 1248);
-            this.button100.Margin = new System.Windows.Forms.Padding(2);
-            this.button100.Name = "button100";
-            this.button100.Size = new System.Drawing.Size(26, 26);
-            this.button100.TabIndex = 1269;
-            this.button100.Text = "R";
-            this.button100.UseVisualStyleBackColor = true;
-            // 
             // textBox660
             // 
             this.textBox660.BackColor = System.Drawing.Color.White;
@@ -5673,17 +6733,6 @@
             this.label343.TabIndex = 1266;
             this.label343.Text = "=";
             this.label343.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button150
-            // 
-            this.button150.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button150.Location = new System.Drawing.Point(518, 1760);
-            this.button150.Margin = new System.Windows.Forms.Padding(2);
-            this.button150.Name = "button150";
-            this.button150.Size = new System.Drawing.Size(26, 26);
-            this.button150.TabIndex = 1441;
-            this.button150.Text = "R";
-            this.button150.UseVisualStyleBackColor = true;
             // 
             // textBox422
             // 
@@ -5838,28 +6887,6 @@
             this.checkBox83.Size = new System.Drawing.Size(18, 17);
             this.checkBox83.TabIndex = 1259;
             this.checkBox83.UseVisualStyleBackColor = true;
-            // 
-            // button156
-            // 
-            this.button156.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button156.Location = new System.Drawing.Point(518, 1550);
-            this.button156.Margin = new System.Windows.Forms.Padding(2);
-            this.button156.Name = "button156";
-            this.button156.Size = new System.Drawing.Size(26, 26);
-            this.button156.TabIndex = 1375;
-            this.button156.Text = "R";
-            this.button156.UseVisualStyleBackColor = true;
-            // 
-            // button101
-            // 
-            this.button101.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button101.Location = new System.Drawing.Point(518, 1178);
-            this.button101.Margin = new System.Windows.Forms.Padding(2);
-            this.button101.Name = "button101";
-            this.button101.Size = new System.Drawing.Size(26, 26);
-            this.button101.TabIndex = 1258;
-            this.button101.Text = "R";
-            this.button101.UseVisualStyleBackColor = true;
             // 
             // textBox635
             // 
@@ -6097,17 +7124,6 @@
             this.label756.Text = "USE MAGIC DEVICE";
             this.label756.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button102
-            // 
-            this.button102.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button102.Location = new System.Drawing.Point(518, 1212);
-            this.button102.Margin = new System.Windows.Forms.Padding(2);
-            this.button102.Name = "button102";
-            this.button102.Size = new System.Drawing.Size(26, 26);
-            this.button102.TabIndex = 1247;
-            this.button102.Text = "R";
-            this.button102.UseVisualStyleBackColor = true;
-            // 
             // textBox656
             // 
             this.textBox656.BackColor = System.Drawing.Color.White;
@@ -6177,17 +7193,6 @@
             this.label514.TabIndex = 1244;
             this.label514.Text = "=";
             this.label514.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button151
-            // 
-            this.button151.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button151.Location = new System.Drawing.Point(518, 1655);
-            this.button151.Margin = new System.Windows.Forms.Padding(2);
-            this.button151.Name = "button151";
-            this.button151.Size = new System.Drawing.Size(26, 26);
-            this.button151.TabIndex = 1430;
-            this.button151.Text = "R";
-            this.button151.UseVisualStyleBackColor = true;
             // 
             // textBox430
             // 
@@ -6342,28 +7347,6 @@
             this.checkBox85.Size = new System.Drawing.Size(18, 17);
             this.checkBox85.TabIndex = 1237;
             this.checkBox85.UseVisualStyleBackColor = true;
-            // 
-            // button155
-            // 
-            this.button155.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button155.Location = new System.Drawing.Point(518, 1515);
-            this.button155.Margin = new System.Windows.Forms.Padding(2);
-            this.button155.Name = "button155";
-            this.button155.Size = new System.Drawing.Size(26, 26);
-            this.button155.TabIndex = 1386;
-            this.button155.Text = "R";
-            this.button155.UseVisualStyleBackColor = true;
-            // 
-            // button99
-            // 
-            this.button99.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button99.Location = new System.Drawing.Point(519, 1142);
-            this.button99.Margin = new System.Windows.Forms.Padding(2);
-            this.button99.Name = "button99";
-            this.button99.Size = new System.Drawing.Size(26, 26);
-            this.button99.TabIndex = 1236;
-            this.button99.Text = "R";
-            this.button99.UseVisualStyleBackColor = true;
             // 
             // textBox639
             // 
@@ -6556,17 +7539,6 @@
             this.label760.TabIndex = 1422;
             this.label760.Text = "WIS";
             // 
-            // button43
-            // 
-            this.button43.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button43.Location = new System.Drawing.Point(519, 1110);
-            this.button43.Margin = new System.Windows.Forms.Padding(2);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(26, 26);
-            this.button43.TabIndex = 1227;
-            this.button43.Text = "R";
-            this.button43.UseVisualStyleBackColor = true;
-            // 
             // textBox653
             // 
             this.textBox653.BackColor = System.Drawing.Color.White;
@@ -6681,17 +7653,6 @@
             this.textBox172.TabIndex = 1222;
             this.textBox172.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button152
-            // 
-            this.button152.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button152.Location = new System.Drawing.Point(518, 1690);
-            this.button152.Margin = new System.Windows.Forms.Padding(2);
-            this.button152.Name = "button152";
-            this.button152.Size = new System.Drawing.Size(26, 26);
-            this.button152.TabIndex = 1419;
-            this.button152.Text = "R";
-            this.button152.UseVisualStyleBackColor = true;
-            // 
             // textBox177
             // 
             this.textBox177.BackColor = System.Drawing.Color.White;
@@ -6763,17 +7724,6 @@
             this.label773.TabIndex = 1395;
             this.label773.Text = "+";
             this.label773.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button45
-            // 
-            this.button45.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button45.Location = new System.Drawing.Point(520, 1078);
-            this.button45.Margin = new System.Windows.Forms.Padding(2);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(26, 26);
-            this.button45.TabIndex = 1218;
-            this.button45.Text = "R";
-            this.button45.UseVisualStyleBackColor = true;
             // 
             // label763
             // 
@@ -6852,17 +7802,6 @@
             this.label210.TabIndex = 1215;
             this.label210.Text = "=";
             this.label210.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button154
-            // 
-            this.button154.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button154.Location = new System.Drawing.Point(518, 1620);
-            this.button154.Margin = new System.Windows.Forms.Padding(2);
-            this.button154.Name = "button154";
-            this.button154.Size = new System.Drawing.Size(26, 26);
-            this.button154.TabIndex = 1397;
-            this.button154.Text = "R";
-            this.button154.UseVisualStyleBackColor = true;
             // 
             // textBox179
             // 
@@ -6971,17 +7910,6 @@
             this.textBox645.Size = new System.Drawing.Size(40, 23);
             this.textBox645.TabIndex = 1413;
             this.textBox645.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button97
-            // 
-            this.button97.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button97.Location = new System.Drawing.Point(519, 1044);
-            this.button97.Margin = new System.Windows.Forms.Padding(2);
-            this.button97.Name = "button97";
-            this.button97.Size = new System.Drawing.Size(26, 26);
-            this.button97.TabIndex = 1209;
-            this.button97.Text = "R";
-            this.button97.UseVisualStyleBackColor = true;
             // 
             // label770
             // 
@@ -7173,28 +8101,6 @@
             this.textBox647.Name = "textBox647";
             this.textBox647.Size = new System.Drawing.Size(40, 23);
             this.textBox647.TabIndex = 1404;
-            // 
-            // button98
-            // 
-            this.button98.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button98.Location = new System.Drawing.Point(520, 1011);
-            this.button98.Margin = new System.Windows.Forms.Padding(2);
-            this.button98.Name = "button98";
-            this.button98.Size = new System.Drawing.Size(26, 26);
-            this.button98.TabIndex = 1200;
-            this.button98.Text = "R";
-            this.button98.UseVisualStyleBackColor = true;
-            // 
-            // button153
-            // 
-            this.button153.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button153.Location = new System.Drawing.Point(518, 1585);
-            this.button153.Margin = new System.Windows.Forms.Padding(2);
-            this.button153.Name = "button153";
-            this.button153.Size = new System.Drawing.Size(26, 26);
-            this.button153.TabIndex = 1408;
-            this.button153.Text = "R";
-            this.button153.UseVisualStyleBackColor = true;
             // 
             // label217
             // 
@@ -7396,17 +8302,6 @@
             this.checkBox82.TabIndex = 1186;
             this.checkBox82.UseVisualStyleBackColor = true;
             // 
-            // button21
-            // 
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button21.Location = new System.Drawing.Point(520, 976);
-            this.button21.Margin = new System.Windows.Forms.Padding(2);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(26, 26);
-            this.button21.TabIndex = 1185;
-            this.button21.Text = "R";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
             // label137
             // 
             this.label137.AutoSize = true;
@@ -7499,17 +8394,6 @@
             this.label140.Size = new System.Drawing.Size(27, 17);
             this.label140.TabIndex = 1177;
             this.label140.Text = "INT";
-            // 
-            // button22
-            // 
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button22.Location = new System.Drawing.Point(521, 942);
-            this.button22.Margin = new System.Windows.Forms.Padding(2);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(26, 26);
-            this.button22.TabIndex = 1176;
-            this.button22.Text = "R";
-            this.button22.UseVisualStyleBackColor = true;
             // 
             // label142
             // 
@@ -7604,17 +8488,6 @@
             this.label145.TabIndex = 1168;
             this.label145.Text = "INT";
             // 
-            // button23
-            // 
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button23.Location = new System.Drawing.Point(520, 910);
-            this.button23.Margin = new System.Windows.Forms.Padding(2);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(26, 26);
-            this.button23.TabIndex = 1167;
-            this.button23.Text = "R";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
             // label147
             // 
             this.label147.AutoSize = true;
@@ -7707,17 +8580,6 @@
             this.label150.Size = new System.Drawing.Size(27, 17);
             this.label150.TabIndex = 1159;
             this.label150.Text = "INT";
-            // 
-            // button24
-            // 
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button24.Location = new System.Drawing.Point(521, 878);
-            this.button24.Margin = new System.Windows.Forms.Padding(2);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(26, 26);
-            this.button24.TabIndex = 1158;
-            this.button24.Text = "R";
-            this.button24.UseVisualStyleBackColor = true;
             // 
             // label152
             // 
@@ -7812,17 +8674,6 @@
             this.label155.TabIndex = 1150;
             this.label155.Text = "INT";
             // 
-            // button19
-            // 
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button19.Location = new System.Drawing.Point(521, 844);
-            this.button19.Margin = new System.Windows.Forms.Padding(2);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(26, 26);
-            this.button19.TabIndex = 1149;
-            this.button19.Text = "R";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
             // label127
             // 
             this.label127.AutoSize = true;
@@ -7915,17 +8766,6 @@
             this.label130.Size = new System.Drawing.Size(27, 17);
             this.label130.TabIndex = 1141;
             this.label130.Text = "INT";
-            // 
-            // button20
-            // 
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button20.Location = new System.Drawing.Point(522, 811);
-            this.button20.Margin = new System.Windows.Forms.Padding(2);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(26, 26);
-            this.button20.TabIndex = 1140;
-            this.button20.Text = "R";
-            this.button20.UseVisualStyleBackColor = true;
             // 
             // label132
             // 
@@ -8020,17 +8860,6 @@
             this.label135.TabIndex = 1132;
             this.label135.Text = "INT";
             // 
-            // button18
-            // 
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button18.Location = new System.Drawing.Point(521, 778);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(26, 26);
-            this.button18.TabIndex = 1131;
-            this.button18.Text = "R";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
             // label122
             // 
             this.label122.AutoSize = true;
@@ -8123,17 +8952,6 @@
             this.label125.Size = new System.Drawing.Size(27, 17);
             this.label125.TabIndex = 1123;
             this.label125.Text = "INT";
-            // 
-            // button17
-            // 
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button17.Location = new System.Drawing.Point(522, 745);
-            this.button17.Margin = new System.Windows.Forms.Padding(2);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(26, 26);
-            this.button17.TabIndex = 1122;
-            this.button17.Text = "R";
-            this.button17.UseVisualStyleBackColor = true;
             // 
             // label115
             // 
@@ -8470,17 +9288,6 @@
             this.checkBox80.TabIndex = 1002;
             this.checkBox80.UseVisualStyleBackColor = true;
             // 
-            // button92
-            // 
-            this.button92.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button92.Location = new System.Drawing.Point(522, 672);
-            this.button92.Margin = new System.Windows.Forms.Padding(2);
-            this.button92.Name = "button92";
-            this.button92.Size = new System.Drawing.Size(26, 26);
-            this.button92.TabIndex = 993;
-            this.button92.Text = "R";
-            this.button92.UseVisualStyleBackColor = true;
-            // 
             // label175
             // 
             this.label175.AutoSize = true;
@@ -8595,17 +9402,6 @@
             this.checkBox75.Size = new System.Drawing.Size(18, 17);
             this.checkBox75.TabIndex = 983;
             this.checkBox75.UseVisualStyleBackColor = true;
-            // 
-            // button93
-            // 
-            this.button93.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button93.Location = new System.Drawing.Point(522, 708);
-            this.button93.Margin = new System.Windows.Forms.Padding(2);
-            this.button93.Name = "button93";
-            this.button93.Size = new System.Drawing.Size(26, 26);
-            this.button93.TabIndex = 982;
-            this.button93.Text = "R";
-            this.button93.UseVisualStyleBackColor = true;
             // 
             // label180
             // 
@@ -8722,17 +9518,6 @@
             this.checkBox76.TabIndex = 972;
             this.checkBox76.UseVisualStyleBackColor = true;
             // 
-            // button94
-            // 
-            this.button94.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button94.Location = new System.Drawing.Point(522, 602);
-            this.button94.Margin = new System.Windows.Forms.Padding(2);
-            this.button94.Name = "button94";
-            this.button94.Size = new System.Drawing.Size(26, 26);
-            this.button94.TabIndex = 971;
-            this.button94.Text = "R";
-            this.button94.UseVisualStyleBackColor = true;
-            // 
             // label185
             // 
             this.label185.AutoSize = true;
@@ -8848,17 +9633,6 @@
             this.checkBox77.TabIndex = 961;
             this.checkBox77.UseVisualStyleBackColor = true;
             // 
-            // button95
-            // 
-            this.button95.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button95.Location = new System.Drawing.Point(522, 638);
-            this.button95.Margin = new System.Windows.Forms.Padding(2);
-            this.button95.Name = "button95";
-            this.button95.Size = new System.Drawing.Size(26, 26);
-            this.button95.TabIndex = 960;
-            this.button95.Text = "R";
-            this.button95.UseVisualStyleBackColor = true;
-            // 
             // label190
             // 
             this.label190.AutoSize = true;
@@ -8973,17 +9747,6 @@
             this.checkBox78.Size = new System.Drawing.Size(18, 17);
             this.checkBox78.TabIndex = 950;
             this.checkBox78.UseVisualStyleBackColor = true;
-            // 
-            // button96
-            // 
-            this.button96.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button96.Location = new System.Drawing.Point(522, 570);
-            this.button96.Margin = new System.Windows.Forms.Padding(2);
-            this.button96.Name = "button96";
-            this.button96.Size = new System.Drawing.Size(26, 26);
-            this.button96.TabIndex = 949;
-            this.button96.Text = "R";
-            this.button96.UseVisualStyleBackColor = true;
             // 
             // label195
             // 
@@ -9109,17 +9872,6 @@
             this.checkBox35.Size = new System.Drawing.Size(18, 17);
             this.checkBox35.TabIndex = 938;
             this.checkBox35.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(522, 290);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(26, 26);
-            this.button3.TabIndex = 937;
-            this.button3.Text = "R";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // label52
             // 
@@ -9248,17 +10000,6 @@
             this.checkBox34.TabIndex = 926;
             this.checkBox34.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(522, 254);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(26, 26);
-            this.button2.TabIndex = 925;
-            this.button2.Text = "R";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // label57
             // 
             this.label57.AutoSize = true;
@@ -9386,17 +10127,6 @@
             this.checkBox33.TabIndex = 914;
             this.checkBox33.UseVisualStyleBackColor = true;
             // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(522, 220);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(26, 26);
-            this.button4.TabIndex = 913;
-            this.button4.Text = "R";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // label62
             // 
             this.label62.AutoSize = true;
@@ -9514,17 +10244,6 @@
             this.label66.Text = "CRAFT (                         )";
             this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button11
-            // 
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button11.Location = new System.Drawing.Point(522, 536);
-            this.button11.Margin = new System.Windows.Forms.Padding(2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(26, 26);
-            this.button11.TabIndex = 671;
-            this.button11.Text = "R";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
             // label272
             // 
             this.label272.AutoSize = true;
@@ -9639,17 +10358,6 @@
             this.checkBox11.Size = new System.Drawing.Size(18, 17);
             this.checkBox11.TabIndex = 661;
             this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button13.Location = new System.Drawing.Point(522, 466);
-            this.button13.Margin = new System.Windows.Forms.Padding(2);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(26, 26);
-            this.button13.TabIndex = 649;
-            this.button13.Text = "R";
-            this.button13.UseVisualStyleBackColor = true;
             // 
             // label282
             // 
@@ -9766,17 +10474,6 @@
             this.checkBox13.TabIndex = 639;
             this.checkBox13.UseVisualStyleBackColor = true;
             // 
-            // button14
-            // 
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button14.Location = new System.Drawing.Point(522, 501);
-            this.button14.Margin = new System.Windows.Forms.Padding(2);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(26, 26);
-            this.button14.TabIndex = 638;
-            this.button14.Text = "R";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
             // label287
             // 
             this.label287.AutoSize = true;
@@ -9891,17 +10588,6 @@
             this.checkBox14.Size = new System.Drawing.Size(18, 17);
             this.checkBox14.TabIndex = 628;
             this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button15.Location = new System.Drawing.Point(522, 396);
-            this.button15.Margin = new System.Windows.Forms.Padding(2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(26, 26);
-            this.button15.TabIndex = 627;
-            this.button15.Text = "R";
-            this.button15.UseVisualStyleBackColor = true;
             // 
             // label292
             // 
@@ -10018,17 +10704,6 @@
             this.checkBox15.TabIndex = 617;
             this.checkBox15.UseVisualStyleBackColor = true;
             // 
-            // button16
-            // 
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button16.Location = new System.Drawing.Point(522, 431);
-            this.button16.Margin = new System.Windows.Forms.Padding(2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(26, 26);
-            this.button16.TabIndex = 616;
-            this.button16.Text = "R";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
             // label297
             // 
             this.label297.AutoSize = true;
@@ -10143,17 +10818,6 @@
             this.checkBox16.Size = new System.Drawing.Size(18, 17);
             this.checkBox16.TabIndex = 606;
             this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(522, 326);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(26, 26);
-            this.button5.TabIndex = 605;
-            this.button5.Text = "R";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // label302
             // 
@@ -10270,17 +10934,6 @@
             this.checkBox5.TabIndex = 595;
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
-            // button6
-            // 
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(522, 361);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(26, 26);
-            this.button6.TabIndex = 594;
-            this.button6.Text = "R";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
             // label307
             // 
             this.label307.AutoSize = true;
@@ -10395,17 +11048,6 @@
             this.checkBox6.Size = new System.Drawing.Size(18, 17);
             this.checkBox6.TabIndex = 584;
             this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(522, 151);
-            this.button7.Margin = new System.Windows.Forms.Padding(2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(26, 26);
-            this.button7.TabIndex = 583;
-            this.button7.Text = "R";
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // label312
             // 
@@ -10522,17 +11164,6 @@
             this.checkBox7.TabIndex = 573;
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
-            // button8
-            // 
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(522, 186);
-            this.button8.Margin = new System.Windows.Forms.Padding(2);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(26, 26);
-            this.button8.TabIndex = 572;
-            this.button8.Text = "R";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // label317
             // 
             this.label317.AutoSize = true;
@@ -10647,17 +11278,6 @@
             this.checkBox8.Size = new System.Drawing.Size(18, 17);
             this.checkBox8.TabIndex = 562;
             this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(522, 81);
-            this.button9.Margin = new System.Windows.Forms.Padding(2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(26, 26);
-            this.button9.TabIndex = 560;
-            this.button9.Text = "R";
-            this.button9.UseVisualStyleBackColor = true;
             // 
             // label322
             // 
@@ -10774,17 +11394,6 @@
             this.checkBox3.TabIndex = 550;
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // button46
-            // 
-            this.button46.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button46.Location = new System.Drawing.Point(522, 116);
-            this.button46.Margin = new System.Windows.Forms.Padding(2);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(26, 26);
-            this.button46.TabIndex = 549;
-            this.button46.Text = "R";
-            this.button46.UseVisualStyleBackColor = true;
-            // 
             // label327
             // 
             this.label327.AutoSize = true;
@@ -10899,17 +11508,6 @@
             this.checkBox4.Size = new System.Drawing.Size(18, 17);
             this.checkBox4.TabIndex = 539;
             this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // button47
-            // 
-            this.button47.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button47.Location = new System.Drawing.Point(522, 11);
-            this.button47.Margin = new System.Windows.Forms.Padding(2);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(26, 26);
-            this.button47.TabIndex = 538;
-            this.button47.Text = "R";
-            this.button47.UseVisualStyleBackColor = true;
             // 
             // label332
             // 
@@ -11026,17 +11624,6 @@
             this.checkBox2.TabIndex = 528;
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // button48
-            // 
-            this.button48.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button48.Location = new System.Drawing.Point(522, 46);
-            this.button48.Margin = new System.Windows.Forms.Padding(2);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(26, 26);
-            this.button48.TabIndex = 527;
-            this.button48.Text = "R";
-            this.button48.UseVisualStyleBackColor = true;
-            // 
             // label337
             // 
             this.label337.AutoSize = true;
@@ -11152,1226 +11739,6 @@
             this.checkBox9.TabIndex = 517;
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox1.Location = new System.Drawing.Point(390, 98);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(115, 21);
-            this.checkBox1.TabIndex = 247;
-            this.checkBox1.Text = "Max At Level 1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox17.Location = new System.Drawing.Point(704, 222);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox17.MaxLength = 3;
-            this.textBox17.Name = "textBox17";
-            this.textBox17.PlaceholderText = "0";
-            this.textBox17.ReadOnly = true;
-            this.textBox17.Size = new System.Drawing.Size(40, 34);
-            this.textBox17.TabIndex = 246;
-            this.textBox17.Text = "0";
-            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label50
-            // 
-            this.label50.BackColor = System.Drawing.Color.Black;
-            this.label50.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label50.ForeColor = System.Drawing.Color.White;
-            this.label50.Location = new System.Drawing.Point(568, 222);
-            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(131, 35);
-            this.label50.TabIndex = 245;
-            this.label50.Text = "FLAT-FOOTED";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox16.Location = new System.Drawing.Point(521, 222);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox16.MaxLength = 3;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.PlaceholderText = "0";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(40, 34);
-            this.textBox16.TabIndex = 244;
-            this.textBox16.Text = "0";
-            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label49
-            // 
-            this.label49.BackColor = System.Drawing.Color.Black;
-            this.label49.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label49.ForeColor = System.Drawing.Color.White;
-            this.label49.Location = new System.Drawing.Point(384, 222);
-            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(131, 35);
-            this.label49.TabIndex = 243;
-            this.label49.Text = "TOUCH AC";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label45
-            // 
-            this.label45.BackColor = System.Drawing.Color.White;
-            this.label45.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label45.ForeColor = System.Drawing.Color.Black;
-            this.label45.Location = new System.Drawing.Point(446, 168);
-            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(65, 22);
-            this.label45.TabIndex = 242;
-            this.label45.Text = "TOTAL";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(496, 135);
-            this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(19, 20);
-            this.label47.TabIndex = 241;
-            this.label47.Text = "=";
-            // 
-            // textBox15
-            // 
-            this.textBox15.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox15.Location = new System.Drawing.Point(454, 128);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox15.MaxLength = 3;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.PlaceholderText = "0";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(40, 34);
-            this.textBox15.TabIndex = 239;
-            this.textBox15.Text = "0";
-            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label41
-            // 
-            this.label41.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label41.Location = new System.Drawing.Point(908, 164);
-            this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(82, 39);
-            this.label41.TabIndex = 238;
-            this.label41.Text = "DEFLECTION MODIFIER";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label40
-            // 
-            this.label40.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label40.Location = new System.Drawing.Point(842, 164);
-            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(72, 39);
-            this.label40.TabIndex = 237;
-            this.label40.Text = "NATURAL ARMOR";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(978, 136);
-            this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(19, 20);
-            this.label39.TabIndex = 236;
-            this.label39.Text = "+";
-            // 
-            // textBox14
-            // 
-            this.textBox14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox14.Location = new System.Drawing.Point(1000, 128);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.PlaceholderText = "0";
-            this.textBox14.Size = new System.Drawing.Size(40, 34);
-            this.textBox14.TabIndex = 235;
-            this.textBox14.Text = "0";
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(906, 136);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(19, 20);
-            this.label28.TabIndex = 234;
-            this.label28.Text = "+";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox13.Location = new System.Drawing.Point(929, 128);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.PlaceholderText = "0";
-            this.textBox13.Size = new System.Drawing.Size(40, 34);
-            this.textBox13.TabIndex = 233;
-            this.textBox13.Text = "0";
-            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label26
-            // 
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(740, 31);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(156, 22);
-            this.label26.TabIndex = 232;
-            this.label26.Text = "NON-LETHAL DAMAGE";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox12.Location = new System.Drawing.Point(739, 56);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(149, 34);
-            this.textBox12.TabIndex = 231;
-            this.textBox12.Text = "0";
-            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label24
-            // 
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label24.Location = new System.Drawing.Point(515, 31);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(219, 22);
-            this.label24.TabIndex = 230;
-            this.label24.Text = "WOUNDS/CURRENT HP";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox11.Location = new System.Drawing.Point(518, 55);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(216, 34);
-            this.textBox11.TabIndex = 229;
-            this.textBox11.Text = "0";
-            // 
-            // label13
-            // 
-            this.label13.BackColor = System.Drawing.Color.White;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(446, 31);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(65, 22);
-            this.label13.TabIndex = 228;
-            this.label13.Text = "TOTAL";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label38
-            // 
-            this.label38.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label38.Location = new System.Drawing.Point(1048, 118);
-            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(120, 38);
-            this.label38.TabIndex = 227;
-            this.label38.Text = "DAMAGE REDUCTION";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label36
-            // 
-            this.label36.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label36.Location = new System.Drawing.Point(984, 164);
-            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(72, 39);
-            this.label36.TabIndex = 226;
-            this.label36.Text = "MISC. MOD";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label34
-            // 
-            this.label34.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label34.Location = new System.Drawing.Point(772, 164);
-            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(72, 39);
-            this.label34.TabIndex = 225;
-            this.label34.Text = "SIZE MODIFIER";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label32
-            // 
-            this.label32.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label32.Location = new System.Drawing.Point(702, 162);
-            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(72, 39);
-            this.label32.TabIndex = 224;
-            this.label32.Text = "DEX MODIFIER";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label30
-            // 
-            this.label30.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label30.Location = new System.Drawing.Point(632, 162);
-            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(72, 39);
-            this.label30.TabIndex = 223;
-            this.label30.Text = "SHIELD BONUS";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label29
-            // 
-            this.label29.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label29.Location = new System.Drawing.Point(565, 162);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(72, 39);
-            this.label29.TabIndex = 222;
-            this.label29.Text = "ARMOR BONUS";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox32.Location = new System.Drawing.Point(1058, 162);
-            this.textBox32.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.PlaceholderText = "0";
-            this.textBox32.Size = new System.Drawing.Size(96, 34);
-            this.textBox32.TabIndex = 219;
-            this.textBox32.Text = "0 / -";
-            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(836, 136);
-            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(19, 20);
-            this.label37.TabIndex = 218;
-            this.label37.Text = "+";
-            // 
-            // txtACMiscMod
-            // 
-            this.txtACMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACMiscMod.Location = new System.Drawing.Point(860, 128);
-            this.txtACMiscMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtACMiscMod.Name = "txtACMiscMod";
-            this.txtACMiscMod.PlaceholderText = "0";
-            this.txtACMiscMod.Size = new System.Drawing.Size(40, 34);
-            this.txtACMiscMod.TabIndex = 217;
-            this.txtACMiscMod.Text = "0";
-            this.txtACMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(766, 136);
-            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(19, 20);
-            this.label35.TabIndex = 216;
-            this.label35.Text = "+";
-            // 
-            // txtACNatArmor
-            // 
-            this.txtACNatArmor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACNatArmor.Location = new System.Drawing.Point(790, 128);
-            this.txtACNatArmor.Margin = new System.Windows.Forms.Padding(2);
-            this.txtACNatArmor.Name = "txtACNatArmor";
-            this.txtACNatArmor.PlaceholderText = "0";
-            this.txtACNatArmor.Size = new System.Drawing.Size(40, 34);
-            this.txtACNatArmor.TabIndex = 215;
-            this.txtACNatArmor.Text = "0";
-            this.txtACNatArmor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(695, 135);
-            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(19, 20);
-            this.label33.TabIndex = 214;
-            this.label33.Text = "+";
-            // 
-            // txtACAbilityMod
-            // 
-            this.txtACAbilityMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtACAbilityMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACAbilityMod.Location = new System.Drawing.Point(718, 126);
-            this.txtACAbilityMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtACAbilityMod.MaxLength = 3;
-            this.txtACAbilityMod.Name = "txtACAbilityMod";
-            this.txtACAbilityMod.PlaceholderText = "0";
-            this.txtACAbilityMod.ReadOnly = true;
-            this.txtACAbilityMod.Size = new System.Drawing.Size(40, 34);
-            this.txtACAbilityMod.TabIndex = 213;
-            this.txtACAbilityMod.Text = "-1";
-            this.txtACAbilityMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(626, 135);
-            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(19, 20);
-            this.label31.TabIndex = 212;
-            this.label31.Text = "+";
-            // 
-            // txtACShield
-            // 
-            this.txtACShield.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtACShield.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACShield.Location = new System.Drawing.Point(649, 126);
-            this.txtACShield.Margin = new System.Windows.Forms.Padding(2);
-            this.txtACShield.MaxLength = 3;
-            this.txtACShield.Name = "txtACShield";
-            this.txtACShield.PlaceholderText = "0";
-            this.txtACShield.ReadOnly = true;
-            this.txtACShield.Size = new System.Drawing.Size(40, 34);
-            this.txtACShield.TabIndex = 211;
-            this.txtACShield.Text = "0";
-            this.txtACShield.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(559, 134);
-            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(19, 20);
-            this.label27.TabIndex = 210;
-            this.label27.Text = "+";
-            // 
-            // txtAC
-            // 
-            this.txtAC.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtAC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtAC.Location = new System.Drawing.Point(518, 125);
-            this.txtAC.Margin = new System.Windows.Forms.Padding(2);
-            this.txtAC.MaxLength = 3;
-            this.txtAC.Name = "txtAC";
-            this.txtAC.PlaceholderText = "10";
-            this.txtAC.ReadOnly = true;
-            this.txtAC.Size = new System.Drawing.Size(40, 34);
-            this.txtAC.TabIndex = 209;
-            this.txtAC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtACArmor
-            // 
-            this.txtACArmor.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtACArmor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtACArmor.Location = new System.Drawing.Point(582, 125);
-            this.txtACArmor.Margin = new System.Windows.Forms.Padding(2);
-            this.txtACArmor.MaxLength = 3;
-            this.txtACArmor.Name = "txtACArmor";
-            this.txtACArmor.PlaceholderText = "0";
-            this.txtACArmor.ReadOnly = true;
-            this.txtACArmor.Size = new System.Drawing.Size(40, 34);
-            this.txtACArmor.TabIndex = 208;
-            this.txtACArmor.Text = "0";
-            this.txtACArmor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label25
-            // 
-            this.label25.BackColor = System.Drawing.Color.Black;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(384, 125);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(60, 35);
-            this.label25.TabIndex = 207;
-            this.label25.Text = "AC";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label83
-            // 
-            this.label83.BackColor = System.Drawing.Color.Black;
-            this.label83.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label83.ForeColor = System.Drawing.Color.White;
-            this.label83.Location = new System.Drawing.Point(764, 234);
-            this.label83.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(28, 16);
-            this.label83.TabIndex = 203;
-            this.label83.Text = "DEX";
-            // 
-            // btnRollInit
-            // 
-            this.btnRollInit.Location = new System.Drawing.Point(1121, 226);
-            this.btnRollInit.Margin = new System.Windows.Forms.Padding(2);
-            this.btnRollInit.Name = "btnRollInit";
-            this.btnRollInit.Size = new System.Drawing.Size(32, 34);
-            this.btnRollInit.TabIndex = 202;
-            this.btnRollInit.Text = "R";
-            this.btnRollInit.UseVisualStyleBackColor = true;
-            // 
-            // btnChaCheck
-            // 
-            this.btnChaCheck.ImageIndex = 0;
-            this.btnChaCheck.ImageList = this.imgButtons;
-            this.btnChaCheck.Location = new System.Drawing.Point(328, 255);
-            this.btnChaCheck.Margin = new System.Windows.Forms.Padding(2);
-            this.btnChaCheck.Name = "btnChaCheck";
-            this.btnChaCheck.Size = new System.Drawing.Size(32, 34);
-            this.btnChaCheck.TabIndex = 199;
-            this.btnChaCheck.UseVisualStyleBackColor = true;
-            // 
-            // imgButtons
-            // 
-            this.imgButtons.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imgButtons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgButtons.ImageStream")));
-            this.imgButtons.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgButtons.Images.SetKeyName(0, "d20.png");
-            // 
-            // btnWisCheck
-            // 
-            this.btnWisCheck.ImageIndex = 0;
-            this.btnWisCheck.ImageList = this.imgButtons;
-            this.btnWisCheck.Location = new System.Drawing.Point(328, 215);
-            this.btnWisCheck.Margin = new System.Windows.Forms.Padding(2);
-            this.btnWisCheck.Name = "btnWisCheck";
-            this.btnWisCheck.Size = new System.Drawing.Size(32, 34);
-            this.btnWisCheck.TabIndex = 198;
-            this.btnWisCheck.UseVisualStyleBackColor = true;
-            // 
-            // btnIntCheck
-            // 
-            this.btnIntCheck.ImageIndex = 0;
-            this.btnIntCheck.ImageList = this.imgButtons;
-            this.btnIntCheck.Location = new System.Drawing.Point(328, 175);
-            this.btnIntCheck.Margin = new System.Windows.Forms.Padding(2);
-            this.btnIntCheck.Name = "btnIntCheck";
-            this.btnIntCheck.Size = new System.Drawing.Size(32, 34);
-            this.btnIntCheck.TabIndex = 197;
-            this.btnIntCheck.UseVisualStyleBackColor = true;
-            // 
-            // btnConCheck
-            // 
-            this.btnConCheck.ImageIndex = 0;
-            this.btnConCheck.ImageList = this.imgButtons;
-            this.btnConCheck.Location = new System.Drawing.Point(328, 135);
-            this.btnConCheck.Margin = new System.Windows.Forms.Padding(2);
-            this.btnConCheck.Name = "btnConCheck";
-            this.btnConCheck.Size = new System.Drawing.Size(32, 34);
-            this.btnConCheck.TabIndex = 196;
-            this.btnConCheck.UseVisualStyleBackColor = true;
-            // 
-            // btnDexCheck
-            // 
-            this.btnDexCheck.ImageIndex = 0;
-            this.btnDexCheck.ImageList = this.imgButtons;
-            this.btnDexCheck.Location = new System.Drawing.Point(328, 96);
-            this.btnDexCheck.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDexCheck.Name = "btnDexCheck";
-            this.btnDexCheck.Size = new System.Drawing.Size(32, 34);
-            this.btnDexCheck.TabIndex = 195;
-            this.btnDexCheck.UseVisualStyleBackColor = true;
-            // 
-            // btnStrCheck
-            // 
-            this.btnStrCheck.ImageIndex = 0;
-            this.btnStrCheck.ImageList = this.imgButtons;
-            this.btnStrCheck.Location = new System.Drawing.Point(328, 58);
-            this.btnStrCheck.Margin = new System.Windows.Forms.Padding(2);
-            this.btnStrCheck.Name = "btnStrCheck";
-            this.btnStrCheck.Size = new System.Drawing.Size(32, 34);
-            this.btnStrCheck.TabIndex = 194;
-            this.btnStrCheck.UseVisualStyleBackColor = true;
-            // 
-            // txtHP
-            // 
-            this.txtHP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtHP.Location = new System.Drawing.Point(450, 55);
-            this.txtHP.Margin = new System.Windows.Forms.Padding(2);
-            this.txtHP.Name = "txtHP";
-            this.txtHP.Size = new System.Drawing.Size(62, 34);
-            this.txtHP.TabIndex = 189;
-            this.txtHP.Text = "0";
-            this.txtHP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label106
-            // 
-            this.label106.BackColor = System.Drawing.Color.Black;
-            this.label106.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label106.ForeColor = System.Drawing.Color.White;
-            this.label106.Location = new System.Drawing.Point(384, 55);
-            this.label106.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(60, 35);
-            this.label106.TabIndex = 188;
-            this.label106.Text = "HP";
-            this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox39
-            // 
-            this.textBox39.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox39.Location = new System.Drawing.Point(902, 58);
-            this.textBox39.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.PlaceholderText = "30";
-            this.textBox39.Size = new System.Drawing.Size(252, 34);
-            this.textBox39.TabIndex = 187;
-            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(1040, 234);
-            this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(19, 20);
-            this.label48.TabIndex = 186;
-            this.label48.Text = "+";
-            // 
-            // txtInitMiscMod
-            // 
-            this.txtInitMiscMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtInitMiscMod.Location = new System.Drawing.Point(1062, 225);
-            this.txtInitMiscMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtInitMiscMod.Name = "txtInitMiscMod";
-            this.txtInitMiscMod.Size = new System.Drawing.Size(40, 34);
-            this.txtInitMiscMod.TabIndex = 185;
-            this.txtInitMiscMod.Text = "0";
-            this.txtInitMiscMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(969, 235);
-            this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(19, 20);
-            this.label46.TabIndex = 184;
-            this.label46.Text = "+";
-            // 
-            // txtInitAbilMod
-            // 
-            this.txtInitAbilMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtInitAbilMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtInitAbilMod.Location = new System.Drawing.Point(992, 225);
-            this.txtInitAbilMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtInitAbilMod.MaxLength = 3;
-            this.txtInitAbilMod.Name = "txtInitAbilMod";
-            this.txtInitAbilMod.ReadOnly = true;
-            this.txtInitAbilMod.Size = new System.Drawing.Size(40, 34);
-            this.txtInitAbilMod.TabIndex = 183;
-            this.txtInitAbilMod.Text = "-1";
-            this.txtInitAbilMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label44
-            // 
-            this.label44.BackColor = System.Drawing.Color.White;
-            this.label44.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label44.ForeColor = System.Drawing.Color.Black;
-            this.label44.Location = new System.Drawing.Point(912, 200);
-            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(65, 22);
-            this.label44.TabIndex = 182;
-            this.label44.Text = "TOTAL";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtInit
-            // 
-            this.txtInit.Enabled = false;
-            this.txtInit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtInit.Location = new System.Drawing.Point(928, 224);
-            this.txtInit.Margin = new System.Windows.Forms.Padding(2);
-            this.txtInit.Name = "txtInit";
-            this.txtInit.PlaceholderText = "10";
-            this.txtInit.Size = new System.Drawing.Size(40, 34);
-            this.txtInit.TabIndex = 181;
-            this.txtInit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label43
-            // 
-            this.label43.BackColor = System.Drawing.Color.Black;
-            this.label43.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(902, 19);
-            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(252, 35);
-            this.label43.TabIndex = 180;
-            this.label43.Text = "SPEED";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label42
-            // 
-            this.label42.BackColor = System.Drawing.Color.Black;
-            this.label42.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(750, 222);
-            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(170, 35);
-            this.label42.TabIndex = 179;
-            this.label42.Text = "INITIATIVE";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtChaModTemp
-            // 
-            this.txtChaModTemp.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtChaModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtChaModTemp.Location = new System.Drawing.Point(281, 255);
-            this.txtChaModTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.txtChaModTemp.MaxLength = 3;
-            this.txtChaModTemp.Name = "txtChaModTemp";
-            this.txtChaModTemp.PlaceholderText = "-2";
-            this.txtChaModTemp.ReadOnly = true;
-            this.txtChaModTemp.Size = new System.Drawing.Size(40, 34);
-            this.txtChaModTemp.TabIndex = 178;
-            this.txtChaModTemp.Text = "-1";
-            this.txtChaModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtChaMod
-            // 
-            this.txtChaMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtChaMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtChaMod.Location = new System.Drawing.Point(158, 255);
-            this.txtChaMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtChaMod.MaxLength = 3;
-            this.txtChaMod.Name = "txtChaMod";
-            this.txtChaMod.PlaceholderText = "-2";
-            this.txtChaMod.ReadOnly = true;
-            this.txtChaMod.Size = new System.Drawing.Size(40, 34);
-            this.txtChaMod.TabIndex = 177;
-            this.txtChaMod.Text = "-1";
-            this.txtChaMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // nudChaTemp
-            // 
-            this.nudChaTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudChaTemp.Location = new System.Drawing.Point(202, 255);
-            this.nudChaTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.nudChaTemp.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudChaTemp.Name = "nudChaTemp";
-            this.nudChaTemp.Size = new System.Drawing.Size(72, 34);
-            this.nudChaTemp.TabIndex = 176;
-            this.nudChaTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudChaTemp.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // nudCha
-            // 
-            this.nudCha.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudCha.Location = new System.Drawing.Point(79, 256);
-            this.nudCha.Margin = new System.Windows.Forms.Padding(2);
-            this.nudCha.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudCha.Name = "nudCha";
-            this.nudCha.Size = new System.Drawing.Size(72, 34);
-            this.nudCha.TabIndex = 175;
-            this.nudCha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudCha.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // label23
-            // 
-            this.label23.BackColor = System.Drawing.Color.Black;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(8, 256);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(65, 35);
-            this.label23.TabIndex = 174;
-            this.label23.Text = "CHA";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtWisModTemp
-            // 
-            this.txtWisModTemp.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtWisModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWisModTemp.Location = new System.Drawing.Point(281, 215);
-            this.txtWisModTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.txtWisModTemp.MaxLength = 3;
-            this.txtWisModTemp.Name = "txtWisModTemp";
-            this.txtWisModTemp.PlaceholderText = "-2";
-            this.txtWisModTemp.ReadOnly = true;
-            this.txtWisModTemp.Size = new System.Drawing.Size(40, 34);
-            this.txtWisModTemp.TabIndex = 173;
-            this.txtWisModTemp.Text = "-1";
-            this.txtWisModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtWisMod
-            // 
-            this.txtWisMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtWisMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtWisMod.Location = new System.Drawing.Point(158, 215);
-            this.txtWisMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtWisMod.MaxLength = 3;
-            this.txtWisMod.Name = "txtWisMod";
-            this.txtWisMod.PlaceholderText = "-2";
-            this.txtWisMod.ReadOnly = true;
-            this.txtWisMod.Size = new System.Drawing.Size(40, 34);
-            this.txtWisMod.TabIndex = 172;
-            this.txtWisMod.Text = "-1";
-            this.txtWisMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // nudWisTemp
-            // 
-            this.nudWisTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudWisTemp.Location = new System.Drawing.Point(202, 215);
-            this.nudWisTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.nudWisTemp.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudWisTemp.Name = "nudWisTemp";
-            this.nudWisTemp.Size = new System.Drawing.Size(72, 34);
-            this.nudWisTemp.TabIndex = 171;
-            this.nudWisTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudWisTemp.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // nudWis
-            // 
-            this.nudWis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudWis.Location = new System.Drawing.Point(79, 216);
-            this.nudWis.Margin = new System.Windows.Forms.Padding(2);
-            this.nudWis.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudWis.Name = "nudWis";
-            this.nudWis.Size = new System.Drawing.Size(72, 34);
-            this.nudWis.TabIndex = 170;
-            this.nudWis.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudWis.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // label22
-            // 
-            this.label22.BackColor = System.Drawing.Color.Black;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(8, 216);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(65, 35);
-            this.label22.TabIndex = 169;
-            this.label22.Text = "WIS";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtIntModTemp
-            // 
-            this.txtIntModTemp.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtIntModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtIntModTemp.Location = new System.Drawing.Point(281, 175);
-            this.txtIntModTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.txtIntModTemp.MaxLength = 3;
-            this.txtIntModTemp.Name = "txtIntModTemp";
-            this.txtIntModTemp.PlaceholderText = "-2";
-            this.txtIntModTemp.ReadOnly = true;
-            this.txtIntModTemp.Size = new System.Drawing.Size(40, 34);
-            this.txtIntModTemp.TabIndex = 168;
-            this.txtIntModTemp.Text = "-1";
-            this.txtIntModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtIntMod
-            // 
-            this.txtIntMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtIntMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtIntMod.Location = new System.Drawing.Point(158, 175);
-            this.txtIntMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtIntMod.MaxLength = 3;
-            this.txtIntMod.Name = "txtIntMod";
-            this.txtIntMod.PlaceholderText = "-2";
-            this.txtIntMod.ReadOnly = true;
-            this.txtIntMod.Size = new System.Drawing.Size(40, 34);
-            this.txtIntMod.TabIndex = 167;
-            this.txtIntMod.Text = "-1";
-            this.txtIntMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // nudIntTemp
-            // 
-            this.nudIntTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudIntTemp.Location = new System.Drawing.Point(202, 175);
-            this.nudIntTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.nudIntTemp.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudIntTemp.Name = "nudIntTemp";
-            this.nudIntTemp.Size = new System.Drawing.Size(72, 34);
-            this.nudIntTemp.TabIndex = 166;
-            this.nudIntTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudIntTemp.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // nudInt
-            // 
-            this.nudInt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudInt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.nudInt.Location = new System.Drawing.Point(79, 176);
-            this.nudInt.Margin = new System.Windows.Forms.Padding(2);
-            this.nudInt.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudInt.Name = "nudInt";
-            this.nudInt.Size = new System.Drawing.Size(72, 34);
-            this.nudInt.TabIndex = 165;
-            this.nudInt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudInt.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // label21
-            // 
-            this.label21.BackColor = System.Drawing.Color.Black;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(8, 176);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(65, 35);
-            this.label21.TabIndex = 164;
-            this.label21.Text = "INT";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtConModTemp
-            // 
-            this.txtConModTemp.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtConModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtConModTemp.Location = new System.Drawing.Point(281, 136);
-            this.txtConModTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.txtConModTemp.MaxLength = 3;
-            this.txtConModTemp.Name = "txtConModTemp";
-            this.txtConModTemp.PlaceholderText = "-2";
-            this.txtConModTemp.ReadOnly = true;
-            this.txtConModTemp.Size = new System.Drawing.Size(40, 34);
-            this.txtConModTemp.TabIndex = 163;
-            this.txtConModTemp.Text = "-1";
-            this.txtConModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtConMod
-            // 
-            this.txtConMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtConMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtConMod.Location = new System.Drawing.Point(158, 136);
-            this.txtConMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtConMod.MaxLength = 3;
-            this.txtConMod.Name = "txtConMod";
-            this.txtConMod.PlaceholderText = "-2";
-            this.txtConMod.ReadOnly = true;
-            this.txtConMod.Size = new System.Drawing.Size(40, 34);
-            this.txtConMod.TabIndex = 162;
-            this.txtConMod.Text = "-1";
-            this.txtConMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // nudConTemp
-            // 
-            this.nudConTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudConTemp.Location = new System.Drawing.Point(202, 136);
-            this.nudConTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.nudConTemp.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudConTemp.Name = "nudConTemp";
-            this.nudConTemp.Size = new System.Drawing.Size(72, 34);
-            this.nudConTemp.TabIndex = 161;
-            this.nudConTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudConTemp.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // nudCon
-            // 
-            this.nudCon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudCon.Location = new System.Drawing.Point(79, 138);
-            this.nudCon.Margin = new System.Windows.Forms.Padding(2);
-            this.nudCon.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudCon.Name = "nudCon";
-            this.nudCon.Size = new System.Drawing.Size(72, 34);
-            this.nudCon.TabIndex = 160;
-            this.nudCon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudCon.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // label20
-            // 
-            this.label20.BackColor = System.Drawing.Color.Black;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(8, 138);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(65, 35);
-            this.label20.TabIndex = 159;
-            this.label20.Text = "CON";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtDexModTemp
-            // 
-            this.txtDexModTemp.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtDexModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDexModTemp.Location = new System.Drawing.Point(281, 96);
-            this.txtDexModTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDexModTemp.MaxLength = 3;
-            this.txtDexModTemp.Name = "txtDexModTemp";
-            this.txtDexModTemp.PlaceholderText = "-2";
-            this.txtDexModTemp.ReadOnly = true;
-            this.txtDexModTemp.Size = new System.Drawing.Size(40, 34);
-            this.txtDexModTemp.TabIndex = 158;
-            this.txtDexModTemp.Text = "-1";
-            this.txtDexModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtDexMod
-            // 
-            this.txtDexMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtDexMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDexMod.Location = new System.Drawing.Point(158, 96);
-            this.txtDexMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDexMod.MaxLength = 3;
-            this.txtDexMod.Name = "txtDexMod";
-            this.txtDexMod.PlaceholderText = "-2";
-            this.txtDexMod.ReadOnly = true;
-            this.txtDexMod.Size = new System.Drawing.Size(40, 34);
-            this.txtDexMod.TabIndex = 157;
-            this.txtDexMod.Text = "-1";
-            this.txtDexMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // nudDexTemp
-            // 
-            this.nudDexTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudDexTemp.Location = new System.Drawing.Point(202, 96);
-            this.nudDexTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.nudDexTemp.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudDexTemp.Name = "nudDexTemp";
-            this.nudDexTemp.Size = new System.Drawing.Size(72, 34);
-            this.nudDexTemp.TabIndex = 156;
-            this.nudDexTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudDexTemp.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // nudDex
-            // 
-            this.nudDex.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudDex.Location = new System.Drawing.Point(79, 98);
-            this.nudDex.Margin = new System.Windows.Forms.Padding(2);
-            this.nudDex.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudDex.Name = "nudDex";
-            this.nudDex.Size = new System.Drawing.Size(72, 34);
-            this.nudDex.TabIndex = 155;
-            this.nudDex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudDex.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.Color.Black;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(8, 98);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(65, 35);
-            this.label19.TabIndex = 154;
-            this.label19.Text = "DEX";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtStrModTemp
-            // 
-            this.txtStrModTemp.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtStrModTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtStrModTemp.Location = new System.Drawing.Point(281, 56);
-            this.txtStrModTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.txtStrModTemp.MaxLength = 3;
-            this.txtStrModTemp.Name = "txtStrModTemp";
-            this.txtStrModTemp.PlaceholderText = "-2";
-            this.txtStrModTemp.ReadOnly = true;
-            this.txtStrModTemp.Size = new System.Drawing.Size(40, 34);
-            this.txtStrModTemp.TabIndex = 153;
-            this.txtStrModTemp.Text = "-1";
-            this.txtStrModTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtStrMod
-            // 
-            this.txtStrMod.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtStrMod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtStrMod.Location = new System.Drawing.Point(158, 56);
-            this.txtStrMod.Margin = new System.Windows.Forms.Padding(2);
-            this.txtStrMod.MaxLength = 3;
-            this.txtStrMod.Name = "txtStrMod";
-            this.txtStrMod.ReadOnly = true;
-            this.txtStrMod.Size = new System.Drawing.Size(40, 34);
-            this.txtStrMod.TabIndex = 152;
-            this.txtStrMod.Text = "-1";
-            this.txtStrMod.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // nudStrTemp
-            // 
-            this.nudStrTemp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudStrTemp.Location = new System.Drawing.Point(202, 56);
-            this.nudStrTemp.Margin = new System.Windows.Forms.Padding(2);
-            this.nudStrTemp.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudStrTemp.Name = "nudStrTemp";
-            this.nudStrTemp.Size = new System.Drawing.Size(72, 34);
-            this.nudStrTemp.TabIndex = 151;
-            this.nudStrTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudStrTemp.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // label17
-            // 
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(268, 12);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 39);
-            this.label17.TabIndex = 150;
-            this.label17.Text = "TEMP MODIFIER";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label18
-            // 
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(202, 12);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(72, 39);
-            this.label18.TabIndex = 149;
-            this.label18.Text = "TEMP SCORE";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label16
-            // 
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(136, 15);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(72, 39);
-            this.label16.TabIndex = 148;
-            this.label16.Text = "ABILITY MODIFIER";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label15
-            // 
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.Location = new System.Drawing.Point(79, 15);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(72, 39);
-            this.label15.TabIndex = 147;
-            this.label15.Text = "ABILITY SCORE";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // nudStr
-            // 
-            this.nudStr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudStr.Location = new System.Drawing.Point(79, 58);
-            this.nudStr.Margin = new System.Windows.Forms.Padding(2);
-            this.nudStr.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudStr.Name = "nudStr";
-            this.nudStr.Size = new System.Drawing.Size(72, 34);
-            this.nudStr.TabIndex = 146;
-            this.nudStr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nudStr.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // label14
-            // 
-            this.label14.BackColor = System.Drawing.Color.Black;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(8, 58);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(65, 35);
-            this.label14.TabIndex = 145;
-            this.label14.Text = "STR";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.panel2);
@@ -12385,17 +11752,34 @@
             this.tabPage5.Text = "Equipment";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // panel2
             // 
-            this.tabPage2.ImageIndex = 3;
-            this.tabPage2.Location = new System.Drawing.Point(4, 71);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Size = new System.Drawing.Size(1213, 750);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Feats";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.panel2.Controls.Add(this.flowLayoutPanel1);
+            this.panel2.Controls.Add(this.label80);
+            this.panel2.Location = new System.Drawing.Point(36, 32);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(551, 163);
+            this.panel2.TabIndex = 261;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 37);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(551, 125);
+            this.flowLayoutPanel1.TabIndex = 262;
+            // 
+            // label80
+            // 
+            this.label80.BackColor = System.Drawing.Color.Black;
+            this.label80.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label80.ForeColor = System.Drawing.Color.White;
+            this.label80.Location = new System.Drawing.Point(0, -1);
+            this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(319, 35);
+            this.label80.TabIndex = 261;
+            this.label80.Text = "WEAPONS";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPage3
             // 
@@ -12420,6 +11804,13 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Inventory";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // imgButtons
+            // 
+            this.imgButtons.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imgButtons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgButtons.ImageStream")));
+            this.imgButtons.TransparentColor = System.Drawing.Color.Transparent;
+            this.imgButtons.Images.SetKeyName(0, "d20.png");
             // 
             // pictureBox1
             // 
@@ -12747,35 +12138,6 @@
             this.comboBox4.Size = new System.Drawing.Size(152, 28);
             this.comboBox4.TabIndex = 7;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.flowLayoutPanel1);
-            this.panel2.Controls.Add(this.label80);
-            this.panel2.Location = new System.Drawing.Point(36, 32);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(551, 163);
-            this.panel2.TabIndex = 261;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 37);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(551, 125);
-            this.flowLayoutPanel1.TabIndex = 262;
-            // 
-            // label80
-            // 
-            this.label80.BackColor = System.Drawing.Color.Black;
-            this.label80.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label80.ForeColor = System.Drawing.Color.White;
-            this.label80.Location = new System.Drawing.Point(0, -1);
-            this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(319, 35);
-            this.label80.TabIndex = 261;
-            this.label80.Text = "WEAPONS";
-            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // frmSimple
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -12794,8 +12156,8 @@
             this.Text = "frmSimple";
             this.Load += new System.EventHandler(this.frmSimple_Load);
             this.tabMain.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.tabAttributes.ResumeLayout(false);
+            this.tabAttributes.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -12808,8 +12170,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudChaTemp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCha)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudWisTemp)).EndInit();
@@ -12822,12 +12182,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudDex)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStrTemp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudStr)).EndInit();
+            this.tabSkills.ResumeLayout(false);
+            this.tabSkills.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.pnlFeats.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.tabPage5.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -12836,81 +12202,61 @@
 
         private ImageList imgIcons;
         private TabControl tabMain;
-        private TabPage tabPage1;
-        private TabPage tabPage2;
+        private TabPage tabSkills;
         private TabPage tabPage3;
         private TabPage tabPage4;
-        private Label label83;
-        private Button btnRollInit;
-        private Button btnChaCheck;
-        private Button btnWisCheck;
-        private Button btnIntCheck;
-        private Button btnConCheck;
-        private Button btnDexCheck;
-        private Button btnStrCheck;
-        private TextBox txtHP;
-        private Label label106;
-        private TextBox textBox39;
-        private Label label48;
-        private TextBox txtInitMiscMod;
-        private Label label46;
-        private TextBox txtInitAbilMod;
-        private Label label44;
-        private TextBox txtInit;
-        private Label label43;
-        private Label label42;
-        private TextBox txtChaModTemp;
-        private TextBox txtChaMod;
-        private NumericUpDown nudChaTemp;
-        private NumericUpDown nudCha;
-        private Label label23;
-        private TextBox txtWisModTemp;
-        private TextBox txtWisMod;
-        private NumericUpDown nudWisTemp;
-        private NumericUpDown nudWis;
-        private Label label22;
-        private TextBox txtIntModTemp;
-        private TextBox txtIntMod;
-        private NumericUpDown nudIntTemp;
-        private NumericUpDown nudInt;
-        private Label label21;
-        private TextBox txtConModTemp;
-        private TextBox txtConMod;
-        private NumericUpDown nudConTemp;
-        private NumericUpDown nudCon;
-        private Label label20;
-        private TextBox txtDexModTemp;
-        private TextBox txtDexMod;
-        private NumericUpDown nudDexTemp;
-        private NumericUpDown nudDex;
-        private Label label19;
-        private TextBox txtStrModTemp;
-        private TextBox txtStrMod;
-        private NumericUpDown nudStrTemp;
-        private Label label17;
-        private Label label18;
-        private Label label16;
-        private Label label15;
-        private NumericUpDown nudStr;
-        private Label label14;
-        private TextBox textBox32;
-        private TextBox textBox17;
-        private Label label50;
-        private TextBox textBox16;
-        private Label label49;
-        private Label label26;
-        private TextBox textBox12;
-        private Label label24;
-        private TextBox textBox11;
-        private Label label13;
-        private Label label38;
         private ImageList imgButtons;
-        private CheckBox checkBox1;
+        private PictureBox pictureBox1;
+        private Panel panel1;
+        private NumericUpDown numericUpDown1;
+        private Label label51;
+        private ComboBox comHitDie;
+        private TextBox textBox10;
+        private Label label12;
+        private TextBox textBox9;
+        private Label label11;
+        private TextBox textBox8;
+        private Label label10;
+        private TextBox textBox7;
+        private Label label9;
+        private Label label8;
+        private ComboBox comboBox2;
+        private TextBox textBox6;
+        private Label label7;
+        private TextBox textBox5;
+        private Label label6;
+        private TextBox textBox4;
+        private Label label5;
+        private Label label4;
+        private Label label3;
+        private ComboBox comboBox1;
+        private TextBox textBox2;
+        private Label label2;
+        private TextBox textBox1;
+        private Label label1;
+        private TabPage tabPage5;
+        private ComboBox comboBox4;
+        private Panel panel2;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Label label80;
+        private Label label75;
+        private Label label74;
+        private Label label73;
+        private TextBox textBox34;
+        private TextBox textBox33;
+        private Label label68;
+        private Label label67;
+        private Label label69;
+        private Label label70;
+        private Label label71;
+        private Label label72;
+        private Label label121;
+        private Label label120;
         private Panel panel3;
+        private TextBox textBox38;
         private TextBox textBox685;
         private TextBox textBox684;
         private TextBox textBox683;
-        private Button button159;
         private Label label797;
         private Label label798;
         private Label label799;
@@ -12920,7 +12266,6 @@
         private TextBox textBox674;
         private Label label800;
         private CheckBox checkBox142;
-        private Button button160;
         private Label label802;
         private Label label803;
         private Label label804;
@@ -12930,7 +12275,6 @@
         private TextBox textBox678;
         private Label label805;
         private CheckBox checkBox143;
-        private Button button161;
         private Label label807;
         private Label label808;
         private Label label809;
@@ -12940,9 +12284,7 @@
         private TextBox textBox682;
         private Label label810;
         private CheckBox checkBox144;
-        private Button button147;
         private TextBox textBox622;
-        private Button button145;
         private Label label737;
         private Label label727;
         private Label label728;
@@ -12964,7 +12306,6 @@
         private Label label796;
         private Label label731;
         private TextBox textBox626;
-        private Button button146;
         private Label label795;
         private Label label732;
         private Label label740;
@@ -12979,7 +12320,6 @@
         private TextBox textBox619;
         private TextBox textBox668;
         private TextBox textBox620;
-        private Button button148;
         private Label label735;
         private TextBox textBox667;
         private TextBox textBox621;
@@ -12988,7 +12328,6 @@
         private Label label794;
         private CheckBox checkBox129;
         private Label label743;
-        private Button button144;
         private Label label793;
         private Label label722;
         private Label label744;
@@ -12997,7 +12336,6 @@
         private Label label724;
         private TextBox textBox627;
         private TextBox textBox607;
-        private Button button158;
         private Label label726;
         private TextBox textBox628;
         private TextBox textBox608;
@@ -13012,7 +12350,6 @@
         private TextBox textBox666;
         private Label label725;
         private Label label745;
-        private Button button103;
         private TextBox textBox665;
         private Label label517;
         private Label label746;
@@ -13023,21 +12360,18 @@
         private TextBox textBox434;
         private TextBox textBox663;
         private TextBox textBox435;
-        private Button button149;
         private TextBox textBox436;
         private Label label789;
         private TextBox textBox437;
         private Label label747;
         private Label label520;
         private Label label788;
-        private Button button104;
         private Label label748;
         private Label label521;
         private Label label787;
         private Label label522;
         private Label label749;
         private Label label523;
-        private Button button157;
         private TextBox textBox438;
         private TextBox textBox631;
         private TextBox textBox439;
@@ -13060,14 +12394,12 @@
         private TextBox textBox661;
         private CheckBox checkBox87;
         private Label label751;
-        private Button button100;
         private TextBox textBox660;
         private Label label225;
         private CheckBox checkBox132;
         private Label label342;
         private TextBox textBox659;
         private Label label343;
-        private Button button150;
         private TextBox textBox422;
         private Label label784;
         private TextBox textBox423;
@@ -13081,8 +12413,6 @@
         private Label label345;
         private Label label754;
         private CheckBox checkBox83;
-        private Button button156;
-        private Button button101;
         private TextBox textBox635;
         private Label label346;
         private CheckBox checkBox138;
@@ -13104,14 +12434,12 @@
         private TextBox textBox657;
         private CheckBox checkBox84;
         private Label label756;
-        private Button button102;
         private TextBox textBox656;
         private Label label506;
         private CheckBox checkBox133;
         private Label label510;
         private TextBox textBox655;
         private Label label514;
-        private Button button151;
         private TextBox textBox430;
         private Label label779;
         private TextBox textBox431;
@@ -13125,8 +12453,6 @@
         private Label label516;
         private Label label759;
         private CheckBox checkBox85;
-        private Button button155;
-        private Button button99;
         private TextBox textBox639;
         private Label label221;
         private CheckBox checkBox137;
@@ -13144,7 +12470,6 @@
         private TextBox textBox654;
         private Label label224;
         private Label label760;
-        private Button button43;
         private TextBox textBox653;
         private Label label202;
         private Label label761;
@@ -13155,21 +12480,18 @@
         private TextBox textBox171;
         private TextBox textBox651;
         private TextBox textBox172;
-        private Button button152;
         private TextBox textBox177;
         private Label label774;
         private TextBox textBox178;
         private Label label762;
         private Label label206;
         private Label label773;
-        private Button button45;
         private Label label763;
         private Label label207;
         private Label label772;
         private Label label208;
         private Label label764;
         private Label label210;
-        private Button button154;
         private TextBox textBox179;
         private TextBox textBox643;
         private TextBox textBox180;
@@ -13180,7 +12502,6 @@
         private Label label771;
         private Label label211;
         private TextBox textBox645;
-        private Button button97;
         private Label label770;
         private Label label212;
         private TextBox textBox646;
@@ -13198,8 +12519,6 @@
         private CheckBox checkBox135;
         private Label label216;
         private TextBox textBox647;
-        private Button button98;
-        private Button button153;
         private Label label217;
         private Label label769;
         private Label label218;
@@ -13217,7 +12536,6 @@
         private CheckBox checkBox81;
         private Label label201;
         private CheckBox checkBox82;
-        private Button button21;
         private Label label137;
         private Label label138;
         private Label label139;
@@ -13226,7 +12544,6 @@
         private TextBox textBox99;
         private TextBox textBox100;
         private Label label140;
-        private Button button22;
         private Label label142;
         private Label label143;
         private Label label144;
@@ -13235,7 +12552,6 @@
         private TextBox textBox103;
         private TextBox textBox104;
         private Label label145;
-        private Button button23;
         private Label label147;
         private Label label148;
         private Label label149;
@@ -13244,7 +12560,6 @@
         private TextBox textBox107;
         private TextBox textBox108;
         private Label label150;
-        private Button button24;
         private Label label152;
         private Label label153;
         private Label label154;
@@ -13253,7 +12568,6 @@
         private TextBox textBox111;
         private TextBox textBox112;
         private Label label155;
-        private Button button19;
         private Label label127;
         private Label label128;
         private Label label129;
@@ -13262,7 +12576,6 @@
         private TextBox textBox91;
         private TextBox textBox92;
         private Label label130;
-        private Button button20;
         private Label label132;
         private Label label133;
         private Label label134;
@@ -13271,7 +12584,6 @@
         private TextBox textBox95;
         private TextBox textBox96;
         private Label label135;
-        private Button button18;
         private Label label122;
         private Label label123;
         private Label label124;
@@ -13280,7 +12592,6 @@
         private TextBox textBox87;
         private TextBox textBox88;
         private Label label125;
-        private Button button17;
         private Label label115;
         private Label label116;
         private Label label117;
@@ -13311,7 +12622,6 @@
         private CheckBox checkBox45;
         private Label label214;
         private CheckBox checkBox80;
-        private Button button92;
         private Label label175;
         private Label label176;
         private Label label177;
@@ -13322,7 +12632,6 @@
         private Label label178;
         private Label label179;
         private CheckBox checkBox75;
-        private Button button93;
         private Label label180;
         private Label label181;
         private Label label182;
@@ -13333,7 +12642,6 @@
         private Label label183;
         private Label label184;
         private CheckBox checkBox76;
-        private Button button94;
         private Label label185;
         private Label label186;
         private Label label187;
@@ -13344,7 +12652,6 @@
         private Label label188;
         private Label label189;
         private CheckBox checkBox77;
-        private Button button95;
         private Label label190;
         private Label label191;
         private Label label192;
@@ -13355,7 +12662,6 @@
         private Label label193;
         private Label label194;
         private CheckBox checkBox78;
-        private Button button96;
         private Label label195;
         private Label label196;
         private Label label197;
@@ -13367,7 +12673,6 @@
         private Label label199;
         private CheckBox checkBox79;
         private CheckBox checkBox35;
-        private Button button3;
         private Label label52;
         private Label label53;
         private Label label54;
@@ -13379,7 +12684,6 @@
         private TextBox textBox21;
         private Label label56;
         private CheckBox checkBox34;
-        private Button button2;
         private Label label57;
         private Label label58;
         private Label label59;
@@ -13391,7 +12695,6 @@
         private TextBox textBox26;
         private Label label61;
         private CheckBox checkBox33;
-        private Button button4;
         private Label label62;
         private Label label63;
         private Label label64;
@@ -13402,7 +12705,6 @@
         private Label label65;
         private TextBox textBox31;
         private Label label66;
-        private Button button11;
         private Label label272;
         private Label label273;
         private Label label274;
@@ -13413,7 +12715,6 @@
         private Label label275;
         private Label label276;
         private CheckBox checkBox11;
-        private Button button13;
         private Label label282;
         private Label label283;
         private Label label284;
@@ -13424,7 +12725,6 @@
         private Label label285;
         private Label label286;
         private CheckBox checkBox13;
-        private Button button14;
         private Label label287;
         private Label label288;
         private Label label289;
@@ -13435,7 +12735,6 @@
         private Label label290;
         private Label label291;
         private CheckBox checkBox14;
-        private Button button15;
         private Label label292;
         private Label label293;
         private Label label294;
@@ -13446,7 +12745,6 @@
         private Label label295;
         private Label label296;
         private CheckBox checkBox15;
-        private Button button16;
         private Label label297;
         private Label label298;
         private Label label299;
@@ -13457,7 +12755,6 @@
         private Label label300;
         private Label label301;
         private CheckBox checkBox16;
-        private Button button5;
         private Label label302;
         private Label label303;
         private Label label304;
@@ -13468,7 +12765,6 @@
         private Label label305;
         private Label label306;
         private CheckBox checkBox5;
-        private Button button6;
         private Label label307;
         private Label label308;
         private Label label309;
@@ -13479,7 +12775,6 @@
         private Label label310;
         private Label label311;
         private CheckBox checkBox6;
-        private Button button7;
         private Label label312;
         private Label label313;
         private Label label314;
@@ -13490,7 +12785,6 @@
         private Label label315;
         private Label label316;
         private CheckBox checkBox7;
-        private Button button8;
         private Label label317;
         private Label label318;
         private Label label319;
@@ -13501,7 +12795,6 @@
         private Label label320;
         private Label label321;
         private CheckBox checkBox8;
-        private Button button9;
         private Label label322;
         private Label label323;
         private Label label324;
@@ -13512,7 +12805,6 @@
         private Label label325;
         private Label label326;
         private CheckBox checkBox3;
-        private Button button46;
         private Label label327;
         private Label label328;
         private Label label329;
@@ -13523,7 +12815,6 @@
         private Label label330;
         private Label label331;
         private CheckBox checkBox4;
-        private Button button47;
         private Label label332;
         private Label label333;
         private Label label334;
@@ -13534,7 +12825,6 @@
         private Label label335;
         private Label label336;
         private CheckBox checkBox2;
-        private Button button48;
         private Label label337;
         private Label label338;
         private Label label339;
@@ -13545,74 +12835,102 @@
         private Label label340;
         private Label label341;
         private CheckBox checkBox9;
-        private Label label75;
-        private Label label74;
-        private Label label73;
-        private TextBox textBox34;
-        private TextBox textBox33;
-        private Label label68;
-        private Label label67;
-        private Label label69;
-        private Label label70;
-        private Label label71;
-        private Label label72;
-        private Label label121;
-        private Label label120;
+        private TabPage tabAttributes;
+        private CheckBox checkBox1;
+        private Button btnChaCheck;
+        private TextBox textBox17;
+        private Button btnWisCheck;
+        private Label label50;
+        private Button btnIntCheck;
+        private TextBox textBox16;
+        private Button btnConCheck;
+        private Label label49;
+        private Button btnDexCheck;
         private Label label45;
+        private Button btnStrCheck;
         private Label label47;
+        private TextBox txtChaModTemp;
         private TextBox textBox15;
+        private TextBox txtChaMod;
         private Label label41;
+        private NumericUpDown nudChaTemp;
         private Label label40;
+        private NumericUpDown nudCha;
         private Label label39;
+        private Label label23;
         private TextBox textBox14;
+        private TextBox txtWisModTemp;
         private Label label28;
+        private TextBox txtWisMod;
         private TextBox textBox13;
+        private NumericUpDown nudWisTemp;
+        private Label label26;
+        private NumericUpDown nudWis;
+        private TextBox textBox12;
+        private Label label22;
+        private Label label24;
+        private TextBox txtIntModTemp;
+        private TextBox textBox11;
+        private TextBox txtIntMod;
+        private Label label13;
+        private NumericUpDown nudIntTemp;
+        private Label label38;
+        private NumericUpDown nudInt;
         private Label label36;
+        private Label label21;
         private Label label34;
+        private TextBox txtConModTemp;
         private Label label32;
+        private TextBox txtConMod;
         private Label label30;
+        private NumericUpDown nudConTemp;
         private Label label29;
+        private NumericUpDown nudCon;
+        private TextBox textBox32;
+        private Label label20;
         private Label label37;
+        private TextBox txtDexModTemp;
         private TextBox txtACMiscMod;
+        private TextBox txtDexMod;
         private Label label35;
+        private NumericUpDown nudDexTemp;
         private TextBox txtACNatArmor;
+        private NumericUpDown nudDex;
         private Label label33;
+        private Label label19;
         private TextBox txtACAbilityMod;
+        private TextBox txtStrModTemp;
         private Label label31;
+        private TextBox txtStrMod;
         private TextBox txtACShield;
+        private NumericUpDown nudStrTemp;
         private Label label27;
+        private Label label17;
         private TextBox txtAC;
+        private Label label18;
         private TextBox txtACArmor;
+        private Label label16;
         private Label label25;
-        private PictureBox pictureBox1;
-        private Panel panel1;
-        private NumericUpDown numericUpDown1;
-        private Label label51;
-        private ComboBox comHitDie;
-        private TextBox textBox10;
-        private Label label12;
-        private TextBox textBox9;
-        private Label label11;
-        private TextBox textBox8;
-        private Label label10;
-        private TextBox textBox7;
-        private Label label9;
-        private Label label8;
-        private ComboBox comboBox2;
-        private TextBox textBox6;
-        private Label label7;
-        private TextBox textBox5;
-        private Label label6;
-        private TextBox textBox4;
-        private Label label5;
-        private Label label4;
-        private Label label3;
-        private ComboBox comboBox1;
-        private TextBox textBox2;
-        private Label label2;
-        private TextBox textBox1;
-        private Label label1;
+        private Label label15;
+        private Label label83;
+        private NumericUpDown nudStr;
+        private Button btnRollInit;
+        private Label label14;
+        private TextBox txtHP;
+        private Label label106;
+        private TextBox textBox39;
+        private Label label48;
+        private TextBox txtInitMiscMod;
+        private Label label46;
+        private TextBox txtInitAbilMod;
+        private Label label44;
+        private TextBox txtInit;
+        private Label label43;
+        private Label label42;
         private Panel panel5;
+        private Label label78;
+        private Label label79;
+        private TextBox textBox37;
         private Label label166;
         private TextBox textBox36;
         private Label label77;
@@ -13750,14 +13068,13 @@
         private NumericUpDown numericUpDown7;
         private Label label880;
         private PictureBox pictureBox2;
-        private TextBox textBox37;
-        private TabPage tabPage5;
-        private ComboBox comboBox4;
-        private Label label78;
-        private Label label79;
-        private TextBox textBox38;
-        private Panel panel2;
-        private FlowLayoutPanel flowLayoutPanel1;
-        private Label label80;
+        private Label label81;
+        private Panel pnlFeats;
+        private Button btnNewFeat;
+        private FlowLayoutPanel flpFeats;
+        private Label label82;
+        private Panel panel4;
+        private Button btnNewSpecial;
+        private FlowLayoutPanel flpSpecials;
     }
 }
